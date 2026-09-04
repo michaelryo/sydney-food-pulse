@@ -33,10 +33,18 @@ function bind(){document.querySelectorAll('[data-id]').forEach(el=>el.onclick=e=
   const listButton = document.getElementById('listBtn');
   const mapButton = document.getElementById('mapBtn');
   const mapEl = document.getElementById('map');
+  const areaCoordinates = {
+    'CBD & Inner City': [-33.8688, 151.2093],
+    'Eastern Suburbs': [-33.8915, 151.2767],
+    'Northern Beaches': [-33.8005, 151.2869],
+    'Inner West': [-33.8981, 151.1790],
+    'Western Sydney': [-33.8150, 151.0011],
+    'South West Sydney': [-33.8972, 150.9346]
+  };
   const foodMap = L.map(mapEl,{scrollWheelZoom:false}).setView([-33.8700,151.2150],11);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}).addTo(foodMap);
   const markerLayer = L.layerGroup().addTo(foodMap);
-  const mapCoordinates = place => place.coordinates;
+  const mapCoordinates = place => place.coordinates || areaCoordinates[place.area];
   async function loadRestaurantDatabase(){
     try{
       const response=await fetch('data/restaurant-database.json',{cache:'no-store'});

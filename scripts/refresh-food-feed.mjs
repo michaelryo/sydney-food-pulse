@@ -326,6 +326,10 @@ function resolveLocation(text) {
   return suburbRules.find((entry) => entry.match.test(text)) || null;
 }
 
+function storedCoordinates(restaurant) {
+  return resolveLocation([restaurant.suburb, restaurant.area, restaurant.address].filter(Boolean).join(' '))?.coordinates;
+}
+
 function formatAddress(address, location) {
   if (!address || !location) return '';
 
@@ -522,6 +526,7 @@ function mergeRestaurant(existing, candidate, allNews, updatedAt) {
     return {
       ...existing,
       googleMapsUrl: existing.googleMapsUrl || googleMapsUrl(existing),
+      coordinates: existing.coordinates || storedCoordinates(existing),
       latestNews: matchingNews,
       updatedAt: matchingNews.length ? updatedAt : existing.updatedAt || updatedAt
     };
@@ -533,7 +538,7 @@ function mergeRestaurant(existing, candidate, allNews, updatedAt) {
     area: existing.area || candidate.area,
     suburb: existing.suburb || candidate.suburb,
     address: existing.address || candidate.address,
-    coordinates: existing.coordinates || candidate.coordinates,
+    coordinates: existing.coordinates || candidate.coordinates || storedCoordinates({ ...existing, ...candidate }),
     googleMapsUrl: existing.googleMapsUrl || candidate.googleMapsUrl,
     trend: candidate.signalScore >= 5 ? candidate.trend : existing.trend || candidate.trend,
     summary: existing.summary?.includes('Details will be expanded')
