@@ -30,8 +30,6 @@
         "The unusual mapo gelato divides opinion—in a fun way."
       ],
       "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/fishnets-bronte-japanese-first-look",
-      "tripurl": "https://www.tripadvisor.com/Search?q=Fishnets%20Bronte",
-      "googleurl": "https://www.google.com/maps/search/?api=1&query=Fishnets+Bronte",
       "image": "https://cdn.broadsheet.com.au/cache/c1/be/c1be846c4aed6de142e27022c4023d93.jpg",
       "latestNews": []
     },
@@ -63,8 +61,6 @@
         "Several diners note the bill climbs quickly."
       ],
       "source": "https://www.notquitenigella.com/2026/06/30/the-hideaway-bondi/",
-      "tripurl": "https://www.tripadvisor.com/Search?q=The%20Hideaway%20Bondi%20Junction",
-      "googleurl": "https://www.google.com/maps/search/?api=1&query=The+Hideaway+Bondi+Junction",
       "latestNews": []
     },
     {
@@ -95,8 +91,6 @@
         "Prime dinner times are already hard to secure."
       ],
       "source": "https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/",
-      "tripurl": "https://www.tripadvisor.com/Search?q=Trattoria%20Da%20Orazio",
-      "googleurl": "https://www.google.com/maps/search/?api=1&query=Trattoria+Da+Orazio+Rushcutters+Bay",
       "latestNews": []
     },
     {
@@ -127,8 +121,6 @@
         "No diner consensus exists until doors officially open."
       ],
       "source": "https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/",
-      "tripurl": "https://www.tripadvisor.com/Search?q=Stanley%20Manly%20Wharf",
-      "googleurl": "https://www.google.com/maps/search/?api=1&query=Stanley+Manly+Wharf",
       "latestNews": []
     },
     {
@@ -159,8 +151,7 @@
         "The industrial setting is a practical drawback."
       ],
       "source": "https://www.tripadvisor.com/Restaurant_Review-g28028666-d34036637-Reviews-Da_Orazio_Pasticceria-Alexandria_New_South_Wales.html",
-      "tripurl": "https://www.tripadvisor.com/Restaurant_Review-g28028666-d34036637-Reviews-Da_Orazio_Pasticceria-Alexandria_New_South_Wales.html",
-      "googleurl": "https://www.google.com/maps/search/?api=1&query=Da+Orazio+Pasticceria+Alexandria",
+      "tripadvisorReviewUrl": "https://www.tripadvisor.com/Restaurant_Review-g28028666-d34036637-Reviews-Da_Orazio_Pasticceria-Alexandria_New_South_Wales.html",
       "latestNews": []
     },
     {
@@ -191,8 +182,6 @@
         "Best suited to pairs or small groups."
       ],
       "source": "https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/",
-      "tripurl": "https://www.tripadvisor.com/Search?q=Bar%20Bruno%20Sydney",
-      "googleurl": "https://www.google.com/maps/search/?api=1&query=Bar+Bruno+Sydney",
       "latestNews": [
         {
           "title": "Odd Culture Group reveals first look at CBD osteria Bar Bruno - hospitality | Magazine",
