@@ -42,6 +42,7 @@ function bind(){document.querySelectorAll('[data-id]').forEach(el=>el.onclick=e=
   const foodMap = L.map(mapEl,{scrollWheelZoom:false}).setView([-33.8700,151.2150],11);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}).addTo(foodMap);
   const markerLayer = L.layerGroup().addTo(foodMap);
+  const mapCoordinates = place => place.coordinates || coordinates[place.id];
   async function loadRestaurantDatabase(){
     try{
       const response=await fetch('data/restaurant-database.json',{cache:'no-store'});
@@ -61,7 +62,7 @@ function bind(){document.querySelectorAll('[data-id]').forEach(el=>el.onclick=e=
   function selectPlace(id, scrollToCard){
     selected=id; render();
     const place=places.find(item=>item.id===id);
-    if(place){foodMap.setView(coordinates[id],13,{animate:true});}
+    if(place&&mapCoordinates(place)){foodMap.setView(mapCoordinates(place),13,{animate:true});}
     if(scrollToCard) document.querySelector(`.card[data-id="${id}"]`)?.scrollIntoView({behavior:'smooth',block:'center'});
   }
   function render(){
@@ -78,7 +79,7 @@ function bind(){document.querySelectorAll('[data-id]').forEach(el=>el.onclick=e=
     });
     cardsEl.querySelectorAll('.card').forEach(card=>card.addEventListener('click',event=>{if(!event.target.closest('a')) selectPlace(Number(card.dataset.id),false)}));
     markerLayer.clearLayers();
-    data.forEach(place=>L.marker(coordinates[place.id]).addTo(markerLayer).bindPopup(`<b>${place.name}</b><br>${place.cuisine} · ${place.suburb}<br><small>${place.trend}</small>`).on('click',()=>selectPlace(place.id,true)));
+    data.forEach(place=>{const position=mapCoordinates(place);if(position)L.marker(position).addTo(markerLayer).bindPopup(`<b>${place.name}</b><br>${place.cuisine} · ${place.suburb}<br><small>${place.trend}</small>`).on('click',()=>selectPlace(place.id,true))});
     const active=places.find(place=>place.id===selected);
     legendEl.innerHTML=active ? `<b>${active.name}</b><small>${active.cuisine} · ${active.suburb}</small>` : '<b>No place selected</b><small>Adjust filters to see a restaurant.</small>';
   }
