@@ -1,49 +1,177 @@
-import { readFile, writeFile } from 'node:fs/promises';
+import { readFile, rename, writeFile } from 'node:fs/promises';
 
-const DATABASE_PATH = 'dist/data/restaurant-database.json';
-const USER_AGENT = 'SydneyFoodPulse/2.0 (GitHub Actions; public-food-news-indexer)';
+const DATABASE_PATH =
+  process.env.DATABASE_PATH || 'dist/data/restaurant-database.json';
+
+const TEMP_DATABASE_PATH = `${DATABASE_PATH}.tmp`;
+
+const USER_AGENT =
+  'SydneyFoodPulse/3.0 (https://github.com/michaelryo/sydney-food-pulse)';
+
 const LOOKBACK = '14d';
 const MAX_RESULTS_PER_SEARCH = 8;
-const MAX_PAGES_TO_ENRICH = 90;
+const MAX_PAGES_TO_ENRICH = 120;
 const MAX_NEW_RESTAURANTS_PER_RUN = 10;
-const FETCH_TIMEOUT_MS = 12_000;
+const MIN_NEW_SIGNAL_SCORE = 4;
+const FETCH_TIMEOUT_MS = 15_000;
+const GEOCODE_DELAY_MS = 1_100;
+
+const DRY_RUN = process.env.DRY_RUN === 'true';
+const SKIP_FETCH = process.env.SKIP_FETCH === 'true';
 
 const searches = [
-  { query: 'Sydney restaurant opening', topic: 'New opening', weight: 3 },
-  { query: 'Sydney restaurant just opened', topic: 'New opening', weight: 3 },
-  { query: 'Sydney new restaurant review', topic: 'Review', weight: 3 },
-  { query: 'Sydney best new restaurant', topic: 'Editors pick', weight: 3 },
-  { query: 'Sydney food viral restaurant', topic: 'Social buzz', weight: 2 },
-  { query: 'Sydney restaurant TikTok viral', topic: 'TikTok signal', weight: 2 },
-  { query: 'Sydney restaurant Instagram viral', topic: 'Instagram signal', weight: 2 },
-  { query: 'Sydney restaurant food blogger', topic: 'Creator signal', weight: 2 },
-
-  { query: 'Sydney Inner West restaurant opening', topic: 'Inner West opening', weight: 3 },
-  { query: 'Sydney CBD restaurant opening', topic: 'CBD opening', weight: 3 },
-  { query: 'Sydney Eastern Suburbs restaurant opening', topic: 'Eastern Suburbs opening', weight: 3 },
-  { query: 'Sydney Northern Beaches restaurant opening', topic: 'Northern Beaches opening', weight: 3 },
-  { query: 'Sydney cheap eats restaurant new', topic: 'Cheap eat', weight: 3 },
-  { query: 'Sydney restaurant under $30', topic: 'Cheap eat', weight: 2 },
-
-  { query: 'site:broadsheet.com.au/sydney/food-and-drink Sydney restaurant', topic: 'Broadsheet', weight: 3 },
-  { query: 'site:concreteplayground.com/sydney Sydney restaurant', topic: 'Concrete Playground', weight: 3 },
-  { query: 'site:goodfood.com.au Sydney restaurant', topic: 'Good Food', weight: 3 },
-  { query: 'site:timeout.com/sydney Sydney restaurant', topic: 'Time Out', weight: 3 },
-  { query: 'site:theurbanlist.com Sydney restaurant', topic: 'Urban List', weight: 3 },
-  { query: 'site:gourmettraveller.com.au Sydney restaurant', topic: 'Gourmet Traveller', weight: 3 },
-  { query: 'site:notquitenigella.com Sydney restaurant', topic: 'Not Quite Nigella', weight: 3 },
-  { query: 'site:sitchu.com.au Sydney restaurant', topic: 'Sitchu', weight: 2 }
+  {
+    query: 'Sydney restaurant opening',
+    topic: 'New opening',
+    weight: 3
+  },
+  {
+    query: 'Sydney restaurant just opened',
+    topic: 'New opening',
+    weight: 3
+  },
+  {
+    query: 'Sydney new restaurant review',
+    topic: 'Review',
+    weight: 3
+  },
+  {
+    query: 'Sydney best new restaurant',
+    topic: 'Editors pick',
+    weight: 3
+  },
+  {
+    query: 'Sydney food viral restaurant',
+    topic: 'Social buzz',
+    weight: 2
+  },
+  {
+    query: 'Sydney restaurant TikTok viral',
+    topic: 'TikTok signal',
+    weight: 2
+  },
+  {
+    query: 'Sydney restaurant Instagram viral',
+    topic: 'Instagram signal',
+    weight: 2
+  },
+  {
+    query: 'Sydney restaurant food blogger',
+    topic: 'Creator signal',
+    weight: 2
+  },
+  {
+    query: 'Sydney cheap eats new restaurant',
+    topic: 'Cheap eat',
+    weight: 3
+  },
+  {
+    query: 'Sydney restaurant under $30',
+    topic: 'Cheap eat',
+    weight: 2
+  },
+  {
+    query: 'Sydney bakery cafe viral',
+    topic: 'Social buzz',
+    weight: 2
+  },
+  {
+    query: 'Sydney dessert shop viral',
+    topic: 'Social buzz',
+    weight: 2
+  },
+  {
+    query: 'Sydney CBD restaurant opening',
+    topic: 'CBD opening',
+    weight: 3
+  },
+  {
+    query: 'Sydney Inner West restaurant opening',
+    topic: 'Inner West opening',
+    weight: 3
+  },
+  {
+    query: 'Sydney Eastern Suburbs restaurant opening',
+    topic: 'Eastern Suburbs opening',
+    weight: 3
+  },
+  {
+    query: 'Sydney Northern Beaches restaurant opening',
+    topic: 'Northern Beaches opening',
+    weight: 3
+  },
+  {
+    query: 'Sydney Western Suburbs restaurant opening',
+    topic: 'Western Sydney opening',
+    weight: 3
+  },
+  {
+    query: 'Sydney South West restaurant opening',
+    topic: 'South West opening',
+    weight: 3
+  },
+  {
+    query: 'Sydney North Shore restaurant opening',
+    topic: 'North Shore opening',
+    weight: 3
+  },
+  {
+    query:
+      'site:broadsheet.com.au/sydney/food-and-drink Sydney restaurant',
+    topic: 'Broadsheet',
+    weight: 3
+  },
+  {
+    query:
+      'site:concreteplayground.com/sydney Sydney restaurant',
+    topic: 'Concrete Playground',
+    weight: 3
+  },
+  {
+    query: 'site:goodfood.com.au Sydney restaurant',
+    topic: 'Good Food',
+    weight: 3
+  },
+  {
+    query: 'site:timeout.com/sydney Sydney restaurant',
+    topic: 'Time Out',
+    weight: 3
+  },
+  {
+    query: 'site:theurbanlist.com Sydney restaurant',
+    topic: 'Urban List',
+    weight: 3
+  },
+  {
+    query: 'site:gourmettraveller.com.au Sydney restaurant',
+    topic: 'Gourmet Traveller',
+    weight: 3
+  },
+  {
+    query: 'site:notquitenigella.com Sydney restaurant',
+    topic: 'Not Quite Nigella',
+    weight: 3
+  },
+  {
+    query: 'site:sitchu.com.au Sydney restaurant',
+    topic: 'Sitchu',
+    weight: 2
+  }
 ];
 
 const communityFeeds = [
   {
-    url: 'https://www.reddit.com/r/sydney/search.rss?q=restaurant&restrict_sr=on&sort=new&t=week',
+    url:
+      'https://www.reddit.com/r/sydney/search.rss?' +
+      'q=restaurant&restrict_sr=on&sort=new&t=week',
     source: 'Reddit r/sydney',
     topic: 'Community signal',
     weight: 1
   },
   {
-    url: 'https://www.reddit.com/r/foodies_sydney/search.rss?q=restaurant&restrict_sr=on&sort=new&t=week',
+    url:
+      'https://www.reddit.com/r/foodies_sydney/search.rss?' +
+      'q=restaurant&restrict_sr=on&sort=new&t=week',
     source: 'Reddit r/foodies_sydney',
     topic: 'Community signal',
     weight: 1
@@ -63,39 +191,164 @@ const sourceWeight = {
   'Reddit r/foodies_sydney': 1
 };
 
-const suburbRules = [
-  { match: /\b(sydney cbd|cbd|angel place|circular quay|the rocks|barangaroo|darling harbour|town hall|wynyard|haymarket|chippendale)\b/i, suburb: 'Sydney CBD', area: 'CBD & Inner City', coordinates: [-33.8688, 151.2093] },
-  { match: /\b(surry hills|darlinghurst|potts point|woolloomooloo|paddington|redfern|waterloo|alexandria)\b/i, suburb: 'Surry Hills', area: 'CBD & Inner City', coordinates: [-33.8830, 151.2090] },
-  { match: /\b(newtown|enmore|marrickville|petersham|leichhardt|annandale|glebe|balmain|rozelle|ashfield|summer hill|stanmore)\b/i, suburb: 'Newtown', area: 'Inner West', coordinates: [-33.8981, 151.1790] },
-  { match: /\b(bondi junction)\b/i, suburb: 'Bondi Junction', area: 'Eastern Suburbs', coordinates: [-33.8925, 151.2503] },
-  { match: /\b(bondi|bronte|coogee|clovelly|randwick|maroubra|double bay|rose bay|rushcutters bay|vaucluse)\b/i, suburb: 'Bondi', area: 'Eastern Suburbs', coordinates: [-33.8915, 151.2767] },
-  { match: /\b(manly|freshwater|dee why|newport|avalon|palm beach|collaroy|narrabeen)\b/i, suburb: 'Manly', area: 'Northern Beaches', coordinates: [-33.8005, 151.2869] },
-  { match: /\b(cabramatta|canley vale|liverpool)\b/i, suburb: 'Cabramatta', area: 'South West Sydney', coordinates: [-33.8972, 150.9346] },
-  { match: /\b(parramatta|granville|westmead|harris park)\b/i, suburb: 'Parramatta', area: 'Western Sydney', coordinates: [-33.8150, 151.0011] }
-];
+/*
+ * Specific suburbs appear before generic Sydney CBD rules.
+ *
+ * The latitude and longitude stored here are only used to identify
+ * the general Sydney region. They are not written as restaurant
+ * coordinates.
+ *
+ * Restaurant coordinates are retrieved separately using the complete
+ * restaurant name and address.
+ */
+const locationRules = [
+  ['Palm Beach', 'Northern Beaches', -33.6015, 151.3238],
+  ['Avalon', 'Northern Beaches', -33.6363, 151.3295],
+  ['Newport', 'Northern Beaches', -33.6567, 151.3185],
+  ['Narrabeen', 'Northern Beaches', -33.7138, 151.2987],
+  ['Collaroy', 'Northern Beaches', -33.7321, 151.3012],
+  ['Dee Why', 'Northern Beaches', -33.7510, 151.2890],
+  ['Freshwater', 'Northern Beaches', -33.7780, 151.2854],
+  ['Manly', 'Northern Beaches', -33.8005, 151.2869],
+
+  ['Cabramatta', 'South West Sydney', -33.8972, 150.9346],
+  ['Canley Vale', 'South West Sydney', -33.8864, 150.9437],
+  ['Liverpool', 'South West Sydney', -33.9209, 150.9239],
+
+  ['Parramatta', 'Western Sydney', -33.8150, 151.0011],
+  ['Harris Park', 'Western Sydney', -33.8234, 151.0080],
+  ['Granville', 'Western Sydney', -33.8345, 151.0120],
+
+  ['Ashfield', 'Inner West', -33.8884, 151.1241],
+  ['Summer Hill', 'Inner West', -33.8915, 151.1385],
+  ['Leichhardt', 'Inner West', -33.8834, 151.1563],
+  ['Marrickville', 'Inner West', -33.9104, 151.1559],
+  ['Petersham', 'Inner West', -33.8945, 151.1540],
+  ['Stanmore', 'Inner West', -33.8942, 151.1640],
+  ['Enmore', 'Inner West', -33.8987, 151.1734],
+  ['Newtown', 'Inner West', -33.8981, 151.1790],
+  ['Annandale', 'Inner West', -33.8812, 151.1700],
+  ['Glebe', 'Inner West', -33.8792, 151.1868],
+  ['Balmain', 'Inner West', -33.8565, 151.1790],
+  ['Rozelle', 'Inner West', -33.8610, 151.1700],
+
+  ['Maroubra', 'Eastern Suburbs', -33.9500, 151.2420],
+  ['Coogee', 'Eastern Suburbs', -33.9205, 151.2552],
+  ['Randwick', 'Eastern Suburbs', -33.9149, 151.2416],
+  ['Clovelly', 'Eastern Suburbs', -33.9125, 151.2609],
+  ['Bronte', 'Eastern Suburbs', -33.9057, 151.2662],
+  ['Bondi Beach', 'Eastern Suburbs', -33.8915, 151.2767],
+  ['Bondi Junction', 'Eastern Suburbs', -33.8925, 151.2503],
+  ['Double Bay', 'Eastern Suburbs', -33.8779, 151.2438],
+  ['Rose Bay', 'Eastern Suburbs', -33.8705, 151.2685],
+
+  ['Rushcutters Bay', 'CBD & Inner City', -33.8758, 151.2280],
+  ['Potts Point', 'CBD & Inner City', -33.8738, 151.2223],
+  ['Darlinghurst', 'CBD & Inner City', -33.8781, 151.2197],
+  ['Surry Hills', 'CBD & Inner City', -33.8830, 151.2090],
+  ['Woolloomooloo', 'CBD & Inner City', -33.8704, 151.2194],
+  ['Paddington', 'CBD & Inner City', -33.8848, 151.2263],
+  ['Redfern', 'CBD & Inner City', -33.8932, 151.2044],
+  ['Waterloo', 'CBD & Inner City', -33.9003, 151.2070],
+  ['Alexandria', 'CBD & Inner City', -33.9098, 151.1957],
+  ['Chippendale', 'CBD & Inner City', -33.8863, 151.1997],
+  ['Haymarket', 'CBD & Inner City', -33.8794, 151.2043],
+  ['Pyrmont', 'CBD & Inner City', -33.8697, 151.1948],
+  ['Barangaroo', 'CBD & Inner City', -33.8648, 151.2017],
+  ['Darling Harbour', 'CBD & Inner City', -33.8749, 151.2008],
+  ['The Rocks', 'CBD & Inner City', -33.8599, 151.2090],
+  ['Circular Quay', 'CBD & Inner City', -33.8611, 151.2126],
+  ['Sydney CBD', 'CBD & Inner City', -33.8688, 151.2093]
+].map(([suburb, area, latitude, longitude]) => ({
+  suburb,
+  area,
+  latitude,
+  longitude,
+  match: new RegExp(`\\b${suburb.replace(/ /g, '\\s+')}\\b`, 'i')
+}));
 
 const cuisineRules = [
-  { match: /\b(japanese|omakase|sushi|ramen|yakitori|izakaya)\b/i, value: 'Japanese' },
-  { match: /\b(italian|pasta|trattoria|osteria|pizzeria|pizza)\b/i, value: 'Italian' },
-  { match: /\b(thai|pad thai|som tam|khao soi)\b/i, value: 'Thai' },
-  { match: /\b(vietnamese|pho|banh mi|bánh mì)\b/i, value: 'Vietnamese' },
-  { match: /\b(malaysian|nyonya|laksa|char koay teow)\b/i, value: 'Malaysian' },
-  { match: /\b(chinese|cantonese|dim sum|peking duck|dumpling)\b/i, value: 'Chinese' },
-  { match: /\b(korean|bibimbap|korean fried chicken|jjigae)\b/i, value: 'Korean' },
-  { match: /\b(mexican|taco|taqueria|tortilla)\b/i, value: 'Mexican' },
-  { match: /\b(lebanese|middle eastern|falafel|shawarma)\b/i, value: 'Middle Eastern' },
-  { match: /\b(indian|curry|tandoori|biryani)\b/i, value: 'Indian' },
-  { match: /\b(burger|smash burger)\b/i, value: 'Burgers' },
-  { match: /\b(seafood|modern australian|australian bistro)\b/i, value: 'Modern Australian' }
+  {
+    match: /\b(japanese|omakase|sushi|ramen|yakitori|izakaya)\b/i,
+    value: 'Japanese'
+  },
+  {
+    match: /\b(italian|pasta|trattoria|osteria|pizzeria|pizza)\b/i,
+    value: 'Italian'
+  },
+  {
+    match: /\b(thai|pad thai|som tam|khao soi)\b/i,
+    value: 'Thai'
+  },
+  {
+    match: /\b(vietnamese|pho|banh mi|bánh mì)\b/i,
+    value: 'Vietnamese'
+  },
+  {
+    match: /\b(malaysian|nyonya|laksa|char koay teow)\b/i,
+    value: 'Malaysian'
+  },
+  {
+    match: /\b(chinese|cantonese|dim sum|peking duck|dumpling)\b/i,
+    value: 'Chinese'
+  },
+  {
+    match: /\b(korean|bibimbap|korean fried chicken|jjigae)\b/i,
+    value: 'Korean'
+  },
+  {
+    match: /\b(mexican|taco|taqueria|tortilla)\b/i,
+    value: 'Mexican'
+  },
+  {
+    match: /\b(lebanese|middle eastern|falafel|shawarma)\b/i,
+    value: 'Middle Eastern'
+  },
+  {
+    match: /\b(indian|tandoori|biryani)\b/i,
+    value: 'Indian'
+  },
+  {
+    match: /\b(french|brasserie|bistro)\b/i,
+    value: 'French'
+  },
+  {
+    match: /\b(greek|taverna|souvlaki)\b/i,
+    value: 'Greek'
+  },
+  {
+    match: /\b(spanish|tapas)\b/i,
+    value: 'Spanish'
+  },
+  {
+    match: /\b(burger|smash burger)\b/i,
+    value: 'Burgers'
+  },
+  {
+    match: /\b(bakery|pastry|patisserie|pasticceria)\b/i,
+    value: 'Bakery'
+  },
+  {
+    match: /\b(seafood|modern australian|australian bistro)\b/i,
+    value: 'Modern Australian'
+  }
 ];
 
 function decode(value = '') {
   return value
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+    .replace(
+      /&#(\d+);/g,
+      (_, number) => String.fromCodePoint(Number(number))
+    )
+    .replace(
+      /&#x([0-9a-f]+);/gi,
+      (_, number) => String.fromCodePoint(parseInt(number, 16))
+    )
+    .replace(/&nbsp;/g, ' ')
     .replace(/&amp;/g, '&')
     .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&apos;/g, "'")
+    .replace(/&#39;|&apos;/g, "'")
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
     .replace(/\s+/g, ' ')
@@ -103,7 +356,10 @@ function decode(value = '') {
 }
 
 function xmlTag(block, name) {
-  const match = block.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)<\\/${name}>`, 'i'));
+  const match = block.match(
+    new RegExp(`<${name}[^>]*>([\\s\\S]*?)<\\/${name}>`, 'i')
+  );
+
   return match ? decode(match[1]) : '';
 }
 
@@ -117,7 +373,25 @@ function normaliseName(value = '') {
 }
 
 function uniqueBy(items, key) {
-  return [...new Map(items.map((item) => [key(item), item])).values()];
+  return [
+    ...new Map(
+      items
+        .filter(Boolean)
+        .map((item) => [key(item), item])
+    ).values()
+  ];
+}
+
+function truncate(value = '', maximum = 320) {
+  const clean = value.replace(/\s+/g, ' ').trim();
+
+  if (clean.length <= maximum) {
+    return clean;
+  }
+
+  return `${clean
+    .slice(0, maximum - 1)
+    .replace(/\s+\S*$/, '')}…`;
 }
 
 function cleanText(html = '') {
@@ -131,16 +405,32 @@ function cleanText(html = '') {
 }
 
 function htmlMeta(html, property) {
-  const escaped = property.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const escaped = property.replace(
+    /[.*+?^${}()|[\]\\]/g,
+    '\\$&'
+  );
+
   const patterns = [
-    new RegExp(`<meta[^>]+property=["']${escaped}["'][^>]+content=["']([^"']+)["']`, 'i'),
-    new RegExp(`<meta[^>]+name=["']${escaped}["'][^>]+content=["']([^"']+)["']`, 'i'),
-    new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["']${escaped}["']`, 'i')
+    new RegExp(
+      `<meta[^>]+property=["']${escaped}["'][^>]+content=["']([^"']+)["']`,
+      'i'
+    ),
+    new RegExp(
+      `<meta[^>]+name=["']${escaped}["'][^>]+content=["']([^"']+)["']`,
+      'i'
+    ),
+    new RegExp(
+      `<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["']${escaped}["']`,
+      'i'
+    )
   ];
 
   for (const pattern of patterns) {
     const match = html.match(pattern);
-    if (match) return decode(match[1]);
+
+    if (match) {
+      return decode(match[1]);
+    }
   }
 
   return '';
@@ -150,49 +440,97 @@ async function fetchText(url) {
   const response = await fetch(url, {
     headers: {
       'user-agent': USER_AGENT,
-      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+      accept:
+        'text/html,application/xhtml+xml,application/xml,' +
+        'application/rss+xml;q=0.9,*/*;q=0.8'
     },
     redirect: 'follow',
     signal: AbortSignal.timeout(FETCH_TIMEOUT_MS)
   });
 
-  if (!response.ok) throw new Error(`HTTP ${response.status}`);
-  return { url: response.url, text: await response.text() };
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}`);
+  }
+
+  return {
+    url: response.url,
+    text: (await response.text()).slice(0, 2_000_000)
+  };
 }
 
-async function googleNewsSearch({ query, topic, weight }) {
-  const feedUrl = `https://news.google.com/rss/search?q=${encodeURIComponent(`${query} when:${LOOKBACK}`)}&hl=en-AU&gl=AU&ceid=AU:en`;
-  const { text } = await fetchText(feedUrl);
-
-  return [...text.matchAll(/<item>([\s\S]*?)<\/item>/gi)]
+function rssItems(xml, defaults) {
+  return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/gi)]
     .map((match) => {
       const block = match[1];
+
       return {
         title: xmlTag(block, 'title'),
         url: xmlTag(block, 'link'),
-        source: xmlTag(block, 'source') || 'Public food news',
+        source: xmlTag(block, 'source') || defaults.source,
         publishedAt: xmlTag(block, 'pubDate'),
-        topic,
-        weight
+        topic: defaults.topic,
+        weight: defaults.weight
       };
     })
     .filter((item) => item.title && item.url)
     .slice(0, MAX_RESULTS_PER_SEARCH);
 }
 
-async function readCommunityFeed({ url, source, topic, weight }) {
+async function googleNewsSearch(search) {
+  const query = encodeURIComponent(
+    `${search.query} when:${LOOKBACK}`
+  );
+
+  const url =
+    `https://news.google.com/rss/search?q=${query}` +
+    '&hl=en-AU&gl=AU&ceid=AU:en';
+
+  const { text } = await fetchText(url);
+
+  return rssItems(text, {
+    ...search,
+    source: 'Google News'
+  });
+}
+
+async function bingNewsSearch(search) {
+  const query = encodeURIComponent(search.query);
+
+  const url =
+    `https://www.bing.com/news/search?q=${query}` +
+    '&format=rss&mkt=en-AU';
+
+  const { text } = await fetchText(url);
+
+  return rssItems(text, {
+    ...search,
+    source: 'Bing News'
+  });
+}
+
+async function readCommunityFeed({
+  url,
+  source,
+  topic,
+  weight
+}) {
   const { text } = await fetchText(url);
 
   return [...text.matchAll(/<entry>([\s\S]*?)<\/entry>/gi)]
     .map((match) => {
       const block = match[1];
-      const href = block.match(/<link[^>]+href="([^"]+)"/i)?.[1] || xmlTag(block, 'link');
+
+      const href =
+        block.match(/<link[^>]+href="([^"]+)"/i)?.[1] ||
+        xmlTag(block, 'link');
 
       return {
         title: xmlTag(block, 'title'),
-        url: href,
+        url: decode(href),
         source,
-        publishedAt: xmlTag(block, 'updated') || xmlTag(block, 'published'),
+        publishedAt:
+          xmlTag(block, 'updated') ||
+          xmlTag(block, 'published'),
         topic,
         weight
       };
@@ -208,43 +546,77 @@ async function inBatches(items, worker, concurrency = 5) {
   async function run() {
     while (index < items.length) {
       const current = items[index++];
+
       try {
         const result = await worker(current);
-        if (result) output.push(result);
+
+        if (result) {
+          output.push(result);
+        }
       } catch (error) {
-        console.warn(`Skipped ${current.url || current.query}: ${error.message}`);
+        console.warn(
+          `Skipped ${current.url || current.query}: ${error.message}`
+        );
       }
     }
   }
 
-  await Promise.all(Array.from({ length: concurrency }, run));
+  const workers = Array.from(
+    {
+      length: Math.min(concurrency, items.length || 1)
+    },
+    run
+  );
+
+  await Promise.all(workers);
+
   return output;
 }
 
 function findJsonLdRestaurant(html) {
-  const scripts = [...html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)];
+  const scripts = [
+    ...html.matchAll(
+      /<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi
+    )
+  ];
 
   function visit(node) {
-    if (!node || typeof node !== 'object') return null;
+    if (!node || typeof node !== 'object') {
+      return null;
+    }
 
     if (Array.isArray(node)) {
       for (const child of node) {
         const found = visit(child);
-        if (found) return found;
+
+        if (found) {
+          return found;
+        }
       }
+
       return null;
     }
 
-    const types = Array.isArray(node['@type']) ? node['@type'] : [node['@type']];
+    const types = Array.isArray(node['@type'])
+      ? node['@type']
+      : [node['@type']];
+
     const isRestaurant = types.some((type) =>
-      /restaurant|foodestablishment|cafeorcoffeeshop|bakery/i.test(String(type))
+      /restaurant|foodestablishment|cafeorcoffeeshop|bakery/i.test(
+        String(type)
+      )
     );
 
-    if (isRestaurant && node.name) return node;
+    if (isRestaurant && node.name) {
+      return node;
+    }
 
     for (const value of Object.values(node)) {
       const found = visit(value);
-      if (found) return found;
+
+      if (found) {
+        return found;
+      }
     }
 
     return null;
@@ -252,11 +624,15 @@ function findJsonLdRestaurant(html) {
 
   for (const script of scripts) {
     try {
-      const parsed = JSON.parse(script[1].trim());
-      const restaurant = visit(parsed);
-      if (restaurant) return restaurant;
+      const restaurant = visit(
+        JSON.parse(decode(script[1]))
+      );
+
+      if (restaurant) {
+        return restaurant;
+      }
     } catch {
-      // Ignore malformed JSON-LD.
+      // Ignore invalid JSON-LD and continue.
     }
   }
 
@@ -264,23 +640,31 @@ function findJsonLdRestaurant(html) {
 }
 
 function extractRestaurantName(title, jsonLd) {
-  if (jsonLd?.name && jsonLd.name.length < 80) return jsonLd.name.trim();
+  if (jsonLd?.name && jsonLd.name.length < 80) {
+    return truncate(jsonLd.name, 70);
+  }
 
   const clean = title
     .replace(/\s+\|\s+[^|]+$/, '')
-    .replace(/\s+-\s+(Broadsheet|Time Out|Good Food|Concrete Playground|The Urban List|Gourmet Traveller).*$/i, '')
+    .replace(
+      /\s+-\s+(Broadsheet|Time Out|Good Food|Concrete Playground|The Urban List|Gourmet Traveller).*$/i,
+      ''
+    )
     .trim();
 
   const patterns = [
     /^(?:just\s+)?(?:opened|opening now|new)\s*:\s*([^,|–—]{2,70})/i,
     /^([^|–—]{2,70}?)\s+(?:opens|opened|is opening|lands|arrives|brings|hits|returns)\b/i,
-    /\b(?:restaurant|bar|bistro|cafe|café|trattoria|pizzeria|bakery|taqueria)\s+(?:called|named)?\s*[“"']?([A-Z][\w’'&.-]*(?:\s+[A-Z][\w’'&.-]*){0,4})/i,
-    /\bintroducing\s+([A-Z][\w’'&.-]*(?:\s+[A-Z][\w’'&.-]*){0,4})/i
+    /\b(?:restaurant|bar|bistro|cafe|café|trattoria|pizzeria|bakery|taqueria)\s+(?:called|named)?\s*[“"']?([A-Z][\w’'&+.-]*(?:\s+[A-Z][\w’'&+.-]*){0,4})/i,
+    /\bintroducing\s+([A-Z][\w’'&+.-]*(?:\s+[A-Z][\w’'&+.-]*){0,4})/i
   ];
 
   for (const pattern of patterns) {
     const match = clean.match(pattern);
-    if (!match) continue;
+
+    if (!match) {
+      continue;
+    }
 
     const candidate = match[1]
       .replace(/[“”"'.,:;]+$/g, '')
@@ -290,7 +674,9 @@ function extractRestaurantName(title, jsonLd) {
     if (
       candidate.length >= 3 &&
       candidate.length <= 60 &&
-      !/^(sydney|new restaurant|a restaurant|the restaurant|best restaurants?)$/i.test(candidate)
+      !/^(sydney|new restaurant|a restaurant|the restaurant|best restaurants?|where to eat)$/i.test(
+        candidate
+      )
     ) {
       return candidate;
     }
@@ -310,34 +696,76 @@ function extractAddress(text, jsonLd) {
       address.postalCode
     ].filter(Boolean);
 
-    if (parts.length >= 2) return parts.join(', ').replace(/\s+/g, ' ').trim();
+    if (parts.length >= 2) {
+      return parts
+        .join(', ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
   }
 
-  if (typeof address === 'string' && address.length > 10) return address.trim();
+  if (
+    typeof address === 'string' &&
+    address.length > 10
+  ) {
+    return address.trim();
+  }
 
   const match = text.match(
-    /\b(?:shop\s*[a-z0-9/-]+,?\s*)?\d+[a-z]?(?:\/\d+[a-z]?)?\s+[\w’'&.-]+(?:\s+[\w’'&.-]+){0,5}\s+(?:street|st|road|rd|avenue|ave|lane|ln|place|pl|esplanade|parade|pde|drive|dr|way)\b[^.]{0,80}/i
+    /\b(?:level\s*\d+[,]?\s*)?(?:shop\s*[a-z0-9/-]+[,]?\s*)?\d+[a-z]?(?:[-/]\d+[a-z]?)?\s+[\w’'&.-]+(?:\s+[\w’'&.-]+){0,5}\s+(?:street|st|road|rd|avenue|ave|lane|ln|place|pl|esplanade|parade|pde|drive|dr|way)\b[^.]{0,70}/i
   );
 
-  return match ? match[0].replace(/\s+/g, ' ').trim() : '';
+  return match
+    ? match[0]
+        .replace(/\s+/g, ' ')
+        .replace(/[;,]+$/, '')
+        .trim()
+    : '';
 }
 
-function resolveLocation(text) {
-  return suburbRules.find((entry) => entry.match.test(text)) || null;
-}
+function resolveLocation(address, pageText) {
+  const addressMatch = locationRules.find((entry) =>
+    entry.match.test(address)
+  );
 
-function storedCoordinates(restaurant) {
-  return resolveLocation([restaurant.suburb, restaurant.area, restaurant.address].filter(Boolean).join(' '))?.coordinates;
+  if (addressMatch) {
+    return addressMatch;
+  }
+
+  const pageMatch = locationRules.find((entry) =>
+    entry.match.test(pageText)
+  );
+
+  if (pageMatch) {
+    return pageMatch;
+  }
+
+  if (/\bSydney\s+NSW\s+2000\b/i.test(address)) {
+    return locationRules.find(
+      (entry) => entry.suburb === 'Sydney CBD'
+    );
+  }
+
+  return null;
 }
 
 function formatAddress(address, location) {
-  if (!address || !location) return '';
+  if (!address || !location) {
+    return '';
+  }
 
-  const hasSuburb = new RegExp(location.suburb, 'i').test(address);
-  const hasState = /\bNSW\b/i.test(address);
+  const compact = address.replace(/[,. ]+$/, '');
+
+  const hasSuburb = new RegExp(
+    `\\b${location.suburb.replace(/ /g, '\\s+')}\\b`,
+    'i'
+  ).test(compact);
+
+  const hasState =
+    /\bNSW\b|\bNew South Wales\b/i.test(compact);
 
   return [
-    address.replace(/[,. ]+$/, ''),
+    compact,
     hasSuburb ? '' : location.suburb,
     hasState ? '' : 'NSW'
   ]
@@ -346,21 +774,39 @@ function formatAddress(address, location) {
 }
 
 function inferCuisine(text) {
-  return cuisineRules.find((rule) => rule.match.test(text))?.value || '';
+  return (
+    cuisineRules.find((rule) => rule.match.test(text))
+      ?.value || ''
+  );
 }
 
-function extractPricePerPerson(text, sourceUrl, checkedAt) {
-  const direct = [...text.matchAll(/\$ ?(\d{1,3}(?:\.\d{1,2})?)\s*(?:pp|p\.?p\.?|per person|per head)/gi)]
+function extractPricePerPerson(
+  text,
+  sourceUrl,
+  checkedAt
+) {
+  const direct = [
+    ...text.matchAll(
+      /\$\s?(\d{1,3}(?:\.\d{1,2})?)\s*(?:pp|p\.?p\.?|per person|per head)/gi
+    )
+  ]
     .map((match) => Number(match[1]))
-    .filter((value) => value >= 10 && value <= 500);
+    .filter(
+      (value) => value >= 10 && value <= 500
+    );
 
   if (direct.length) {
-    const value = Math.round(direct[0]);
+    const min = Math.min(...direct);
+    const max = Math.max(...direct);
+
     return {
       currency: 'AUD',
-      min: value,
-      max: value,
-      label: `$${value} pp`,
+      min,
+      max,
+      label:
+        min === max
+          ? `$${min} pp`
+          : `$${min}-$${max} pp`,
       basis: 'Published per-person or per-head price',
       confidence: 'high',
       sourceUrl,
@@ -368,17 +814,24 @@ function extractPricePerPerson(text, sourceUrl, checkedAt) {
     };
   }
 
-  const explicitRange = text.match(/\$ ?(\d{1,3})\s*(?:-|–|to)\s*\$ ?(\d{1,3})/);
+  const explicitRange = text.match(
+    /\$\s?(\d{1,3})\s*(?:-|–|to)\s*\$?\s?(\d{1,3})/
+  );
+
   if (explicitRange) {
     const min = Number(explicitRange[1]);
     const max = Number(explicitRange[2]);
 
-    if (min >= 8 && max <= 300 && min < max) {
+    if (
+      min >= 8 &&
+      max <= 300 &&
+      min < max
+    ) {
       return {
         currency: 'AUD',
         min,
         max,
-        label: `$${min}–$${max} pp`,
+        label: `$${min}-$${max} pp`,
         basis: 'Published menu price range',
         confidence: 'high',
         sourceUrl,
@@ -387,25 +840,51 @@ function extractPricePerPerson(text, sourceUrl, checkedAt) {
     }
   }
 
-  const prices = [...text.matchAll(/\$\s?(\d{1,3}(?:\.\d{1,2})?)/g)]
+  const prices = [
+    ...text.matchAll(
+      /\$\s?(\d{1,3}(?:\.\d{1,2})?)/g
+    )
+  ]
     .map((match) => Number(match[1]))
-    .filter((value) => value >= 8 && value <= 180)
+    .filter(
+      (value) => value >= 8 && value <= 250
+    )
     .sort((a, b) => a - b);
 
-  if (prices.length < 3) return null;
+  if (prices.length < 3) {
+    return null;
+  }
 
-  // Avoid using the cheapest snack and the most expensive premium item.
-  const min = Math.round(prices[Math.floor((prices.length - 1) * 0.35)] / 5) * 5;
-  const max = Math.round(prices[Math.floor((prices.length - 1) * 0.9)] / 5) * 5;
+  const minIndex = Math.floor(
+    (prices.length - 1) * 0.35
+  );
 
-  if (min < 10 || max < min || max > 200) return null;
+  const maxIndex = Math.floor(
+    (prices.length - 1) * 0.9
+  );
+
+  const min =
+    Math.round(prices[minIndex] / 5) * 5;
+
+  const calculatedMax =
+    Math.round(prices[maxIndex] / 5) * 5;
+
+  const max = Math.max(
+    calculatedMax,
+    min + 5
+  );
+
+  if (min < 10 || max > 300) {
+    return null;
+  }
 
   return {
     currency: 'AUD',
     min,
-    max: Math.max(max, min + 5),
-    label: `$${min}–$${Math.max(max, min + 5)} pp`,
-    basis: 'Estimated from multiple published menu prices; food only',
+    max,
+    label: `$${min}-$${max} pp`,
+    basis:
+      'Estimated from multiple published menu prices; food only',
     confidence: 'medium',
     sourceUrl,
     lastVerifiedAt: checkedAt
@@ -414,260 +893,1020 @@ function extractPricePerPerson(text, sourceUrl, checkedAt) {
 
 function extractMenuHighlights(text) {
   const matches = [
-    ...text.matchAll(/(?:highlights include|menu highlights|standouts include|known for|signature dishes? include|expect)\s*:?\s*([^.!?]{20,300})/gi)
+    ...text.matchAll(
+      /(?:highlights include|menu highlights|standouts include|known for|signature dishes? include|expect|menu features)\s*:?\s*([^.!?]{20,320})/gi
+    )
   ];
 
   const candidates = matches
-    .flatMap((match) => match[1].split(/,|;|\band\b/gi))
-    .map((value) => value.replace(/\([^)]*\)/g, '').replace(/\s+/g, ' ').trim())
-    .filter((value) => value.length >= 4 && value.length <= 80)
-    .filter((value) => !/^(the|a|an|with|and|or)$/i.test(value));
+    .flatMap((match) =>
+      match[1].split(/,|;|\band\b/gi)
+    )
+    .map((value) =>
+      truncate(
+        value.replace(/\([^)]*\)/g, ''),
+        80
+      )
+    )
+    .filter(
+      (value) =>
+        value.length >= 4 &&
+        value.length <= 80
+    )
+    .filter(
+      (value) =>
+        !/^(the|a|an|with|and|or)$/i.test(value)
+    );
 
-  return uniqueBy(candidates, (value) => value.toLowerCase()).slice(0, 5);
+  return uniqueBy(
+    candidates,
+    (value) => value.toLowerCase()
+  ).slice(0, 5);
 }
 
 function extractDietarySignals(text) {
-  const lower = text.toLowerCase();
+  function signal(positive, negative) {
+    if (negative.test(text)) {
+      return false;
+    }
+
+    if (positive.test(text)) {
+      return true;
+    }
+
+    return null;
+  }
 
   return {
-    vegetarian: /\bvegetarian\b|\bvegan\b/.test(lower),
-    vegan: /\bvegan\b/.test(lower),
-    glutenFree: /\bgluten[- ]free\b/.test(lower),
-    dairyFree: /\bdairy[- ]free\b/.test(lower),
-    chickenAvailable: /\bchicken\b/.test(lower),
-    confidence: 'page-text signal only'
+    vegetarian: signal(
+      /\bvegetarian(?: option| menu| friendly)?\b/i,
+      /\bno vegetarian options?\b/i
+    ),
+    vegan: signal(
+      /\bvegan(?: option| menu| friendly)?\b/i,
+      /\bno vegan options?\b/i
+    ),
+    glutenFree: signal(
+      /\bgluten[- ]free(?: option| menu| friendly)?\b/i,
+      /\bno gluten[- ]free options?\b/i
+    ),
+    dairyFree: signal(
+      /\bdairy[- ]free(?: option| menu| friendly)?\b/i,
+      /\bno dairy[- ]free options?\b/i
+    ),
+    chickenAvailable: signal(
+      /\bchicken\b/i,
+      /\bno chicken\b/i
+    ),
+    confidence:
+      'Public page text signal; confirm with venue for allergies'
   };
 }
 
+function extractCons(text) {
+  const sentences =
+    text.match(/[^.!?]{20,240}[.!?]/g) || [];
+
+  const warning = sentences.find((sentence) =>
+    /\b(queue|wait|book ahead|booked out|small|cramped|limited seating|expensive|pricey|noisy|loud|spicy|cash only|walk-in|sell out|sold out)\b/i.test(
+      sentence
+    )
+  );
+
+  return warning
+    ? truncate(warning, 220)
+    : 'No recurring drawback was confirmed in the retrieved public sources; check current booking and menu details before visiting.';
+}
+
+function buildThemes(candidate) {
+  const themes = [
+    candidate.trend,
+    candidate.cuisine,
+    candidate.area,
+    candidate.source.topic
+  ];
+
+  if (candidate.pricePerPerson?.max <= 35) {
+    themes.push('cheap eat');
+  }
+
+  return uniqueBy(
+    themes
+      .filter(Boolean)
+      .map((value) => value.toLowerCase()),
+    (value) => value
+  ).slice(0, 5);
+}
+
 function googleMapsUrl(restaurant) {
-  const query = [restaurant.name, restaurant.address, restaurant.suburb, 'Sydney NSW']
+  const query = [
+    restaurant.name,
+    restaurant.address
+  ]
     .filter(Boolean)
     .join(', ');
 
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+  return (
+    'https://www.google.com/maps/search/' +
+    `?api=1&query=${encodeURIComponent(query)}`
+  );
 }
 
 function newsKey(item) {
-  return `${item.title.toLowerCase()}|${item.url}`;
+  return (
+    `${normaliseName(item?.title || '')}|` +
+    `${item?.url || ''}`
+  );
 }
 
 function isLikelyRestaurantStory(title, text) {
   return /\b(restaurant|bar|bistro|cafe|café|bakery|trattoria|pizzeria|taqueria|diner|eatery|menu|chef|opening|opens|opened)\b/i.test(
-    `${title} ${text.slice(0, 4000)}`
+    `${title} ${text.slice(0, 5_000)}`
   );
 }
 
 async function enrichNewsItem(item, checkedAt) {
-  const { url, text: html } = await fetchText(item.url);
+  /*
+   * Reddit can contribute a trend signal, but is not
+   * trusted as the sole address or pricing source.
+   */
+  if (/^Reddit /i.test(item.source)) {
+    return null;
+  }
+
+  const {
+    url,
+    text: html
+  } = await fetchText(item.url);
+
   const pageText = cleanText(html);
   const jsonLd = findJsonLdRestaurant(html);
-  const pageTitle = htmlMeta(html, 'og:title') || item.title;
-  const description = htmlMeta(html, 'og:description') || htmlMeta(html, 'description');
-  const combined = `${pageTitle}\n${description}\n${pageText}`;
 
-  if (!isLikelyRestaurantStory(pageTitle, combined)) return null;
+  const pageTitle =
+    htmlMeta(html, 'og:title') ||
+    item.title;
 
-  const name = extractRestaurantName(pageTitle, jsonLd);
-  const location = resolveLocation(combined);
-  const address = formatAddress(extractAddress(combined, jsonLd), location);
-  const cuisine = inferCuisine(`${pageTitle}\n${description}\n${pageText.slice(0, 15_000)}`);
-  const pricePerPerson = extractPricePerPerson(pageText, url, checkedAt);
+  const description =
+    htmlMeta(html, 'og:description') ||
+    htmlMeta(html, 'description');
 
-  if (!name || !location || !address || !cuisine || !pricePerPerson) return null;
+  const combined =
+    `${pageTitle}\n${description}\n${pageText}`;
+
+  if (
+    !isLikelyRestaurantStory(
+      pageTitle,
+      combined
+    )
+  ) {
+    return null;
+  }
+
+  const name = extractRestaurantName(
+    pageTitle,
+    jsonLd
+  );
+
+  const rawAddress = extractAddress(
+    combined,
+    jsonLd
+  );
+
+  const location = resolveLocation(
+    rawAddress,
+    combined
+  );
+
+  const address = formatAddress(
+    rawAddress,
+    location
+  );
+
+  const cuisine = inferCuisine(
+    `${pageTitle}\n${description}\n` +
+    pageText.slice(0, 20_000)
+  );
+
+  const pricePerPerson =
+    extractPricePerPerson(
+      pageText,
+      url,
+      checkedAt
+    );
+
+  if (
+    !name ||
+    !location ||
+    !address ||
+    !cuisine ||
+    !pricePerPerson
+  ) {
+    return null;
+  }
 
   const source = {
     title: item.title,
     url,
     source: item.source,
     topic: item.topic,
-    publishedAt: item.publishedAt
+    publishedAt: item.publishedAt || null
   };
 
-  return {
+  const candidate = {
     name,
     cuisine,
     area: location.area,
     suburb: location.suburb,
     address,
-    coordinates: location.coordinates,
-    googleMapsUrl: googleMapsUrl({ name, address, suburb: location.suburb }),
-    trend: item.topic === 'Cheap eat' ? 'Cheap eat' : 'Newly found',
-    summary: description || `${name} was found in recent ${item.source} coverage.`,
+    coordinates: null,
+    googleMapsUrl: googleMapsUrl({
+      name,
+      address
+    }),
+    trend:
+      item.topic === 'Cheap eat'
+        ? 'Cheap eat'
+        : item.topic || 'Newly found',
     pricePerPerson,
-    menuHighlights: extractMenuHighlights(pageText),
-    dietary: extractDietarySignals(pageText),
+    summary: truncate(
+      description ||
+        `${name} was found in recent ${item.source} coverage.`
+    ),
+    cons: extractCons(pageText),
+    menuHighlights:
+      extractMenuHighlights(pageText),
+    dietary:
+      extractDietarySignals(pageText),
+    comments: [],
     source,
-    signalScore: (item.weight || 1) + (sourceWeight[item.source] || 1)
+    signalScore:
+      (item.weight || 1) +
+      (sourceWeight[item.source] || 1)
   };
+
+  candidate.themes = buildThemes(candidate);
+
+  return candidate;
+}
+
+function hasValidCoordinates(coordinates) {
+  if (
+    !Array.isArray(coordinates) ||
+    coordinates.length !== 2
+  ) {
+    return false;
+  }
+
+  const latitude = Number(coordinates[0]);
+  const longitude = Number(coordinates[1]);
+
+  return (
+    Number.isFinite(latitude) &&
+    Number.isFinite(longitude) &&
+    latitude >= -34.5 &&
+    latitude <= -33.3 &&
+    longitude >= 150.4 &&
+    longitude <= 151.6
+  );
+}
+
+const sleep = (milliseconds) =>
+  new Promise((resolve) =>
+    setTimeout(resolve, milliseconds)
+  );
+
+let lastGeocodeRequestAt = 0;
+
+async function geocodeQuery(query) {
+  const wait =
+    GEOCODE_DELAY_MS -
+    (Date.now() - lastGeocodeRequestAt);
+
+  if (wait > 0) {
+    await sleep(wait);
+  }
+
+  lastGeocodeRequestAt = Date.now();
+
+  const parameters = new URLSearchParams({
+    q: query,
+    format: 'jsonv2',
+    addressdetails: '1',
+    countrycodes: 'au',
+    limit: '3',
+    bounded: '1',
+    viewbox: '150.4,-33.3,151.6,-34.5'
+  });
+
+  const { text } = await fetchText(
+    'https://nominatim.openstreetmap.org/search?' +
+    parameters
+  );
+
+  const results = JSON.parse(text);
+
+  const valid = results.filter((result) => {
+    const coordinates = [
+      Number(result.lat),
+      Number(result.lon)
+    ];
+
+    const country =
+      result.address?.country_code || '';
+
+    const state =
+      result.address?.state || '';
+
+    return (
+      hasValidCoordinates(coordinates) &&
+      country.toLowerCase() === 'au' &&
+      (
+        !state ||
+        /new south wales|nsw/i.test(state)
+      )
+    );
+  });
+
+  const preferred =
+    valid.find((result) =>
+      /restaurant|cafe|fast_food|building|house|commercial/i.test(
+        result.type
+      )
+    ) ||
+    valid[0];
+
+  if (!preferred) {
+    return null;
+  }
+
+  return [
+    Number(Number(preferred.lat).toFixed(6)),
+    Number(Number(preferred.lon).toFixed(6))
+  ];
+}
+
+async function geocodeRestaurant(restaurant) {
+  if (
+    hasValidCoordinates(restaurant.coordinates)
+  ) {
+    return restaurant.coordinates.map(Number);
+  }
+
+  const queries = uniqueBy(
+    [
+      `${restaurant.name}, ${restaurant.address}`,
+      restaurant.address,
+      `${restaurant.name}, ${restaurant.suburb}, Sydney NSW Australia`
+    ].filter(Boolean),
+    (value) => value.toLowerCase()
+  );
+
+  for (const query of queries) {
+    try {
+      const coordinates =
+        await geocodeQuery(query);
+
+      if (coordinates) {
+        return coordinates;
+      }
+    } catch (error) {
+      console.warn(
+        `Geocoding failed for ` +
+        `${restaurant.name}: ${error.message}`
+      );
+    }
+  }
+
+  return null;
 }
 
 function mergeNews(existing = [], incoming = []) {
-  return uniqueBy([...incoming, ...existing], newsKey)
-    .sort((a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0))
+  return uniqueBy(
+    [...incoming, ...existing],
+    newsKey
+  )
+    .sort(
+      (a, b) =>
+        new Date(b.publishedAt || 0) -
+        new Date(a.publishedAt || 0)
+    )
     .slice(0, 5);
 }
 
 function relatedNews(name, allNews) {
   const target = normaliseName(name);
 
-  return allNews.filter((item) => {
-    const headline = normaliseName(item.title);
-    return headline.includes(target) || target.includes(headline);
-  });
+  if (!target) {
+    return [];
+  }
+
+  return allNews.filter((item) =>
+    normaliseName(item.title).includes(target)
+  );
 }
 
-function mergeRestaurant(existing, candidate, allNews, updatedAt) {
+function mergeRestaurant(
+  existing,
+  candidate,
+  allNews,
+  updatedAt
+) {
   const matchingNews = mergeNews(
     existing.latestNews || [],
-    [...relatedNews(existing.name, allNews), candidate?.source].filter(Boolean)
+    [
+      ...relatedNews(existing.name, allNews),
+      candidate?.source
+    ].filter(Boolean)
   );
 
   if (!candidate) {
     return {
       ...existing,
-      googleMapsUrl: existing.googleMapsUrl || googleMapsUrl(existing),
-      coordinates: existing.coordinates || storedCoordinates(existing),
+      googleMapsUrl:
+        existing.googleMapsUrl ||
+        googleMapsUrl(existing),
       latestNews: matchingNews,
-      updatedAt: matchingNews.length ? updatedAt : existing.updatedAt || updatedAt
+      updatedAt:
+        matchingNews.length
+          ? updatedAt
+          : existing.updatedAt || updatedAt
     };
   }
 
+  const oldCuisineMissing =
+    !existing.cuisine ||
+    existing.cuisine === 'To be confirmed';
+
+  const oldSummaryMissing =
+    !existing.summary ||
+    existing.summary.includes(
+      'Details will be expanded'
+    );
+
   return {
     ...existing,
-    cuisine: existing.cuisine === 'To be confirmed' ? candidate.cuisine : existing.cuisine,
-    area: existing.area || candidate.area,
-    suburb: existing.suburb || candidate.suburb,
-    address: existing.address || candidate.address,
-    coordinates: existing.coordinates || candidate.coordinates || storedCoordinates({ ...existing, ...candidate }),
-    googleMapsUrl: existing.googleMapsUrl || candidate.googleMapsUrl,
-    trend: candidate.signalScore >= 5 ? candidate.trend : existing.trend || candidate.trend,
-    summary: existing.summary?.includes('Details will be expanded')
+    cuisine: oldCuisineMissing
+      ? candidate.cuisine
+      : existing.cuisine,
+    area:
+      existing.area ||
+      candidate.area,
+    suburb:
+      existing.suburb ||
+      candidate.suburb,
+    address:
+      existing.address ||
+      candidate.address,
+    coordinates:
+      hasValidCoordinates(existing.coordinates)
+        ? existing.coordinates
+        : null,
+    googleMapsUrl: googleMapsUrl({
+      ...candidate,
+      ...existing
+    }),
+    trend:
+      candidate.signalScore >= 5
+        ? candidate.trend
+        : existing.trend ||
+          candidate.trend,
+    pricePerPerson:
+      candidate.pricePerPerson ||
+      existing.pricePerPerson,
+    summary: oldSummaryMissing
       ? candidate.summary
-      : existing.summary || candidate.summary,
-    pricePerPerson: candidate.pricePerPerson || existing.pricePerPerson,
+      : existing.summary,
+    cons:
+      existing.cons ||
+      candidate.cons,
     menuHighlights: uniqueBy(
-      [...(existing.menuHighlights || []), ...(candidate.menuHighlights || [])],
+      [
+        ...(existing.menuHighlights || []),
+        ...candidate.menuHighlights
+      ],
       (value) => value.toLowerCase()
     ).slice(0, 5),
-    dietary: candidate.dietary || existing.dietary,
-    source: existing.source || candidate.source.url,
+    dietary:
+      candidate.dietary ||
+      existing.dietary,
+    themes: uniqueBy(
+      [
+        ...(existing.themes || []),
+        ...candidate.themes
+      ],
+      (value) => value.toLowerCase()
+    ).slice(0, 5),
+    comments:
+      Array.isArray(existing.comments)
+        ? existing.comments.slice(0, 5)
+        : [],
+    source:
+      existing.source ||
+      candidate.source.url,
     latestNews: matchingNews,
     updatedAt
   };
 }
 
-const updatedAt = new Date().toISOString();
+function canonicalRestaurant(
+  restaurant,
+  updatedAt
+) {
+  const output = {
+    id: Number(restaurant.id),
+    name: restaurant.name,
+    cuisine: restaurant.cuisine,
+    area: restaurant.area,
+    suburb: restaurant.suburb,
+    address: restaurant.address,
+    googleMapsUrl:
+      restaurant.googleMapsUrl ||
+      googleMapsUrl(restaurant),
+    coordinates:
+      hasValidCoordinates(
+        restaurant.coordinates
+      )
+        ? restaurant.coordinates.map(Number)
+        : restaurant.coordinates,
+    trend: restaurant.trend,
+    pricePerPerson:
+      restaurant.pricePerPerson,
+    summary: restaurant.summary,
+    cons: restaurant.cons,
+    menuHighlights:
+      Array.isArray(
+        restaurant.menuHighlights
+      )
+        ? restaurant.menuHighlights.slice(0, 5)
+        : [],
+    dietary:
+      restaurant.dietary || {
+        vegetarian: null,
+        vegan: null,
+        glutenFree: null,
+        dairyFree: null,
+        chickenAvailable: null,
+        confidence: 'Not yet verified'
+      },
+    themes:
+      Array.isArray(restaurant.themes)
+        ? restaurant.themes.slice(0, 5)
+        : [],
+    comments:
+      Array.isArray(restaurant.comments)
+        ? restaurant.comments.slice(0, 5)
+        : [],
+    source: restaurant.source,
+    latestNews:
+      Array.isArray(restaurant.latestNews)
+        ? restaurant.latestNews.slice(0, 5)
+        : [],
+    updatedAt:
+      restaurant.updatedAt ||
+      updatedAt
+  };
 
-const database = JSON.parse(await readFile(DATABASE_PATH, 'utf8'));
-delete database.dailyLeads;
-
-const newsResults = await inBatches(searches, googleNewsSearch, 4);
-const communityResults = await inBatches(communityFeeds, readCommunityFeed, 2);
-
-const allNews = uniqueBy(
-  [...newsResults.flat(), ...communityResults.flat()],
-  (item) => `${item.title.toLowerCase()}|${item.url}`
-).slice(0, MAX_PAGES_TO_ENRICH);
-
-if (!allNews.length) {
-  throw new Error('No public food-news results were returned; database was left unchanged.');
-}
-
-const candidates = await inBatches(
-  allNews,
-  (item) => enrichNewsItem(item, updatedAt),
-  5
-);
-
-const candidatesByName = new Map();
-
-for (const candidate of candidates) {
-  const key = normaliseName(candidate.name);
-  const existing = candidatesByName.get(key);
-
-  if (!existing || candidate.signalScore > existing.signalScore) {
-    candidatesByName.set(key, candidate);
-  }
-}
-
-const restaurants = Array.isArray(database.restaurants) ? database.restaurants : [];
-const knownNames = new Set(restaurants.map((restaurant) => normaliseName(restaurant.name)));
-
-const refreshedRestaurants = restaurants.map((restaurant) =>
-  mergeRestaurant(
-    restaurant,
-    candidatesByName.get(normaliseName(restaurant.name)),
-    allNews,
-    updatedAt
-  )
-);
-
-let nextId = Math.max(0, ...refreshedRestaurants.map((restaurant) => Number(restaurant.id) || 0)) + 1;
-let added = 0;
-
-for (const candidate of [...candidatesByName.values()].sort((a, b) => b.signalScore - a.signalScore)) {
-  if (added >= MAX_NEW_RESTAURANTS_PER_RUN) break;
-  if (knownNames.has(normaliseName(candidate.name))) continue;
-
-  // New listings require real address, cuisine and an explicit/derived price range.
+  /*
+   * Review fields are only retained when they
+   * contain direct HTTPS links.
+   */
   if (
-    !candidate.address ||
-    !candidate.cuisine ||
-    !candidate.pricePerPerson ||
-    candidate.pricePerPerson.confidence === 'low'
+    /^https:\/\//i.test(
+      restaurant.tripadvisorReviewUrl || ''
+    )
   ) {
-    continue;
+    output.tripadvisorReviewUrl =
+      restaurant.tripadvisorReviewUrl;
   }
 
-  const linkedNews = mergeNews([], [
-    candidate.source,
-    ...relatedNews(candidate.name, allNews)
-  ]);
+  if (
+    /^https:\/\//i.test(
+      restaurant.googleReviewUrl || ''
+    )
+  ) {
+    output.googleReviewUrl =
+      restaurant.googleReviewUrl;
+  }
 
-  refreshedRestaurants.push({
-    id: nextId++,
-    name: candidate.name,
-    cuisine: candidate.cuisine,
-    area: candidate.area,
-    suburb: candidate.suburb,
-    address: candidate.address,
-    googleMapsUrl: candidate.googleMapsUrl,
-    coordinates: candidate.coordinates,
-    trend: candidate.trend,
-    summary: candidate.summary,
-    cons: 'Review consensus and detailed dietary suitability have not yet been independently verified.',
-    pricePerPerson: candidate.pricePerPerson,
-    menuHighlights: candidate.menuHighlights,
-    dietary: candidate.dietary,
-    themes: uniqueBy(
-      [candidate.trend.toLowerCase(), candidate.cuisine.toLowerCase(), candidate.source.topic.toLowerCase()],
-      (value) => value
-    ),
-    comments: [],
-    source: candidate.source.url,
-    latestNews: linkedNews,
-    updatedAt
-  });
-
-  knownNames.add(normaliseName(candidate.name));
-  added += 1;
+  return output;
 }
 
-database.updatedAt = updatedAt;
-database.restaurants = refreshedRestaurants;
+function validateRestaurant(restaurant) {
+  const missing = [];
 
-await writeFile(DATABASE_PATH, `${JSON.stringify(database, null, 2)}\n`);
+  const requiredStrings = [
+    'name',
+    'cuisine',
+    'area',
+    'suburb',
+    'address',
+    'googleMapsUrl',
+    'trend',
+    'summary',
+    'cons',
+    'source',
+    'updatedAt'
+  ];
 
-console.log(
-  JSON.stringify(
-    {
-      message: 'Restaurant database updated',
-      totalProfiles: database.restaurants.length,
-      addedProfiles: added,
-      scannedNewsItems: allNews.length,
-      verifiedCandidates: candidates.length
-    },
-    null,
-    2
-  )
-);
+  for (const field of requiredStrings) {
+    if (
+      typeof restaurant[field] !== 'string' ||
+      !restaurant[field].trim()
+    ) {
+      missing.push(field);
+    }
+  }
+
+  if (
+    !Number.isInteger(restaurant.id) ||
+    restaurant.id <= 0
+  ) {
+    missing.push('id');
+  }
+
+  if (
+    !hasValidCoordinates(
+      restaurant.coordinates
+    )
+  ) {
+    missing.push('coordinates');
+  }
+
+  const price =
+    restaurant.pricePerPerson;
+
+  if (
+    !price ||
+    price.currency !== 'AUD' ||
+    !Number.isFinite(price.min) ||
+    !Number.isFinite(price.max) ||
+    price.min > price.max
+  ) {
+    missing.push('pricePerPerson');
+  }
+
+  if (
+    !Array.isArray(
+      restaurant.latestNews
+    )
+  ) {
+    missing.push('latestNews');
+  }
+
+  return missing;
+}
+
+async function main() {
+  const updatedAt =
+    new Date().toISOString();
+
+  const database = JSON.parse(
+    await readFile(
+      DATABASE_PATH,
+      'utf8'
+    )
+  );
+
+  delete database.dailyLeads;
+
+  const [
+    googleResults,
+    bingResults,
+    communityResults
+  ] = SKIP_FETCH
+    ? [[], [], []]
+    : await Promise.all([
+        inBatches(
+          searches,
+          googleNewsSearch,
+          4
+        ),
+        inBatches(
+          searches,
+          bingNewsSearch,
+          4
+        ),
+        inBatches(
+          communityFeeds,
+          readCommunityFeed,
+          2
+        )
+      ]);
+
+  const allNews = uniqueBy(
+    [
+      ...googleResults.flat(),
+      ...bingResults.flat(),
+      ...communityResults.flat()
+    ],
+    (item) =>
+      `${normaliseName(item.title)}|${item.url}`
+  ).slice(0, MAX_PAGES_TO_ENRICH);
+
+  if (!allNews.length) {
+    console.warn(
+      'No news items returned; existing profiles will still be normalized.'
+    );
+  }
+
+  const candidates = await inBatches(
+    allNews,
+    (item) =>
+      enrichNewsItem(item, updatedAt),
+    5
+  );
+
+  const candidatesByName = new Map();
+
+  for (const candidate of candidates) {
+    const key =
+      normaliseName(candidate.name);
+
+    const existing =
+      candidatesByName.get(key);
+
+    if (
+      !existing ||
+      candidate.signalScore >
+        existing.signalScore
+    ) {
+      candidatesByName.set(
+        key,
+        candidate
+      );
+    }
+  }
+
+  const restaurants =
+    Array.isArray(database.restaurants)
+      ? database.restaurants
+      : [];
+
+  const knownNames = new Set(
+    restaurants.map((restaurant) =>
+      normaliseName(restaurant.name)
+    )
+  );
+
+  const refreshed = restaurants.map(
+    (restaurant) =>
+      mergeRestaurant(
+        restaurant,
+        candidatesByName.get(
+          normaliseName(restaurant.name)
+        ),
+        allNews,
+        updatedAt
+      )
+  );
+
+  let nextId =
+    Math.max(
+      0,
+      ...refreshed.map(
+        (restaurant) =>
+          Number(restaurant.id) || 0
+      )
+    ) + 1;
+
+  let added = 0;
+
+  const orderedCandidates = [
+    ...candidatesByName.values()
+  ].sort(
+    (a, b) =>
+      b.signalScore - a.signalScore
+  );
+
+  for (
+    const candidate of orderedCandidates
+  ) {
+    if (
+      added >=
+      MAX_NEW_RESTAURANTS_PER_RUN
+    ) {
+      break;
+    }
+
+    const nameKey =
+      normaliseName(candidate.name);
+
+    if (knownNames.has(nameKey)) {
+      continue;
+    }
+
+    if (
+      candidate.signalScore <
+        MIN_NEW_SIGNAL_SCORE ||
+      !candidate.address ||
+      !candidate.cuisine ||
+      !candidate.pricePerPerson ||
+      candidate.pricePerPerson
+        .confidence === 'low'
+    ) {
+      continue;
+    }
+
+    candidate.coordinates =
+      await geocodeRestaurant(candidate);
+
+    if (
+      !hasValidCoordinates(
+        candidate.coordinates
+      )
+    ) {
+      console.warn(
+        `Rejected ${candidate.name}: ` +
+        'no valid address-level coordinates.'
+      );
+
+      continue;
+    }
+
+    refreshed.push({
+      id: nextId++,
+      name: candidate.name,
+      cuisine: candidate.cuisine,
+      area: candidate.area,
+      suburb: candidate.suburb,
+      address: candidate.address,
+      googleMapsUrl:
+        candidate.googleMapsUrl,
+      coordinates:
+        candidate.coordinates,
+      trend: candidate.trend,
+      pricePerPerson:
+        candidate.pricePerPerson,
+      summary: candidate.summary,
+      cons: candidate.cons,
+      menuHighlights:
+        candidate.menuHighlights,
+      dietary: candidate.dietary,
+      themes: candidate.themes,
+      comments: [],
+      source: candidate.source.url,
+      latestNews: mergeNews(
+        [],
+        [
+          candidate.source,
+          ...relatedNews(
+            candidate.name,
+            allNews
+          )
+        ]
+      ),
+      updatedAt
+    });
+
+    knownNames.add(nameKey);
+    added += 1;
+  }
+
+  /*
+   * Backfill only missing coordinates.
+   *
+   * Coordinates already stored in the database
+   * are cached and reused.
+   */
+  for (const restaurant of refreshed) {
+    if (
+      !hasValidCoordinates(
+        restaurant.coordinates
+      )
+    ) {
+      restaurant.coordinates =
+        await geocodeRestaurant(
+          restaurant
+        );
+    }
+  }
+
+  const canonical = refreshed.map(
+    (restaurant) =>
+      canonicalRestaurant(
+        restaurant,
+        updatedAt
+      )
+  );
+
+  const validationErrors =
+    canonical.flatMap((restaurant) =>
+      validateRestaurant(
+        restaurant
+      ).map(
+        (field) =>
+          `${restaurant.id}:` +
+          `${restaurant.name}:` +
+          field
+      )
+    );
+
+  const duplicateIds =
+    canonical.filter(
+      (restaurant, index) =>
+        canonical.findIndex(
+          (other) =>
+            other.id === restaurant.id
+        ) !== index
+    );
+
+  const duplicateNames =
+    canonical.filter(
+      (restaurant, index) =>
+        canonical.findIndex(
+          (other) =>
+            normaliseName(other.name) ===
+            normaliseName(
+              restaurant.name
+            )
+        ) !== index
+    );
+
+  if (
+    validationErrors.length ||
+    duplicateIds.length ||
+    duplicateNames.length
+  ) {
+    console.error(
+      JSON.stringify(
+        {
+          validationErrors,
+          duplicateIds:
+            duplicateIds.map(
+              (restaurant) => ({
+                id: restaurant.id,
+                name: restaurant.name
+              })
+            ),
+          duplicateNames:
+            duplicateNames.map(
+              (restaurant) => ({
+                id: restaurant.id,
+                name: restaurant.name
+              })
+            )
+        },
+        null,
+        2
+      )
+    );
+
+    throw new Error(
+      'Database validation failed; ' +
+      'the existing database was left unchanged.'
+    );
+  }
+
+  database.schemaVersion = 1;
+  database.updatedAt = updatedAt;
+  database.restaurants = canonical;
+
+  if (!DRY_RUN) {
+    await writeFile(
+      TEMP_DATABASE_PATH,
+      `${JSON.stringify(database, null, 2)}\n`
+    );
+
+    await rename(
+      TEMP_DATABASE_PATH,
+      DATABASE_PATH
+    );
+  }
+
+  console.log(
+    JSON.stringify(
+      {
+        message: DRY_RUN
+          ? 'Dry run completed'
+          : 'Restaurant database updated',
+        totalProfiles:
+          canonical.length,
+        addedProfiles:
+          added,
+        scannedNewsItems:
+          allNews.length,
+        enrichedCandidates:
+          candidates.length,
+        profilesWithCoordinates:
+          canonical.filter(
+            (restaurant) =>
+              hasValidCoordinates(
+                restaurant.coordinates
+              )
+          ).length,
+        profilesWithPrices:
+          canonical.filter(
+            (restaurant) =>
+              restaurant.pricePerPerson
+          ).length
+      },
+      null,
+      2
+    )
+  );
+}
+
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});
