@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 
 const searches = [
   { query: 'Sydney restaurant opening', topic: 'New opening' },
@@ -67,5 +67,16 @@ const unique = [...new Map(all.map(item => [item.title.toLowerCase(), item])).va
 if (!unique.length) throw new Error('No public food-news items were returned; leaving the existing feed untouched.');
 
 await mkdir('dist/data', { recursive: true });
-await writeFile('dist/data/viral-feed.json', `${JSON.stringify({ updatedAt: new Date().toISOString(), items: unique }, null, 2)}\n`);
-console.log(`Updated ${unique.length} daily food-news links.`);
+const updatedAt = new Date().toISOString();
+const databasePath = 'dist/data/restaurant-database.json';
+const database = JSON.parse(await readFile(databasePath, 'utf8'));
+database.updatedAt = updatedAt;
+database.dailyLeads = unique;
+database.restaurants = (database.restaurants || []).map(restaurant => ({
+  ...restaurant,
+  latestNews: unique.filter(item => item.title.toLowerCase().includes(restaurant.name.toLowerCase())).slice(0, 3)
+}));
+
+await writeFile(databasePath, `${JSON.stringify(database, null, 2)}\n`);
+await writeFile('dist/data/viral-feed.json', `${JSON.stringify({ updatedAt, items: unique }, null, 2)}\n`);
+console.log(`Updated restaurant database with ${database.restaurants.length} profiles and ${unique.length} daily discovery leads.`);
