@@ -9,8 +9,8 @@
 <header><div class="brand">Sydney Food <i>Pulse</i></div><div class="updated">Editorial snapshot · 4 Sep 2026</div></header>
 <main><section class="intro"><h1>What’s worth<br>the <em>hype?</em></h1><p>A candid pulse-check on Sydney’s most talked-about tables—what to order, what diners love, and the catch before you go.</p></section>
 <section class="controls"><label class="search"><input id="search" class="control" placeholder="Search restaurant or suburb" aria-label="Search"></label><select id="cuisine" class="control" aria-label="Cuisine"><option>All cuisines</option><option>Italian</option><option>Japanese</option><option>Modern Australian</option><option>Chinese</option><option>Bakery</option></select><select id="location" class="control" aria-label="Location"><option>All locations</option><option>CBD & Inner City</option><option>Eastern Suburbs</option><option>Northern Beaches</option><option>Inner West</option></select><div class="toggle"><button id="listBtn" class="active">List</button><button id="mapBtn">Map</button></div></section>
-<section class="buzz" aria-labelledby="buzz-title"><div class="buzzhead"><h2 id="buzz-title">Today’s food buzz</h2><small id="buzz-updated">Loading public food-news feeds…</small></div><div class="buzzgrid" id="buzz-items"></div></section>
-<div class="layout"><section class="results"><div class="resultbar"><span id="count">6 places</span><span>Tap a card for 5 review themes</span></div><div id="cards"></div></section><aside class="mapwrap"><div class="map" id="map"><div class="maptitle">Sydney talk-of-town map</div><div class="legend" id="legend"><b>Select a place</b><small>See its suburb, cuisine and candid verdict</small></div></div></aside></div>
+<section class="buzz" aria-labelledby="buzz-title"><div class="buzzhead"><h2 id="buzz-title">Daily food radar</h2><small id="buzz-updated">Loading public food-news and social signals…</small></div><div class="buzzgrid" id="buzz-items"></div><button class="buzzmore hidden" id="buzz-more" type="button">Show more sources</button></section>
+<div class="layout"><section class="results"><div class="resultbar"><span id="count">6 editorial profiles</span><span id="lead-count">Daily discovery leads loading…</span></div><div id="cards"></div></section><aside class="mapwrap"><div class="map" id="map"><div class="maptitle">Sydney talk-of-town map</div><div class="legend" id="legend"><b>Select a place</b><small>See its suburb, cuisine and candid verdict</small></div></div></aside></div>
 <p class="disclaimer">Ratings are editorial snapshots gathered from public listings and may change. “Top comments” are paraphrased recurring themes, not verbatim quotes. New venues may not yet have a Tripadvisor score. Always check the linked listing before travelling.</p></main>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script><script>
 const places=[
@@ -29,7 +29,7 @@ function bind(){document.querySelectorAll('[data-id]').forEach(el=>el.onclick=e=
 // Legacy renderer retained for its restaurant data and daily-feed helper; the resilient renderer below owns all UI events.
 </script><script>
 (() => {
-  document.head.insertAdjacentHTML('beforeend', '<style>.map:after{display:none}.maptitle,.legend{z-index:1000}.map .leaflet-control-zoom{margin-top:72px}.leaflet-popup-content-wrapper{font:14px/1.4 DM Sans,sans-serif;border-radius:9px}.leaflet-popup-content b{font:700 17px Playfair Display,serif}</style>');
+  document.head.insertAdjacentHTML('beforeend', '<style>.map:after{display:none}.maptitle,.legend{z-index:1000}.map .leaflet-control-zoom{margin-top:72px}.leaflet-popup-content-wrapper{font:14px/1.4 DM Sans,sans-serif;border-radius:9px}.leaflet-popup-content b{font:700 17px Playfair Display,serif}.buzzmore{margin-top:13px;border:1px solid #668075;background:transparent;color:white;border-radius:7px;padding:8px 12px;cursor:pointer}.buzzitem em{font-style:normal;color:#dafa63}</style>');
   const searchInput = document.getElementById('search');
   const cuisineSelect = document.getElementById('cuisine');
   const locationSelect = document.getElementById('location');
@@ -43,6 +43,31 @@ function bind(){document.querySelectorAll('[data-id]').forEach(el=>el.onclick=e=
   const foodMap = L.map(mapEl,{scrollWheelZoom:false}).setView([-33.8700,151.2150],11);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}).addTo(foodMap);
   const markerLayer = L.layerGroup().addTo(foodMap);
+  const buzzEl = document.getElementById('buzz-items');
+  const buzzMore = document.getElementById('buzz-more');
+  let dailyItems = [];
+  let buzzExpanded = false;
+  function renderDailyItems(){
+    const shown = dailyItems.slice(0,buzzExpanded ? 30 : 9);
+    buzzEl.innerHTML=shown.map(item=>`<a class="buzzitem" href="${item.url}" target="_blank" rel="noopener"><b>${item.title}</b><span>${item.topic?`<em>${item.topic}</em> · `:''}${item.source||'Public food news'} ↗</span></a>`).join('');
+    buzzMore.classList.toggle('hidden',dailyItems.length<=9);
+    buzzMore.textContent=buzzExpanded?'Show fewer sources':`Show ${Math.min(dailyItems.length-9,21)} more sources`;
+  }
+  buzzMore.addEventListener('click',()=>{buzzExpanded=!buzzExpanded;renderDailyItems()});
+  loadDailyBuzz=async function(){
+    try{
+      const response=await fetch('data/viral-feed.json',{cache:'no-store'});
+      if(!response.ok)throw new Error('No feed');
+      const feed=await response.json();
+      dailyItems=(feed.items||[]).slice(0,30);
+      document.getElementById('buzz-updated').textContent=feed.updatedAt?`${dailyItems.length} sources · updated ${new Date(feed.updatedAt).toLocaleDateString('en-AU',{day:'numeric',month:'short'})}`:'Latest public food-news and social signals';
+      document.getElementById('lead-count').textContent=`${dailyItems.length||'Fresh'} daily discovery leads`;
+      renderDailyItems();
+    }catch{
+      document.getElementById('buzz-updated').textContent='Daily source refresh is being prepared';
+      buzzEl.innerHTML='<span>Restaurant cards below remain available while the next source update loads.</span>';
+    }
+  };
 
   function visiblePlaces(){
     const query = searchInput.value.toLowerCase();
@@ -57,7 +82,7 @@ function bind(){document.querySelectorAll('[data-id]').forEach(el=>el.onclick=e=
   function render(){
     const data=visiblePlaces();
     if(!data.some(place=>place.id===selected)) selected=data[0]?.id || null;
-    countEl.textContent=`${data.length} place${data.length===1?'':'s'}`;
+    countEl.textContent=`${data.length} editorial profile${data.length===1?'':'s'}`;
     cardsEl.innerHTML=data.length ? data.map(place=>`<article class="card ${selected===place.id?'active':''}" data-id="${place.id}"><div class="cardtop"><div><span class="trend">${place.trend}</span><h2>${place.name}</h2><div class="meta">${place.cuisine} · ${place.suburb}</div></div><div class="ratings"><a class="rating" target="_blank" rel="noopener" href="${place.googleurl}">Google ★ ${place.google}</a><a class="rating" target="_blank" rel="noopener" href="${place.tripurl}">Tripadvisor ● ${place.trip}</a></div></div>${place.image?`<img class="heroimg" src="${place.image}" alt="Sydney restaurant dining">`:''}<p class="summary">${place.summary}</p><div class="cons"><b>Worth knowing:</b> ${place.cons}</div><div class="themes">${place.themes.map(theme=>`<span>${theme}</span>`).join('')}</div><div class="details"><b>Top 5 recurring comment themes</b><ol>${place.comments.map(comment=>`<li>${comment}</li>`).join('')}</ol><div class="source">Public-source summary: <a href="${place.source}" target="_blank" rel="noopener">read the source ↗</a></div></div></article>`).join('') : '<div class="empty"><b>No matches yet.</b><br>Try clearing a filter.</div>';
     cardsEl.querySelectorAll('.card').forEach(card=>card.addEventListener('click',event=>{if(!event.target.closest('a')) selectPlace(Number(card.dataset.id),false)}));
     markerLayer.clearLayers();
