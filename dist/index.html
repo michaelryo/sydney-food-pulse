@@ -13,7 +13,7 @@
 <div class="layout"><section class="results"><div class="resultbar"><span id="count">6 editorial profiles</span><span id="lead-count">Daily discovery leads loading…</span></div><div id="cards"></div></section><aside class="mapwrap"><div class="map" id="map"><div class="maptitle">Sydney talk-of-town map</div><div class="legend" id="legend"><b>Select a place</b><small>See its suburb, cuisine and candid verdict</small></div></div></aside></div>
 <p class="disclaimer">Restaurant cards are editorial summaries. Review buttons open the live Google and Tripadvisor listings, where available. “Top comments” are paraphrased recurring themes, not verbatim quotes. Always check the linked listing before travelling.</p></main>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script><script>
-const places=[
+let places=[
 {id:1,name:'Fishnets',cuisine:'Japanese',area:'Eastern Suburbs',suburb:'Bronte',trend:'Buzzing now',google:'4.7',trip:'New · no score',pos:[59,63],summary:'Omakase-level technique without the hushed ceremony: sushi, shareable tuna katsu and Japanese-influenced plates using Australian produce.',cons:'Set menus start around $92pp; the narrow neighbourhood room fills quickly.',themes:['excellent fish quality','inventive tuna katsu','relaxed service','smart wine list','mapo gelato surprise'],comments:['Fish quality feels special-occasion level.','Tuna katsu is the share plate people remember.','Service is polished without being stiff.','Wine pairings suit the seafood-heavy menu.','The unusual mapo gelato divides opinion—in a fun way.'],source:'https://www.broadsheet.com.au/sydney/food-and-drink/article/fishnets-bronte-japanese-first-look',tripurl:'https://www.tripadvisor.com/Search?q=Fishnets%20Bronte',googleurl:'https://www.google.com/maps/search/?api=1&query=Fishnets+Bronte',image:'https://cdn.broadsheet.com.au/cache/c1/be/c1be846c4aed6de142e27022c4023d93.jpg'},
 {id:2,name:'The Hideaway',cuisine:'Modern Australian',area:'Eastern Suburbs',suburb:'Bondi Junction',trend:'New opening',google:'4.6',trip:'Not yet rated',pos:[52,55],summary:'A moody underground restaurant and cocktail bar inspired by New York’s late-night dining scene, with live music as dinner rolls into drinks.',cons:'Premium pricing and dim lighting; the hidden downstairs entrance is easy to miss.',themes:['cinematic atmosphere','tableside tartare','late-night energy','strong cocktails','pricey night out'],comments:['The basement setting feels genuinely transportive.','Tableside beef tartare is a recurring highlight.','Cocktails and live music make it a full night out.','Staff are attentive even as the room gets louder.','Several diners note the bill climbs quickly.'],source:'https://www.notquitenigella.com/2026/06/30/the-hideaway-bondi/',tripurl:'https://www.tripadvisor.com/Search?q=The%20Hideaway%20Bondi%20Junction',googleurl:'https://www.google.com/maps/search/?api=1&query=The+Hideaway+Bondi+Junction'},
 {id:3,name:'Trattoria Da Orazio',cuisine:'Italian',area:'Eastern Suburbs',suburb:'Rushcutters Bay',trend:'Just opened',google:'New listing',trip:'Not yet rated',pos:[45,49],summary:'Orazio D’Elia returns to his former Rushcutters Bay kitchen with an all-regions Italian trattoria built for lively, generous group meals.',cons:'Fresh opening means limited review history; busy launch-period bookings are likely.',themes:['confident Italian cooking','great for groups','lively room','regional menu','booking pressure'],comments:['The menu goes beyond the usual red-sauce classics.','Share-style portions work well for groups.','The room has an energetic neighbourhood feel.','Pizza and handmade pasta lead early favourites.','Prime dinner times are already hard to secure.'],source:'https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/',tripurl:'https://www.tripadvisor.com/Search?q=Trattoria%20Da%20Orazio',googleurl:'https://www.google.com/maps/search/?api=1&query=Trattoria+Da+Orazio+Rushcutters+Bay'},
@@ -68,6 +68,22 @@ function bind(){document.querySelectorAll('[data-id]').forEach(el=>el.onclick=e=
       buzzEl.innerHTML='<span>Restaurant cards below remain available while the next source update loads.</span>';
     }
   };
+  async function loadRestaurantDatabase(){
+    try{
+      const response=await fetch('data/restaurant-database.json',{cache:'no-store'});
+      if(!response.ok)throw new Error('No database');
+      const database=await response.json();
+      if(Array.isArray(database.restaurants)&&database.restaurants.length) places=database.restaurants;
+      dailyItems=Array.isArray(database.dailyLeads)?database.dailyLeads.slice(0,30):[];
+      document.getElementById('buzz-updated').textContent=database.updatedAt?`${dailyItems.length} sources · updated ${new Date(database.updatedAt).toLocaleDateString('en-AU',{day:'numeric',month:'short'})}`:'Restaurant database';
+      document.getElementById('lead-count').textContent=`${dailyItems.length||'Fresh'} daily discovery leads`;
+      renderDailyItems();
+      render();
+    }catch{
+      document.getElementById('buzz-updated').textContent='Restaurant database is being prepared';
+      buzzEl.innerHTML='<span>Restaurant cards remain available while the latest database update loads.</span>';
+    }
+  }
 
   function visiblePlaces(){
     const query = searchInput.value.toLowerCase();
@@ -94,6 +110,6 @@ function bind(){document.querySelectorAll('[data-id]').forEach(el=>el.onclick=e=
   [searchInput,cuisineSelect,locationSelect].forEach(control=>control.addEventListener(control.tagName==='INPUT'?'input':'change',render));
   mapButton.addEventListener('click',()=>{mapButton.classList.add('active');listButton.classList.remove('active');mapEl.scrollIntoView({behavior:'smooth',block:'center'});setTimeout(()=>foodMap.invalidateSize(),300)});
   listButton.addEventListener('click',()=>{listButton.classList.add('active');mapButton.classList.remove('active');cardsEl.scrollIntoView({behavior:'smooth',block:'start'})});
-  render(); loadDailyBuzz();
+  render(); loadRestaurantDatabase();
 })();
 </script></body></html>
