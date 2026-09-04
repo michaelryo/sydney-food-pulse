@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-04T10:33:49.334Z",
+  "updatedAt": "2026-09-04T10:39:21.002Z",
   "restaurants": [
     {
       "id": 1,
@@ -8,6 +8,8 @@
       "cuisine": "Japanese",
       "area": "Eastern Suburbs",
       "suburb": "Bronte",
+      "address": "Shop 1, 118 Macpherson Street, Bronte NSW 2024",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Fishnets%2C%20Shop%201%2C%20118%20Macpherson%20Street%2C%20Bronte%20NSW%202024",
       "trend": "Buzzing now",
       "pos": [
         59,
@@ -187,62 +189,6 @@
           "title": "Odd Culture Group reveals first look at CBD osteria Bar Bruno - hospitality | Magazine",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZzMwb3BpVm5XNDMyRWVRYVRIN2NMX2pQeHNTeHJfZDlWek9nekh3NHc4TXVKUUx4eGRsbWkzZjIwbG53N1UzRlpaMW9fRGY5a19HSHc0cTd6MGtSazZ6SDMxYU54RllEYnhBQnpLVEtUWjFHVllqamdwSnF3UzFRdmttTnVPenlsSVduMFZaNXo3ZGlzRmlwYW9CV2RTYnhwYjBnbmJmLS1tLVVz?oc=5",
           "source": "hospitality | Magazine",
-          "topic": "New opening"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "name": "Ashe",
-      "cuisine": "To be confirmed",
-      "area": "CBD & Inner City",
-      "suburb": "Sydney CBD",
-      "coordinates": [
-        -33.8667,
-        151.2104
-      ],
-      "trend": "Newly found",
-      "summary": "New restaurant profile found in SMH.com.au. Details will be expanded from the linked source.",
-      "cons": "Menu, dietary options and review links have not yet been verified.",
-      "themes": [
-        "newly found",
-        "New opening"
-      ],
-      "comments": [],
-      "source": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY2Q2ZTdBcUIyUW1OdWlDSm5scEgwa1F6eWlhUjd3Xzdjdy1IVHdMdFlTQXFRUDBGZWJJQ2R2SGxkckEwUDdYcEJkX1IzWVAzVm52RFlPZ2QzVjdxdThkTWpfejZ4c1NmRko4cmVUSnJsUHBKblptTlFWTVhxZzVmREdNczFiZUxDdi10U195cUFkSEIzMzZiUg?oc=5",
-      "latestNews": [
-        {
-          "title": "King Clarence chef Khanh Nguyen delivers high-octane flavours at Angel Place restaurant Ashe - SMH.com.au",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY2Q2ZTdBcUIyUW1OdWlDSm5scEgwa1F6eWlhUjd3Xzdjdy1IVHdMdFlTQXFRUDBGZWJJQ2R2SGxkckEwUDdYcEJkX1IzWVAzVm52RFlPZ2QzVjdxdThkTWpfejZ4c1NmRko4cmVUSnJsUHBKblptTlFWTVhxZzVmREdNczFiZUxDdi10U195cUFkSEIzMzZiUg?oc=5",
-          "source": "SMH.com.au",
-          "topic": "New opening"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "name": "The Oriana",
-      "cuisine": "To be confirmed",
-      "area": "CBD & Inner City",
-      "suburb": "Sydney CBD",
-      "coordinates": [
-        -33.8667,
-        151.2104
-      ],
-      "trend": "Newly found",
-      "summary": "New restaurant profile found in delicious.com.au. Details will be expanded from the linked source.",
-      "cons": "Menu, dietary options and review links have not yet been verified.",
-      "themes": [
-        "newly found",
-        "New opening"
-      ],
-      "comments": [],
-      "source": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPamtCQzFKc0ozRTdPWlkxdEFjT2xad3hFekpubWRJWF9FWWpkUHhMZlhtWlBJcmJfNlBmODktU2x2WVotb19WY0dCMU5aXy1CRlJNblQ4Y3BtNDJfTllsVUJKdWczNS1lb0RIUk1fcGhDWHpveGdDVFFNUzY5dWpaWjlGLWQ2a244bXJqZl9nanBNQUJxcnBaUUZObEJHZS1xdElfLWFaT0NLUi1zUXhV?oc=5",
-      "latestNews": [
-        {
-          "title": "Introducing The Oriana, the four-storey venue taking over the old Quay site - delicious.com.au",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPamtCQzFKc0ozRTdPWlkxdEFjT2xad3hFekpubWRJWF9FWWpkUHhMZlhtWlBJcmJfNlBmODktU2x2WVotb19WY0dCMU5aXy1CRlJNblQ4Y3BtNDJfTllsVUJKdWczNS1lb0RIUk1fcGhDWHpveGdDVFFNUzY5dWpaWjlGLWQ2a244bXJqZl9nanBNQUJxcnBaUUZObEJHZS1xdElfLWFaT0NLUi1zUXhV?oc=5",
-          "source": "delicious.com.au",
           "topic": "New opening"
         }
       ]
