@@ -88,11 +88,23 @@ function extractRestaurantName(title) {
   return null;
 }
 
-function extractRestaurant(item) {
+function extractAddress(text) {
+  const address = text.match(/\b(?:shop\s*\d+[a-z]?[,/\s-]*)?\d+[a-z]?(?:\/\d+)?\s+[\w’'&.-]+(?:\s+[\w’'&.-]+){0,4}\s+(?:street|st|road|rd|avenue|ave|lane|ln|place|pl|esplanade|parade|pde|drive|dr|way)\b[^.]{0,80}/i)?.[0];
+  return address ? address.replace(/\s+/g, ' ').trim() : null;
+}
+
+async function extractRestaurant(item) {
   const name = extractRestaurantName(item.title);
-  const location = suburbs.find(entry => entry.match.test(item.title));
-  if (!name || !location) return null;
-  return { name, ...location, source: item };
+  if (!name) return null;
+  let pageText = '';
+  try {
+    const response = await fetch(item.url, { headers: { 'user-agent': 'SydneyFoodPulse/1.0' }, signal: AbortSignal.timeout(10000) });
+    if (response.ok) pageText = (await response.text()).replace(/<[^>]+>/g, ' ');
+  } catch { return null; }
+  const location = suburbs.find(entry => entry.match.test(`${item.title} ${pageText}`));
+  const address = extractAddress(pageText);
+  if (!location || !address || !new RegExp(location.suburb, 'i').test(`${address} ${pageText}`)) return null;
+  return { name, address: `${address}, ${location.suburb}, NSW`, ...location, source: item };
 }
 
 await mkdir('dist/data', { recursive: true });
@@ -101,11 +113,11 @@ const databasePath = 'dist/data/restaurant-database.json';
 const database = JSON.parse(await readFile(databasePath, 'utf8'));
 database.updatedAt = updatedAt;
 delete database.dailyLeads;
-const restaurants = database.restaurants || [];
+const restaurants = (database.restaurants || []).filter(restaurant => restaurant.trend !== 'Newly found' || restaurant.address);
 const knownNames = new Set(restaurants.map(restaurant => restaurant.name.toLowerCase()));
 let nextId = Math.max(0, ...restaurants.map(restaurant => restaurant.id || 0)) + 1;
 for (const item of unique) {
-  const candidate = extractRestaurant(item);
+  const candidate = await extractRestaurant(item);
   if (!candidate || knownNames.has(candidate.name.toLowerCase())) continue;
   restaurants.push({
     id: nextId++,
@@ -113,6 +125,8 @@ for (const item of unique) {
     cuisine: 'To be confirmed',
     area: candidate.area,
     suburb: candidate.suburb,
+    address: candidate.address,
+    googleMapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${candidate.name}, ${candidate.address}`)}`,
     coordinates: candidate.coordinates,
     trend: 'Newly found',
     summary: `New restaurant profile found in ${item.source}. Details will be expanded from the linked source.`,
