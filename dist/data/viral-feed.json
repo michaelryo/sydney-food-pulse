@@ -1,0 +1,20 @@
+{
+  "updatedAt": "2026-09-04T08:00:00.000Z",
+  "items": [
+    {
+      "title": "Sydney’s newest restaurant openings and food news",
+      "source": "Gourmet Traveller",
+      "url": "https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/"
+    },
+    {
+      "title": "Sydney food and drink news",
+      "source": "Broadsheet",
+      "url": "https://www.broadsheet.com.au/sydney/food-and-drink"
+    },
+    {
+      "title": "Sydney’s latest restaurant coverage",
+      "source": "Time Out",
+      "url": "https://www.timeout.com/sydney/restaurants"
+    }
+  ]
+}
