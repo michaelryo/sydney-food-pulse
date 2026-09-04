@@ -1,6 +1,5 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-04T10:55:55.372Z",
   "restaurants": [
     {
       "id": 1,
@@ -9,207 +8,438 @@
       "area": "Eastern Suburbs",
       "suburb": "Bronte",
       "address": "Shop 1, 118 Macpherson Street, Bronte NSW 2024",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Fishnets%2C%20Shop%201%2C%20118%20Macpherson%20Street%2C%20Bronte%20NSW%202024",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Fishnets%2C%20118%20Macpherson%20Street%2C%20Bronte%20NSW%202024",
       "trend": "Buzzing now",
-      "pos": [
-        59,
-        63
-      ],
-      "summary": "Omakase-level technique without the hushed ceremony: sushi, shareable tuna katsu and Japanese-influenced plates using Australian produce.",
-      "cons": "Set menus start around $92pp; the narrow neighbourhood room fills quickly.",
-      "themes": [
-        "excellent fish quality",
-        "inventive tuna katsu",
-        "relaxed service",
-        "smart wine list",
-        "mapo gelato surprise"
-      ],
-      "comments": [
-        "Fish quality feels special-occasion level.",
-        "Tuna katsu is the share plate people remember.",
-        "Service is polished without being stiff.",
-        "Wine pairings suit the seafood-heavy menu.",
-        "The unusual mapo gelato divides opinion—in a fun way."
-      ],
-      "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/fishnets-bronte-japanese-first-look",
-      "image": "https://cdn.broadsheet.com.au/cache/c1/be/c1be846c4aed6de142e27022c4023d93.jpg",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 90,
+        "max": 140,
+        "label": "$90–$140 pp",
+        "basis": "Food only; typical shared dinner"
+      },
+      "summary": "Japanese-inspired neighbourhood restaurant with polished nigiri, seafood, tuna katsu and grill dishes.",
+      "cons": "A special-occasion budget; popular dinner sittings can book out.",
+      "source": "https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/",
       "latestNews": [],
-      "updatedAt": "2026-09-04T10:39:21.002Z"
+      "updatedAt": "2026-09-04T11:15:00.000Z"
     },
     {
       "id": 2,
-      "name": "The Hideaway",
-      "cuisine": "Modern Australian",
-      "area": "Eastern Suburbs",
-      "suburb": "Bondi Junction",
-      "trend": "New opening",
-      "pos": [
-        52,
-        55
-      ],
-      "summary": "A moody underground restaurant and cocktail bar inspired by New York’s late-night dining scene, with live music as dinner rolls into drinks.",
-      "cons": "Premium pricing and dim lighting; the hidden downstairs entrance is easy to miss.",
-      "themes": [
-        "cinematic atmosphere",
-        "tableside tartare",
-        "late-night energy",
-        "strong cocktails",
-        "pricey night out"
-      ],
-      "comments": [
-        "The basement setting feels genuinely transportive.",
-        "Tableside beef tartare is a recurring highlight.",
-        "Cocktails and live music make it a full night out.",
-        "Staff are attentive even as the room gets louder.",
-        "Several diners note the bill climbs quickly."
-      ],
-      "source": "https://www.notquitenigella.com/2026/06/30/the-hideaway-bondi/",
-      "latestNews": [
-        {
-          "title": "Just Opened - The Hideaway, Bondi - Not Quite Nigella",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9kYkYzWDFYZzRVeUFzUU9SanBIR2otbUpXQVB0Znp5NlBvUHJXQUpOQ1BQQWxFeF9FZGhxSF9sdVBNQklkYmRicjlxOUxKVnotWnQ1T2xMODM5c0Z3ZV9TQWRQSVRYZVJmZUF3SHYzUQ?oc=5",
-          "source": "Not Quite Nigella",
-          "topic": "New opening"
-        }
-      ],
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Hideaway%2C%20Bondi%20Junction%2C%20Sydney",
-      "updatedAt": "2026-09-04T10:55:55.372Z"
-    },
-    {
-      "id": 3,
       "name": "Trattoria Da Orazio",
       "cuisine": "Italian",
       "area": "Eastern Suburbs",
       "suburb": "Rushcutters Bay",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Trattoria%20Da%20Orazio%2C%20Rushcutters%20Bay%2C%20Sydney",
-      "trend": "Just opened",
-      "pos": [
-        45,
-        49
-      ],
-      "summary": "Orazio D’Elia returns to his former Rushcutters Bay kitchen with an all-regions Italian trattoria built for lively, generous group meals.",
-      "cons": "Fresh opening means limited review history; busy launch-period bookings are likely.",
-      "themes": [
-        "confident Italian cooking",
-        "great for groups",
-        "lively room",
-        "regional menu",
-        "booking pressure"
-      ],
-      "comments": [
-        "The menu goes beyond the usual red-sauce classics.",
-        "Share-style portions work well for groups.",
-        "The room has an energetic neighbourhood feel.",
-        "Pizza and handmade pasta lead early favourites.",
-        "Prime dinner times are already hard to secure."
-      ],
+      "address": "33 Bayswater Road, Rushcutters Bay NSW 2011",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Trattoria%20Da%20Orazio%2C%20Rushcutters%20Bay%20NSW%202011",
+      "trend": "New opening",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 60,
+        "max": 100,
+        "label": "$60–$100 pp",
+        "basis": "Food only; pasta, shared starters and dessert"
+      },
+      "summary": "Orazio D'Elia's lively all-regions Italian trattoria, with handmade pasta, seafood and charcoal-grilled dishes.",
+      "cons": "Prime dinner bookings are likely to be competitive.",
       "source": "https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/",
       "latestNews": [],
-      "updatedAt": "2026-09-04T10:39:21.002Z"
+      "updatedAt": "2026-09-04T11:15:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Stanley at Manly Wharf",
+      "cuisine": "Cantonese",
+      "area": "Northern Beaches",
+      "suburb": "Manly",
+      "address": "Manly Wharf, East Esplanade, Manly NSW 2095",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Stanley%20at%20Manly%20Wharf%2C%20East%20Esplanade%2C%20Manly%20NSW%202095",
+      "trend": "Buzzing now",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 85,
+        "max": 140,
+        "label": "$85–$140 pp",
+        "basis": "Food only; shared seafood-focused dinner"
+      },
+      "summary": "Louis Tikaram's waterfront Cantonese restaurant with dim sum, seafood tanks and tableside Peking duck.",
+      "cons": "Premium seafood pricing and a ferry or drive from the CBD.",
+      "source": "https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/",
+      "latestNews": [],
+      "updatedAt": "2026-09-04T11:15:00.000Z"
     },
     {
       "id": 4,
-      "name": "Stanley at Manly Wharf",
-      "cuisine": "Chinese",
-      "area": "Northern Beaches",
-      "suburb": "Manly",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Stanley%20at%20Manly%20Wharf%2C%20Manly%2C%20Sydney",
-      "trend": "Opening soon",
-      "pos": [
-        68,
-        23
-      ],
-      "summary": "Louis Tikaram’s 212-seat Hong Kong-inspired waterfront restaurant promises live seafood, Cantonese dishes and tableside Peking duck.",
-      "cons": "Not open at snapshot date; hype is based on previews, so service and value are untested.",
-      "themes": [
-        "waterfront setting",
-        "Peking duck theatre",
-        "live seafood",
-        "large dining room",
-        "watchlist only"
-      ],
-      "comments": [
-        "The Manly Wharf location is the headline attraction.",
-        "Tableside duck service should suit celebrations.",
-        "A custom duck oven signals serious intent.",
-        "The 212-seat scale could make it lively rather than intimate.",
-        "No diner consensus exists until doors officially open."
-      ],
-      "source": "https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/",
+      "name": "Da Orazio Pasticceria",
+      "cuisine": "Italian bakery",
+      "area": "Inner West",
+      "suburb": "Alexandria",
+      "address": "5/29-41 O'Riordan Street, Alexandria NSW 2015",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Da%20Orazio%20Pasticceria%2C%20Alexandria%20NSW%202015",
+      "trend": "Social favourite",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 15,
+        "max": 35,
+        "label": "$15–$35 pp",
+        "basis": "Pastry, focaccia and coffee"
+      },
+      "summary": "Roman-style bakery known for maritozzi, focaccia sandwiches and polished Italian pastries.",
+      "cons": "Popular items can sell out and the Alexandria location is less convenient without a car.",
+      "source": "https://www.tripadvisor.com/Restaurant_Review-g28028666-d34036637-Reviews-Da_Orazio_Pasticceria-Alexandria_New_South_Wales.html",
       "latestNews": [],
-      "updatedAt": "2026-09-04T10:39:21.002Z"
+      "updatedAt": "2026-09-04T11:15:00.000Z"
     },
     {
       "id": 5,
-      "name": "Da Orazio Pasticceria",
-      "cuisine": "Bakery",
-      "area": "Inner West",
-      "suburb": "Alexandria",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Da%20Orazio%20Pasticceria%2C%20Alexandria%2C%20Sydney",
-      "trend": "Social favourite",
-      "pos": [
-        30,
-        69
-      ],
-      "summary": "A Roman-style bakery and all-day stop from the Da Orazio team—known for maritozzi, focaccia sandwiches and polished Italian pastries.",
-      "cons": "Industrial-area location is less convenient without a car; Tripadvisor’s sample is very small.",
-      "themes": [
-        "beautiful maritozzi",
-        "airy focaccia",
-        "quality coffee",
-        "weekend queues",
-        "awkward location"
-      ],
-      "comments": [
-        "Cream-filled maritozzi are the social-media magnet.",
-        "Focaccia texture earns repeat praise.",
-        "Coffee holds its own beside the pastries.",
-        "Popular items can sell out later in the day.",
-        "The industrial setting is a practical drawback."
-      ],
-      "source": "https://www.tripadvisor.com/Restaurant_Review-g28028666-d34036637-Reviews-Da_Orazio_Pasticceria-Alexandria_New_South_Wales.html",
-      "tripadvisorReviewUrl": "https://www.tripadvisor.com/Restaurant_Review-g28028666-d34036637-Reviews-Da_Orazio_Pasticceria-Alexandria_New_South_Wales.html",
-      "latestNews": [],
-      "updatedAt": "2026-09-04T10:39:21.002Z"
-    },
-    {
-      "id": 6,
       "name": "Bar Bruno",
       "cuisine": "Italian",
       "area": "CBD & Inner City",
       "suburb": "Sydney CBD",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Bruno%2C%20Sydney%20CBD%2C%20Sydney",
-      "trend": "Editors’ pick",
-      "pos": [
-        42,
-        41
-      ],
-      "summary": "A compact Italian wine bar where snacks, handmade pasta and a sharp by-the-glass list matter more than white-tablecloth ceremony.",
-      "cons": "Small room, close tables and limited space for larger groups; peak sessions feel busy.",
-      "themes": [
-        "excellent pasta",
-        "thoughtful wine",
-        "intimate room",
-        "warm staff",
-        "tight seating"
-      ],
-      "comments": [
-        "Pasta is the dish category most likely to impress.",
-        "The by-the-glass wine list rewards curiosity.",
-        "Staff recommendations make ordering easy.",
-        "The close-set room feels cosy to some, cramped to others.",
-        "Best suited to pairs or small groups."
-      ],
+      "address": "281 Clarence Street, Sydney NSW 2000",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Bruno%2C%20281%20Clarence%20Street%2C%20Sydney%20NSW%202000",
+      "trend": "Editors' pick",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 55,
+        "max": 95,
+        "label": "$55–$95 pp",
+        "basis": "Food only; snacks and shared dinner"
+      },
+      "summary": "Rustic all-day Italian osteria from Odd Culture Group, with crudo, seafood, cotoletta and Italian wine.",
+      "cons": "Peak periods can feel busy and it is better for smaller groups.",
       "source": "https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/",
-      "latestNews": [
-        {
-          "title": "Odd Culture Group reveals first look at CBD osteria Bar Bruno - hospitalitymagazine.com.au",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZzMwb3BpVm5XNDMyRWVRYVRIN2NMX2pQeHNTeHJfZDlWek9nekh3NHc4TXVKUUx4eGRsbWkzZjIwbG53N1UzRlpaMW9fRGY5a19HSHc0cTd6MGtSazZ6SDMxYU54RllEYnhBQnpLVEtUWjFHVllqamdwSnF3UzFRdmttTnVPenlsSVduMFZaNXo3ZGlzRmlwYW9CV2RTYnhwYjBnbmJmLS1tLVVz?oc=5",
-          "source": "hospitalitymagazine.com.au",
-          "topic": "New opening"
-        }
-      ],
-      "updatedAt": "2026-09-04T10:55:55.372Z"
+      "latestNews": [],
+      "updatedAt": "2026-09-04T11:15:00.000Z"
+    },
+    {
+      "id": 6,
+      "name": "Ashe",
+      "cuisine": "Southeast Asian",
+      "area": "CBD & Inner City",
+      "suburb": "Sydney CBD",
+      "address": "4 Ash Street, Sydney NSW 2000",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ashe%2C%204%20Ash%20Street%2C%20Sydney%20NSW%202000",
+      "trend": "Major 2026 opening",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 90,
+        "max": 150,
+        "label": "$90–$150 pp",
+        "basis": "Food only; shared dinner"
+      },
+      "summary": "Khanh Nguyen's high-profile Southeast Asian grill, using Vietnamese, Thai and Malaysian influences with Australian produce.",
+      "cons": "Premium pricing and several dishes have chilli or rich meat elements.",
+      "source": "https://www.broadsheet.com.au/sydney/restaurants/ashe",
+      "latestNews": [],
+      "updatedAt": "2026-09-04T11:15:00.000Z"
+    },
+    {
+      "id": 7,
+      "name": "Krung",
+      "cuisine": "Thai",
+      "area": "CBD & Inner City",
+      "suburb": "Haymarket",
+      "address": "Shop 137, 414-418 Pitt Street, Haymarket NSW 2000",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Krung%2C%20414-418%20Pitt%20Street%2C%20Haymarket%20NSW%202000",
+      "trend": "Buzzing now",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 25,
+        "max": 45,
+        "label": "$25–$45 pp",
+        "basis": "Food only; main plus shared dish"
+      },
+      "summary": "Late-night Thai Town restaurant from the Abb Air team, known for regional pad Thai options and charcoal-grilled dishes.",
+      "cons": "Loud late-night energy; some dishes are properly spicy.",
+      "source": "https://www.timeout.com/sydney/news/sydneys-new-thai-eatery-has-four-types-of-pad-thai-and-its-open-until-2am-081826",
+      "latestNews": [],
+      "updatedAt": "2026-09-04T11:15:00.000Z"
+    },
+    {
+      "id": 8,
+      "name": "Pasta Shop",
+      "cuisine": "Italian",
+      "area": "CBD & Inner City",
+      "suburb": "Potts Point",
+      "address": "37 Bayswater Road, Potts Point NSW 2011",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pasta%20Shop%2C%2037%20Bayswater%20Road%2C%20Potts%20Point%20NSW%202011",
+      "trend": "Social favourite",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 22,
+        "max": 35,
+        "label": "$22–$35 pp",
+        "basis": "Food only; pasta and optional starter"
+      },
+      "summary": "A casual 35-seat pasta restaurant with BYO and every main dish priced under $30.",
+      "cons": "Very small and walk-in focused, so waits are common at dinner.",
+      "source": "https://pastashopsydney.com/",
+      "latestNews": [],
+      "updatedAt": "2026-09-04T11:15:00.000Z"
+    },
+    {
+      "id": 9,
+      "name": "Taco + Vino",
+      "cuisine": "Mexican",
+      "area": "CBD & Inner City",
+      "suburb": "Potts Point",
+      "address": "5 Kellett Street, Potts Point NSW 2011",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Taco%20%2B%20Vino%2C%205%20Kellett%20Street%2C%20Potts%20Point%20NSW%202011",
+      "trend": "New opening",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 40,
+        "max": 65,
+        "label": "$40–$65 pp",
+        "basis": "Food only; taco-focused dinner"
+      },
+      "summary": "Mexico City-style taqueria serving freshly made tortillas and premium beef gaonera tacos.",
+      "cons": "Focused menu and compact room; less suitable for a large group.",
+      "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/taco-vino-potts-point-mexican-open",
+      "latestNews": [],
+      "updatedAt": "2026-09-04T11:15:00.000Z"
+    },
+    {
+      "id": 10,
+      "name": "Winnie's",
+      "cuisine": "Modern Australian",
+      "area": "CBD & Inner City",
+      "suburb": "Circular Quay",
+      "address": "Lower Concourse, Sydney Opera House, Sydney NSW 2000",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Winnie%27s%2C%20Sydney%20Opera%20House%2C%20Sydney%20NSW%202000",
+      "trend": "New opening",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 45,
+        "max": 75,
+        "label": "$45–$75 pp",
+        "basis": "Food only; share plates or main meal"
+      },
+      "summary": "Large all-day waterfront venue under the Opera House, suited to seafood, snacks and sunset drinks.",
+      "cons": "Tourist-heavy at peak times and the best harbour tables are competitive.",
+      "source": "https://www.sydneyoperahouse.com/visit/eat-drink/winnies",
+      "latestNews": [],
+      "updatedAt": "2026-09-04T11:15:00.000Z"
+    },
+    {
+      "id": 11,
+      "name": "Chebbo's Burgers",
+      "cuisine": "Burgers",
+      "area": "Inner West",
+      "suburb": "Marrickville",
+      "address": "308 Victoria Road, Marrickville NSW 2204",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Chebbo%27s%20Burgers%2C%20308%20Victoria%20Road%2C%20Marrickville%20NSW%202204",
+      "trend": "TikTok sensation",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 20,
+        "max": 35,
+        "label": "$20–$35 pp",
+        "basis": "Burger, fries and drink"
+      },
+      "summary": "Viral smash-burger favourite known for crisp-edged beef patties, American cheese and house sauce.",
+      "cons": "Queues are common and it is a rich, burger-only meal.",
+      "source": "https://www.chebbos.com/",
+      "latestNews": [],
+      "updatedAt": "2026-09-04T11:15:00.000Z"
+    },
+    {
+      "id": 12,
+      "name": "Mamak",
+      "cuisine": "Malaysian",
+      "area": "CBD & Inner City",
+      "suburb": "Haymarket",
+      "address": "15 Goulburn Street, Haymarket NSW 2000",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mamak%2C%2015%20Goulburn%20Street%2C%20Haymarket%20NSW%202000",
+      "trend": "Sydney institution",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 15,
+        "max": 30,
+        "label": "$15–$30 pp",
+        "basis": "Roti and one main or shared dishes"
+      },
+      "summary": "A reliable, always-busy Malaysian favourite for hand-stretched roti, satay and curries.",
+      "cons": "Queues are normal and the room is fast-paced rather than relaxed.",
+      "source": "https://www.sydneytourism.org/cheap-eats-in-sydney/",
+      "latestNews": [],
+      "updatedAt": "2026-09-04T11:15:00.000Z"
+    },
+    {
+      "id": 13,
+      "name": "Malay Chinese Noodle Bar",
+      "cuisine": "Malaysian-Chinese",
+      "area": "CBD & Inner City",
+      "suburb": "Haymarket",
+      "address": "Shop CQT06, 33 Pitt Street, Sydney NSW 2000",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Malay%20Chinese%20Noodle%20Bar%2C%2033%20Pitt%20Street%2C%20Sydney%20NSW%202000",
+      "trend": "Cheap-eats favourite",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 10,
+        "max": 20,
+        "label": "$10–$20 pp",
+        "basis": "Food only; one main"
+      },
+      "summary": "A low-cost Chinatown option with a rotating Malaysian-Chinese menu and quick, casual service.",
+      "cons": "Basic food-court-style setting and limited atmosphere.",
+      "source": "https://www.sydneytourism.org/cheap-eats-in-sydney/",
+      "latestNews": [],
+      "updatedAt": "2026-09-04T11:15:00.000Z"
+    },
+    {
+      "id": 14,
+      "name": "Ho Jiak",
+      "cuisine": "Malaysian",
+      "area": "CBD & Inner City",
+      "suburb": "Haymarket",
+      "address": "92 Hay Street, Haymarket NSW 2000",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ho%20Jiak%2C%2092%20Hay%20Street%2C%20Haymarket%20NSW%202000",
+      "trend": "Social favourite",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 29,
+        "max": 60,
+        "label": "$29–$60 pp",
+        "basis": "Express lunch or shared à la carte dinner"
+      },
+      "summary": "Lively Malaysian restaurant known for laksa, char koay teow and Penang-style street-food dishes.",
+      "cons": "Several signature dishes are spicy and queues are common.",
+      "source": "https://www.hojiak.com.au/haymarket/",
+      "latestNews": [],
+      "updatedAt": "2026-09-04T11:15:00.000Z"
+    },
+    {
+      "id": 15,
+      "name": "Gumshara Ramen",
+      "cuisine": "Japanese ramen",
+      "area": "CBD & Inner City",
+      "suburb": "Haymarket",
+      "address": "Shop 25, Eating World, 25-29 Dixon Street, Haymarket NSW 2000",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Gumshara%20Ramen%2C%2025-29%20Dixon%20Street%2C%20Haymarket%20NSW%202000",
+      "trend": "Cult cheap eat",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 20,
+        "max": 30,
+        "label": "$20–$30 pp",
+        "basis": "Ramen and optional side"
+      },
+      "summary": "Cult-favourite ramen counter serving famously thick, rich tonkotsu broth.",
+      "cons": "The broth is very heavy and the food-court setting is basic.",
+      "source": "https://www.broadsheet.com.au/sydney/haymarket",
+      "latestNews": [],
+      "updatedAt": "2026-09-04T11:15:00.000Z"
+    },
+    {
+      "id": 16,
+      "name": "Chat Thai",
+      "cuisine": "Thai",
+      "area": "CBD & Inner City",
+      "suburb": "Haymarket",
+      "address": "20 Campbell Street, Haymarket NSW 2000",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Chat%20Thai%2C%2020%20Campbell%20Street%2C%20Haymarket%20NSW%202000",
+      "trend": "Sydney institution",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 20,
+        "max": 35,
+        "label": "$20–$35 pp",
+        "basis": "Main plus shared snack or dessert"
+      },
+      "summary": "Busy Thai favourite for noodles, curries, salads and desserts, with consistently strong Chinatown demand.",
+      "cons": "Queues are common and spice levels can be challenging.",
+      "source": "https://www.sydneytourism.org/cheap-eats-in-sydney/",
+      "latestNews": [],
+      "updatedAt": "2026-09-04T11:15:00.000Z"
+    },
+    {
+      "id": 17,
+      "name": "Tan Viet Noodle House",
+      "cuisine": "Vietnamese",
+      "area": "South West Sydney",
+      "suburb": "Cabramatta",
+      "address": "100 John Street, Cabramatta NSW 2166",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tan%20Viet%20Noodle%20House%2C%20100%20John%20Street%2C%20Cabramatta%20NSW%202166",
+      "trend": "Cult classic",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 20,
+        "max": 35,
+        "label": "$20–$35 pp",
+        "basis": "Main and shared side"
+      },
+      "summary": "A Cabramatta destination best known for crisp-skinned chicken, noodle soups and generous Vietnamese comfort food.",
+      "cons": "A long trip from the CBD and queues at lunch are normal.",
+      "source": "https://www.broadsheet.com.au/sydney/guides/best-vietnamese-restaurants-sydney",
+      "latestNews": [],
+      "updatedAt": "2026-09-04T11:15:00.000Z"
+    },
+    {
+      "id": 18,
+      "name": "Jimmy's Falafel",
+      "cuisine": "Middle Eastern",
+      "area": "CBD & Inner City",
+      "suburb": "Sydney CBD",
+      "address": "106 George Street, The Rocks NSW 2000",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Jimmy%27s%20Falafel%2C%20106%20George%20Street%2C%20The%20Rocks%20NSW%202000",
+      "trend": "Casual favourite",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 20,
+        "max": 35,
+        "label": "$20–$35 pp",
+        "basis": "Pita, bowl or shared casual meal"
+      },
+      "summary": "Fast, casual Middle Eastern food from the Merivale group, popular for falafel, chicken and loaded pitas.",
+      "cons": "Mostly counter-service and can be busy around lunch or weekends.",
+      "source": "https://merivale.com/venues/jimmysfalafel/",
+      "latestNews": [],
+      "updatedAt": "2026-09-04T11:15:00.000Z"
+    },
+    {
+      "id": 19,
+      "name": "Riva",
+      "cuisine": "Italian",
+      "area": "Eastern Suburbs",
+      "suburb": "Rose Bay",
+      "address": "New South Head Road, Rose Bay NSW 2029",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Riva%2C%20Rose%20Bay%20NSW%202029",
+      "trend": "Waterfront opening",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 75,
+        "max": 125,
+        "label": "$75–$125 pp",
+        "basis": "Food only; pasta, seafood and shared starters"
+      },
+      "summary": "A polished waterfront Italian restaurant with handmade pasta, raw seafood and Mediterranean drinks.",
+      "cons": "Premium waterfront pricing and less convenient from the CBD.",
+      "source": "https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/",
+      "latestNews": [],
+      "updatedAt": "2026-09-04T11:15:00.000Z"
+    },
+    {
+      "id": 20,
+      "name": "Ananas",
+      "cuisine": "French",
+      "area": "CBD & Inner City",
+      "suburb": "The Rocks",
+      "address": "18 Argyle Street, The Rocks NSW 2000",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ananas%2C%2018%20Argyle%20Street%2C%20The%20Rocks%20NSW%202000",
+      "trend": "Reopened",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 55,
+        "max": 100,
+        "label": "$55–$100 pp",
+        "basis": "Food only; starter and main, or shared dinner"
+      },
+      "summary": "A revived French brasserie serving familiar classics, seafood and occasional tableside theatre.",
+      "cons": "The Rocks location can feel touristy and the wine list can raise the total quickly.",
+      "source": "https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/",
+      "latestNews": [],
+      "updatedAt": "2026-09-04T11:15:00.000Z"
     }
   ]
 }
