@@ -63,14 +63,18 @@ for (const entry of communityFeeds) {
   try { all.push(...await communityFeed(entry)); } catch (error) { console.warn(`Skipped ${entry.source}: ${error.message}`); }
 }
 
-const unique = [...new Map(all.map(item => [item.title.toLowerCase(), item])).values()].slice(0, 30);
+const unique = [...new Map(all.map(item => [item.title.toLowerCase(), item])).values()].slice(0, 100);
 if (!unique.length) throw new Error('No public food-news items were returned; leaving the existing feed untouched.');
 
 const suburbs = [
   { match: /angel place|\bcbd\b|circular quay|\bquay\b/i, suburb: 'Sydney CBD', area: 'CBD & Inner City', coordinates: [-33.8667, 151.2104] },
   { match: /manly wharf|\bmanly\b/i, suburb: 'Manly', area: 'Northern Beaches', coordinates: [-33.8005, 151.2869] },
+  { match: /\bdee why\b|\bdee why beach\b|\bnewport\b|\bavalon\b|\bpalm beach\b/i, suburb: 'Northern Beaches', area: 'Northern Beaches', coordinates: [-33.7512, 151.2889] },
   { match: /\bnewtown\b/i, suburb: 'Newtown', area: 'Inner West', coordinates: [-33.8981, 151.1790] },
+  { match: /\b(enmore|marrickville|balmain|rozelle|leichhardt|annandale|glebe)\b/i, suburb: 'Inner West', area: 'Inner West', coordinates: [-33.8898, 151.1545] },
+  { match: /\b(surry hills|darlinghurst|potts point|woolloomooloo|paddington|redfern|waterloo)\b/i, suburb: 'Surry Hills', area: 'CBD & Inner City', coordinates: [-33.8830, 151.2090] },
   { match: /bondi junction/i, suburb: 'Bondi Junction', area: 'Eastern Suburbs', coordinates: [-33.8925, 151.2503] },
+  { match: /\b(bondi beach|coogee|randwick|clovelly|maroubra|double bay|rose bay)\b/i, suburb: 'Bondi', area: 'Eastern Suburbs', coordinates: [-33.8915, 151.2767] },
   { match: /bronte/i, suburb: 'Bronte', area: 'Eastern Suburbs', coordinates: [-33.9057, 151.2662] }
 ];
 
@@ -78,14 +82,21 @@ function extractRestaurantName(title) {
   const clean = title.replace(/\s+-\s+[^-]+$/, '').trim();
   const patterns = [
     /\b(?:restaurant|osteria)\s+([A-Z][\w’'&.-]*(?:\s+[A-Z][\w’'&.-]*){0,3})\b/,
-    /\b((?:Bar|Bistro|Cafe|Café|Trattoria)\s+[A-Z][\w’'&.-]*(?:\s+[A-Z][\w’'&.-]*){0,2})\b/,
-    /\bIntroducing\s+(The\s+[A-Z][\w’'&.-]*(?:\s+[A-Z][\w’'&.-]*){0,2})\b/
+    /\b((?:Bar|Bistro|Cafe|Café|Trattoria|Pizzeria|Bakery|Kitchen|House)\s+[A-Z][\w’'&.-]*(?:\s+[A-Z][\w’'&.-]*){0,2})\b/,
+    /\bIntroducing\s+((?:The\s+)?[A-Z][\w’'&.-]*(?:\s+[A-Z][\w’'&.-]*){0,2})\b/,
+    /\bopens?\s+(?:at|with)\s+((?:The\s+)?[A-Z][\w’'&.-]*(?:\s+[A-Z][\w’'&.-]*){0,2})\b/i
   ];
   for (const pattern of patterns) {
     const match = clean.match(pattern);
     if (match) return match[1].trim();
   }
   return null;
+}
+
+function googleMapsUrl(restaurant) {
+  if (restaurant.googleMapsUrl) return restaurant.googleMapsUrl;
+  const query = [restaurant.name, restaurant.address, restaurant.suburb, 'Sydney'].filter(Boolean).join(', ');
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
 }
 
 function extractAddress(text) {
@@ -140,6 +151,10 @@ for (const item of unique) {
 }
 database.restaurants = restaurants.map(restaurant => ({
   ...restaurant,
+  googleMapsUrl: googleMapsUrl(restaurant),
+  updatedAt: unique.some(item => item.title.toLowerCase().includes(restaurant.name.toLowerCase()))
+    ? updatedAt
+    : restaurant.updatedAt || updatedAt,
   latestNews: unique.filter(item => item.title.toLowerCase().includes(restaurant.name.toLowerCase())).slice(0, 3)
 }));
 

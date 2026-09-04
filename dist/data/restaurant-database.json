@@ -33,7 +33,8 @@
       ],
       "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/fishnets-bronte-japanese-first-look",
       "image": "https://cdn.broadsheet.com.au/cache/c1/be/c1be846c4aed6de142e27022c4023d93.jpg",
-      "latestNews": []
+      "latestNews": [],
+      "updatedAt": "2026-09-04T10:39:21.002Z"
     },
     {
       "id": 2,
@@ -63,7 +64,9 @@
         "Several diners note the bill climbs quickly."
       ],
       "source": "https://www.notquitenigella.com/2026/06/30/the-hideaway-bondi/",
-      "latestNews": []
+      "latestNews": [],
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Hideaway%2C%20Bondi%20Junction%2C%20Sydney",
+      "updatedAt": "2026-09-04T10:39:21.002Z"
     },
     {
       "id": 3,
@@ -71,6 +74,7 @@
       "cuisine": "Italian",
       "area": "Eastern Suburbs",
       "suburb": "Rushcutters Bay",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Trattoria%20Da%20Orazio%2C%20Rushcutters%20Bay%2C%20Sydney",
       "trend": "Just opened",
       "pos": [
         45,
@@ -93,7 +97,8 @@
         "Prime dinner times are already hard to secure."
       ],
       "source": "https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/",
-      "latestNews": []
+      "latestNews": [],
+      "updatedAt": "2026-09-04T10:39:21.002Z"
     },
     {
       "id": 4,
@@ -101,6 +106,7 @@
       "cuisine": "Chinese",
       "area": "Northern Beaches",
       "suburb": "Manly",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Stanley%20at%20Manly%20Wharf%2C%20Manly%2C%20Sydney",
       "trend": "Opening soon",
       "pos": [
         68,
@@ -123,7 +129,8 @@
         "No diner consensus exists until doors officially open."
       ],
       "source": "https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/",
-      "latestNews": []
+      "latestNews": [],
+      "updatedAt": "2026-09-04T10:39:21.002Z"
     },
     {
       "id": 5,
@@ -131,6 +138,7 @@
       "cuisine": "Bakery",
       "area": "Inner West",
       "suburb": "Alexandria",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Da%20Orazio%20Pasticceria%2C%20Alexandria%2C%20Sydney",
       "trend": "Social favourite",
       "pos": [
         30,
@@ -154,7 +162,8 @@
       ],
       "source": "https://www.tripadvisor.com/Restaurant_Review-g28028666-d34036637-Reviews-Da_Orazio_Pasticceria-Alexandria_New_South_Wales.html",
       "tripadvisorReviewUrl": "https://www.tripadvisor.com/Restaurant_Review-g28028666-d34036637-Reviews-Da_Orazio_Pasticceria-Alexandria_New_South_Wales.html",
-      "latestNews": []
+      "latestNews": [],
+      "updatedAt": "2026-09-04T10:39:21.002Z"
     },
     {
       "id": 6,
@@ -162,6 +171,7 @@
       "cuisine": "Italian",
       "area": "CBD & Inner City",
       "suburb": "Sydney CBD",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Bruno%2C%20Sydney%20CBD%2C%20Sydney",
       "trend": "Editors’ pick",
       "pos": [
         42,
@@ -191,7 +201,8 @@
           "source": "hospitality | Magazine",
           "topic": "New opening"
         }
-      ]
+      ],
+      "updatedAt": "2026-09-04T10:39:21.002Z"
     }
   ]
 }
