@@ -29,7 +29,7 @@ function bind(){document.querySelectorAll('[data-id]').forEach(el=>el.onclick=e=
 // Legacy renderer retained for its restaurant data and daily-feed helper; the resilient renderer below owns all UI events.
 </script><script>
 (() => {
-  document.head.insertAdjacentHTML('beforeend', '<style>.map:after{display:none}.maptitle,.legend{z-index:1000}.map .leaflet-control-zoom{margin-top:72px}.leaflet-popup-content-wrapper{font:14px/1.4 DM Sans,sans-serif;border-radius:9px}.leaflet-popup-content b{font:700 17px Playfair Display,serif}.buzzmore{margin-top:13px;border:1px solid #668075;background:transparent;color:white;border-radius:7px;padding:8px 12px;cursor:pointer}.buzzitem em{font-style:normal;color:#dafa63}</style>');
+  document.head.insertAdjacentHTML('beforeend', '<style>.map:after{display:none}.maptitle,.legend{z-index:1000}.map .leaflet-control-zoom{margin-top:72px}.leaflet-popup-content-wrapper{font:14px/1.4 DM Sans,sans-serif;border-radius:9px}.leaflet-popup-content b{font:700 17px Playfair Display,serif}.buzzmore{margin-top:13px;border:1px solid #668075;background:transparent;color:white;border-radius:7px;padding:8px 12px;cursor:pointer}.buzzitem em{font-style:normal;color:#dafa63}.review-logo{display:block;width:20px;height:20px}.rating.logo-link{display:inline-flex;align-items:center;justify-content:center;padding:7px}</style>');
   const searchInput = document.getElementById('search');
   const cuisineSelect = document.getElementById('cuisine');
   const locationSelect = document.getElementById('location');
@@ -100,7 +100,13 @@ function bind(){document.querySelectorAll('[data-id]').forEach(el=>el.onclick=e=
     if(!data.some(place=>place.id===selected)) selected=data[0]?.id || null;
     countEl.textContent=`${data.length} editorial profile${data.length===1?'':'s'}`;
     cardsEl.innerHTML=data.length ? data.map(place=>`<article class="card ${selected===place.id?'active':''}" data-id="${place.id}"><div class="cardtop"><div><span class="trend">${place.trend}</span><h2>${place.name}</h2><div class="meta">${place.cuisine} · ${place.suburb}</div></div><div class="ratings"><a class="rating" target="_blank" rel="noopener" href="${place.googleurl}">Google ★ ${place.google}</a><a class="rating" target="_blank" rel="noopener" href="${place.tripurl}">Tripadvisor ● ${place.trip}</a></div></div>${place.image?`<img class="heroimg" src="${place.image}" alt="Sydney restaurant dining">`:''}<p class="summary">${place.summary}</p><div class="cons"><b>Worth knowing:</b> ${place.cons}</div><div class="themes">${place.themes.map(theme=>`<span>${theme}</span>`).join('')}</div><div class="details"><b>Top 5 recurring comment themes</b><ol>${place.comments.map(comment=>`<li>${comment}</li>`).join('')}</ol><div class="source">Public-source summary: <a href="${place.source}" target="_blank" rel="noopener">read the source ↗</a></div></div></article>`).join('') : '<div class="empty"><b>No matches yet.</b><br>Try clearing a filter.</div>';
-    cardsEl.querySelectorAll('.rating').forEach((link,index)=>{link.textContent=index%2===0?'Google reviews ↗':'Tripadvisor reviews ↗'});
+    cardsEl.querySelectorAll('.ratings').forEach((container,index)=>{
+      const place=data[index];
+      container.innerHTML=[
+        place.googleReviewUrl?`<a class="rating logo-link" target="_blank" rel="noopener" href="${place.googleReviewUrl}" title="Open Google reviews for ${place.name}" aria-label="Open Google reviews for ${place.name}"><img class="review-logo" src="https://cdn.simpleicons.org/googlemaps/4285F4" alt="Google Maps"></a>`:'',
+        place.tripadvisorReviewUrl?`<a class="rating logo-link" target="_blank" rel="noopener" href="${place.tripadvisorReviewUrl}" title="Open Tripadvisor reviews for ${place.name}" aria-label="Open Tripadvisor reviews for ${place.name}"><img class="review-logo" src="https://cdn.simpleicons.org/tripadvisor/34E0A1" alt="Tripadvisor"></a>`:''
+      ].join('');
+    });
     cardsEl.querySelectorAll('.card').forEach(card=>card.addEventListener('click',event=>{if(!event.target.closest('a')) selectPlace(Number(card.dataset.id),false)}));
     markerLayer.clearLayers();
     data.forEach(place=>L.marker(coordinates[place.id]).addTo(markerLayer).bindPopup(`<b>${place.name}</b><br>${place.cuisine} · ${place.suburb}<br><small>${place.trend}</small>`).on('click',()=>selectPlace(place.id,true)));
