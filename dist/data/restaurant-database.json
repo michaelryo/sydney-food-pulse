@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-04T10:19:20.390Z",
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Fishnets",
+      "cuisine": "Japanese",
+      "area": "Eastern Suburbs",
+      "suburb": "Bronte",
+      "trend": "Buzzing now",
+      "pos": [
+        59,
+        63
+      ],
+      "summary": "Omakase-level technique without the hushed ceremony: sushi, shareable tuna katsu and Japanese-influenced plates using Australian produce.",
+      "cons": "Set menus start around $92pp; the narrow neighbourhood room fills quickly.",
+      "themes": [
+        "excellent fish quality",
+        "inventive tuna katsu",
+        "relaxed service",
+        "smart wine list",
+        "mapo gelato surprise"
+      ],
+      "comments": [
+        "Fish quality feels special-occasion level.",
+        "Tuna katsu is the share plate people remember.",
+        "Service is polished without being stiff.",
+        "Wine pairings suit the seafood-heavy menu.",
+        "The unusual mapo gelato divides opinion—in a fun way."
+      ],
+      "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/fishnets-bronte-japanese-first-look",
+      "tripurl": "https://www.tripadvisor.com/Search?q=Fishnets%20Bronte",
+      "googleurl": "https://www.google.com/maps/search/?api=1&query=Fishnets+Bronte",
+      "image": "https://cdn.broadsheet.com.au/cache/c1/be/c1be846c4aed6de142e27022c4023d93.jpg",
+      "latestNews": []
+    },
+    {
+      "id": 2,
+      "name": "The Hideaway",
+      "cuisine": "Modern Australian",
+      "area": "Eastern Suburbs",
+      "suburb": "Bondi Junction",
+      "trend": "New opening",
+      "pos": [
+        52,
+        55
+      ],
+      "summary": "A moody underground restaurant and cocktail bar inspired by New York’s late-night dining scene, with live music as dinner rolls into drinks.",
+      "cons": "Premium pricing and dim lighting; the hidden downstairs entrance is easy to miss.",
+      "themes": [
+        "cinematic atmosphere",
+        "tableside tartare",
+        "late-night energy",
+        "strong cocktails",
+        "pricey night out"
+      ],
+      "comments": [
+        "The basement setting feels genuinely transportive.",
+        "Tableside beef tartare is a recurring highlight.",
+        "Cocktails and live music make it a full night out.",
+        "Staff are attentive even as the room gets louder.",
+        "Several diners note the bill climbs quickly."
+      ],
+      "source": "https://www.notquitenigella.com/2026/06/30/the-hideaway-bondi/",
+      "tripurl": "https://www.tripadvisor.com/Search?q=The%20Hideaway%20Bondi%20Junction",
+      "googleurl": "https://www.google.com/maps/search/?api=1&query=The+Hideaway+Bondi+Junction",
+      "latestNews": []
+    },
+    {
+      "id": 3,
+      "name": "Trattoria Da Orazio",
+      "cuisine": "Italian",
+      "area": "Eastern Suburbs",
+      "suburb": "Rushcutters Bay",
+      "trend": "Just opened",
+      "pos": [
+        45,
+        49
+      ],
+      "summary": "Orazio D’Elia returns to his former Rushcutters Bay kitchen with an all-regions Italian trattoria built for lively, generous group meals.",
+      "cons": "Fresh opening means limited review history; busy launch-period bookings are likely.",
+      "themes": [
+        "confident Italian cooking",
+        "great for groups",
+        "lively room",
+        "regional menu",
+        "booking pressure"
+      ],
+      "comments": [
+        "The menu goes beyond the usual red-sauce classics.",
+        "Share-style portions work well for groups.",
+        "The room has an energetic neighbourhood feel.",
+        "Pizza and handmade pasta lead early favourites.",
+        "Prime dinner times are already hard to secure."
+      ],
+      "source": "https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/",
+      "tripurl": "https://www.tripadvisor.com/Search?q=Trattoria%20Da%20Orazio",
+      "googleurl": "https://www.google.com/maps/search/?api=1&query=Trattoria+Da+Orazio+Rushcutters+Bay",
+      "latestNews": []
+    },
+    {
+      "id": 4,
+      "name": "Stanley at Manly Wharf",
+      "cuisine": "Chinese",
+      "area": "Northern Beaches",
+      "suburb": "Manly",
+      "trend": "Opening soon",
+      "pos": [
+        68,
+        23
+      ],
+      "summary": "Louis Tikaram’s 212-seat Hong Kong-inspired waterfront restaurant promises live seafood, Cantonese dishes and tableside Peking duck.",
+      "cons": "Not open at snapshot date; hype is based on previews, so service and value are untested.",
+      "themes": [
+        "waterfront setting",
+        "Peking duck theatre",
+        "live seafood",
+        "large dining room",
+        "watchlist only"
+      ],
+      "comments": [
+        "The Manly Wharf location is the headline attraction.",
+        "Tableside duck service should suit celebrations.",
+        "A custom duck oven signals serious intent.",
+        "The 212-seat scale could make it lively rather than intimate.",
+        "No diner consensus exists until doors officially open."
+      ],
+      "source": "https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/",
+      "tripurl": "https://www.tripadvisor.com/Search?q=Stanley%20Manly%20Wharf",
+      "googleurl": "https://www.google.com/maps/search/?api=1&query=Stanley+Manly+Wharf",
+      "latestNews": []
+    },
+    {
+      "id": 5,
+      "name": "Da Orazio Pasticceria",
+      "cuisine": "Bakery",
+      "area": "Inner West",
+      "suburb": "Alexandria",
+      "trend": "Social favourite",
+      "pos": [
+        30,
+        69
+      ],
+      "summary": "A Roman-style bakery and all-day stop from the Da Orazio team—known for maritozzi, focaccia sandwiches and polished Italian pastries.",
+      "cons": "Industrial-area location is less convenient without a car; Tripadvisor’s sample is very small.",
+      "themes": [
+        "beautiful maritozzi",
+        "airy focaccia",
+        "quality coffee",
+        "weekend queues",
+        "awkward location"
+      ],
+      "comments": [
+        "Cream-filled maritozzi are the social-media magnet.",
+        "Focaccia texture earns repeat praise.",
+        "Coffee holds its own beside the pastries.",
+        "Popular items can sell out later in the day.",
+        "The industrial setting is a practical drawback."
+      ],
+      "source": "https://www.tripadvisor.com/Restaurant_Review-g28028666-d34036637-Reviews-Da_Orazio_Pasticceria-Alexandria_New_South_Wales.html",
+      "tripurl": "https://www.tripadvisor.com/Restaurant_Review-g28028666-d34036637-Reviews-Da_Orazio_Pasticceria-Alexandria_New_South_Wales.html",
+      "googleurl": "https://www.google.com/maps/search/?api=1&query=Da+Orazio+Pasticceria+Alexandria",
+      "latestNews": []
+    },
+    {
+      "id": 6,
+      "name": "Bar Bruno",
+      "cuisine": "Italian",
+      "area": "CBD & Inner City",
+      "suburb": "Sydney CBD",
+      "trend": "Editors’ pick",
+      "pos": [
+        42,
+        41
+      ],
+      "summary": "A compact Italian wine bar where snacks, handmade pasta and a sharp by-the-glass list matter more than white-tablecloth ceremony.",
+      "cons": "Small room, close tables and limited space for larger groups; peak sessions feel busy.",
+      "themes": [
+        "excellent pasta",
+        "thoughtful wine",
+        "intimate room",
+        "warm staff",
+        "tight seating"
+      ],
+      "comments": [
+        "Pasta is the dish category most likely to impress.",
+        "The by-the-glass wine list rewards curiosity.",
+        "Staff recommendations make ordering easy.",
+        "The close-set room feels cosy to some, cramped to others.",
+        "Best suited to pairs or small groups."
+      ],
+      "source": "https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/",
+      "tripurl": "https://www.tripadvisor.com/Search?q=Bar%20Bruno%20Sydney",
+      "googleurl": "https://www.google.com/maps/search/?api=1&query=Bar+Bruno+Sydney",
+      "latestNews": [
+        {
+          "title": "Odd Culture Group reveals first look at CBD osteria Bar Bruno - hospitality | Magazine",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZzMwb3BpVm5XNDMyRWVRYVRIN2NMX2pQeHNTeHJfZDlWek9nekh3NHc4TXVKUUx4eGRsbWkzZjIwbG53N1UzRlpaMW9fRGY5a19HSHc0cTd6MGtSazZ6SDMxYU54RllEYnhBQnpLVEtUWjFHVllqamdwSnF3UzFRdmttTnVPenlsSVduMFZaNXo3ZGlzRmlwYW9CV2RTYnhwYjBnbmJmLS1tLVVz?oc=5",
+          "source": "hospitality | Magazine",
+          "topic": "New opening"
+        }
+      ]
+    }
+  ],
+  "dailyLeads": [
+    {
+      "title": "King Clarence chef Khanh Nguyen delivers high-octane flavours at Angel Place restaurant Ashe - SMH.com.au",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY2Q2ZTdBcUIyUW1OdWlDSm5scEgwa1F6eWlhUjd3Xzdjdy1IVHdMdFlTQXFRUDBGZWJJQ2R2SGxkckEwUDdYcEJkX1IzWVAzVm52RFlPZ2QzVjdxdThkTWpfejZ4c1NmRko4cmVUSnJsUHBKblptTlFWTVhxZzVmREdNczFiZUxDdi10U195cUFkSEIzMzZiUg?oc=5",
+      "source": "SMH.com.au",
+      "topic": "New opening"
+    },
+    {
+      "title": "22 of the best new restaurants opening in Sydney this year - RUSSH",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBNNWxvWndOdEV5Y0ZZTF9qampJZWZSbUowODBzd0U1WFA4b1loN2FNanNfclAweGRPcXQzSC1kNXRwU0hWbjZLOUFYV2t4Q01TcEZwT0xPaWZIQTVDSWp6WlFSQ0wtQQ?oc=5",
+      "source": "RUSSH",
+      "topic": "New opening"
+    },
+    {
+      "title": "The World’s Best Female Chef is opening a new restaurant in Sydney - Time Out Worldwide",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdUJIUmM3TDZGV1J2T1VKZlMyaElFSU4zN1BrNUIzSVI4ak1hRHJUSDJINkdwVl82RTRvQlJ0dm9TTVQtTG9TZzYyRjdYM25tS3BvSVJWTzROXy10dVJZQl9oWXlRd29ySWVjYjZmZHg3LTJ5TVByaDF4SlRmOFFkLWlKUjc2YUFfbk1FQ2pzME1JTlZXUUtBNGhWX1A4dHAzdDRUU1BBMkpBVnJZ?oc=5",
+      "source": "Time Out Worldwide",
+      "topic": "New opening"
+    },
+    {
+      "title": "Will famously casual Sydney cope with this glam new $8.5m restaurant? - AFR",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYmhPbGlnNm9VSXRocTJGRzJZbF9fMC0tQ0JXWHhxcWZlWTFhZXVMRVgzaUtXWTJPVGd1UDNydmZEb0ZZVEhMZUctbDByQlhLSUI4UVN2UHVKc0lVRG81MGk1Mkk4eExwUG5LZm56YmxtMVFJWkl2UWd5eUVfbkMtOXBmdGdSSTFuNUZLYVBlSzZ5VXBudjZ3NnV2b1J2SHplVFU2dGZZNHpJX1RiUUlRUFlrbEtEenBpNTBiYnVPWHBzaGhZ?oc=5",
+      "source": "AFR",
+      "topic": "New opening"
+    },
+    {
+      "title": "Björn Frantzén, One of the World’s Most Awarded Chefs, Is Opening a Restaurant in Sydney - Broadsheet",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNTZzenNkc19wbGJHZ2E5NlZKYzloMGlUbEYtcm1ISi1tMWFWNzhTWng1b2Vjcnp4MHBFVXhsNVFHS0EzQUZ5Y0ptRlN6SEMzWWE1anhCWWlWU05TTEdScXppVFAxOWJZV0R5c3M1Ui12TFIyZmllUGJuLVgyNHRnNWNwbkJGeXNUSHc3TFdDMWxXall0bFgzTg?oc=5",
+      "source": "Broadsheet",
+      "topic": "New opening"
+    },
+    {
+      "title": "Curtis Stone will open his first restaurant and bar in Australia at the Waldorf Astoria Sydney - Gourmet Traveller",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQXVyU3E4WHJybXFfZDhiT1h3WkNreUNQUHo5UXAyazZHQWNhcXBKWXdSdXBVelRKWlJnem5yWkRBQ0pqRmRzRHFiUHF5M2VkcU5QbHdSYkIxcTdxM3h0ZXlXaXNmZlVfYVBaeFNBaHNyMXRESXE2Qk1uLUJudzBKT3RQMTFJTXllbEQwSXpMQQ?oc=5",
+      "source": "Gourmet Traveller",
+      "topic": "New opening"
+    },
+    {
+      "title": "Nomad to open in Brisbane at former Gerard’s site - hospitality | Magazine",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTmdBY00wUEN0YkNDQVl1cDBCbEpXbXFGTzBhT1liZWNvUjV6b2I1ZWhfRkNOSUMxalhhUGZXUERmclYwWGQ2N1NBcm5BaF9Zd3VibS1ZSDBydHctZ3JDZkxTVTJ4ZjVMQlFqS0h5cG1wS0tBWlFJV3pMWGN6OExWWk1sbzlOQ1dpQUFtMzN4RUFUQQ?oc=5",
+      "source": "hospitality | Magazine",
+      "topic": "New opening"
+    },
+    {
+      "title": "Curtis is coming home: star chef announces first-ever Australian restaurant - delicious.com.au",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSkF3RkVmSlZucEVoNmNraHdSNVViemZudFA3ckxVeUxrTk1QeFQtaGd4TmV1VDR6X0RiTXNuZUFreVZrRE9ua2w0NGlmYTE3TFNWeGVIWFJrRXEwQmV2ZUNqak9PaGZGSlBuSzRQRkNvbmh5aHNWeXV3b2VMMmxlR25CSk1BeWtJY1FOMWJLdDg2UHRHMFlnYTBmSjlmTmRQdzJYSXNKTlVYUFBMZlhBOHlmaDhISkRUeXZxQXhzeVV6ZHRRY0l1Ukc4OU1DYkE?oc=5",
+      "source": "delicious.com.au",
+      "topic": "New opening"
+    },
+    {
+      "title": "Sydney dining heavy hitter takes over iconic Gerard’s site - The Age",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQM29vRkVfQU9zS2UtMF9rSy0ybVpjdE81N0hLNklHN0FHb1ZBQUhaNE9ZdEctaTJ4bW9HU1E1YzFxeV8zRkM1dGMzZnpEUzJEQUZfMktHU0tsQUp3WUxwM3NkZWwxMFRiZkQtZ2tVUmZGZlBKMW9YZGhWLU0zYVFjY3hwT0gxS3RMaHIyUnFEZjVLTGFuQjFQT3J2NVZZaWFLT2RVaHdpVU1TVXBZWG1YalRISGIwMXNfZlFnbWt5NnR2STlwQlRzU2lHTWItTU0?oc=5",
+      "source": "The Age",
+      "topic": "New opening"
+    },
+    {
+      "title": "‘Greeted like old friends’: Is this Sydney’s most comforting hatted restaurant? - SMH.com.au",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYXlQVkFSWTJhY3FZdEFRVmNraGxvcWNuTnEwY2lnQU45dlBMY29FUEdjcDRGY1ZPWDFybV9HRlJaOWZyVVd1eF9BS0FKZ0t0Uk5BY2lMakNnZnpGbTZSd1NDa01hS1pzZFBZdnZlWWxWWF9remxfVWNfelc0SnUtYkkyWXpRLWtmeWJ2RjlUNFZia19SRUxBcDBUSmh6NExOZHlUUGEwSGZSVjJmb0w2UTd3T2Zsdw?oc=5",
+      "source": "SMH.com.au",
+      "topic": "Review"
+    },
+    {
+      "title": "15 New Sydney Restaurants, Bars and Cafes Opening in Winter - Broadsheet",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWFUwdTNVZVhTbUNSTDQxN3U4VThvMXExQWE2cm5XUW9ENTk4OVhIQmJEQkZKT0xLNmNXNXpXclhFS3dEQXpKRXJtc2FrRFI4U3pfZUlpQnVSUU1KTzJWSjBoZGR4dEUxOENlR1dLUW1GcHNWanJwcEVlZ3AtZm5WUXRqSEFWRm5vSVY4RWJ5SlJmQQ?oc=5",
+      "source": "Broadsheet",
+      "topic": "New opening"
+    },
+    {
+      "title": "Odd Culture Group reveals first look at CBD osteria Bar Bruno - hospitality | Magazine",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZzMwb3BpVm5XNDMyRWVRYVRIN2NMX2pQeHNTeHJfZDlWek9nekh3NHc4TXVKUUx4eGRsbWkzZjIwbG53N1UzRlpaMW9fRGY5a19HSHc0cTd6MGtSazZ6SDMxYU54RllEYnhBQnpLVEtUWjFHVllqamdwSnF3UzFRdmttTnVPenlsSVduMFZaNXo3ZGlzRmlwYW9CV2RTYnhwYjBnbmJmLS1tLVVz?oc=5",
+      "source": "hospitality | Magazine",
+      "topic": "New opening"
+    },
+    {
+      "title": "Sydney’s new Thai eatery has four types of pad Thai – and it’s open until 2am - Time Out Worldwide",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTFNoZTVhLVpQb1hMWVF4LVR6bXNBbnVicS1IMlpTMTF3M3BiYXhIQzg3VjNEaFhMLVpDWERsT3Y2OElqZGV6bWswTi1ZX0VNcUtsQTg0d0tZeW1TakgxMjMzT3ZUcG5oZ3NLdVhWSFhReE8wMDNjeGRGeTYwaEhfMlRnOXNLN3NtTngyR1dpT0lsTkZXZWJNQ0dvWjE3b0htZm1nbEdlT2M1bDhYVDQzMHBTOW41Vk0?oc=5",
+      "source": "Time Out Worldwide",
+      "topic": "New opening"
+    },
+    {
+      "title": "150-year-old Newtown pub reopens with historic charm, jazz nights and $1 oysters - SMH.com.au",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWklLOFFYbHFETWxmbzB5Wk1ZNXdDUGVTLVFiNEJlVFZfYTVwaWI2cldLUG11dnp4bEExSjNQVmNqMnVkZkllaUZWREl4NWI1UUpxN1FwelQyLW9CaDdVNjM0dnZ5MnVwNzBsQW5PdTRSQk9hUTRueTZMLTZ5ZjdlcUlkZVJURWQ0OGhyQWFnRTlNaWxhMnVHVzYxUTJFQzZGNWRtR3NoS09pRzJ4Tms4UG5VMEUtQWd4ZnJFcmJHSnBrQmpGTWdRek5xTjBmOEVmX19qdXpHLVB6UTlIb1Ywb242Yw?oc=5",
+      "source": "SMH.com.au",
+      "topic": "New opening"
+    },
+    {
+      "title": "A Michelin-Credentialled Chef Is Opening a Fine Diner in Sydney, Celebrating Thailand’s “Five Sacred Ingredients” - Broadsheet",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUFdCSjdUNktUc3lldjNsVEw0cTBXeXA4VXdVSENGUmlPY1pNQjUzenN6ZnR5WnpxQkY4VFA4dnlYVUoxVkdGWnZTTmtZNzBNMHZTdHZsRVdfQU51VWVJbmtDUDAxd3FOTGNPN2FrWlpLSDZiRDh4RlBjQmhQcHhEMlgxUEJKcDdxWC1Ec1hDdF9RS1pSeTBnZEdzMHc?oc=5",
+      "source": "Broadsheet",
+      "topic": "Broadsheet"
+    },
+    {
+      "title": "A huge new wellness resort (with a pool bar and pickleball courts) is opening 2 hours from Sydney - Time Out Worldwide",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcko1WUxjSzcyeUZrQ29QU214c2dSd0d4M0RneXVsUUlTQ3lPMGIzQ21lenZBR18xdmUxR1d4c0JPeGVMQjhmdDRqdEltUnB4Y1dZaUlzOEluMDhZbjd3LWhIT2ZvbE5ETTdNNE9OczdVUXZBLU5WWVd2VVpGSjFyVHE0djFsdHZCcmRzVC1YeFF1aXMxd05iTEJDOHdieFN5M01yRzJiYUhlTktoOEpEbzNDNU83dlRjdjhILUZCMVRnMk1yYlNxcDkzeWlEZVk0LTRlaw?oc=5",
+      "source": "Time Out Worldwide",
+      "topic": "New opening"
+    },
+    {
+      "title": "‘It’s really a best-of menu’: Ho Jiak co-founder Junda Khoo to bring Ho Liao brand to Sydney - SMH.com.au",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNLWFZMFhEQnFLbi12TXAyamdLMTNNNGhLSk54b3NYVlhzQjdTSjBRN0dzTmVvUjQ2WWwyWWlIdm1mb01hcy1VSjBZci1GNFdQa3NPc2Y2WC1xTmtNOWt4c21QQVowUlR6d2ZaemJ5XzYyQWotTTJ4a1pXMzZuN2xhRTdxV0ZYODEwakZBWmxab0phd2o4V3VUWkd0b0lUZjFJblhmUXBxa3BJT1B1b2pLTTVHVE1ISmRXbFNYOThQNGRYdHFmVnIzRXZZbE9TVERIb2ptcS1JMktBQkl4WnhxUXBxdzVQUjl0Wl9DYWpjZmpyQQ?oc=5",
+      "source": "SMH.com.au",
+      "topic": "New opening"
+    },
+    {
+      "title": "High-energy Melbourne restaurant Chin Chin to open second venue in Sydney - SMH.com.au",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOd0NBbEhveFl4MjRpTm9CSlE1Rk44Y010Z1JMd0RmV1MtQUxSU3doX05GWDJPRUVjNUdWdkRXYkhsZktBX3RQNWtqVDFaYUlKcHlxYXJ0TmJrWEExVm45ajZyZjRZczR1bUg3dlAyRnU1eFR6WjE4RXVOWDF0RHl3NWlRaGwtczZsSHR5UllYN2tEQzdjN2pEZVk5Q2dDR2MtZmRiNkNRM2w2bXd6QlRsenBCYTU2QkNUREtJc3hHaXdQQUFBQ1JfcUY3ZXpucGJGa2hCLVdtYldvejZ4?oc=5",
+      "source": "SMH.com.au",
+      "topic": "New opening"
+    },
+    {
+      "title": "Only chef to hold three-Michelin stars in three countries to open two Aussie restaurants - SMH.com.au",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNWllTSWtVWWFNWjZabllnR0lSS0RGMFpZYlZqcS1VTDhoRGtMNndSUklHRFJLRXFWTktiTVNJaXVfLURxdW1vbF8wR21IY0QtMmFFTzFUa21WWVVDTEhtRlRLS0tLR3pvQlNLSkhpMnNjdjRBWEN2S1VNZW1BSWNIdXNEd3dGcG4yaXFKUDJqMUwxak50YURTSzE3OHRTMmVDR3ZScWE0dnJsNEREdXlUSkJhWXExT1RFa2NLb21ibkdoQkJhdFF3MDBXZXdLbXhfQTdzRDIxVGZ5cm13VmQxM1pZNXBCNl9sSThKZXhXeFM?oc=5",
+      "source": "SMH.com.au",
+      "topic": "New opening"
+    },
+    {
+      "title": "Globally renowned chef Louis Tikaram returns to Sydney to open northern beaches restaurant - SMH.com.au",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPXy13ekZmSDFSa0JQOFhhLTJCZTJxX1lrTjRwUEc0VXZKOUItZURJZmNwWXE1VDN5cWZZLUNvdVZQcDB2VEtfWEdQWDlnYWNuaEF3bVFhUEd5a0dHcWNMT0pPWUdzc2F5dl9Tak5sOFFTdXVMNUxQc0FhYWVqX3plSkdHSDIxRDEwaV9kcURHdGdVUGljNmNXT3puVUR1LVYxSUNBWTFUSTEtZEo0LUJvdlEwUVZOQW5qakctbk14bGxGX3VxdDgtYkNYUWYyZE41OHplTG1Rclg3eUVmTnEzZzJOZVlRX3pVRlE1dFEyUERCWlU?oc=5",
+      "source": "SMH.com.au",
+      "topic": "New opening"
+    },
+    {
+      "title": "One of Australia’s Top Cantonese Restaurants Is Opening at Manly Wharf - Broadsheet",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQS3JfSG1kcU1wZ3UwZFJaRzlqOUhrZXo2Q1pTX0VZUlZBcEk5OHh6U0NFWkpqNkdOOUY3cm5WVnhXcUZLMDBoR0I1ald2aGgtX3dFZTN5QXFkUkZMUjRRRkNkT2REZWFiZVJsM0FKZU00VmVXSmx2b3VaSnNFS2ROY1pmbnd0VzRuR09nc1drbzE2VnRiWVVRSGdsNlp1Zw?oc=5",
+      "source": "Broadsheet",
+      "topic": "New opening"
+    },
+    {
+      "title": "The best new restaurants in Sydney to book now - Qantas",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeEVrdXBtLVVTbkhHMnNkMHhZX2NHclZnZHhsRjJhcmt5cVpmWWRudVgyZzBqc3FhNjcwRmxlYm1nNURQaXFvaDFwb0pCOWFaZV90d1lDSXc1RHVJOGpJVDQzMjJvdi1YT3pkcnVGcFE2eTV4ZEtLamRGc1I0alhRLWp4SVVydVkzRnFsSTB3Q2NtaGFZa01zMkdzSzViM0VyVGNPc3N6dElkcHRONUFzQUp6bnQzczdYa0FCZQ?oc=5",
+      "source": "Qantas",
+      "topic": "New opening"
+    },
+    {
+      "title": "14 New Sydney Restaurants, Bars and Cafes for March 2026 - Broadsheet",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcnNnVkQ0Wlg1blBkcHJsTVdpOWFuclctMjljWk5ZSXI4RHNBRVJ5MHBFdEVCQjI1bm5TbE40Z3JVc0hWU0hlYm5tX2xMcXlpV1IyVzUwQU00R2prOTJoVmdubkJHU3JubDdYZ0E0dW43bkFsSmNuNUpYbUtvYm8zblAySHdUQ0c2WVppekJDbkFUSlhzRTlKMHE0RXZxTlFmS2F3QnBRbw?oc=5",
+      "source": "Broadsheet",
+      "topic": "New opening"
+    },
+    {
+      "title": "From a converted church to an English pub: Hottest openings in Sydney’s east this summer - SMH.com.au",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNNnlPcVdnVGZQV3R2SEQyTXhQX2NUZ25iUFdlejlwZHJUdjlhSzhFbXRQTVNQU19CbnZLM3lKLV9fTVpSQ3prcjJlVE8xY0pOc0FoTjZIWHJ2TV9vZ1IzWDJ6TjVndk03aTE2WVBVVmNZRXYwVTRGdTZVbHdFaV8yeHN0TDNXbHZmcWlZU2YwSHpyX0VWVzd2Sjg3OElneE8yZkxkSVUtanpaOXV5VGI4TzNRVXotZVFPRnBMcHI0WURWdzVNZF9GQmFuLTk1emVaUHVPR2JXREFEOXlkengyN1BzS2ZhRkpuWDJmMA?oc=5",
+      "source": "SMH.com.au",
+      "topic": "Review"
+    },
+    {
+      "title": "13 of the Best New Sydney Restaurants and Cafes To Visit in February 2026 - Broadsheet",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVnpVMDNsWFdOZGdZb1NfejZBdzRKUHFmTVVyTTNyOHp3MmNoTUxIdXJLOFVScWh4VW5Wd29lVEg3SGtVMHBMa3EtQndOT3otUENnLTZqdGxOMnlZTWd1NV94V2pZX1d6TmxZeXdiRl9SMWg2VS1EaVhnc3JaTHlScUE5QW5uNE1xNlI0a3BYbWpBQ1FoU01MdnVqX3g0a2Z6MlJhRXVaZXBxR3c?oc=5",
+      "source": "Broadsheet",
+      "topic": "New opening"
+    },
+    {
+      "title": "Former Bentley and One Penny Red chefs bring a touch of Gidley glamour to the east - SMH.com.au",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOOVNDMXJDenRLR3dSRjZrQzVWbHdZVVppUl9rbEZxdWdBYW1jVXZMUUJYMDZoajlMWjFBQ1hWSU5STmthT0plN0FxMVBYZzlqeU5UQmpuaC1nUjlyYlJPUDllQkJ2dTBsME83LW04Q0twcjBES2RBTXd6algxc1daV2dsNEJnYkd3bUVaVDR3UkthNVdQZ3hSemRvRXBsZEJfRVlXUE9qX1dGUEpUM0YwdkJmV2hwMUN1MzdqaDlJVFJTREpGdDFsMlI2LVdxc3drRlhtanhCZGY0blhlRmNWWHYzRWdyNTNp?oc=5",
+      "source": "SMH.com.au",
+      "topic": "Review"
+    },
+    {
+      "title": "Introducing The Oriana, the four-storey venue taking over the old Quay site - delicious.com.au",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPamtCQzFKc0ozRTdPWlkxdEFjT2xad3hFekpubWRJWF9FWWpkUHhMZlhtWlBJcmJfNlBmODktU2x2WVotb19WY0dCMU5aXy1CRlJNblQ4Y3BtNDJfTllsVUJKdWczNS1lb0RIUk1fcGhDWHpveGdDVFFNUzY5dWpaWjlGLWQ2a244bXJqZl9nanBNQUJxcnBaUUZObEJHZS1xdElfLWFaT0NLUi1zUXhV?oc=5",
+      "source": "delicious.com.au",
+      "topic": "New opening"
+    },
+    {
+      "title": "Culinary star Curtis Stone to open his first Australian restaurant at Waldorf Astoria Sydney - hotelmanagement.com.au",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNXzdDV3pROVMxRFQxTnV1NWRxQUpkeUdCbUxqajlnak81RU5aN1VsbzE3S3dyUEdXNktvZ0xPS054TFlmcDZjeXEyWm9QOTRyWGh0czN4YWljekc2YnhBWnNtemxGWFdMa3dGNnpacWtCT0poMGhTWnllbW9Mdmp0bW5JaVBpbWZLX3VMaFVWUkh5Q0ZsQzd1NHZKc3FvTW1EN3JKNlRrdVlsc1RBTlZzcVdRdUlqMGUxZzg1UzBsLTk5S3F1WFVMUXZrUVVKR0RYb1REMG93?oc=5",
+      "source": "hotelmanagement.com.au",
+      "topic": "New opening"
+    },
+    {
+      "title": "India's most legendary 100-year-old South Indian restaurant is officially opening in Sydney — with crispy dosas, fluffy idlis and strong filter coffee - Secret Sydney",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96eXVWVW1PM3VqU2M4UlN0aGF1ZW5BNVdqQ1lVcDhlNzNlVkVld0QyVDQxZ3h2bW4xZDRNeXo5YW9kRHpxYWV3d08xQkhvUFMwNEYtd0lNR3FxMnVtZjlYODdGQjBRanVN?oc=5",
+      "source": "Secret Sydney",
+      "topic": "New opening"
+    },
+    {
+      "title": "Former Wahlburgers Circular Quay restaurant up for lease near the Sydney Opera House - CommercialRealEstate.com.au",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVUdMRWY4Z0VtSUpKQ0hBdzk5Y3luSVVKdTBOZHpxcWJPV0VsQ1FkakpaVjZaWmxlQjAyMmZMMXpoU0pJdlhvajRMc0FsS1A2VG1ZXzRNNk1HNGwtUExXdGZvM0ZpMWZhX3JkcXc2NHl6SnctajlPMHlTMXlNTlJfSUY2RFFfQkVnN3Q5WFI3aGR4TGQ2UmhEUDU2S1BPUjVsTXJFMm9zR25BdXZ2SWVnUHlTWjlWYVMyRmtxNzB2OGNrSzN1S0llNEQyYWl4WkxfV3ZlSQ?oc=5",
+      "source": "CommercialRealEstate.com.au",
+      "topic": "New opening"
+    }
+  ]
+}
