@@ -8,6 +8,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   refresh:
@@ -25,3 +27,11 @@ jobs:
           git add dist/data/viral-feed.json
           git diff --cached --quiet || git commit -m "chore: refresh daily food feed"
           git push
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload refreshed site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Deploy refreshed site
+        uses: actions/deploy-pages@v4
