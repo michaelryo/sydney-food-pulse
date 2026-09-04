@@ -3,7 +3,7 @@ name: Refresh daily food feed
 on:
   schedule:
     # 07:00 or 08:00 Sydney time, depending on daylight saving.
-    - cron: '0 21 * * *'
+    - cron: "0 21 * * *"
   workflow_dispatch:
 
 permissions:
@@ -23,6 +23,9 @@ jobs:
         with:
           node-version: 20
       - run: node scripts/refresh-food-feed.mjs
+      - run: node scripts/remove-expired-restaurants.mjs
+        env:
+          RESTAURANT_RETENTION_DAYS: 30
       - name: Commit refreshed feed
         run: |
           git config user.name "github-actions[bot]"
