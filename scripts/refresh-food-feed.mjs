@@ -66,17 +66,68 @@ for (const entry of communityFeeds) {
 const unique = [...new Map(all.map(item => [item.title.toLowerCase(), item])).values()].slice(0, 30);
 if (!unique.length) throw new Error('No public food-news items were returned; leaving the existing feed untouched.');
 
+const suburbs = [
+  { match: /angel place|\bcbd\b|circular quay|\bquay\b/i, suburb: 'Sydney CBD', area: 'CBD & Inner City', coordinates: [-33.8667, 151.2104] },
+  { match: /manly wharf|\bmanly\b/i, suburb: 'Manly', area: 'Northern Beaches', coordinates: [-33.8005, 151.2869] },
+  { match: /\bnewtown\b/i, suburb: 'Newtown', area: 'Inner West', coordinates: [-33.8981, 151.1790] },
+  { match: /bondi junction/i, suburb: 'Bondi Junction', area: 'Eastern Suburbs', coordinates: [-33.8925, 151.2503] },
+  { match: /bronte/i, suburb: 'Bronte', area: 'Eastern Suburbs', coordinates: [-33.9057, 151.2662] }
+];
+
+function extractRestaurantName(title) {
+  const clean = title.replace(/\s+-\s+[^-]+$/, '').trim();
+  const patterns = [
+    /\b(?:restaurant|osteria)\s+([A-Z][\w’'&.-]*(?:\s+[A-Z][\w’'&.-]*){0,3})\b/,
+    /\b((?:Bar|Bistro|Cafe|Café|Trattoria)\s+[A-Z][\w’'&.-]*(?:\s+[A-Z][\w’'&.-]*){0,2})\b/,
+    /\bIntroducing\s+(The\s+[A-Z][\w’'&.-]*(?:\s+[A-Z][\w’'&.-]*){0,2})\b/
+  ];
+  for (const pattern of patterns) {
+    const match = clean.match(pattern);
+    if (match) return match[1].trim();
+  }
+  return null;
+}
+
+function extractRestaurant(item) {
+  const name = extractRestaurantName(item.title);
+  const location = suburbs.find(entry => entry.match.test(item.title));
+  if (!name || !location) return null;
+  return { name, ...location, source: item };
+}
+
 await mkdir('dist/data', { recursive: true });
 const updatedAt = new Date().toISOString();
 const databasePath = 'dist/data/restaurant-database.json';
 const database = JSON.parse(await readFile(databasePath, 'utf8'));
 database.updatedAt = updatedAt;
-database.dailyLeads = unique;
-database.restaurants = (database.restaurants || []).map(restaurant => ({
+delete database.dailyLeads;
+const restaurants = database.restaurants || [];
+const knownNames = new Set(restaurants.map(restaurant => restaurant.name.toLowerCase()));
+let nextId = Math.max(0, ...restaurants.map(restaurant => restaurant.id || 0)) + 1;
+for (const item of unique) {
+  const candidate = extractRestaurant(item);
+  if (!candidate || knownNames.has(candidate.name.toLowerCase())) continue;
+  restaurants.push({
+    id: nextId++,
+    name: candidate.name,
+    cuisine: 'To be confirmed',
+    area: candidate.area,
+    suburb: candidate.suburb,
+    coordinates: candidate.coordinates,
+    trend: 'Newly found',
+    summary: `New restaurant profile found in ${item.source}. Details will be expanded from the linked source.`,
+    cons: 'Menu, dietary options and review links have not yet been verified.',
+    themes: ['newly found', item.topic || 'public source'],
+    comments: [],
+    source: item.url,
+    latestNews: [item]
+  });
+  knownNames.add(candidate.name.toLowerCase());
+}
+database.restaurants = restaurants.map(restaurant => ({
   ...restaurant,
   latestNews: unique.filter(item => item.title.toLowerCase().includes(restaurant.name.toLowerCase())).slice(0, 3)
 }));
 
 await writeFile(databasePath, `${JSON.stringify(database, null, 2)}\n`);
-await writeFile('dist/data/viral-feed.json', `${JSON.stringify({ updatedAt, items: unique }, null, 2)}\n`);
-console.log(`Updated restaurant database with ${database.restaurants.length} profiles and ${unique.length} daily discovery leads.`);
+console.log(`Updated restaurant database with ${database.restaurants.length} profiles.`);
