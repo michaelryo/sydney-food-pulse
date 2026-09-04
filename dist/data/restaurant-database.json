@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-04T10:39:21.002Z",
+  "updatedAt": "2026-09-04T10:55:55.372Z",
   "restaurants": [
     {
       "id": 1,
@@ -64,9 +64,16 @@
         "Several diners note the bill climbs quickly."
       ],
       "source": "https://www.notquitenigella.com/2026/06/30/the-hideaway-bondi/",
-      "latestNews": [],
+      "latestNews": [
+        {
+          "title": "Just Opened - The Hideaway, Bondi - Not Quite Nigella",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9kYkYzWDFYZzRVeUFzUU9SanBIR2otbUpXQVB0Znp5NlBvUHJXQUpOQ1BQQWxFeF9FZGhxSF9sdVBNQklkYmRicjlxOUxKVnotWnQ1T2xMODM5c0Z3ZV9TQWRQSVRYZVJmZUF3SHYzUQ?oc=5",
+          "source": "Not Quite Nigella",
+          "topic": "New opening"
+        }
+      ],
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Hideaway%2C%20Bondi%20Junction%2C%20Sydney",
-      "updatedAt": "2026-09-04T10:39:21.002Z"
+      "updatedAt": "2026-09-04T10:55:55.372Z"
     },
     {
       "id": 3,
@@ -196,13 +203,13 @@
       "source": "https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/",
       "latestNews": [
         {
-          "title": "Odd Culture Group reveals first look at CBD osteria Bar Bruno - hospitality | Magazine",
+          "title": "Odd Culture Group reveals first look at CBD osteria Bar Bruno - hospitalitymagazine.com.au",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZzMwb3BpVm5XNDMyRWVRYVRIN2NMX2pQeHNTeHJfZDlWek9nekh3NHc4TXVKUUx4eGRsbWkzZjIwbG53N1UzRlpaMW9fRGY5a19HSHc0cTd6MGtSazZ6SDMxYU54RllEYnhBQnpLVEtUWjFHVllqamdwSnF3UzFRdmttTnVPenlsSVduMFZaNXo3ZGlzRmlwYW9CV2RTYnhwYjBnbmJmLS1tLVVz?oc=5",
-          "source": "hospitality | Magazine",
+          "source": "hospitalitymagazine.com.au",
           "topic": "New opening"
         }
       ],
-      "updatedAt": "2026-09-04T10:39:21.002Z"
+      "updatedAt": "2026-09-04T10:55:55.372Z"
     }
   ]
 }
