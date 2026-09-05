@@ -16,7 +16,7 @@ const MAX_LOOKUPS = integer('MAX_DETAIL_LOOKUPS', 20, 100);
 const USER_AGENT = process.env.DISCOVERY_USER_AGENT || 'SydneyFoodPulse/4.0 (+https://github.com/michaelryo/sydney-food-pulse)';
 const DRY_RUN = process.env.DRY_RUN === 'true';
 const SKIP_FETCH = process.env.SKIP_FETCH === 'true';
-const stats = { feeds: [], pagesAttempted: 0, rejected: {}, accepted: 0, duplicates: 0, detailLookups: 0 };
+const stats = { feeds: [], pagesAttempted: 0, rejected: {}, accepted: 0, duplicates: 0, detailLookups: 0, crossPlatformResults: 0 };
 const pageCache = new Map();
 const blockedHosts = new Set();
 function reject(reason, source = '') {
@@ -423,15 +423,32 @@ function directPublisherItems(html, source) {
   return uniqueBy(items,v=>v.url).slice(0,25);
 }
 function relevantItems(items, feed) {
-  if(feed.expectedHost) return items.filter(item=>{
-    const host=new URL(item.url).hostname;
-    const valid=host===feed.expectedHost || host.endsWith('.'+feed.expectedHost);
-    if(!valid) reject('search_wrong_platform',item.url);
-    return valid;
-  });
+  if(feed.expectedHost) {
+    const onPlatform=[];
+    const crossPlatform=[];
+    for(const item of items) {
+      const host=new URL(item.url).hostname;
+      const expected=host===feed.expectedHost || host.endsWith('.'+feed.expectedHost);
+      if(expected) {
+        onPlatform.push(item);
+        continue;
+      }
+      const text=`${item.title} ${item.description}`;
+      const relevant=/\b(restaurant|cafe|bakery|eatery|dining|food|menu)\b/i.test(text) &&
+        !/(^|\.)(wikipedia.org|sydney.com)$/.test(host);
+      if(relevant) {
+        crossPlatform.push(item);
+        stats.crossPlatformResults++;
+      } else {
+        reject('irrelevant_search_result',item.url);
+      }
+    }
+    // Prefer the requested platform, while retaining useful results from other sites.
+    return [...onPlatform,...crossPlatform];
+  }
   if(feed.source.startsWith('Web search:')) return items.filter(item=>{
     const text=`${item.title} ${item.description}`;
-    return /\b(restaurant|cafe|bakery|eatery|dining)\b/i.test(text) && !/(^|\.)(wikipedia.org|sydney.com)$/.test(new URL(item.url).hostname);
+    return /\b(restaurant|cafe|bakery|eatery|dining|food|menu)\b/i.test(text) && !/(^|\.)(wikipedia.org|sydney.com)$/.test(new URL(item.url).hostname);
   });
   return items;
 }
@@ -573,7 +590,7 @@ function makeProfile(candidate,id,now,coordinates) {
 async function main({request = fetchText} = {}) {
   requestPage = request;
   pageCache.clear(); blockedHosts.clear();
-  Object.assign(stats,{feeds:[],pagesAttempted:0,rejected:{},accepted:0,duplicates:0,detailLookups:0});
+  Object.assign(stats,{feeds:[],pagesAttempted:0,rejected:{},accepted:0,duplicates:0,detailLookups:0,crossPlatformResults:0});
   const original=await readFile(DATABASE_PATH,'utf8');
   const database=JSON.parse(original);
   if(!Array.isArray(database?.restaurants)||database.restaurants.some(r=>!r||typeof r.name!=='string'||typeof r.address!=='string')) throw new Error('Invalid restaurant database; refusing to write.');
