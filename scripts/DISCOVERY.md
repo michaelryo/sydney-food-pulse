@@ -8,14 +8,18 @@ Existing records are preserved. The separate cleanup script and its
 
 ## Sources and enrichment
 
-- Bing web RSS searches include public TikTok, Instagram and Facebook pages;
-  Bing/Google News and Reddit feeds supplement them. Search providers may block
+- Direct current Broadsheet Sydney food coverage provides dated article URLs.
+  Bing web RSS searches include public TikTok, Instagram and Facebook pages;
+  Bing News and Reddit feeds supplement them. Google News RSS is no longer a
+  default source because publisher redirects were consistently unresolved. Search providers may block
   requests, change their feeds, omit social posts or return no results.
 - Public TikTok video URLs use the documented oEmbed endpoint for captions.
   Instagram/Facebook pages use publicly accessible HTML or indexed snippets.
   The script does not log in, bypass challenges or access private content.
-- Multiple Restaurant entities in JSON-LD, caption location pins and article
-  headings can identify venues. A title-only discovery can trigger a separate
+- Multiple Restaurant entities in JSON-LD, caption location pins and explicit
+  name/address blocks can identify venues. Publisher article dates are checked
+  against the lookback window. Generic chef/headline fragments are rejected,
+  and social searches discard results outside the requested platform. A title-only discovery can trigger a separate
   venue lookup. Details are merged only for the same normalized venue name and,
   if already known, the same address.
 - Cuisine and explicitly published per-person prices come from venue/publisher
@@ -58,11 +62,16 @@ inspect source links for uncertain matches.
 The Actions log and step summary contain feed statuses, request failures,
 name/address rejection counts, duplicates and accepted venues. Complete feed
 failure fails the discovery step (and prevents that run's later cleanup and
-deployment); ordinary zero additions do not fail. No network results and dry
-runs leave the database unchanged. Network fetches have timeouts, redirect and
+deployment); runs that identify only known venues remain successful. A run finding no
+usable identities fails with `Discovery ineffective`, so a green deployment
+will not hide an unusable discovery run. No additions and dry runs leave the
+database unchanged. A failed discovery step prevents later cleanup/deployment
+in that daily run; the next successful run resumes the normal pipeline. Network fetches have timeouts, redirect and
 response-size limits; 429 responses suppress further requests to that host.
 
 Run `node --test scripts/tests/discovery.test.mjs`. These use controlled public
 page/feed fixtures and a temporary database, with no live social requests.
-Live network discovery must be assessed from the next workflow run; passing
-fixture tests does not establish coverage of real social-media pages.
+The repair-branch validation workflow runs live discovery with DRY_RUN=true
+and SKIP_GEOCODE=true, then checks that the database did not change. This is
+a read-only source validation; it does not publish or commit restaurant data.
+Fixture tests alone do not establish real-world source coverage.

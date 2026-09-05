@@ -347,11 +347,12 @@ function recent(date, now) {
 function validName(value) {
   if (typeof value !== 'string') return '';
   const name=decode(value).replace(/^[📍\s]+|[\s,;:]+$/gu,'').trim();
-  if (/^(?:a |an |coming soon:|first look:)|\b(?:chef|credentialled|what we covered|what.s on|you might|opening soon)\b/i.test(name)) return '';
+  if (/^(?:coming soon:|first look:)|\b(?:what we covered|what.s on|you might|opening soon)\b/i.test(name)) return '';
   if (name.length<2 || name.length>70 || !/\p{L}/u.test(name) || /https?:|[<>#?!]|\b(best|top \d+|restaurants|must try|where to|click here|sign in|log in|sydney food|new restaurant)\b/i.test(name)) return '';
   return name;
 }
 function titleName(title) {
+  if(/\b(?:chef|credentialled)\b/i.test(title)) return '';
   const clean=title.replace(/\s+[|–—]\s+(TikTok|Instagram|Facebook|Broadsheet|Time Out).*$/i,'');
   for (const pattern of [
     /^(?:now open|just opened|new opening|introducing)\s*:\s*([^,|–—]+)/i,
@@ -611,7 +612,7 @@ async function main({request = fetchText} = {}) {
   for(let candidate of extracted) {
     if(additions.length>=MAX_NEW) {reject('daily_addition_limit');break;}
     const initialKey=venueKey(candidate);
-    if(known.has(initialKey)||seen.has(initialKey)){stats.duplicates++;continue;}
+    if(known.has(initialKey)||seen.has(initialKey)){if(candidate.address)stats.duplicates++;else reject('repeated_unresolved_name',candidate.name);continue;}
     seen.add(initialKey);
     if(!candidate.address||!inferCuisine(candidate.text||'')||!publishedPrice(candidate.text||'',candidate.item.url,now)) candidate=await detailLookup(candidate);
     if(!candidate.address){reject('missing_sydney_street_address',candidate.name);continue;}

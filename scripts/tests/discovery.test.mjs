@@ -104,6 +104,12 @@ try {
   const html='<p><strong>Sample Hotel</strong><br/>17–19 Example Street, Newtown<br/>Hours: daily</p>';
   const rows=api.addressBlockVenues(html);assert.equal(rows.length,1);assert.equal(rows[0].name,'Sample Hotel');assert.match(rows[0].address,/17-19/);
  });
+ await test('repeated unresolved names cannot make discovery appear healthy',async()=>{
+  await writeFile(process.env.DATABASE_PATH,JSON.stringify(original));
+  const items=[{title:'Unresolved Kitchen opens',url:'https://example.com/one',description:'Sydney restaurant'}, {title:'Unresolved Kitchen opens',url:'https://example.com/two',description:'Sydney restaurant'}];
+  await assert.rejects(main({request:async url=>({url,text:url.includes('format=rss')||url.includes('.rss')?rss(items):'<html></html>'})}),/Discovery ineffective/);
+  assert.deepEqual(JSON.parse(await readFile(process.env.DATABASE_PATH,'utf8')),original);
+ });
  await test('invalid database refuses writes',async()=>{
   await writeFile(process.env.DATABASE_PATH,'{"wrong":[]}');await assert.rejects(main({request}),/Invalid restaurant database/);assert.equal(await readFile(process.env.DATABASE_PATH,'utf8'),'{"wrong":[]}');
  });
