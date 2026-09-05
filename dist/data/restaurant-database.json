@@ -886,8 +886,146 @@
         "detailSource": "https://www.radiotaco.com.au/"
       },
       "updatedAt": "2026-09-05T05:17:05.824Z"
+    },
+    {
+      "id": 23,
+      "name": "Carlisle Castle Hotel",
+      "address": "17-19 Albermarle Street, Newtown, NSW",
+      "suburb": "Newtown",
+      "area": "Inner West",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Carlisle%20Castle%20Hotel%2C%2017-19%20Albermarle%20Street%2C%20Newtown%2C%20NSW",
+      "coordinates": [
+        -33.8954226,
+        151.1764172
+      ],
+      "cuisine": "Unknown",
+      "pricePerPerson": null,
+      "trend": "Recently discovered",
+      "summary": "Carlisle Castle Hotel was discovered through Public web coverage. See the linked source for details.",
+      "cons": "Not yet verified.",
+      "menuHighlights": [],
+      "comments": [],
+      "themes": [
+        "Public web",
+        "Newtown"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Not verified"
+      },
+      "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/carlisle-castle-hotel-newtown-open",
+      "latestNews": [
+        {
+          "title": "Opening The Carlisle Castle Hotel Roars Back to Life in Newtown",
+          "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/carlisle-castle-hotel-newtown-open",
+          "source": "Broadsheet current Sydney coverage",
+          "publishedAt": "2026-09-04T00:54:00.000Z"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-05T05:37:09.325Z",
+        "publishedAt": "2026-09-04T00:54:00.000Z",
+        "dateStatus": "published date available",
+        "signal": "Public mention; virality not independently measured",
+        "detailSource": "https://www.broadsheet.com.au/sydney/food-and-drink/article/carlisle-castle-hotel-newtown-open"
+      },
+      "updatedAt": "2026-09-05T05:37:09.325Z"
+    },
+    {
+      "id": 24,
+      "name": "Little River",
+      "address": "44 Reservoir Street, Surry Hills, NSW",
+      "suburb": "Surry Hills",
+      "area": "CBD & Inner City",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Little%20River%2C%2044%20Reservoir%20Street%2C%20Surry%20Hills%2C%20NSW",
+      "coordinates": null,
+      "cuisine": "Spanish",
+      "pricePerPerson": null,
+      "trend": "Recently discovered",
+      "summary": "Little River was discovered through Public web coverage. See the linked source for details.",
+      "cons": "Not yet verified.",
+      "menuHighlights": [],
+      "comments": [],
+      "themes": [
+        "Public web",
+        "Surry Hills"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Not verified"
+      },
+      "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/little-river-bakery-surry-hills-open",
+      "latestNews": [
+        {
+          "title": "First Look: An Ex-Tetsuya’s Chef Opens a Little Bakery Just Up From His Surry Hills Wine Bar",
+          "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/little-river-bakery-surry-hills-open",
+          "source": "Broadsheet current Sydney coverage",
+          "publishedAt": "2026-08-25T17:58:00.000Z"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-05T05:37:09.325Z",
+        "publishedAt": "2026-08-25T17:58:00.000Z",
+        "dateStatus": "published date available",
+        "signal": "Public mention; virality not independently measured",
+        "detailSource": "https://www.broadsheet.com.au/sydney/food-and-drink/article/little-river-bakery-surry-hills-open"
+      },
+      "updatedAt": "2026-09-05T05:37:09.325Z"
+    },
+    {
+      "id": 25,
+      "name": "L’Massif Cave",
+      "address": "231 Commonwealth Street, Surry Hills, NSW",
+      "suburb": "Surry Hills",
+      "area": "CBD & Inner City",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=L%E2%80%99Massif%20Cave%2C%20231%20Commonwealth%20Street%2C%20Surry%20Hills%2C%20NSW",
+      "coordinates": null,
+      "cuisine": "Japanese",
+      "pricePerPerson": null,
+      "trend": "Recently discovered",
+      "summary": "L’Massif Cave was discovered through Public web coverage. See the linked source for details.",
+      "cons": "Not yet verified.",
+      "menuHighlights": [],
+      "comments": [],
+      "themes": [
+        "Public web",
+        "Surry Hills"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Not verified"
+      },
+      "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/massif-cave-wine-bar-surry-hills-first-look",
+      "latestNews": [
+        {
+          "title": "Opening First Look: It’s Dealer’s Choice at the Tiny Natural Wine Bar That Just Hit Surry Hills L’Massif Cave is inspired by the standing bars of Tokyo and the small team’s appreciation of natural drops. Pop in and pick your colour, then let them do the rest.",
+          "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/massif-cave-wine-bar-surry-hills-first-look",
+          "source": "Broadsheet current Sydney coverage",
+          "publishedAt": "2026-09-03T00:23:00.000Z"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-05T05:37:09.325Z",
+        "publishedAt": "2026-09-03T00:23:00.000Z",
+        "dateStatus": "published date available",
+        "signal": "Public mention; virality not independently measured",
+        "detailSource": "https://www.broadsheet.com.au/sydney/food-and-drink/article/massif-cave-wine-bar-surry-hills-first-look"
+      },
+      "updatedAt": "2026-09-05T05:37:09.325Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-05T05:17:53.231Z"
+  "updatedAt": "2026-09-05T05:37:09.325Z"
 }
