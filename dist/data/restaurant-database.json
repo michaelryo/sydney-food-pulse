@@ -1024,8 +1024,281 @@
         "detailSource": "https://www.broadsheet.com.au/sydney/food-and-drink/article/massif-cave-wine-bar-surry-hills-first-look"
       },
       "updatedAt": "2026-09-05T05:37:09.325Z"
+    },
+    {
+      "name": "Kim's Bop",
+      "cuisine": "Korean",
+      "area": "Inner West",
+      "suburb": "Glebe",
+      "address": "Shop 1, 325 Glebe Point Road, Glebe NSW 2037",
+      "coordinates": [
+        -33.8775206,
+        151.1853964
+      ],
+      "trend": "Current best-new selection",
+      "pricePerPerson": null,
+      "summary": "A permanent 16-seat home for a former market stall, serving homestyle Korean dishes such as bibimbap, kimchi-perilla noodles and house-made kimchi.",
+      "cons": "The official site and recent coverage describe a very compact 16-seat venue, so availability can be limited.",
+      "menuHighlights": [
+        "Bibimbap",
+        "Kimchi perilla noodles",
+        "House-made kimchi"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": true,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Official site states vegan options are available; other dietary claims not verified"
+      },
+      "themes": [
+        "Best new restaurants August 2026",
+        "Public Instagram discovery"
+      ],
+      "source": "https://www.broadsheet.com.au/sydney/guides/new-restaurants",
+      "latestNews": [
+        {
+          "title": "The Best New Restaurants in Sydney – August 2026",
+          "url": "https://www.broadsheet.com.au/sydney/guides/new-restaurants",
+          "source": "Broadsheet",
+          "publishedAt": "2026-08-19"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-05T05:43:18.502Z",
+        "publishedAt": "2026-08-19",
+        "dateStatus": "Guide updated 2026-08-19; checked 2026-09-05",
+        "signal": "Selected in Broadsheet's current best-new-restaurants guide; public Instagram opening posts were indexed, but social engagement was not independently measured",
+        "detailSource": "https://www.kimsbop.com.au/",
+        "socialSource": "https://www.instagram.com/reel/DVhbt4PE1y1/"
+      },
+      "id": 26,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kim's%20Bop%2C%20Shop%201%2C%20325%20Glebe%20Point%20Road%2C%20Glebe%20NSW%202037",
+      "comments": [],
+      "updatedAt": "2026-09-05T05:43:18.502Z"
+    },
+    {
+      "name": "Cà Phê Mai",
+      "cuisine": "Vietnamese cafe and wine bar",
+      "area": "Eastern Suburbs",
+      "suburb": "Double Bay",
+      "address": "377-383 New South Head Road, Double Bay NSW 2028",
+      "coordinates": [
+        -33.8783479,
+        151.2427388
+      ],
+      "trend": "Current best-new selection",
+      "pricePerPerson": null,
+      "summary": "A Vietnamese cafe by day and wine bar by night, centred on family recipes and contemporary dishes including breakfast bánh mì, pho gà and salted Vietnamese coffee.",
+      "cons": "A June 2026 visit report documented a 30-minute weekend wait and some breakfast items selling out; current wait times are not known.",
+      "menuHighlights": [
+        "Breakfast bánh mì",
+        "Family-recipe pho gà",
+        "Cà phê muối"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": true,
+        "confidence": "Chicken pho is described by current venue coverage; other dietary claims not verified"
+      },
+      "themes": [
+        "Best new restaurants August 2026",
+        "Public Instagram discovery"
+      ],
+      "source": "https://www.broadsheet.com.au/sydney/guides/new-restaurants",
+      "latestNews": [
+        {
+          "title": "The Best New Restaurants in Sydney – August 2026",
+          "url": "https://www.broadsheet.com.au/sydney/guides/new-restaurants",
+          "source": "Broadsheet",
+          "publishedAt": "2026-08-19"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-05T05:43:18.502Z",
+        "publishedAt": "2026-08-19",
+        "dateStatus": "Guide updated 2026-08-19; checked 2026-09-05",
+        "signal": "Selected in Broadsheet's current best-new-restaurants guide; a public Instagram venue post was indexed, but social engagement was not independently measured",
+        "detailSource": "https://caphemai.com.au/",
+        "socialSource": "https://www.instagram.com/p/DZ4R60CkpLD/"
+      },
+      "id": 27,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=C%C3%A0%20Ph%C3%AA%20Mai%2C%20377-383%20New%20South%20Head%20Road%2C%20Double%20Bay%20NSW%202028",
+      "comments": [],
+      "updatedAt": "2026-09-05T05:43:18.502Z"
+    },
+    {
+      "name": "Besa",
+      "cuisine": "Spanish",
+      "area": "Eastern Suburbs",
+      "suburb": "Bondi Beach",
+      "address": "LG.01, 75-79 Hall Street, Bondi Beach NSW 2026",
+      "coordinates": [
+        -33.8897685,
+        151.2718295
+      ],
+      "trend": "Current best-new selection",
+      "pricePerPerson": null,
+      "summary": "A Bondi Spanish tapas bar built around picoteo, share plates, local seafood and Basque-influenced cooking.",
+      "cons": "No independently verified recurring drawback was found; check the current menu and booking terms before visiting.",
+      "menuHighlights": [
+        "Spanish tapas",
+        "Basque-style seafood",
+        "Basque cheesecake"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Not yet verified"
+      },
+      "themes": [
+        "Best new restaurants August 2026",
+        "Public Instagram discovery"
+      ],
+      "source": "https://www.broadsheet.com.au/sydney/guides/new-restaurants",
+      "latestNews": [
+        {
+          "title": "The Best New Restaurants in Sydney – August 2026",
+          "url": "https://www.broadsheet.com.au/sydney/guides/new-restaurants",
+          "source": "Broadsheet",
+          "publishedAt": "2026-08-19"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-05T05:43:18.502Z",
+        "publishedAt": "2026-08-19",
+        "dateStatus": "Guide updated 2026-08-19; checked 2026-09-05",
+        "signal": "Selected in Broadsheet's current best-new-restaurants guide; the official public Instagram profile was indexed, but social engagement was not independently measured",
+        "detailSource": "https://www.besabondi.com/",
+        "socialSource": "https://www.instagram.com/besabondi/"
+      },
+      "id": 28,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Besa%2C%20LG.01%2C%2075-79%20Hall%20Street%2C%20Bondi%20Beach%20NSW%202026",
+      "comments": [],
+      "updatedAt": "2026-09-05T05:43:18.502Z"
+    },
+    {
+      "name": "Piqu",
+      "cuisine": "Southeast Asian",
+      "area": "Inner West",
+      "suburb": "Newtown",
+      "address": "194 King Street, Newtown NSW 2042",
+      "coordinates": [
+        -33.8947012,
+        151.1825721
+      ],
+      "trend": "Current best-new selection",
+      "pricePerPerson": null,
+      "summary": "An intimate Newtown restaurant serving modern Southeast Asian-inspired food with Thai-leaning, piquant flavours and Italian technique.",
+      "cons": "Current coverage describes an intimate 35-seat room, so larger groups or peak-time walk-ins may have limited availability.",
+      "menuHighlights": [
+        "Southeast Asian share plates",
+        "Thai-inspired flavours",
+        "Lemongrass margarita"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Not yet verified"
+      },
+      "themes": [
+        "Best new restaurants August 2026",
+        "Public Instagram discovery"
+      ],
+      "source": "https://www.broadsheet.com.au/sydney/guides/new-restaurants",
+      "latestNews": [
+        {
+          "title": "The Best New Restaurants in Sydney – August 2026",
+          "url": "https://www.broadsheet.com.au/sydney/guides/new-restaurants",
+          "source": "Broadsheet",
+          "publishedAt": "2026-08-19"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-05T05:43:18.502Z",
+        "publishedAt": "2026-08-19",
+        "dateStatus": "Guide updated 2026-08-19; checked 2026-09-05",
+        "signal": "Selected in Broadsheet's current best-new-restaurants guide; a public Instagram restaurant post was indexed, but social engagement was not independently measured",
+        "detailSource": "https://www.piqu.com.au/",
+        "socialSource": "https://www.instagram.com/reel/DZmYdwmJjQx/"
+      },
+      "id": 29,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Piqu%2C%20194%20King%20Street%2C%20Newtown%20NSW%202042",
+      "comments": [],
+      "updatedAt": "2026-09-05T05:43:18.502Z"
+    },
+    {
+      "name": "The Hideaway",
+      "cuisine": "New York-inspired modern Australian",
+      "area": "Eastern Suburbs",
+      "suburb": "Bondi Junction",
+      "address": "195 Oxford Street, Bondi Junction NSW 2022",
+      "coordinates": [
+        -33.8923166,
+        151.2492237
+      ],
+      "trend": "New opening gaining coverage",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 99,
+        "max": 99,
+        "label": "$99 pp shared menu",
+        "basis": "Official venue promotion for a three-course shared menu; à la carte spend varies",
+        "sourceUrl": "https://www.thehideawaybondi.com.au/",
+        "lastVerifiedAt": "2026-09-05T05:43:18.502Z"
+      },
+      "summary": "An underground restaurant and cocktail bar with a New York-after-dark feel, serving dry-aged meats, seafood and playful bar food.",
+      "cons": "The official website lists the venue as closed Monday and Tuesday.",
+      "menuHighlights": [
+        "Buttermilk fried chicken",
+        "Dry-aged pork chop",
+        "Dry-aged beef burger"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": true,
+        "confidence": "Buttermilk fried chicken appears in current venue coverage; other dietary claims not verified"
+      },
+      "themes": [
+        "Time Out new-restaurants update",
+        "Public Instagram discovery"
+      ],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-05T05:43:18.502Z",
+        "publishedAt": "2026-08-28",
+        "dateStatus": "Current guide result dated 2026-08-28; checked 2026-09-05",
+        "signal": "Featured in Time Out Sydney's current new-restaurants guide; a public Instagram opening post was indexed, but social engagement was not independently measured",
+        "detailSource": "https://www.thehideawaybondi.com.au/",
+        "socialSource": "https://www.instagram.com/reel/DaNSREXzw4V/"
+      },
+      "id": 30,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Hideaway%2C%20195%20Oxford%20Street%2C%20Bondi%20Junction%20NSW%202022",
+      "comments": [],
+      "updatedAt": "2026-09-05T05:43:18.502Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-05T05:37:09.325Z"
+  "updatedAt": "2026-09-05T05:43:18.502Z"
 }
