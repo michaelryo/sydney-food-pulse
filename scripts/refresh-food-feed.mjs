@@ -324,9 +324,9 @@ const newsQueries = ['Sydney viral restaurant', 'Sydney restaurant opening', 'Sy
 function searchFeed(query) { return `https://www.bing.com/search?format=rss&q=${encodeURIComponent(query)}`; }
 function makeFeeds() {
   return [
-    ...webQueries.map(query => ({url:searchFeed(query), source:`Web search: ${query}`})),
+    {url:'https://www.broadsheet.com.au/sydney/food-and-drink',source:'Broadsheet current Sydney coverage',publisherIndex:true},
+    ...webQueries.map(query => ({url:searchFeed(query), source:`Web search: ${query}`,expectedHost:query.match(/site:([^ ]+)/)?.[1]})),
     ...newsQueries.map(query => ({url:`https://www.bing.com/news/search?format=rss&mkt=en-AU&q=${encodeURIComponent(query)}`,source:'Bing News'})),
-    ...newsQueries.map(query => ({url:`https://news.google.com/rss/search?hl=en-AU&gl=AU&ceid=AU:en&q=${encodeURIComponent(`${query} when:${LOOKBACK_DAYS}d`)}`,source:'Google News'})),
     {url:'https://www.reddit.com/r/foodies_sydney/new.rss', source:'Reddit r/foodies_sydney'},
     {url:'https://www.reddit.com/r/sydney/search.rss?q=restaurant&restrict_sr=on&sort=new&t=month', source:'Reddit r/sydney'},
     ...(process.env.DISCOVERY_FEED_URLS || '').split(',').filter(Boolean).map(url=>({url:url.trim(),source:'Configured public feed'}))
@@ -347,6 +347,7 @@ function recent(date, now) {
 function validName(value) {
   if (typeof value !== 'string') return '';
   const name=decode(value).replace(/^[📍\s]+|[\s,;:]+$/gu,'').trim();
+  if (/^(?:a |an |coming soon:|first look:)|\b(?:chef|credentialled|what we covered|what.s on|you might|opening soon)\b/i.test(name)) return '';
   if (name.length<2 || name.length>70 || !/\p{L}/u.test(name) || /https?:|[<>#?!]|\b(best|top \d+|restaurants|must try|where to|click here|sign in|log in|sydney food|new restaurant)\b/i.test(name)) return '';
   return name;
 }
@@ -364,7 +365,7 @@ function titleName(title) {
 function addressInfos(value) {
   if(typeof value!=='string') return [];
   // Match street and locality together, not a suburb mentioned elsewhere on the page.
-  const text=decode(value);
+  const text=decode(value).replace(/[–—]/g,'-');
   if(/\b(?:VIC|QLD|WA|SA|TAS|NT|ACT|Victoria|Queensland|Tasmania)\b/.test(text)) return [];
   const street=/\b(?:shop\s+[\w/-]+\s*,?\s*)?(?:level\s+\d+\s*,?\s*)?\d+[a-z]?(?:\s*[-/]\s*\d+[a-z]?)?\s+[\p{L}’'&.-]+(?:\s+[\p{L}’'&.-]+){0,5}\s+(?:street|st|road|rd|avenue|ave|lane|ln|place|pl|parade|pde|drive|dr|way|crescent|cres|highway|hwy|esplanade)\b/giu;
   const found=[];
@@ -396,7 +397,64 @@ function structuredVenues(html) {
   }
   return found;
 }
+function articleData(html) {
+  for(const m of html.matchAll(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
+    try {
+      const queue=[JSON.parse(m[1])];
+      while(queue.length){const n=queue.shift();if(!n||typeof n!=='object')continue;
+        if([n['@type']].flat().some(t=>/^(Article|NewsArticle|BlogPosting)$/.test(t))) return n;
+        queue.push(...Object.values(n).filter(v=>typeof v==='object'));
+      }
+    }catch{}
+  }
+  return null;
+}
+function directPublisherItems(html, source) {
+  const items=[];
+  for(const m of html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
+    let url;try{url=publicUrl(new URL(decode(m[1]),source.url).href);}catch{continue;}
+    if(!url || new URL(url).hostname!==new URL(source.url).hostname || !new URL(url).pathname.startsWith('/sydney/food-and-drink/article/')) continue;
+    const title=cleanText(m[2]);
+    if(!/\b(restaurant|restaurants|cafe|cafes|bakery|bakeries|bar|bars|hotel|opening|opens|sandwich|sandwiches|first look)\b/i.test(title)) continue;
+    if(/\b(recipe|cook at home|coming soon|slated to open)\b/i.test(title)) continue;
+    items.push({url,title,description:'',source:source.source,kind:'Public web',publishedAt:null,directPublisher:true});
+  }
+  return uniqueBy(items,v=>v.url).slice(0,25);
+}
+function relevantItems(items, feed) {
+  if(feed.expectedHost) return items.filter(item=>{
+    const host=new URL(item.url).hostname;
+    const valid=host===feed.expectedHost || host.endsWith('.'+feed.expectedHost);
+    if(!valid) reject('search_wrong_platform',item.url);
+    return valid;
+  });
+  if(feed.source.startsWith('Web search:')) return items.filter(item=>{
+    const text=`${item.title} ${item.description}`;
+    return /\b(restaurant|cafe|bakery|eatery|dining)\b/i.test(text) && !/(^|\.)(wikipedia.org|sydney.com)$/.test(new URL(item.url).hostname);
+  });
+  return items;
+}
+function addressBlockVenues(html) {
+  const article=articleData(html);
+  const paragraphs=[...html.replace(/<script[\s\S]*?<\/script>/gi,'').matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)].map(m=>m[1]);
+  const found=[];
+  for(let i=0;i<paragraphs.length;i++) {
+    const lines=paragraphs[i].split(/<br\s*\/?\s*>/i).map(cleanText).filter(Boolean);
+    let name='',info=null;
+    if(lines.length>1){name=validName(lines[0]);info=addressInfo(lines.slice(1).join(', '));}
+    if(!info && /^\s*<(?:strong|b)\b/i.test(paragraphs[i]) && cleanText(paragraphs[i]).length<75) {
+      name=validName(cleanText(paragraphs[i]));info=addressInfo(cleanText(paragraphs[i+1]||''));
+    }
+    if(!name||!info)continue;
+    if(article?.articleBody && (!normaliseName(article.articleBody).includes(normaliseName(name)) || !normaliseAddress(article.articleBody).includes(normaliseAddress(info.address.split(',')[0]))))continue;
+    found.push({name,...info,text:article?.articleBody||lines.join(' ')});
+  }
+  return uniqueBy(found,venueKey);
+}
+
 function extractVenues(html, item) {
+  const addressBlocks=addressBlockVenues(html);
+  if(addressBlocks.length)return addressBlocks;
   const structured=structuredVenues(html);
   if(structured.length) return structured;
   const meta=htmlMeta(html,'og:description') || htmlMeta(html,'description');
@@ -521,18 +579,27 @@ async function main({request = fetchText} = {}) {
   const now=new Date().toISOString();
   const feeds=SKIP_FETCH?[]:makeFeeds();
   const results=await batches(feeds,async feed=>{
-    try {const {text}=await cachedPage(feed.url);const items=parseFeed(text,feed.source);stats.feeds.push({source:feed.source,status:'ok',items:items.length});return items;}
+    try {
+      const {text}=await cachedPage(feed.url);
+      const raw=feed.publisherIndex?directPublisherItems(text,feed):parseFeed(text,feed.source);
+      const items=relevantItems(raw,feed);
+      stats.feeds.push({source:feed.source,status:raw.length&&!items.length?'irrelevant_results':'ok',returned:raw.length,items:items.length});return items;
+    }
     catch(e){stats.feeds.push({source:feed.source,status:e.message,items:0});reject(`feed_${e.message}`,feed.url);return [];}
   });
   // Round-robin avoids one news provider consuming the whole daily budget.
   const interleaved=[];
-  for(let i=0;i<15;i++) for(const items of results) if(items[i]) interleaved.push(items[i]);
+  for(let i=0;i<25;i++) for(const items of results) if(items[i]) interleaved.push(items[i]);
   const news=uniqueBy(interleaved,v=>v.url).filter(item=>{if(recent(item.publishedAt,Date.parse(now))) return true;reject('outside_lookback',item.url);return false;}).slice(0,MAX_PAGES);
   const extracted=(await batches(news,async item=>{
     stats.pagesAttempted++;
     const story=await readStory(item);
     // An indexed snippet remains usable evidence when the public page cannot be fetched.
     const effective=story?{...story.item,description:story.description||item.description}:item;
+    const article=articleData(story?.html||'');
+    if(article?.datePublished) effective.publishedAt=article.datePublished;
+    if(!recent(effective.publishedAt,Date.parse(now))) {reject('article_outside_lookback',item.url);return [];}
+    if(effective.directPublisher && !effective.publishedAt) {reject('publisher_date_missing',item.url);return [];}
     const candidates=extractVenues(story?.html||'',effective);
     if(!candidates.length) reject('no_identifiable_name',item.url);
     return candidates.map(v=>({...v,item:effective}));
@@ -568,7 +635,7 @@ async function main({request = fetchText} = {}) {
   console.log(JSON.stringify(summary,null,2));
   if(process.env.GITHUB_STEP_SUMMARY) await writeFile(process.env.GITHUB_STEP_SUMMARY,`### Restaurant discovery\n\n\`\`\`json\n${JSON.stringify(summary,null,2)}\n\`\`\`\n`,{flag:'a'});
   if(feeds.length && stats.feeds.every(f=>f.status!=='ok')) throw new Error('All discovery sources failed; see feed diagnostics.');
-  if(news.length && !extracted.length) console.warn('::warning::Discovery returned pages but extracted no venue names; inspect source and rejection diagnostics.');
+  if(feeds.length && !additions.length && !stats.duplicates) throw new Error('Discovery ineffective: no usable restaurant identities. Inspect source/rejection diagnostics; this is not a successful search.');
 }
-export { addressInfo, titleName, extractVenues, parseFeed, publisherUrl, venueKey, makeProfile, recent, main };
+export { directPublisherItems, relevantItems, addressBlockVenues, addressInfo, titleName, extractVenues, parseFeed, publisherUrl, venueKey, makeProfile, recent, main };
 if(process.argv[1] && import.meta.url===pathToFileURL(process.argv[1]).href) main().catch(e=>{console.error(e);process.exitCode=1;});
