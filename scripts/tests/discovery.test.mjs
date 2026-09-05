@@ -57,7 +57,7 @@ try {
   const before=await readFile(process.env.DATABASE_PATH,'utf8');await main({request});assert.equal(await readFile(process.env.DATABASE_PATH,'utf8'),before);
  });
  await test('empty discovery does not rewrite the database',async()=>{
-  const before=await readFile(process.env.DATABASE_PATH,'utf8');await main({request:async url=>({url,text:rss()})});assert.equal(await readFile(process.env.DATABASE_PATH,'utf8'),before);
+  const before=await readFile(process.env.DATABASE_PATH,'utf8');await assert.rejects(main({request:async url=>({url,text:rss()})}),/Discovery ineffective/);assert.equal(await readFile(process.env.DATABASE_PATH,'utf8'),before);
  });
  await test('all sources failing reports failure without database damage',async()=>{
   const before=await readFile(process.env.DATABASE_PATH,'utf8');await assert.rejects(main({request:async()=>{throw new Error('HTTP_429')}}),/All discovery sources failed/);assert.equal(await readFile(process.env.DATABASE_PATH,'utf8'),before);
@@ -91,6 +91,24 @@ try {
   const dry=await import('../refresh-food-feed.mjs?dry-run');
   delete process.env.DRY_RUN;
   await dry.main({request});assert.equal(await readFile(process.env.DATABASE_PATH,'utf8'),before);
+ });
+ await test('reject headline fragments seen in the failed production run',()=>{
+  assert.equal(api.titleName('A Michelin-Credentialled Chef Opens a Restaurant'),'');
+  assert.equal(api.titleName('Coming Soon: Mat Lindsay Opens a Restaurant'),'');
+ });
+ await test('social searches reject wrong-domain results',()=>{
+  const rows=[{url:'https://www.sydney.com/'},{url:'https://www.instagram.com/p/abc'}];
+  assert.equal(api.relevantItems(rows,{expectedHost:'instagram.com'}).length,1);
+ });
+ await test('publisher footer binds formatted name to ranged street address',()=>{
+  const html='<p><strong>Sample Hotel</strong><br/>17–19 Example Street, Newtown<br/>Hours: daily</p>';
+  const rows=api.addressBlockVenues(html);assert.equal(rows.length,1);assert.equal(rows[0].name,'Sample Hotel');assert.match(rows[0].address,/17-19/);
+ });
+ await test('repeated unresolved names cannot make discovery appear healthy',async()=>{
+  await writeFile(process.env.DATABASE_PATH,JSON.stringify(original));
+  const items=[{title:'Unresolved Kitchen opens',url:'https://example.com/one',description:'Sydney restaurant'}, {title:'Unresolved Kitchen opens',url:'https://example.com/two',description:'Sydney restaurant'}];
+  await assert.rejects(main({request:async url=>({url,text:url.includes('format=rss')||url.includes('.rss')?rss(items):'<html></html>'})}),/Discovery ineffective/);
+  assert.deepEqual(JSON.parse(await readFile(process.env.DATABASE_PATH,'utf8')),original);
  });
  await test('invalid database refuses writes',async()=>{
   await writeFile(process.env.DATABASE_PATH,'{"wrong":[]}');await assert.rejects(main({request}),/Invalid restaurant database/);assert.equal(await readFile(process.env.DATABASE_PATH,'utf8'),'{"wrong":[]}');
