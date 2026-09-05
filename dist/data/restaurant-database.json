@@ -790,7 +790,10 @@
       "suburb": "Sydney CBD",
       "address": "50 Pitt Street, Sydney NSW 2000",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=All'Antico%20Vinaio%2C%2050%20Pitt%20Street%2C%20Sydney%20NSW%202000",
-      "coordinates": null,
+      "coordinates": [
+        -33.8633319,
+        151.2092568
+      ],
       "trend": "Viral sandwich opening",
       "pricePerPerson": {
         "currency": "AUD",
@@ -835,7 +838,7 @@
         "detailSource": "https://www.allanticovinaio.au/",
         "socialSource": "https://www.instagram.com/p/DaMhHYAitF6/"
       },
-      "updatedAt": "2026-09-05T05:09:54.064Z"
+      "updatedAt": "2026-09-05T05:17:05.824Z"
     },
     {
       "id": 22,
@@ -845,7 +848,10 @@
       "suburb": "Chippendale",
       "address": "67 Abercrombie Street, Chippendale NSW 2008",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Radio%20Taco%2C%2067%20Abercrombie%20Street%2C%20Chippendale%20NSW%202008",
-      "coordinates": null,
+      "coordinates": [
+        -33.8867383,
+        151.1985989
+      ],
       "trend": "Social favourite",
       "pricePerPerson": null,
       "summary": "A Chippendale birria-taco specialist offering dine-in and takeaway. Its birria tacos with consomme appeared in an Instagram roundup of Sydney eats that went viral.",
@@ -879,9 +885,9 @@
         "signal": "Included in an indexed Instagram viral-eats roundup from March 2026; current virality and engagement not verified",
         "detailSource": "https://www.radiotaco.com.au/"
       },
-      "updatedAt": "2026-09-05T05:09:54.064Z"
+      "updatedAt": "2026-09-05T05:17:05.824Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-05T05:09:54.064Z"
+  "updatedAt": "2026-09-05T05:17:05.824Z"
 }
