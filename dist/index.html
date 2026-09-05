@@ -14,7 +14,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script><script>
 let places=[];
 let selected=null,view='list';const cards=document.querySelector('#cards'),pins=document.querySelector('#pins');
-function esc(value){const d=document.createElement('div');d.textContent=value;return d.innerHTML}
+function esc(value){return String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function priceLabel(place){const pricing=place.pricePerPerson;const min=Number(pricing?.min),max=Number(pricing?.max);return Number.isFinite(min)&&Number.isFinite(max)?`$${min}–$${max} pp`:pricing?.label||''}
 async function loadDailyBuzz(){try{const response=await fetch('data/viral-feed.json',{cache:'no-store'});if(!response.ok)throw new Error('No feed');const feed=await response.json();const items=(feed.items||[]).slice(0,3);document.querySelector('#buzz-updated').textContent=feed.updatedAt?`Updated ${new Date(feed.updatedAt).toLocaleDateString('en-AU',{day:'numeric',month:'short'})}`:'Latest public food-news links';document.querySelector('#buzz-items').innerHTML=items.length?items.map(item=>`<a class="buzzitem" href="${esc(item.url)}" target="_blank" rel="noopener"><b>${esc(item.title)}</b><span>${esc(item.source||'Public food news')} ↗</span></a>`).join(''):'<span>Today’s update is on its way. Check back shortly.</span>'}catch{document.querySelector('#buzz-updated').textContent='Curated public food-news links';document.querySelector('#buzz-items').innerHTML='<span>Daily feed is being prepared. Restaurant cards below remain available.</span>'}}
 function filtered(){const q=search.value.toLowerCase(),c=cuisine.value,l=location.value;return places.filter(p=>(p.name+' '+p.suburb).toLowerCase().includes(q)&&(c==='All cuisines'||p.cuisine===c)&&(l==='All locations'||p.area===l))}
@@ -45,13 +45,18 @@ function bind(){document.querySelectorAll('[data-id]').forEach(el=>el.onclick=e=
   const foodMap = L.map(mapEl,{scrollWheelZoom:false}).setView([-33.8700,151.2150],11);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}).addTo(foodMap);
   const markerLayer = L.layerGroup().addTo(foodMap);
-  const mapCoordinates = place => place.coordinates || areaCoordinates[place.area];
+  const mapCoordinates = place => Array.isArray(place.coordinates)&&place.coordinates.length===2&&place.coordinates.every(Number.isFinite) ? place.coordinates : null;
   async function loadRestaurantDatabase(){
     try{
       const response=await fetch('data/restaurant-database.json',{cache:'no-store'});
       if(!response.ok)throw new Error('No database');
       const database=await response.json();
-      if(Array.isArray(database.restaurants)&&database.restaurants.length) places=database.restaurants;
+      if(Array.isArray(database.restaurants)) places=database.restaurants;
+      for(const [select,field,label] of [[cuisineSelect,'cuisine','All cuisines'],[locationSelect,'area','All locations']]){
+        const previous=select.value;
+        select.replaceChildren(...[label,...new Set(places.map(p=>p[field]).filter(Boolean))].map(value=>new Option(value,value)));
+        if([...select.options].some(o=>o.value===previous)) select.value=previous;
+      }
       render();
     }catch{
       render();
@@ -74,27 +79,18 @@ function bind(){document.querySelectorAll('[data-id]').forEach(el=>el.onclick=e=
     if(place&&mapCoordinates(place)){foodMap.setView(mapCoordinates(place),13,{animate:true});}
     if(scrollToCard) document.querySelector(`.card[data-id="${id}"]`)?.scrollIntoView({behavior:'smooth',block:'center'});
   }
+  function safeUrl(value){try{const url=new URL(value);return ['https:','http:'].includes(url.protocol)?url.href:'#'}catch{return '#'}}
   function render(){
     const data=visiblePlaces();
     if(!data.some(place=>place.id===selected)) selected=data[0]?.id || null;
-    countEl.textContent=`${data.length} restaurant${data.length===1?'':'s'}`;
-    cardsEl.innerHTML=data.length ? data.map(place=>`<article class="card ${selected===place.id?'active':''}" data-id="${place.id}"><div class="cardtop"><div><span class="trend">${place.trend}</span><h2>${place.name}</h2><div class="meta">${place.cuisine} · ${place.suburb}</div>${priceLabel(place)?`<div class="meta">${priceLabel(place)}</div>`:''}</div><div class="ratings"><a class="rating" target="_blank" rel="noopener" href="${place.googleurl}">Google ★ ${place.google}</a><a class="rating" target="_blank" rel="noopener" href="${place.tripurl}">Tripadvisor ● ${place.trip}</a></div></div>${place.image?`<img class="heroimg" src="${place.image}" alt="Sydney restaurant dining">`:''}<p class="summary">${place.summary}</p><div class="cons"><b>Worth knowing:</b> ${place.cons}</div>${place.themes?.length?`<div class="themes">${place.themes.map(theme=>`<span>${theme}</span>`).join('')}</div>`:''}<div class="details"><div class="source">Public-source summary: <a href="${place.source}" target="_blank" rel="noopener">read the source ↗</a></div>${place.updatedAt?`<div class="source">Profile updated: ${new Date(place.updatedAt).toLocaleDateString('en-AU',{day:'numeric',month:'short',year:'numeric'})}</div>`:''}</div></article>`).join('') : '<div class="empty"><b>No matches yet.</b><br>Try clearing a filter.</div>';
-    cardsEl.querySelectorAll('.ratings').forEach((container,index)=>{
-      const place=data[index];
-      container.innerHTML=[
-        `<a class="rating logo-link" target="_blank" rel="noopener" href="${placeGoogleMapsUrl(place)}" title="Open ${place.name} in Google Maps" aria-label="Open ${place.name} in Google Maps"><img class="review-logo" src="https://cdn.simpleicons.org/googlemaps/4285F4" alt="Google Maps"><span class="review-label">Maps</span></a>`,
-        place.tripadvisorReviewUrl?`<a class="rating logo-link" target="_blank" rel="noopener" href="${place.tripadvisorReviewUrl}" title="Open Tripadvisor reviews for ${place.name}" aria-label="Open Tripadvisor reviews for ${place.name}"><img class="review-logo" src="https://cdn.simpleicons.org/tripadvisor/34E0A1" alt="Tripadvisor"></a>`:''
-      ].join('');
-    });
-    cardsEl.querySelectorAll('.card').forEach((card,index)=>{
-      const address=data[index].address;
-      if(address) card.querySelector('.meta').insertAdjacentHTML('afterend',`<div class="meta">${address}</div>`);
-    });
+    const mapped=data.filter(place=>mapCoordinates(place)).length;
+    countEl.textContent=`${data.length} restaurant${data.length===1?'':'s'} · ${mapped} mapped`;
+    cardsEl.innerHTML=data.length ? data.map(place=>`<article class="card ${selected===place.id?'active':''}" data-id="${Number(place.id)}"><div class="cardtop"><div><span class="trend">${esc(place.trend||'Recently discovered')}</span><h2>${esc(place.name)}</h2><div class="meta">${esc(place.cuisine||'Unknown cuisine')} · ${esc(place.suburb||'Sydney')}</div><div class="meta">${esc(place.address||'')}</div><div class="meta">${esc(priceLabel(place)||'Price not available')}</div></div><div class="ratings"><a class="rating logo-link" target="_blank" rel="noopener" href="${esc(safeUrl(placeGoogleMapsUrl(place)))}" title="Open in Google Maps"><img class="review-logo" src="https://cdn.simpleicons.org/googlemaps/4285F4" alt="Google Maps"><span class="review-label">Maps</span></a>${place.tripadvisorReviewUrl?`<a class="rating logo-link" target="_blank" rel="noopener" href="${esc(safeUrl(place.tripadvisorReviewUrl))}" title="Tripadvisor reviews"><img class="review-logo" src="https://cdn.simpleicons.org/tripadvisor/34E0A1" alt="Tripadvisor"></a>`:''}</div></div><p class="summary">${esc(place.summary||'Details not yet available.')}</p><div class="cons"><b>Worth knowing:</b> ${esc(place.cons||'Not yet verified.')}</div>${place.themes?.length?`<div class="themes">${place.themes.map(theme=>`<span>${esc(theme)}</span>`).join('')}</div>`:''}<div class="details"><div class="source"><a href="${esc(safeUrl(place.source))}" target="_blank" rel="noopener">Read the discovery source ↗</a></div>${place.discovery?.detailSource&&place.discovery.detailSource!==place.source?`<div class="source"><a href="${esc(safeUrl(place.discovery.detailSource))}" target="_blank" rel="noopener">Venue details source ↗</a></div>`:''}${place.discovery?`<div class="source">${esc(place.discovery.signal||'Public mention')} · ${esc(place.discovery.dateStatus||'')}</div>`:''}${!mapCoordinates(place)?'<div class="source">Map position unavailable. Use the Maps link to find this address.</div>':''}${place.updatedAt?`<div class="source">Added / updated: ${esc(new Date(place.updatedAt).toLocaleDateString('en-AU'))}</div>`:''}</div></article>`).join('') : '<div class="empty"><b>No matches yet.</b><br>Try clearing a filter. Restaurants without a known price are excluded when a price filter is set.</div>';
     cardsEl.querySelectorAll('.card').forEach(card=>card.addEventListener('click',event=>{if(!event.target.closest('a')) selectPlace(Number(card.dataset.id),false)}));
     markerLayer.clearLayers();
-    data.forEach(place=>{const position=mapCoordinates(place);if(position)L.marker(position).addTo(markerLayer).bindPopup(`<b>${place.name}</b><br>${place.cuisine} · ${place.suburb}<br><small>${place.trend}</small>`).on('click',()=>selectPlace(place.id,true))});
+    data.forEach(place=>{const position=mapCoordinates(place);if(position)L.marker(position).addTo(markerLayer).bindPopup(`<b>${esc(place.name)}</b><br>${esc(place.cuisine||'Unknown cuisine')} · ${esc(place.suburb||'Sydney')}`).on('click',()=>selectPlace(place.id,true))});
     const active=places.find(place=>place.id===selected);
-    legendEl.innerHTML=active ? `<b>${active.name}</b><small>${active.cuisine} · ${active.suburb}</small>` : '<b>No place selected</b><small>Adjust filters to see a restaurant.</small>';
+    legendEl.innerHTML=active ? `<b>${esc(active.name)}</b><small>${esc(active.cuisine||'Unknown cuisine')} · ${esc(active.suburb||'Sydney')}</small>` : '<b>No place selected</b><small>Adjust filters to see a restaurant.</small>';
   }
   [searchInput,cuisineSelect,locationSelect,priceInput].forEach(control=>control.addEventListener(control.tagName==='INPUT'?'input':'change',render));
   mapButton.addEventListener('click',()=>{mapButton.classList.add('active');listButton.classList.remove('active');mapEl.scrollIntoView({behavior:'smooth',block:'center'});setTimeout(()=>foodMap.invalidateSize(),300)});
@@ -102,3 +98,4 @@ function bind(){document.querySelectorAll('[data-id]').forEach(el=>el.onclick=e=
   render(); loadRestaurantDatabase();
 })();
 </script></body></html>
+

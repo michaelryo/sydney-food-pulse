@@ -1,0 +1,29 @@
+name: Validate restaurant discovery
+on:
+  push:
+    branches: [codex/fix-discovery-sources]
+permissions:
+  contents: read
+concurrency:
+  group: validate-discovery-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          package-manager-cache: false
+      - run: node --test scripts/tests/discovery.test.mjs
+      - name: Live discovery dry run
+        run: node scripts/refresh-food-feed.mjs
+        env:
+          DRY_RUN: "true"
+          SKIP_GEOCODE: "true"
+          MAX_DETAIL_LOOKUPS: "5"
+          MAX_DISCOVERY_PAGES: "60"
+      - name: Verify database unchanged
+        run: git diff --exit-code -- dist/data/restaurant-database.json
