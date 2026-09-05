@@ -942,7 +942,10 @@
       "suburb": "Surry Hills",
       "area": "CBD & Inner City",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Little%20River%2C%2044%20Reservoir%20Street%2C%20Surry%20Hills%2C%20NSW",
-      "coordinates": null,
+      "coordinates": [
+        -33.8811382,
+        151.2092197
+      ],
       "cuisine": "Spanish",
       "pricePerPerson": null,
       "trend": "Recently discovered",
@@ -987,7 +990,10 @@
       "suburb": "Surry Hills",
       "area": "CBD & Inner City",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=L%E2%80%99Massif%20Cave%2C%20231%20Commonwealth%20Street%2C%20Surry%20Hills%2C%20NSW",
-      "coordinates": null,
+      "coordinates": [
+        -33.883418,
+        151.209805
+      ],
       "cuisine": "Japanese",
       "pricePerPerson": null,
       "trend": "Recently discovered",
