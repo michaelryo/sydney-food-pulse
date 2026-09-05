@@ -9,7 +9,7 @@ Existing records are preserved. The separate cleanup script and its
 ## Sources and enrichment
 
 - Direct current Broadsheet Sydney food coverage provides dated article URLs.
-  Bing web RSS searches include public TikTok, Instagram and Facebook pages;
+  Bing web RSS searches target public TikTok, Instagram and Facebook pages. Relevant results from other websites are also retained;
   Bing News and Reddit feeds supplement them. Google News RSS is no longer a
   default source because publisher redirects were consistently unresolved. Search providers may block
   requests, change their feeds, omit social posts or return no results.
@@ -19,7 +19,7 @@ Existing records are preserved. The separate cleanup script and its
 - Multiple Restaurant entities in JSON-LD, caption location pins and explicit
   name/address blocks can identify venues. Publisher article dates are checked
   against the lookback window. Generic chef/headline fragments are rejected,
-  and social searches discard results outside the requested platform. A title-only discovery can trigger a separate
+  and social searches prefer the requested platform while accepting relevant cross-platform results. A title-only discovery can trigger a separate
   venue lookup. Details are merged only for the same normalized venue name and,
   if already known, the same address.
 - Cuisine and explicitly published per-person prices come from venue/publisher
