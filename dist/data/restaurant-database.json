@@ -1136,8 +1136,322 @@
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Hideaway%2C%20195%20Oxford%20Street%2C%20Bondi%20Junction%20NSW%202022",
       "comments": [],
       "updatedAt": "2026-09-05T05:43:18.502Z"
+    },
+    {
+      "name": "Hamsi Taverna",
+      "address": "Shop E1B, Sydney Fish Market, 1 Bridge Road, Glebe NSW 2037",
+      "suburb": "Glebe",
+      "area": "Inner West",
+      "coordinates": [
+        -33.8743796,
+        151.1906679
+      ],
+      "cuisine": "Turkish and Eastern Mediterranean seafood",
+      "trend": "Current best-new selection",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 89,
+        "max": 139,
+        "label": "$89-$139 pp set menus",
+        "basis": "Current official shared and chef's set menus; excludes surcharges and optional upgrades",
+        "sourceUrl": "https://hamsitaverna.com.au/wp-content/uploads/2026/08/hamsi_menu_A3_26AUG.pdf",
+        "lastVerifiedAt": "2026-09-05T06:13:07.717Z"
+      },
+      "summary": "Somer Sivrioğlu's charcoal-led waterfront taverna focuses on Turkish and Aegean seafood, mezze and large-format dishes at the new Sydney Fish Market.",
+      "cons": "The current official menu lists a 10% Sunday surcharge, 15% public-holiday surcharge, 10% service charge for tables of seven or more, and premium seafood dishes above the set-menu price.",
+      "menuHighlights": [
+        "Dry-aged Murray cod",
+        "Char-grilled swordfish steak",
+        "Crispy hamsi",
+        "Antakya-style hummus"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "The official menu marks seafood provenance but does not support broad dietary claims"
+      },
+      "themes": [
+        "Best new restaurants August 2026",
+        "Sydney Fish Market",
+        "Public Instagram discovery"
+      ],
+      "comments": [],
+      "source": "https://www.broadsheet.com.au/sydney/guides/new-restaurants",
+      "latestNews": [
+        {
+          "title": "The Best New Restaurants in Sydney – August 2026",
+          "url": "https://www.broadsheet.com.au/sydney/guides/new-restaurants",
+          "source": "Broadsheet",
+          "publishedAt": "2026-08-19"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-05T06:13:07.717Z",
+        "publishedAt": "2026-08-19",
+        "dateStatus": "Guide updated 2026-08-19; checked 2026-09-05",
+        "signal": "Selected in Broadsheet's current best-new-restaurants guide and supported by indexed public Instagram material; engagement was not independently measured",
+        "detailSource": "https://hamsitaverna.com.au/",
+        "socialSource": "https://www.instagram.com/hamsitaverna/"
+      },
+      "id": 27,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hamsi%20Taverna%2C%20Shop%20E1B%2C%20Sydney%20Fish%20Market%2C%201%20Bridge%20Road%2C%20Glebe%20NSW%202037",
+      "updatedAt": "2026-09-05T06:13:07.717Z"
+    },
+    {
+      "name": "Tam Jiak",
+      "address": "Shop E1A, Sydney Fish Market, 1 Bridge Road, Glebe NSW 2037",
+      "suburb": "Glebe",
+      "area": "Inner West",
+      "coordinates": [
+        -33.8743796,
+        151.1906679
+      ],
+      "cuisine": "Modern Malaysian surf and turf",
+      "trend": "Current best-new selection",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 65,
+        "max": 150,
+        "label": "$65-$150 pp",
+        "basis": "Reported range for a full meal and drink, cross-checked against the current official menu's $22-$56 featured dishes; market-price seafood can cost more",
+        "sourceUrl": "https://crumbwire.com/news/chef-junda-khoo-opens-tam-jiak-at-sydney-fish-market/",
+        "lastVerifiedAt": "2026-09-05T06:13:07.717Z"
+      },
+      "summary": "Junda Khoo's Sydney Fish Market restaurant combines Malaysian flavours with seafood and Western grill-house techniques.",
+      "cons": "Mud crab is sold at market price and the venue states that menu items and prices can change with seasonal availability.",
+      "menuHighlights": [
+        "Tom Yum Bomb",
+        "Black Duck",
+        "Tong Mo sausage",
+        "Malaysian chilli mud crab"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": true,
+        "confidence": "The official Tom Yum Bomb contains chicken; other dietary claims are not recorded without direct menu confirmation"
+      },
+      "themes": [
+        "Best new restaurants August 2026",
+        "Sydney Fish Market",
+        "Public Instagram discovery"
+      ],
+      "comments": [],
+      "source": "https://www.broadsheet.com.au/sydney/guides/new-restaurants",
+      "latestNews": [
+        {
+          "title": "The Best New Restaurants in Sydney – August 2026",
+          "url": "https://www.broadsheet.com.au/sydney/guides/new-restaurants",
+          "source": "Broadsheet",
+          "publishedAt": "2026-08-19"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-05T06:13:07.717Z",
+        "publishedAt": "2026-08-19",
+        "dateStatus": "Guide updated 2026-08-19; checked 2026-09-05",
+        "signal": "Selected in Broadsheet's current best-new-restaurants guide and supported by an indexed public opening reel; engagement was not independently measured",
+        "detailSource": "https://www.tamjiak.com.au/",
+        "socialSource": "https://www.instagram.com/reel/DVkm39wDHuK/"
+      },
+      "id": 28,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tam%20Jiak%2C%20Shop%20E1A%2C%20Sydney%20Fish%20Market%2C%201%20Bridge%20Road%2C%20Glebe%20NSW%202037",
+      "updatedAt": "2026-09-05T06:13:07.717Z"
+    },
+    {
+      "name": "Watermans",
+      "address": "R1, 88 Barangaroo Avenue, Barangaroo NSW 2000",
+      "suburb": "Barangaroo",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8625741,
+        151.2016739
+      ],
+      "cuisine": "Eastern Mediterranean",
+      "trend": "Current best-new selection",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 35,
+        "max": 126,
+        "label": "$35 lunch; $88-$126 pp set menus",
+        "basis": "Current official lunch-set price and published official set-menu prices; excludes drinks and surcharges",
+        "sourceUrl": "https://www.bentleyrestaurantgroup.com.au/watermanssydney",
+        "lastVerifiedAt": "2026-09-05T06:13:07.717Z"
+      },
+      "summary": "A harbourfront Bentley Group restaurant serving Greek, Cypriot, Turkish and Lebanese-inspired dishes from a wood-fired grill and oven.",
+      "cons": "The official terms list a 10% Sunday surcharge, 15% public-holiday surcharge and a 10% service charge for parties of eight or more.",
+      "menuHighlights": [
+        "Hummus with green zhoug",
+        "Raw tuna with pickled watermelon",
+        "Whole roasted John Dory",
+        "Pomegranate-glazed lamb shoulder"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": true,
+        "confidence": "Chicken appears on the current official set menu; other dietary claims not verified"
+      },
+      "themes": [
+        "Gourmet Traveller September 2026",
+        "Barangaroo",
+        "Public Instagram discovery"
+      ],
+      "comments": [],
+      "source": "https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/",
+      "latestNews": [
+        {
+          "title": "The best new restaurants in Sydney",
+          "url": "https://www.gourmettraveller.com.au/dining-out/food-news/new-restaurants-sydney-21060/",
+          "source": "Gourmet Traveller",
+          "publishedAt": "2026-09-01"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-05T06:13:07.717Z",
+        "publishedAt": "2026-09-01",
+        "dateStatus": "Published 2026-09-01; checked 2026-09-05",
+        "signal": "Included in Gourmet Traveller's current best-new-restaurants coverage and supported by indexed public Instagram posts; engagement was not independently measured",
+        "detailSource": "https://www.bentleyrestaurantgroup.com.au/watermanssydney",
+        "socialSource": "https://www.instagram.com/watermanssydney/"
+      },
+      "id": 29,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Watermans%2C%20R1%2C%2088%20Barangaroo%20Avenue%2C%20Barangaroo%20NSW%202000",
+      "updatedAt": "2026-09-05T06:13:07.717Z"
+    },
+    {
+      "name": "24 York",
+      "address": "24 York Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.868025,
+        151.206255
+      ],
+      "cuisine": "Steakhouse",
+      "trend": "Established buzz, recently refreshed evidence",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 48,
+        "max": 48,
+        "label": "$48 pp steak-frites",
+        "basis": "Current official food price for the signature 220g scotch fillet and beef-tallow fries; extras, drinks and surcharges excluded",
+        "sourceUrl": "https://hunterstreethospitality.com.au/venues/24-york/menu/",
+        "lastVerifiedAt": "2026-09-05T06:13:07.717Z"
+      },
+      "summary": "A single-dish CBD steakhouse centred on sliced O'Connor scotch fillet, beef-tallow fries and a choice of four sauces.",
+      "cons": "The official FAQ states there are no vegetarian or vegan alternatives and the fries are not vegetarian; payment and Sunday/public-holiday surcharges apply.",
+      "menuHighlights": [
+        "220g O'Connor scotch fillet",
+        "Beef-tallow shoestring fries",
+        "Peppercorn, chimichurri, umami butter or veal jus"
+      ],
+      "dietary": {
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": true,
+        "dairyFree": null,
+        "chickenAvailable": false,
+        "confidence": "Directly stated in the current official FAQ; steak-frites is gluten-free and the kitchen is described as nut-free, but allergy suitability should still be confirmed"
+      },
+      "themes": [
+        "One-year anniversary August 2026",
+        "Single-dish restaurant",
+        "Public Instagram discovery"
+      ],
+      "comments": [],
+      "source": "https://hunterstreethospitality.com.au/venues/24-york/news-stories/one-year-of-24-york/",
+      "latestNews": [
+        {
+          "title": "One Year Of 24 York",
+          "url": "https://hunterstreethospitality.com.au/venues/24-york/news-stories/one-year-of-24-york/",
+          "source": "24 York / Hunter St Hospitality",
+          "publishedAt": "2026-08-04"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-05T06:13:07.717Z",
+        "publishedAt": "2026-08-04",
+        "dateStatus": "Published 2026-08-04; 32-day-old supporting evidence when checked 2026-09-05",
+        "signal": "The venue's anniversary update describes it as a talked-about opening and CBD fixture; indexed public Instagram material was found, but engagement was not independently measured",
+        "detailSource": "https://hunterstreethospitality.com.au/venues/24-york/",
+        "socialSource": "https://www.instagram.com/p/Dbsak-nj_UA/"
+      },
+      "id": 30,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=24%20York%2C%2024%20York%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-05T06:13:07.717Z"
+    },
+    {
+      "name": "RiceFace",
+      "address": "Lower Ground, The Galeries, 500 George Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8726424,
+        151.2076076
+      ],
+      "cuisine": "Thai rice bowls",
+      "trend": "Current best-new and social-value pick",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 10,
+        "max": 18,
+        "label": "$10-$18 pp",
+        "basis": "Published current bowl pricing: $10 promotional bowl and regular bowls up to $18; add-ons and drinks excluded",
+        "sourceUrl": "https://www.broadsheet.com.au/sydney/food-and-drink/article/riceface-cbd-chat-thai-open",
+        "lastVerifiedAt": "2026-09-05T06:13:07.717Z"
+      },
+      "summary": "Palisa Anderson's fast-casual rice counter serves house-cooked rice with poached or grilled chicken, char siu pork, braised beef, and mushroom-tofu gravy.",
+      "cons": "The official hours are daytime-focused and the venue is a lower-ground food-court counter rather than a full-service dinner restaurant.",
+      "menuHighlights": [
+        "Grilled lemongrass chicken rice",
+        "Slow-poached chicken rice",
+        "BBQ pork rice",
+        "Mushroom and tofu gravy rice"
+      ],
+      "dietary": {
+        "vegetarian": true,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": true,
+        "confidence": "The official menu labels mushroom and tofu gravy as a vegetarian option and lists multiple chicken mains; other dietary claims not verified"
+      },
+      "themes": [
+        "Best new restaurants August 2026",
+        "Affordable social pick",
+        "Public Instagram and Facebook discovery"
+      ],
+      "comments": [],
+      "source": "https://www.broadsheet.com.au/sydney/guides/new-restaurants",
+      "latestNews": [
+        {
+          "title": "The Best New Restaurants in Sydney – August 2026",
+          "url": "https://www.broadsheet.com.au/sydney/guides/new-restaurants",
+          "source": "Broadsheet",
+          "publishedAt": "2026-08-19"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-05T06:13:07.717Z",
+        "publishedAt": "2026-08-19",
+        "dateStatus": "Guide updated 2026-08-19; social venue post published 2026-06-14; checked 2026-09-05",
+        "signal": "Selected in Broadsheet's current best-new-restaurants guide; an indexed public Instagram post promoted its under-$20 offer, but engagement was not independently measured",
+        "detailSource": "https://riceface.com.au/",
+        "socialSource": "https://www.instagram.com/reel/DZluydPAqQC/"
+      },
+      "id": 31,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=RiceFace%2C%20Lower%20Ground%2C%20The%20Galeries%2C%20500%20George%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-05T06:13:07.717Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-05T05:43:18.502Z"
+  "updatedAt": "2026-09-05T06:13:07.717Z"
 }
