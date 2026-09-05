@@ -1,0 +1,35 @@
+name: Bug report
+description: Report a reproducible problem with the site or refresh process
+title: "bug: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Sydney Food Pulse. Please avoid including private information.
+  - type: input
+    id: location
+    attributes:
+      label: Affected page or script
+      placeholder: "Example: restaurant filter, map, or scripts/refresh-food-feed.mjs"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: What happened?
+      description: Include the steps needed to reproduce the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include browser, operating system, Node version, and workflow run URL when relevant.

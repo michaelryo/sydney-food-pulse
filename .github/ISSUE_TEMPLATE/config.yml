@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Live site
+    url: https://michaelryo.github.io/sydney-food-pulse/
+    about: Browse the current Sydney Food Pulse site.
+  - name: Source and workflow runs
+    url: https://github.com/michaelryo/sydney-food-pulse/actions
+    about: Check deployment and daily refresh status before opening an issue.
