@@ -96,9 +96,14 @@ try {
   assert.equal(api.titleName('A Michelin-Credentialled Chef Opens a Restaurant'),'');
   assert.equal(api.titleName('Coming Soon: Mat Lindsay Opens a Restaurant'),'');
  });
- await test('social searches reject wrong-domain results',()=>{
-  const rows=[{url:'https://www.sydney.com/'},{url:'https://www.instagram.com/p/abc'}];
-  assert.equal(api.relevantItems(rows,{expectedHost:'instagram.com'}).length,1);
+ await test('social searches keep relevant cross-platform results',()=>{
+  const rows=[
+    {url:'https://www.sydney.com/',title:'Visit Sydney',description:'Tourism'},
+    {url:'https://www.instagram.com/p/abc',title:'Food post',description:''},
+    {url:'https://example.com/venue',title:'New Sydney restaurant',description:'Restaurant address'}
+  ];
+  const kept=api.relevantItems(rows,{expectedHost:'instagram.com'});
+  assert.deepEqual(kept.map(row=>row.url),['https://www.instagram.com/p/abc','https://example.com/venue']);
  });
  await test('publisher footer binds formatted name to ranged street address',()=>{
   const html='<p><strong>Sample Hotel</strong><br/>17–19 Example Street, Newtown<br/>Hours: daily</p>';
