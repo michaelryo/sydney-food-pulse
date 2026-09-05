@@ -1,0 +1,31 @@
+name: Validate restaurant discovery
+on:
+  push:
+    branches: [codex/fix-discovery-sources]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          package-manager-cache: false
+      - run: node --test scripts/tests/discovery.test.mjs
+      - name: Inspect public publisher structure
+        run: |
+          node --input-type=module <<'JS'
+          const index = 'https://www.broadsheet.com.au/sydney/food-and-drink';
+          const get = async u => { const r=await fetch(u,{signal:AbortSignal.timeout(15000)}); console.log('HTTP',r.status,u); return r.ok?await r.text():''; };
+          const html=await get(index);
+          console.log('INDEX_LENGTH',html.length);
+          const links=[...html.matchAll(/href=["']([^"']*\/sydney\/food-and-drink\/article\/[^"']+)["']/g)].map(m=>new URL(m[1],index).href);
+          const unique=[...new Set(links)].slice(0,5);console.log('ARTICLES',JSON.stringify(unique));
+          for(const url of unique.slice(0,2)){
+            const text=await get(url);
+            console.log('ARTICLE',JSON.stringify({url,length:text.length,ld:[...text.matchAll(/<script[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/g)].map(m=>m[1]),h:text.match(/<h[123][^>]*>[\s\S]*?<\/h[123]>/g)?.slice(0,12),address:text.match(/.{0,80}(?:Street|street|Road|road|Avenue|avenue).{0,120}/g)?.slice(0,10),venues:[...text.matchAll(/href=["']([^"']*\/sydney\/(?:restaurants|cafes|bars)\/[^"']+)["']/g)].map(m=>m[1]).slice(0,12)}));
+          }
+          JS
