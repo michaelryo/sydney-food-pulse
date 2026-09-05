@@ -3,7 +3,7 @@
 [![Deploy to GitHub Pages](https://github.com/michaelryo/sydney-food-pulse/actions/workflows/deploy-github-pages.yml/badge.svg)](https://github.com/michaelryo/sydney-food-pulse/actions/workflows/deploy-github-pages.yml)
 [![Daily feed refresh](https://github.com/michaelryo/sydney-food-pulse/actions/workflows/refresh-food-feed.yml/badge.svg)](https://github.com/michaelryo/sydney-food-pulse/actions/workflows/refresh-food-feed.yml)
 
-Sydney Food Pulse is a lightweight, static guide to restaurants currently attracting attention across Sydney. It turns recent public food-news and community signals into searchable editorial profiles with cuisine, suburb, price, map, source, and "worth knowing" details.
+Sydney Food Pulse is a free-to-use, lightweight guide to restaurants currently attracting attention across Sydney. It turns recent public food-news and community signals into searchable editorial profiles with cuisine, suburb, price, map, source, and "worth knowing" details.
 
 **Live site:** [michaelryo.github.io/sydney-food-pulse](https://michaelryo.github.io/sydney-food-pulse/)
 
@@ -16,6 +16,12 @@ Sydney Food Pulse is a lightweight, static guide to restaurants currently attrac
 - Removes newly discovered entries without an address and profiles older than the configured retention period.
 
 The content is a public-source editorial summary, not a guarantee that a venue is open, that prices are current, or that a dish is suitable for an allergy. Check the linked venue or review listing before travelling.
+
+## Free hosting and daily content
+
+The site is a static website with dynamic content. GitHub Pages hosts the HTML, CSS, JavaScript, and generated JSON for free; there is no paid server, database, or separate hosting service required for visitors.
+
+GitHub Actions runs the Node.js refresh workflow once a day. It collects recent public food signals, updates `dist/data/restaurant-database.json`, and redeploys the refreshed site. The frontend remains static and fast to serve, while the restaurant content changes automatically as the scheduled workflow publishes a new snapshot.
 
 ## Repository layout
 
@@ -31,23 +37,9 @@ scripts/
   refresh-food-feed.yml              Refresh and deploy the feed daily
 ```
 
-## Run locally
+## Refresh the data manually
 
-Requirements:
-
-- Node.js 20 or newer
-- Network access for a live refresh
-
-No npm dependencies are required. From the repository root:
-
-```powershell
-# Serve the static site locally (use any static file server you prefer)
-npx --yes serve dist
-```
-
-The site can also be opened directly from `dist/index.html`, although a local server is recommended because the page loads JSON with `fetch`.
-
-## Refresh the data
+Visitors do not need Node.js or any local setup. These commands are for maintainers who want to test or run the same refresh process manually. The automated GitHub Action normally handles this work.
 
 Run a real refresh, then remove expired profiles:
 
