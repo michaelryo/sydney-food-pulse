@@ -1,9 +1,8 @@
 name: Refresh daily food feed
 
 on:
-  schedule:
-    # 07:00 or 08:00 Sydney time, depending on daylight saving.
-    - cron: "0 21 * * *"
+  # Scheduled refresh is paused while discovery quality is reviewed.
+  # Keep manual dispatch available so the workflow itself is preserved.
   workflow_dispatch:
 
 env:

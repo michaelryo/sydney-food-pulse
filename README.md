@@ -21,7 +21,7 @@ The content is a public-source editorial summary, not a guarantee that a venue i
 
 The site is a static website with dynamic content. GitHub Pages hosts the HTML, CSS, JavaScript, and generated JSON for free; there is no paid server, database, or separate hosting service required for visitors.
 
-GitHub Actions runs the Node.js refresh workflow once a day. It collects recent public food signals, updates `dist/data/restaurant-database.json`, and redeploys the refreshed site. The frontend remains static and fast to serve, while the restaurant content changes automatically as the scheduled workflow publishes a new snapshot.
+GitHub Actions can run the Node.js refresh workflow manually. The daily schedule is currently paused while discovery quality is reviewed. A manual run collects recent public food signals, updates `dist/data/restaurant-database.json`, and redeploys the refreshed site. The workflow is retained so scheduled refreshes can be restored after the discovery output is reliable.
 
 ## Repository layout
 
@@ -73,7 +73,7 @@ In the repository on GitHub:
 3. Confirm the `github-pages` environment is available under **Settings > Environments**.
 4. Ensure Actions are enabled under **Settings > Actions > General**. The workflows require repository write access to commit refreshed JSON and Pages deployment access.
 
-The deploy workflow publishes `dist` whenever `main` changes. The refresh workflow runs daily at `21:00 UTC` (typically 07:00 or 08:00 Sydney time), and can also be started from **Actions > Refresh daily food feed > Run workflow**.
+The deploy workflow publishes `dist` whenever `main` changes. The refresh workflow's daily schedule is paused, and it can be started manually from **Actions > Refresh daily food feed > Run workflow**.
 
 ## Contributing
 
