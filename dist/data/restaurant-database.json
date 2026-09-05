@@ -841,191 +841,6 @@
       "updatedAt": "2026-09-05T05:17:05.824Z"
     },
     {
-      "id": 22,
-      "name": "Radio Taco",
-      "cuisine": "Mexican",
-      "area": "CBD & Inner City",
-      "suburb": "Chippendale",
-      "address": "67 Abercrombie Street, Chippendale NSW 2008",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Radio%20Taco%2C%2067%20Abercrombie%20Street%2C%20Chippendale%20NSW%202008",
-      "coordinates": [
-        -33.8867383,
-        151.1985989
-      ],
-      "trend": "Social favourite",
-      "pricePerPerson": null,
-      "summary": "A Chippendale birria-taco specialist offering dine-in and takeaway. Its birria tacos with consomme appeared in an Instagram roundup of Sydney eats that went viral.",
-      "cons": "The official hours show an afternoon break between lunch and dinner. Other drawbacks are not yet verified.",
-      "menuHighlights": [
-        "Birria tacos with consomme"
-      ],
-      "dietary": {
-        "vegetarian": null,
-        "vegan": null,
-        "glutenFree": null,
-        "dairyFree": null,
-        "chickenAvailable": null,
-        "confidence": "Not yet verified"
-      },
-      "themes": [],
-      "comments": [],
-      "source": "https://www.instagram.com/p/DVmo1MMkkgg/",
-      "latestNews": [
-        {
-          "title": "10 trending Sydney eats that went viral on social media",
-          "url": "https://www.instagram.com/p/DVmo1MMkkgg/",
-          "source": "Instagram (indexed public caption)",
-          "publishedAt": "2026-03-07"
-        }
-      ],
-      "discovery": {
-        "foundAt": "2026-09-05T05:09:54.064Z",
-        "publishedAt": "2026-03-07",
-        "dateStatus": "Published 2026-03-07; historical buzz, checked 2026-09-05",
-        "signal": "Included in an indexed Instagram viral-eats roundup from March 2026; current virality and engagement not verified",
-        "detailSource": "https://www.radiotaco.com.au/"
-      },
-      "updatedAt": "2026-09-05T05:17:05.824Z"
-    },
-    {
-      "id": 23,
-      "name": "Carlisle Castle Hotel",
-      "address": "17-19 Albermarle Street, Newtown, NSW",
-      "suburb": "Newtown",
-      "area": "Inner West",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Carlisle%20Castle%20Hotel%2C%2017-19%20Albermarle%20Street%2C%20Newtown%2C%20NSW",
-      "coordinates": [
-        -33.8954226,
-        151.1764172
-      ],
-      "cuisine": "Unknown",
-      "pricePerPerson": null,
-      "trend": "Recently discovered",
-      "summary": "Carlisle Castle Hotel was discovered through Public web coverage. See the linked source for details.",
-      "cons": "Not yet verified.",
-      "menuHighlights": [],
-      "comments": [],
-      "themes": [
-        "Public web",
-        "Newtown"
-      ],
-      "dietary": {
-        "vegetarian": null,
-        "vegan": null,
-        "glutenFree": null,
-        "dairyFree": null,
-        "chickenAvailable": null,
-        "confidence": "Not verified"
-      },
-      "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/carlisle-castle-hotel-newtown-open",
-      "latestNews": [
-        {
-          "title": "Opening The Carlisle Castle Hotel Roars Back to Life in Newtown",
-          "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/carlisle-castle-hotel-newtown-open",
-          "source": "Broadsheet current Sydney coverage",
-          "publishedAt": "2026-09-04T00:54:00.000Z"
-        }
-      ],
-      "discovery": {
-        "foundAt": "2026-09-05T05:37:09.325Z",
-        "publishedAt": "2026-09-04T00:54:00.000Z",
-        "dateStatus": "published date available",
-        "signal": "Public mention; virality not independently measured",
-        "detailSource": "https://www.broadsheet.com.au/sydney/food-and-drink/article/carlisle-castle-hotel-newtown-open"
-      },
-      "updatedAt": "2026-09-05T05:37:09.325Z"
-    },
-    {
-      "id": 24,
-      "name": "Little River",
-      "address": "44 Reservoir Street, Surry Hills, NSW",
-      "suburb": "Surry Hills",
-      "area": "CBD & Inner City",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Little%20River%2C%2044%20Reservoir%20Street%2C%20Surry%20Hills%2C%20NSW",
-      "coordinates": null,
-      "cuisine": "Spanish",
-      "pricePerPerson": null,
-      "trend": "Recently discovered",
-      "summary": "Little River was discovered through Public web coverage. See the linked source for details.",
-      "cons": "Not yet verified.",
-      "menuHighlights": [],
-      "comments": [],
-      "themes": [
-        "Public web",
-        "Surry Hills"
-      ],
-      "dietary": {
-        "vegetarian": null,
-        "vegan": null,
-        "glutenFree": null,
-        "dairyFree": null,
-        "chickenAvailable": null,
-        "confidence": "Not verified"
-      },
-      "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/little-river-bakery-surry-hills-open",
-      "latestNews": [
-        {
-          "title": "First Look: An Ex-Tetsuya’s Chef Opens a Little Bakery Just Up From His Surry Hills Wine Bar",
-          "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/little-river-bakery-surry-hills-open",
-          "source": "Broadsheet current Sydney coverage",
-          "publishedAt": "2026-08-25T17:58:00.000Z"
-        }
-      ],
-      "discovery": {
-        "foundAt": "2026-09-05T05:37:09.325Z",
-        "publishedAt": "2026-08-25T17:58:00.000Z",
-        "dateStatus": "published date available",
-        "signal": "Public mention; virality not independently measured",
-        "detailSource": "https://www.broadsheet.com.au/sydney/food-and-drink/article/little-river-bakery-surry-hills-open"
-      },
-      "updatedAt": "2026-09-05T05:37:09.325Z"
-    },
-    {
-      "id": 25,
-      "name": "L’Massif Cave",
-      "address": "231 Commonwealth Street, Surry Hills, NSW",
-      "suburb": "Surry Hills",
-      "area": "CBD & Inner City",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=L%E2%80%99Massif%20Cave%2C%20231%20Commonwealth%20Street%2C%20Surry%20Hills%2C%20NSW",
-      "coordinates": null,
-      "cuisine": "Japanese",
-      "pricePerPerson": null,
-      "trend": "Recently discovered",
-      "summary": "L’Massif Cave was discovered through Public web coverage. See the linked source for details.",
-      "cons": "Not yet verified.",
-      "menuHighlights": [],
-      "comments": [],
-      "themes": [
-        "Public web",
-        "Surry Hills"
-      ],
-      "dietary": {
-        "vegetarian": null,
-        "vegan": null,
-        "glutenFree": null,
-        "dairyFree": null,
-        "chickenAvailable": null,
-        "confidence": "Not verified"
-      },
-      "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/massif-cave-wine-bar-surry-hills-first-look",
-      "latestNews": [
-        {
-          "title": "Opening First Look: It’s Dealer’s Choice at the Tiny Natural Wine Bar That Just Hit Surry Hills L’Massif Cave is inspired by the standing bars of Tokyo and the small team’s appreciation of natural drops. Pop in and pick your colour, then let them do the rest.",
-          "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/massif-cave-wine-bar-surry-hills-first-look",
-          "source": "Broadsheet current Sydney coverage",
-          "publishedAt": "2026-09-03T00:23:00.000Z"
-        }
-      ],
-      "discovery": {
-        "foundAt": "2026-09-05T05:37:09.325Z",
-        "publishedAt": "2026-09-03T00:23:00.000Z",
-        "dateStatus": "published date available",
-        "signal": "Public mention; virality not independently measured",
-        "detailSource": "https://www.broadsheet.com.au/sydney/food-and-drink/article/massif-cave-wine-bar-surry-hills-first-look"
-      },
-      "updatedAt": "2026-09-05T05:37:09.325Z"
-    },
-    {
       "name": "Kim's Bop",
       "cuisine": "Korean",
       "area": "Inner West",
@@ -1036,7 +851,13 @@
         151.1853964
       ],
       "trend": "Current best-new selection",
-      "pricePerPerson": null,
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 20,
+        "max": 40,
+        "label": "$20-$40 pp",
+        "basis": "User-provided estimate"
+      },
       "summary": "A permanent 16-seat home for a former market stall, serving homestyle Korean dishes such as bibimbap, kimchi-perilla noodles and house-made kimchi.",
       "cons": "The official site and recent coverage describe a very compact 16-seat venue, so availability can be limited.",
       "menuHighlights": [
@@ -1073,7 +894,7 @@
         "detailSource": "https://www.kimsbop.com.au/",
         "socialSource": "https://www.instagram.com/reel/DVhbt4PE1y1/"
       },
-      "id": 26,
+      "id": 22,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kim's%20Bop%2C%20Shop%201%2C%20325%20Glebe%20Point%20Road%2C%20Glebe%20NSW%202037",
       "comments": [],
       "updatedAt": "2026-09-05T05:43:18.502Z"
@@ -1089,7 +910,13 @@
         151.2427388
       ],
       "trend": "Current best-new selection",
-      "pricePerPerson": null,
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 80,
+        "max": 100,
+        "label": "$80-$100 pp",
+        "basis": "User-provided estimate"
+      },
       "summary": "A Vietnamese cafe by day and wine bar by night, centred on family recipes and contemporary dishes including breakfast bánh mì, pho gà and salted Vietnamese coffee.",
       "cons": "A June 2026 visit report documented a 30-minute weekend wait and some breakfast items selling out; current wait times are not known.",
       "menuHighlights": [
@@ -1126,7 +953,7 @@
         "detailSource": "https://caphemai.com.au/",
         "socialSource": "https://www.instagram.com/p/DZ4R60CkpLD/"
       },
-      "id": 27,
+      "id": 23,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=C%C3%A0%20Ph%C3%AA%20Mai%2C%20377-383%20New%20South%20Head%20Road%2C%20Double%20Bay%20NSW%202028",
       "comments": [],
       "updatedAt": "2026-09-05T05:43:18.502Z"
@@ -1142,7 +969,13 @@
         151.2718295
       ],
       "trend": "Current best-new selection",
-      "pricePerPerson": null,
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 100,
+        "max": 160,
+        "label": "$100-$160 pp",
+        "basis": "User-provided estimate"
+      },
       "summary": "A Bondi Spanish tapas bar built around picoteo, share plates, local seafood and Basque-influenced cooking.",
       "cons": "No independently verified recurring drawback was found; check the current menu and booking terms before visiting.",
       "menuHighlights": [
@@ -1179,7 +1012,7 @@
         "detailSource": "https://www.besabondi.com/",
         "socialSource": "https://www.instagram.com/besabondi/"
       },
-      "id": 28,
+      "id": 24,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Besa%2C%20LG.01%2C%2075-79%20Hall%20Street%2C%20Bondi%20Beach%20NSW%202026",
       "comments": [],
       "updatedAt": "2026-09-05T05:43:18.502Z"
@@ -1195,7 +1028,13 @@
         151.1825721
       ],
       "trend": "Current best-new selection",
-      "pricePerPerson": null,
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 60,
+        "max": 80,
+        "label": "$60-$80 pp",
+        "basis": "User-provided estimate"
+      },
       "summary": "An intimate Newtown restaurant serving modern Southeast Asian-inspired food with Thai-leaning, piquant flavours and Italian technique.",
       "cons": "Current coverage describes an intimate 35-seat room, so larger groups or peak-time walk-ins may have limited availability.",
       "menuHighlights": [
@@ -1232,7 +1071,7 @@
         "detailSource": "https://www.piqu.com.au/",
         "socialSource": "https://www.instagram.com/reel/DZmYdwmJjQx/"
       },
-      "id": 29,
+      "id": 25,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Piqu%2C%20194%20King%20Street%2C%20Newtown%20NSW%202042",
       "comments": [],
       "updatedAt": "2026-09-05T05:43:18.502Z"
@@ -1293,7 +1132,7 @@
         "detailSource": "https://www.thehideawaybondi.com.au/",
         "socialSource": "https://www.instagram.com/reel/DaNSREXzw4V/"
       },
-      "id": 30,
+      "id": 26,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Hideaway%2C%20195%20Oxford%20Street%2C%20Bondi%20Junction%20NSW%202022",
       "comments": [],
       "updatedAt": "2026-09-05T05:43:18.502Z"
