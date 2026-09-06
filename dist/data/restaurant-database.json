@@ -1450,8 +1450,628 @@
       "id": 31,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=RiceFace%2C%20Lower%20Ground%2C%20The%20Galeries%2C%20500%20George%20Street%2C%20Sydney%20NSW%202000",
       "updatedAt": "2026-09-05T06:13:07.717Z"
+    },
+    {
+      "name": "La Buvette",
+      "address": "35 Challis Avenue, Potts Point NSW 2011",
+      "suburb": "Potts Point",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.86775,
+        151.22577
+      ],
+      "cuisine": "French wine bar and modern bistro",
+      "trend": "New opening with current editorial and social buzz",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 55,
+        "max": 95,
+        "label": "$55-$95 pp",
+        "basis": "Estimated food-only spend assembled from small plates and bistro mains; drinks and surcharges excluded",
+        "sourceUrl": "https://labuvettesydney.com/",
+        "lastVerifiedAt": "2026-09-06T01:30:00.000Z"
+      },
+      "summary": "A tiny Paris-inspired neighbourhood wine bar from The Goodies Hospitality, serving playful versions of French bistro classics.",
+      "cons": "Only nine indoor seats are bookable; most outdoor seats are walk-in and waits are possible.",
+      "menuHighlights": [
+        "Escargot in Café de Paris butter",
+        "Parisian gnocchi with mushroom cream",
+        "Steak au poivre",
+        "Oysters with champagne granita"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only explicitly verified menu claims are set; check directly for allergies"
+      },
+      "themes": [
+        "August 2026 opening",
+        "Public Instagram discovery"
+      ],
+      "comments": [],
+      "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/la-buvette-potts-point-open",
+      "latestNews": [
+        {
+          "title": "La Buvette Dials France at the Paris End of Potts Point",
+          "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/la-buvette-potts-point-open",
+          "source": "Broadsheet",
+          "publishedAt": "2026-08-19"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T01:30:00.000Z",
+        "publishedAt": "2026-08-19",
+        "dateStatus": "Published 2026-08-19; checked 2026-09-06",
+        "signal": "Recent opening coverage plus indexed public Instagram posts; engagement was not independently measured",
+        "detailSource": "https://labuvettesydney.com/",
+        "socialSource": "https://www.instagram.com/labuvette_pottspoint/"
+      },
+      "id": 32,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Buvette%2C%2035%20Challis%20Avenue%2C%20Potts%20Point%20NSW%202011",
+      "updatedAt": "2026-09-06T01:30:00.000Z"
+    },
+    {
+      "name": "Sugo Pasta Bar",
+      "address": "Shop 3, 8-20 Sarsfield Circuit, Bexley North NSW 2207",
+      "suburb": "Bexley North",
+      "area": "South Sydney",
+      "coordinates": [
+        -33.94727,
+        151.11385
+      ],
+      "cuisine": "Italian-American pasta bar",
+      "trend": "Established 2026 opening with continuing social buzz",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 25,
+        "max": 50,
+        "label": "$25-$50 pp",
+        "basis": "Estimated food-only spend for one current handmade-pasta main, with an optional shared starter; drinks excluded",
+        "sourceUrl": "https://sugopastabar.com.au/",
+        "lastVerifiedAt": "2026-09-06T01:30:00.000Z"
+      },
+      "summary": "A neighbourhood Italian-American pasta bar from the Self Raised team, centred on substantial handmade pasta and nostalgic baked dishes.",
+      "cons": "The venue advertises dine-in and walk-in service, so peak-time availability may be limited.",
+      "menuHighlights": [
+        "Prawn linguine",
+        "Napoletana lumache",
+        "Conchiglie with beef ragù and béchamel",
+        "Handmade pasta"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only explicitly verified menu claims are set; check directly for allergies"
+      },
+      "themes": [
+        "Southern Sydney opening",
+        "Public Instagram and Facebook discovery"
+      ],
+      "comments": [],
+      "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/sugo-pasta-bar-bexley-north-first-look",
+      "latestNews": [
+        {
+          "title": "Sugo Pasta Bar Hits Bexley North With Italian-American Comfort Food",
+          "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/sugo-pasta-bar-bexley-north-first-look",
+          "source": "Broadsheet",
+          "publishedAt": "2026-04-10"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T01:30:00.000Z",
+        "publishedAt": "2026-04-10",
+        "dateStatus": "Older opening evidence published 2026-04-10; venue and menu rechecked 2026-09-06",
+        "signal": "Well-supported social favourite with indexed Instagram and Facebook material; engagement was not independently measured",
+        "detailSource": "https://sugopastabar.com.au/",
+        "socialSource": "https://www.instagram.com/sugopastabar/"
+      },
+      "id": 33,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sugo%20Pasta%20Bar%2C%20Shop%203%2C%208-20%20Sarsfield%20Circuit%2C%20Bexley%20North%20NSW%202207",
+      "updatedAt": "2026-09-06T01:30:00.000Z"
+    },
+    {
+      "name": "LUA by Luke Nguyen",
+      "address": "Sydney Fish Market, 1 Bridge Road, Glebe NSW 2037",
+      "suburb": "Glebe",
+      "area": "Inner West",
+      "coordinates": [
+        -33.8743796,
+        151.1906679
+      ],
+      "cuisine": "Vietnamese and Southeast Asian seafood",
+      "trend": "Buzzing waterfront opening",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 79,
+        "max": 79,
+        "label": "$79 pp banquet",
+        "basis": "Current publicly indexed banquet price; beverages, special events and surcharges excluded",
+        "sourceUrl": "https://luasydney.com.au/",
+        "lastVerifiedAt": "2026-09-06T01:30:00.000Z"
+      },
+      "summary": "Luke Nguyen's waterfront restaurant cooks seafood and Southeast Asian dishes over an open hearth and charcoal fire.",
+      "cons": "Premium seafood and special-event experiences can cost more than the standard banquet.",
+      "menuHighlights": [
+        "Kingfish crudo",
+        "Split king prawns with riêu crab bisque",
+        "Wagyu beef tartare",
+        "Chicken and cabbage salad"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": true,
+        "confidence": "Chicken appears in the publicly indexed current banquet; other dietary claims are unverified"
+      },
+      "themes": [
+        "Sydney Fish Market",
+        "Public Instagram and Facebook discovery"
+      ],
+      "comments": [],
+      "source": "https://www.hospitalitymagazine.com.au/luke-nguyen-opens-lua-at-sydney-fish-market/",
+      "latestNews": [
+        {
+          "title": "Luke Nguyen opens doors on Lua at Sydney Fish Market",
+          "url": "https://www.hospitalitymagazine.com.au/luke-nguyen-opens-lua-at-sydney-fish-market/",
+          "source": "Hospitality Magazine",
+          "publishedAt": "2026-06-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T01:30:00.000Z",
+        "publishedAt": "2026-06-03",
+        "dateStatus": "Published 2026-06-03; current official hours and menu rechecked 2026-09-06",
+        "signal": "Major chef-led opening with indexed public Instagram and Facebook posts; engagement was not independently measured",
+        "detailSource": "https://luasydney.com.au/",
+        "socialSource": "https://www.instagram.com/luasydney/"
+      },
+      "id": 34,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=LUA%20by%20Luke%20Nguyen%2C%20Sydney%20Fish%20Market%2C%201%20Bridge%20Road%2C%20Glebe%20NSW%202037",
+      "updatedAt": "2026-09-06T01:30:00.000Z"
+    },
+    {
+      "name": "Vineria Luisa",
+      "address": "135 Enmore Road, Enmore NSW 2042",
+      "suburb": "Enmore",
+      "area": "Inner West",
+      "coordinates": [
+        -33.898695,
+        151.173359
+      ],
+      "cuisine": "Regional Italian wine bar",
+      "trend": "Current Inner West social favourite",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 55,
+        "max": 100,
+        "label": "$55-$100 pp",
+        "basis": "Estimated food-only à-la-carte spend using the current venue format and the recently published three-course menu as a cross-check; drinks excluded",
+        "sourceUrl": "https://www.vinerialuisa.au/",
+        "lastVerifiedAt": "2026-09-06T01:30:00.000Z"
+      },
+      "summary": "An Italian wine bar and gintoneria serving regional share plates and full meals opposite the Enmore Theatre.",
+      "cons": "The promoted $62.50 winter menu ended on 31 August 2026 and is not represented as a current special.",
+      "menuHighlights": [
+        "Regional Italian pasta",
+        "Mushroom millefoglie",
+        "Lasagne",
+        "Tiramisu"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only explicitly verified menu claims are set; check directly for allergies"
+      },
+      "themes": [
+        "Inner West wine bar",
+        "Recent public Instagram promotion"
+      ],
+      "comments": [],
+      "source": "https://www.notquitenigella.com/2026/07/23/vineria-luisa-enmore/",
+      "latestNews": [
+        {
+          "title": "Half Price Dinner at Vineria Luisa, Enmore",
+          "url": "https://www.notquitenigella.com/2026/07/23/vineria-luisa-enmore/",
+          "source": "Not Quite Nigella",
+          "publishedAt": "2026-07-23"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T01:30:00.000Z",
+        "publishedAt": "2026-07-23",
+        "dateStatus": "Published 2026-07-23; official opening hours rechecked 2026-09-06",
+        "signal": "Recent independent coverage and indexed public venue promotions; engagement was not independently measured",
+        "detailSource": "https://www.vinerialuisa.au/",
+        "socialSource": "https://www.instagram.com/vinerialuisa/"
+      },
+      "id": 35,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vineria%20Luisa%2C%20135%20Enmore%20Road%2C%20Enmore%20NSW%202042",
+      "updatedAt": "2026-09-06T01:30:00.000Z"
+    },
+    {
+      "name": "The Old Commodore Hotel",
+      "address": "206 Blues Point Road, McMahons Point NSW 2060",
+      "suburb": "McMahons Point",
+      "area": "Lower North Shore",
+      "coordinates": [
+        -33.8426995,
+        151.2047686
+      ],
+      "cuisine": "Modern Australian pub food",
+      "trend": "Reopened local favourite with current social activity",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 20,
+        "max": 50,
+        "label": "$20-$50 pp",
+        "basis": "Current $20 weekday lunch special through the official venue plus a typical bistro main; drinks excluded",
+        "sourceUrl": "https://theoldcommodorehotel.com.au/eat-and-drink/",
+        "lastVerifiedAt": "2026-09-06T01:30:00.000Z"
+      },
+      "summary": "A renewed historic North Sydney pub with bistro classics, wood-fired pizza, seafood, sports and live music.",
+      "cons": "The sports bar is walk-in only and live events can make the venue busy and noisy.",
+      "menuHighlights": [
+        "Chicken schnitzel",
+        "Wood-fired pizza",
+        "Fish tacos",
+        "Fresh local seafood"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": true,
+        "confidence": "Chicken schnitzel is named on the current official venue page; other dietary claims are unverified"
+      },
+      "themes": [
+        "Lower North Shore",
+        "Current Instagram activity"
+      ],
+      "comments": [],
+      "source": "https://northsydneysun.com.au/out-and-about/a-look-inside-the-renewed-old-commodore-hotel/",
+      "latestNews": [
+        {
+          "title": "A look inside the renewed Old Commodore Hotel",
+          "url": "https://northsydneysun.com.au/out-and-about/a-look-inside-the-renewed-old-commodore-hotel/",
+          "source": "North Sydney Sun",
+          "publishedAt": "2025-10-23"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T01:30:00.000Z",
+        "publishedAt": "2025-10-23",
+        "dateStatus": "Older reopening coverage published 2025-10-23; official events, hours and menu rechecked 2026-09-06",
+        "signal": "Established local reopening supported by current indexed Instagram activity; engagement was not independently measured",
+        "detailSource": "https://theoldcommodorehotel.com.au/",
+        "socialSource": "https://www.instagram.com/theoldcommodorehotel/"
+      },
+      "id": 36,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Old%20Commodore%20Hotel%2C%20206%20Blues%20Point%20Road%2C%20McMahons%20Point%20NSW%202060",
+      "updatedAt": "2026-09-06T01:30:00.000Z"
+    },
+    {
+      "name": "Tera Bar",
+      "address": "255 Devonshire Street, Surry Hills NSW 2010",
+      "suburb": "Surry Hills",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8895694,
+        151.2146064
+      ],
+      "cuisine": "Contemporary Japanese with French technique",
+      "trend": "New Japanese opening on current hot lists",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 50,
+        "max": 100,
+        "label": "$50-$100 pp at the bar",
+        "basis": "Estimated food-only spend from share plates starting around $18 and larger plates; separate $235 chef's table excluded",
+        "sourceUrl": "https://www.teramoto.com.au/",
+        "lastVerifiedAt": "2026-09-06T01:30:00.000Z"
+      },
+      "summary": "A sake-and-wine-focused neighbourhood dining room pairing Japanese flavours, Australian produce and French technique.",
+      "cons": "Closed Tuesday and Wednesday; the separate Teramoto chef's table costs substantially more.",
+      "menuHighlights": [
+        "Jack mackerel with charred cucumber",
+        "Spatchcock fricassée",
+        "Dry-aged duck breast",
+        "Seasonal share plates"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only explicitly verified menu claims are set; check directly for allergies"
+      },
+      "themes": [
+        "Best new Japanese restaurants August 2026",
+        "Sake and wine bar"
+      ],
+      "comments": [],
+      "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/best-new-japanese-restaurants-august-2026",
+      "latestNews": [
+        {
+          "title": "Six to Try: Sydney's Best New Japanese Restaurants",
+          "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/best-new-japanese-restaurants-august-2026",
+          "source": "Broadsheet",
+          "publishedAt": "2026-08-01"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T01:30:00.000Z",
+        "publishedAt": "2026-08-01",
+        "dateStatus": "August 2026 current guide; official venue rechecked 2026-09-06",
+        "signal": "Current editorial selection and public venue social presence; engagement was not independently measured",
+        "detailSource": "https://www.teramoto.com.au/",
+        "socialSource": "https://www.instagram.com/tera_surryhills/"
+      },
+      "id": 37,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tera%20Bar%2C%20255%20Devonshire%20Street%2C%20Surry%20Hills%20NSW%202010",
+      "updatedAt": "2026-09-06T01:30:00.000Z"
+    },
+    {
+      "name": "Aenza",
+      "address": "Shop 7, 90 Oxford Street, Darlinghurst NSW 2010",
+      "suburb": "Darlinghurst",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8792638,
+        151.2156375
+      ],
+      "cuisine": "Japanese wine bar",
+      "trend": "New opening with recent editorial and social buzz",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 35,
+        "max": 75,
+        "label": "$35-$75 pp",
+        "basis": "Estimated food-only spend from recently published menu prices including $16 dumplings and $38 sashimi; drinks excluded",
+        "sourceUrl": "https://www.aenza.au/",
+        "lastVerifiedAt": "2026-09-06T01:30:00.000Z"
+      },
+      "summary": "A wine-led Japanese bar from the Amuro team, with an open kitchen and snacky Japanese dishes carrying Australian touches.",
+      "cons": "Dinner-only and closed Tuesday; it is primarily wine-led, so a fuller meal may require several plates.",
+      "menuHighlights": [
+        "Kingfish sashimi with mandarin and ponzu",
+        "Four-kings dumplings",
+        "Twice-cooked sweet-and-sour lamb ribs",
+        "Miso-caramel chiffon cake"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": true,
+        "confidence": "Karaage chicken appears in current indexed menu coverage; other dietary claims are unverified"
+      },
+      "themes": [
+        "July 2026 opening",
+        "Public Instagram discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/news/sydney-has-a-new-japanese-wine-bar-inside-a-heritage-listed-darlinghurst-building-080626",
+      "latestNews": [
+        {
+          "title": "Sydney has a new Japanese wine bar inside a heritage-listed Darlinghurst building",
+          "url": "https://www.timeout.com/sydney/news/sydney-has-a-new-japanese-wine-bar-inside-a-heritage-listed-darlinghurst-building-080626",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-06"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T01:30:00.000Z",
+        "publishedAt": "2026-08-06",
+        "dateStatus": "Published 2026-08-06; official venue and reservations rechecked 2026-09-06",
+        "signal": "Recent opening coverage and multiple indexed public Instagram posts; engagement was not independently measured",
+        "detailSource": "https://www.aenza.au/",
+        "socialSource": "https://www.instagram.com/aenza.au/"
+      },
+      "id": 38,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Aenza%2C%20Shop%207%2C%2090%20Oxford%20Street%2C%20Darlinghurst%20NSW%202010",
+      "updatedAt": "2026-09-06T01:30:00.000Z"
+    },
+    {
+      "name": "Rurouni",
+      "address": "Shop 2A, 71-77 Oxford Street, Bondi Junction NSW 2022",
+      "suburb": "Bondi Junction",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.89201,
+        151.24736
+      ],
+      "cuisine": "Japanese dry-aged seafood and kaisendon",
+      "trend": "Current best-new Japanese selection",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 20,
+        "max": 65,
+        "label": "$20-$65 pp",
+        "basis": "Current official ordering and booking menu prices, from donburi to sea-urchin kaisendon; drinks excluded",
+        "sourceUrl": "https://rurouni-109502.square.site/",
+        "lastVerifiedAt": "2026-09-06T01:30:00.000Z"
+      },
+      "summary": "A casual 18-seat Japanese seafood restaurant applying dry-aging techniques to fish for donburi, kaisendon and grilled dishes.",
+      "cons": "Only 18 seats and limited Tuesday-to-Saturday dinner hours can make peak visits difficult.",
+      "menuHighlights": [
+        "Fisherman kaisendon",
+        "Dry-aged bluefin tuna donburi",
+        "Butterflied rainbow trout",
+        "Blue mackerel with kombu and tare"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only explicitly verified menu claims are set; check directly for allergies"
+      },
+      "themes": [
+        "Best new Japanese restaurants August 2026",
+        "Public Instagram discovery"
+      ],
+      "comments": [],
+      "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/best-new-japanese-restaurants-august-2026",
+      "latestNews": [
+        {
+          "title": "Six to Try: Sydney's Best New Japanese Restaurants",
+          "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/best-new-japanese-restaurants-august-2026",
+          "source": "Broadsheet",
+          "publishedAt": "2026-08-01"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T01:30:00.000Z",
+        "publishedAt": "2026-08-01",
+        "dateStatus": "August 2026 current guide; official ordering page rechecked 2026-09-06",
+        "signal": "Current editorial selection and indexed public Instagram material; engagement was not independently measured",
+        "detailSource": "https://rurouni-109502.square.site/",
+        "socialSource": "https://www.instagram.com/rurouni.kaisen/"
+      },
+      "id": 39,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rurouni%2C%20Shop%202A%2C%2071-77%20Oxford%20Street%2C%20Bondi%20Junction%20NSW%202022",
+      "updatedAt": "2026-09-06T01:30:00.000Z"
+    },
+    {
+      "name": "Mamuki Bake & Bar",
+      "address": "16-18 Glebe Point Road, Glebe NSW 2037",
+      "suburb": "Glebe",
+      "area": "Inner West",
+      "coordinates": [
+        -33.88424,
+        151.19267
+      ],
+      "cuisine": "Japanese cafe and matcha bar",
+      "trend": "Current best-new Japanese selection and social favourite",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 18,
+        "max": 27,
+        "label": "$18-$27 pp for a meal",
+        "basis": "Current official ordering prices for substantial savoury dishes; matcha drinks and extras excluded",
+        "sourceUrl": "https://glebe.mamuki.com.au/",
+        "lastVerifiedAt": "2026-09-06T01:30:00.000Z"
+      },
+      "summary": "A Japanese cafe serving matcha drinks, house-baked sweets, onigiri, rice bowls and curries from breakfast through lunch.",
+      "cons": "Daytime-only kitchen hours; this is a cafe-style restaurant rather than an evening venue.",
+      "menuHighlights": [
+        "Gyudon",
+        "Onigiri lunch sets",
+        "Bara-chirashi",
+        "Matcha Basque cheesecake"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only explicitly verified menu claims are set; check directly for allergies"
+      },
+      "themes": [
+        "Best new Japanese restaurants August 2026",
+        "Public Instagram and Facebook discovery"
+      ],
+      "comments": [],
+      "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/best-new-japanese-restaurants-august-2026",
+      "latestNews": [
+        {
+          "title": "Six to Try: Sydney's Best New Japanese Restaurants",
+          "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/best-new-japanese-restaurants-august-2026",
+          "source": "Broadsheet",
+          "publishedAt": "2026-08-01"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T01:30:00.000Z",
+        "publishedAt": "2026-08-01",
+        "dateStatus": "August 2026 current guide; official ordering page rechecked 2026-09-06",
+        "signal": "Current editorial selection plus indexed public Instagram and Facebook material; engagement was not independently measured",
+        "detailSource": "https://glebe.mamuki.com.au/",
+        "socialSource": "https://www.instagram.com/mamuki.bake.bar/"
+      },
+      "id": 40,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mamuki%20Bake%20%26%20Bar%2C%2016-18%20Glebe%20Point%20Road%2C%20Glebe%20NSW%202037",
+      "updatedAt": "2026-09-06T01:30:00.000Z"
+    },
+    {
+      "name": "Nana's Green Tea Sydney",
+      "address": "Shop 3, 37 Ultimo Road, Haymarket NSW 2000",
+      "suburb": "Haymarket",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8810768,
+        151.2033234
+      ],
+      "cuisine": "Japanese matcha cafe and casual dining",
+      "trend": "New Sydney opening with strong public social visibility",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 16,
+        "max": 28,
+        "label": "$16-$28 pp for a meal",
+        "basis": "Current published menu prices for sandwich sets, onigiri sets and savoury mains; desserts and drinks excluded",
+        "sourceUrl": "https://global.nanasgreentea.com/",
+        "lastVerifiedAt": "2026-09-06T01:30:00.000Z"
+      },
+      "summary": "The international Japanese matcha cafe's Sydney outpost serves tea drinks, parfaits, cakes, onigiri, udon and rice dishes.",
+      "cons": "Popular matcha desserts can add materially to the meal cost, and the venue is casual rather than full service.",
+      "menuHighlights": [
+        "Grilled eel rice",
+        "Onigiri with three sides",
+        "Matcha black-sesame parfait",
+        "Shrimp-avocado sando set"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": true,
+        "confidence": "Karaage chicken appears in recent independent menu coverage; other dietary claims are unverified"
+      },
+      "themes": [
+        "Haymarket opening",
+        "Public Instagram discovery"
+      ],
+      "comments": [],
+      "source": "https://www.notquitenigella.com/2026/07/30/nanas-green-tea-haymarket/",
+      "latestNews": [
+        {
+          "title": "Nana's Green Tea Review – One Dessert Stole the Show",
+          "url": "https://www.notquitenigella.com/2026/07/30/nanas-green-tea-haymarket/",
+          "source": "Not Quite Nigella",
+          "publishedAt": "2026-07-30"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T01:30:00.000Z",
+        "publishedAt": "2026-07-30",
+        "dateStatus": "Published 2026-07-30; current ordering listing rechecked 2026-09-06",
+        "signal": "Recent independent coverage and multiple indexed public Instagram posts; engagement was not independently measured",
+        "detailSource": "https://global.nanasgreentea.com/",
+        "socialSource": "https://www.instagram.com/p/DXsrOS4D3Ui/"
+      },
+      "id": 41,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nana's%20Green%20Tea%20Sydney%2C%20Shop%203%2C%2037%20Ultimo%20Road%2C%20Haymarket%20NSW%202000",
+      "updatedAt": "2026-09-06T01:30:00.000Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-05T06:13:07.717Z"
+  "updatedAt": "2026-09-06T01:30:00.000Z"
 }
