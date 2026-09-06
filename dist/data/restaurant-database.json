@@ -2070,8 +2070,635 @@
       "id": 41,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nana's%20Green%20Tea%20Sydney%2C%20Shop%203%2C%2037%20Ultimo%20Road%2C%20Haymarket%20NSW%202000",
       "updatedAt": "2026-09-06T01:30:00.000Z"
+    },
+    {
+      "name": "Epula",
+      "address": "1 Martin Place, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8678447,
+        151.2077854
+      ],
+      "cuisine": "European, Spanish, French and Italian",
+      "trend": "Current best-new restaurant selection",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 55,
+        "max": 130,
+        "label": "$55 lunch; approximately $70-$130 pp dinner",
+        "basis": "Published $55 weekday prix-fixe and a publicly indexed recent dinner spend range; drinks excluded",
+        "sourceUrl": "https://www.epularestaurant.com.au/",
+        "lastVerifiedAt": "2026-09-06T23:06:28.000Z"
+      },
+      "summary": "Tapavino Group's grand GPO dining room combines Spanish, French and Italian influences with modern Australian produce.",
+      "cons": "The weekday prix-fixe is lunch-only; an à-la-carte dinner costs more.",
+      "menuHighlights": [
+        "Gazpacho bonbon frito",
+        "Manchego croquettes",
+        "Mushroom, truffle and prosciutto lasagne",
+        "Basque cheese tart"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly verified menu claims are set; confirm allergies with the venue"
+      },
+      "themes": [
+        "Time Out best-new update August 2026",
+        "Public Instagram discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T23:06:28.000Z",
+        "publishedAt": "2026-08-28",
+        "dateStatus": "Guide updated 2026-08-28; official/open listings rechecked 2026-09-07",
+        "signal": "Featured in a current best-new guide and supported by indexed public Instagram posts; engagement was not independently measured",
+        "detailSource": "https://www.epularestaurant.com.au/",
+        "socialSource": "https://www.instagram.com/epula.sydney/"
+      },
+      "id": 42,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Epula%2C%201%20Martin%20Place%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-06T23:06:28.000Z"
+    },
+    {
+      "name": "Linla",
+      "address": "413 Bourke Street, Surry Hills NSW 2010",
+      "suburb": "Surry Hills",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.882094,
+        151.216311
+      ],
+      "cuisine": "Taiwanese-rooted pan-Asian",
+      "trend": "Current best-new and late-night social pick",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 45,
+        "max": 75,
+        "label": "$45-$75 pp",
+        "basis": "Estimated food-only shared dinner from current indexed plates priced $14-$23 each; drinks excluded",
+        "sourceUrl": "https://www.linla.com.au/menu",
+        "lastVerifiedAt": "2026-09-06T23:06:28.000Z"
+      },
+      "summary": "A late-night Taiwanese-rooted social dining bar serving playful pan-Asian sharing plates and cocktails.",
+      "cons": "Closed Sunday and Monday; many dishes are designed for sharing and some feature chilli.",
+      "menuHighlights": [
+        "Night-market crispy chicken",
+        "Pork and prawn wontons with tom yum beurre blanc",
+        "Wagyu beef tartare",
+        "Taiwanese pepper pork bun"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": true,
+        "confidence": "Chicken is explicitly listed in current venue coverage; other dietary claims are unverified"
+      },
+      "themes": [
+        "Time Out best-new update August 2026",
+        "Indexed Instagram and Facebook discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T23:06:28.000Z",
+        "publishedAt": "2026-08-28",
+        "dateStatus": "Guide updated 2026-08-28; official menu rechecked 2026-09-07",
+        "signal": "Current guide placement plus multiple indexed public social posts; engagement was not independently measured",
+        "detailSource": "https://www.linla.com.au/",
+        "socialSource": "https://www.instagram.com/linla_syd/"
+      },
+      "id": 43,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Linla%2C%20413%20Bourke%20Street%2C%20Surry%20Hills%20NSW%202010",
+      "updatedAt": "2026-09-06T23:06:28.000Z"
+    },
+    {
+      "name": "The James",
+      "address": "The Langham Sydney, 89-113 Kent Street, Millers Point NSW 2000",
+      "suburb": "Millers Point",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8604707,
+        151.2035007
+      ],
+      "cuisine": "Contemporary British",
+      "trend": "Current hotel-restaurant buzz",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 62.5,
+        "max": 125,
+        "label": "$62.50-$125 pp set menus",
+        "basis": "Current publicly listed three-course set-menu offers; weekend surcharges may apply",
+        "sourceUrl": "https://srghospitality.com.au/venue/the-james/",
+        "lastVerifiedAt": "2026-09-06T23:06:28.000Z"
+      },
+      "summary": "The Langham's contemporary British dining room reworks classics through a modern Sydney lens.",
+      "cons": "A 10% weekend surcharge applies, and group dining may attract a 10% gratuity.",
+      "menuHighlights": [
+        "Tableside beef Wellington",
+        "Welsh rarebit",
+        "Lobster Arnold Bennett",
+        "Sticky-toffee-pudding soufflé"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly verified menu claims are set; confirm allergies with the venue"
+      },
+      "themes": [
+        "Time Out best-new update August 2026",
+        "Public Instagram and Facebook discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T23:06:28.000Z",
+        "publishedAt": "2026-08-28",
+        "dateStatus": "Guide updated 2026-08-28; official hours and current offer rechecked 2026-09-07",
+        "signal": "Current best-new placement with indexed public venue and media social posts; engagement was not independently measured",
+        "detailSource": "https://srghospitality.com.au/venue/the-james/",
+        "socialSource": "https://www.instagram.com/thejamessydney/"
+      },
+      "id": 44,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20James%2C%20The%20Langham%20Sydney%2C%2089-113%20Kent%20Street%2C%20Millers%20Point%20NSW%202000",
+      "updatedAt": "2026-09-06T23:06:28.000Z"
+    },
+    {
+      "name": "Osteria Luna",
+      "address": "Underground, 68 King Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8685496,
+        151.2064138
+      ],
+      "cuisine": "Italian",
+      "trend": "Current best-new late-night pick",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 28,
+        "max": 90,
+        "label": "$28 lunch special; approximately $50-$90 pp dinner",
+        "basis": "Current official $28 parmigiana lunch including a side and drink; dinner range is a conservative food-only construction from pasta and main courses",
+        "sourceUrl": "https://osterialuna.sydney/menus/",
+        "lastVerifiedAt": "2026-09-06T23:06:28.000Z"
+      },
+      "summary": "An underground Italian restaurant serving pasta, bistecca and tableside classics late into the night.",
+      "cons": "The $28 offer is weekday lunch-only; dinner pricing is higher and late-night hours apply only Thursday to Saturday.",
+      "menuHighlights": [
+        "Chicken parmigiana",
+        "Spaghetti with crab, tomato and basil",
+        "Rigatoni Bolognese",
+        "Tableside caprese"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": true,
+        "confidence": "Chicken parmigiana is explicitly listed on the current official menu page; other dietary claims are unverified"
+      },
+      "themes": [
+        "Time Out best-new update August 2026",
+        "Public Instagram and Facebook discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T23:06:28.000Z",
+        "publishedAt": "2026-08-28",
+        "dateStatus": "Guide updated 2026-08-28; official menu and hours rechecked 2026-09-07",
+        "signal": "Current editorial placement and indexed public social coverage; engagement was not independently measured",
+        "detailSource": "https://osterialuna.sydney/",
+        "socialSource": "https://www.instagram.com/osterialuna.syd/"
+      },
+      "id": 45,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Osteria%20Luna%2C%20Underground%2C%2068%20King%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-06T23:06:28.000Z"
+    },
+    {
+      "name": "Flaminia",
+      "address": "Level 2, Pullman Quay Grand Sydney Harbour, 61 Macquarie Street, Sydney NSW 2000",
+      "suburb": "Circular Quay",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8608335,
+        151.2129078
+      ],
+      "cuisine": "Coastal Italian seafood",
+      "trend": "Current best-new waterfront selection",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 65,
+        "max": 99,
+        "label": "$65-$99 pp set menus",
+        "basis": "Current official $65 two-course weekday lunch, $85 pre-theatre menu and $99 Sunday menu",
+        "sourceUrl": "https://www.flaminia.com.au/",
+        "lastVerifiedAt": "2026-09-06T23:06:28.000Z"
+      },
+      "summary": "Giovanni Pilu's harbourfront restaurant explores the port-city cuisines of Italy through seafood, pasta and fire.",
+      "cons": "The lowest set price is limited to weekday lunch, while harbour seating and theatre-time bookings can be competitive.",
+      "menuHighlights": [
+        "Sardinian piccolo fritto misto",
+        "Paccheri allo scoglio",
+        "Slow-roasted suckling pig",
+        "Crudo-bar seafood"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly verified menu claims are set; confirm allergies with the venue"
+      },
+      "themes": [
+        "Time Out best-new update August 2026",
+        "Current Instagram and Facebook discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T23:06:28.000Z",
+        "publishedAt": "2026-08-28",
+        "dateStatus": "Guide updated 2026-08-28; official menus rechecked 2026-09-07",
+        "signal": "Current best-new placement and indexed public social activity; engagement was not independently measured",
+        "detailSource": "https://www.flaminia.com.au/",
+        "socialSource": "https://www.instagram.com/flaminia_sydney/"
+      },
+      "id": 46,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flaminia%2C%20Level%202%2C%20Pullman%20Quay%20Grand%20Sydney%20Harbour%2C%2061%20Macquarie%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-06T23:06:28.000Z"
+    },
+    {
+      "name": "Aambra",
+      "address": "518A Old South Head Road, Rose Bay NSW 2029",
+      "suburb": "Rose Bay",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.8735214,
+        151.2733423
+      ],
+      "cuisine": "Contemporary Levantine",
+      "trend": "Current best-new destination restaurant",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 75,
+        "max": 129,
+        "label": "Approximately $75-$129 pp",
+        "basis": "Current publicly indexed $129 special set menu and a conservative food-only shared à-la-carte range",
+        "sourceUrl": "https://www.aambra.com.au/menu/",
+        "lastVerifiedAt": "2026-09-06T23:06:28.000Z"
+      },
+      "summary": "A Levantine restaurant inside a restored heritage church, centred on fire, flatbreads, seafood and shared dining.",
+      "cons": "Special-event menus reach $129 per person and card surcharges apply.",
+      "menuHighlights": [
+        "Masgouf-style fish",
+        "Lamb dumplings with shatta butter",
+        "Moreton Bay bug börek",
+        "Molasses flatbread"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly verified menu claims are set; confirm allergies with the venue"
+      },
+      "themes": [
+        "Time Out best-new update August 2026",
+        "Indexed Instagram and Facebook discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T23:06:28.000Z",
+        "publishedAt": "2026-08-28",
+        "dateStatus": "Guide updated 2026-08-28; official venue/menu rechecked 2026-09-07",
+        "signal": "Current best-new placement and indexed public social coverage; engagement was not independently measured",
+        "detailSource": "https://www.aambra.com.au/",
+        "socialSource": "https://www.instagram.com/aambrarosebay/"
+      },
+      "id": 47,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Aambra%2C%20518A%20Old%20South%20Head%20Road%2C%20Rose%20Bay%20NSW%202029",
+      "updatedAt": "2026-09-06T23:06:28.000Z"
+    },
+    {
+      "name": "Joe's Tavern",
+      "address": "206 Australia Street, Newtown NSW 2042",
+      "suburb": "Newtown",
+      "area": "Inner West",
+      "coordinates": [
+        -33.8961747,
+        151.1783851
+      ],
+      "cuisine": "New York-inspired modern Australian tavern",
+      "trend": "Established social favourite on current best-new list",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 35,
+        "max": 85,
+        "label": "$35-$85 pp",
+        "basis": "Current-review pricing from a burger-led meal through to the published $85 steak; drinks and sides excluded",
+        "sourceUrl": "https://paisanoanddaughters.com.au/venue/joes-tavern/",
+        "lastVerifiedAt": "2026-09-06T23:06:28.000Z"
+      },
+      "summary": "A cosy 30-seat tavern from Paisano & Daughters serving burgers, steaks, cold seafood and nostalgic desserts.",
+      "cons": "Only 30 seats; larger steak dishes and separate sides can lift the total quickly.",
+      "menuHighlights": [
+        "50/50 lamb-and-beef burger",
+        "Prawn cocktail",
+        "Devilled eggs",
+        "Peanut-butter-and-jelly ice-cream sandwich"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly verified menu claims are set; confirm allergies with the venue"
+      },
+      "themes": [
+        "Time Out best-new update August 2026",
+        "Indexed Instagram discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T23:06:28.000Z",
+        "publishedAt": "2026-08-28",
+        "dateStatus": "Guide updated 2026-08-28; official venue page rechecked 2026-09-07",
+        "signal": "Current guide placement plus indexed public social coverage; engagement was not independently measured",
+        "detailSource": "https://paisanoanddaughters.com.au/venue/joes-tavern/",
+        "socialSource": "https://www.instagram.com/joestavernsydney/"
+      },
+      "id": 48,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Joe's%20Tavern%2C%20206%20Australia%20Street%2C%20Newtown%20NSW%202042",
+      "updatedAt": "2026-09-06T23:06:28.000Z"
+    },
+    {
+      "name": "Magma by Dany Karam",
+      "address": "Cabravale Club Resort, 1 Bartley Street, Canley Vale NSW 2166",
+      "suburb": "Canley Vale",
+      "area": "South-West Sydney",
+      "coordinates": [
+        -33.8900672,
+        150.9399176
+      ],
+      "cuisine": "Fire-led steak and seafood with Lebanese influences",
+      "trend": "Award-listed Western Sydney dining buzz",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 105,
+        "max": 180,
+        "label": "$105-$180+ pp",
+        "basis": "Current publicly indexed $105 shared Sunday experience; premium Wagyu cuts and à-la-carte seafood can cost more",
+        "sourceUrl": "https://cabravale.com.au/dining/magma-by-dany-karam/",
+        "lastVerifiedAt": "2026-09-06T23:06:28.000Z"
+      },
+      "summary": "Dany Karam's open-fire destination brings premium dry-aged Wagyu and seafood to the Cabravale Club Resort.",
+      "cons": "The promoted $105 experience requires at least four guests and advance booking; premium cuts cost more.",
+      "menuHighlights": [
+        "Blackmore full-blood Wagyu",
+        "Duck-liver custard",
+        "Blackmore beef tartare",
+        "Fire-cooked seafood"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly verified menu claims are set; confirm allergies with the venue"
+      },
+      "themes": [
+        "Time Out best-new update August 2026",
+        "World's 101 Best Steak Restaurants 2026 new entry",
+        "Indexed Instagram and Facebook discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-28"
+        },
+        {
+          "title": "Magma – 2026 list new entry",
+          "url": "https://www.worldbeststeaks.com/2026-list-1-101/magma",
+          "source": "World's 101 Best Steak Restaurants",
+          "publishedAt": "2026-01-01"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T23:06:28.000Z",
+        "publishedAt": "2026-08-28",
+        "dateStatus": "Current guide updated 2026-08-28; official venue and booking page rechecked 2026-09-07",
+        "signal": "Current editorial placement, 2026 award-list inclusion and indexed social coverage; social engagement was not independently measured",
+        "detailSource": "https://cabravale.com.au/dining/magma-by-dany-karam/",
+        "socialSource": "https://www.instagram.com/magmabydanykaram/"
+      },
+      "id": 49,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Magma%20by%20Dany%20Karam%2C%20Cabravale%20Club%20Resort%2C%201%20Bartley%20Street%2C%20Canley%20Vale%20NSW%202166",
+      "updatedAt": "2026-09-06T23:06:28.000Z"
+    },
+    {
+      "name": "Bronte Road Fish North Bondi",
+      "address": "39-53 Campbell Parade, North Bondi NSW 2026",
+      "suburb": "North Bondi",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.88856,
+        151.28015
+      ],
+      "cuisine": "Fish and chips and seafood burgers",
+      "trend": "New August opening with public social buzz",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 18,
+        "max": 25,
+        "label": "$18-$25 pp",
+        "basis": "Current official $22 meal and published individual fish, burger and salad pricing; delivery mark-ups excluded",
+        "sourceUrl": "https://www.bronteroadfish.com/",
+        "lastVerifiedAt": "2026-09-06T23:06:28.000Z"
+      },
+      "summary": "The popular Waverley fish shop's compact North Bondi branch serves fish burgers, tuna smash burgers, fish and chips and salads.",
+      "cons": "Walk-ins only, takeaway-focused and closed Mondays.",
+      "menuHighlights": [
+        "Crumbed fish burger",
+        "Bluefin tuna smash burger",
+        "Prawn katsu burger",
+        "Fish and chips meal"
+      ],
+      "dietary": {
+        "vegetarian": true,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": false,
+        "confidence": "A tofu burger is listed on the current menu; no chicken is listed. Other dietary claims are unverified"
+      },
+      "themes": [
+        "August 2026 North Bondi opening",
+        "Indexed Instagram discovery"
+      ],
+      "comments": [],
+      "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/bronte-road-fish-chips-bondi-open",
+      "latestNews": [
+        {
+          "title": "Classic Fish'n'Chipper Bronte Road Fish Moves Into Bondi",
+          "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/bronte-road-fish-chips-bondi-open",
+          "source": "Broadsheet",
+          "publishedAt": "2026-08-10"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T23:06:28.000Z",
+        "publishedAt": "2026-08-10",
+        "dateStatus": "Published 2026-08-10; official menu and social hours rechecked 2026-09-07",
+        "signal": "Recent opening coverage and indexed public Instagram posts; engagement was not independently measured",
+        "detailSource": "https://www.bronteroadfish.com/",
+        "socialSource": "https://www.instagram.com/bronteroadfish/"
+      },
+      "id": 50,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bronte%20Road%20Fish%20North%20Bondi%2C%2039-53%20Campbell%20Parade%2C%20North%20Bondi%20NSW%202026",
+      "updatedAt": "2026-09-06T23:06:28.000Z"
+    },
+    {
+      "name": "Lo Presti's",
+      "address": "Level 1, 34B Redfern Street, Redfern NSW 2016",
+      "suburb": "Redfern",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.89246,
+        151.20354
+      ],
+      "cuisine": "Mediterranean with Greek, Italian and Moroccan influences",
+      "trend": "New July opening with continuing social buzz",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 42,
+        "max": 88,
+        "label": "$42-$88 pp",
+        "basis": "Current official main-course prices from $42 and current $88 group set menu; drinks and gratuity excluded",
+        "sourceUrl": "https://www.loprestisrestaurant.com/",
+        "lastVerifiedAt": "2026-09-06T23:06:28.000Z"
+      },
+      "summary": "A 50-seat neighbourhood restaurant from two Baba's Place alumni, serving personal Mediterranean dishes with Greek hospitality.",
+      "cons": "Open Thursday to Sunday only; tables of seven or more use the $88 set menu plus a 10% gratuity.",
+      "menuHighlights": [
+        "Vine-leaf-wrapped New Zealand ling",
+        "Braised kangaroo tail",
+        "Hanger steak with Cretan sofrito",
+        "Grilled pork chop with pippies"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly verified menu claims are set; confirm allergies with the venue"
+      },
+      "themes": [
+        "July 2026 opening",
+        "Indexed Instagram and Facebook discovery"
+      ],
+      "comments": [],
+      "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/lo-prestis-first-look",
+      "latestNews": [
+        {
+          "title": "First Look: Lo Presti's in Redfern Was 10 Years in the Making",
+          "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/lo-prestis-first-look",
+          "source": "Broadsheet",
+          "publishedAt": "2026-07-23"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-06T23:06:28.000Z",
+        "publishedAt": "2026-07-23",
+        "dateStatus": "Published 2026-07-23; official menu and live listing rechecked 2026-09-07",
+        "signal": "Recent opening coverage and indexed public Instagram/Facebook material; engagement was not independently measured",
+        "detailSource": "https://www.loprestisrestaurant.com/",
+        "socialSource": "https://www.instagram.com/loprestis_/"
+      },
+      "id": 51,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lo%20Presti's%2C%20Level%201%2C%2034B%20Redfern%20Street%2C%20Redfern%20NSW%202016",
+      "updatedAt": "2026-09-06T23:06:28.000Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-06T01:30:00.000Z"
+  "updatedAt": "2026-09-06T23:06:28.000Z"
 }
