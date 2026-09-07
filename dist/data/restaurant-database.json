@@ -2697,8 +2697,628 @@
       "id": 51,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lo%20Presti's%2C%20Level%201%2C%2034B%20Redfern%20Street%2C%20Redfern%20NSW%202016",
       "updatedAt": "2026-09-06T23:06:28.000Z"
+    },
+    {
+      "name": "Appizza",
+      "address": "191–195 Oxford Street, Darlinghurst NSW 2010",
+      "suburb": "Darlinghurst",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.87949,
+        151.21655
+      ],
+      "cuisine": "New Haven-style pizza",
+      "trend": "Current best-new guide listing and indexed slice buzz",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 10,
+        "max": 24,
+        "label": "$10-$24 pp",
+        "basis": "Current $9.99-$11.99 slice pricing; range allows one to two slices plus a soft drink",
+        "sourceUrl": "https://www.instagram.com/reel/DR_d2KCAVk1/",
+        "lastVerifiedAt": "2026-09-07T23:21:42.000Z"
+      },
+      "summary": "Charred jumbo New Haven-style pizza slices from the AP Bakery team.",
+      "cons": "Sell-outs have been reported; limited Thursday-to-Sunday trading.",
+      "menuHighlights": [
+        "Cheese slice",
+        "Clam pie slice",
+        "Tomato pie",
+        "Soft serve"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Not fully verified; confirm current options and allergies directly with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-07T23:21:42.000Z",
+        "publishedAt": "2026-08-28",
+        "dateStatus": "Published 2026-08-28; official venue details and current-open status rechecked 2026-09-08",
+        "signal": "Current best-new coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.notquitenigella.com/2025/12/04/appizza-darlinghurst/",
+        "socialSource": "https://www.instagram.com/reel/DR_d2KCAVk1/"
+      },
+      "id": 52,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Appizza%2C%20191%E2%80%93195%20Oxford%20Street%2C%20Darlinghurst%20NSW%202010",
+      "updatedAt": "2026-09-07T23:21:42.000Z"
+    },
+    {
+      "name": "Jimmy's Kitchen Bay Nine",
+      "address": "Bay 9, 7–27 Circular Quay West, The Rocks NSW 2000",
+      "suburb": "The Rocks",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.85691,
+        151.20916
+      ],
+      "cuisine": "Greek",
+      "trend": "Current best-new guide listing and active indexed social posts",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 35,
+        "max": 75,
+        "label": "$35-$75 pp",
+        "basis": "Current listed share dishes support a moderate shared meal; official Facebook advertises a $75 three-course share menu",
+        "sourceUrl": "https://www.facebook.com/jimmyskitchen.sydney/",
+        "lastVerifiedAt": "2026-09-07T23:21:42.000Z"
+      },
+      "summary": "A waterfront Greek kitchen serving generous share plates in Campbell's Stores.",
+      "cons": "Large-format lamb raises spend and waterfront sittings may be busy.",
+      "menuHighlights": [
+        "Taramasalata with pita",
+        "Spanakopita",
+        "Grilled octopus",
+        "Lamb kleftiko"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Not fully verified; confirm current options and allergies directly with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-07T23:21:42.000Z",
+        "publishedAt": "2026-08-28",
+        "dateStatus": "Published 2026-08-28; official venue details and current-open status rechecked 2026-09-08",
+        "signal": "Current best-new coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.therocks.com/eat-drink/jimmys-kitchen-bay-nine",
+        "socialSource": "https://www.instagram.com/reel/DTM27mXkcq_/"
+      },
+      "id": 53,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Jimmy's%20Kitchen%20Bay%20Nine%2C%20Bay%209%2C%207%E2%80%9327%20Circular%20Quay%20West%2C%20The%20Rocks%20NSW%202000",
+      "updatedAt": "2026-09-07T23:21:42.000Z"
+    },
+    {
+      "name": "Grill Americano Sydney",
+      "address": "1 Chifley Square, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8659763,
+        151.2106971
+      ],
+      "cuisine": "Italian steakhouse",
+      "trend": "Current best-new guide listing with continuing indexed social coverage",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 101,
+        "max": 180,
+        "label": "$101-$180 pp",
+        "basis": "Current OpenTable price band is $101+; chef's selection starts at $135 per person",
+        "sourceUrl": "https://www.opentable.com/r/grill-americano-sydney",
+        "lastVerifiedAt": "2026-09-07T23:21:42.000Z"
+      },
+      "summary": "A grand Venetian-inspired Italian steakhouse with seafood, handmade pasta and Josper-grilled steaks.",
+      "cons": "Premium pricing and service/sunday surcharges apply in some circumstances.",
+      "menuHighlights": [
+        "Seafood tower",
+        "House-made pasta",
+        "Josper-grilled steaks",
+        "Caviar cannolo"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Not fully verified; confirm current options and allergies directly with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-07T23:21:42.000Z",
+        "publishedAt": "2026-08-28",
+        "dateStatus": "Published 2026-08-28; official venue details and current-open status rechecked 2026-09-08",
+        "signal": "Current best-new coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://grillamericano.com/sydney/",
+        "socialSource": "https://www.instagram.com/reel/DRZAJHUk9hZ/"
+      },
+      "id": 54,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Grill%20Americano%20Sydney%2C%201%20Chifley%20Square%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-07T23:21:42.000Z"
+    },
+    {
+      "name": "Lee Ho Fook Sydney",
+      "address": "Level 1, 203 Castlereagh Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8743353,
+        151.2087718
+      ],
+      "cuisine": "Modern Chinese",
+      "trend": "Current best-new guide listing and active indexed social coverage",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 70,
+        "max": 150,
+        "label": "$70-$150 pp",
+        "basis": "Estimated food-only shared à la carte spend from current menu categories; premium duck and caviar dishes cost more",
+        "sourceUrl": "https://www.leehofook.com.au/home/sydney",
+        "lastVerifiedAt": "2026-09-07T23:21:42.000Z"
+      },
+      "summary": "Victor Liong's refined modern Chinese restaurant pairing regional dishes with tea and wine.",
+      "cons": "Premium seafood and duck dishes can push the bill above the stated range.",
+      "menuHighlights": [
+        "Peking duck",
+        "Steamed Glacier 51 toothfish",
+        "Organic tofu",
+        "Frozen yoghurt with Beijing memories"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Not fully verified; confirm current options and allergies directly with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-07T23:21:42.000Z",
+        "publishedAt": "2026-08-28",
+        "dateStatus": "Published 2026-08-28; official venue details and current-open status rechecked 2026-09-08",
+        "signal": "Current best-new coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.leehofook.com.au/home/sydney",
+        "socialSource": "https://www.instagram.com/reel/DOsSWL0E7_K/"
+      },
+      "id": 55,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lee%20Ho%20Fook%20Sydney%2C%20Level%201%2C%20203%20Castlereagh%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-07T23:21:42.000Z"
+    },
+    {
+      "name": "Grandfather's",
+      "address": "Corner of Pitt Street and Angel Place, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8666,
+        151.20841
+      ],
+      "cuisine": "Cantonese and Sichuan Chinese",
+      "trend": "Current best-new guide listing and continuing hotspot coverage",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 41,
+        "max": 138,
+        "label": "$41-$138 pp",
+        "basis": "Current OpenTable $41-$100 band; listed banquet menu is $138 per person",
+        "sourceUrl": "https://www.opentable.com/r/grandfathers-sydney",
+        "lastVerifiedAt": "2026-09-07T23:21:42.000Z"
+      },
+      "summary": "A red-lit late-night Chinese restaurant from the Pellegrino 2000 and Clam Bar team.",
+      "cons": "The $138 banquet and whole duck make this a higher-spend option; late sittings are lively.",
+      "menuHighlights": [
+        "Prawn toast",
+        "Kung pao chicken",
+        "Peking duck",
+        "Prawn and jellyfish salad"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Not fully verified; confirm current options and allergies directly with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-07T23:21:42.000Z",
+        "publishedAt": "2026-08-28",
+        "dateStatus": "Published 2026-08-28; official venue details and current-open status rechecked 2026-09-08",
+        "signal": "Current best-new coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.grandfathers.com/",
+        "socialSource": "https://www.instagram.com/reel/DNy_fi_5nFY/"
+      },
+      "id": 56,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Grandfather's%2C%20Corner%20of%20Pitt%20Street%20and%20Angel%20Place%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-07T23:21:42.000Z"
+    },
+    {
+      "name": "Homer Rogue Taverna",
+      "address": "Shop 3, 3 Surf Road, Cronulla NSW 2230",
+      "suburb": "Cronulla",
+      "area": "South Sydney",
+      "coordinates": [
+        -34.0547252,
+        151.1522123
+      ],
+      "cuisine": "Modern Greek",
+      "trend": "Current best-new guide listing and indexed social buzz",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 40,
+        "max": 80,
+        "label": "$40-$80 pp",
+        "basis": "Shared-meal estimate based on published current-style menu prices including $12-$21 breads and small plates",
+        "sourceUrl": "https://www.notquitenigella.com/2025/09/02/homer-rogue-taverna-cronulla/",
+        "lastVerifiedAt": "2026-09-07T23:21:42.000Z"
+      },
+      "summary": "A casual Athenian-style taverna built around charcoal souvla, flatbreads and family recipes.",
+      "cons": "Compact room and limited walk-ins can make peak-time access difficult.",
+      "menuHighlights": [
+        "Spanakopita flatbread",
+        "Home gyros",
+        "Taramasalata",
+        "Rotisserie meats"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Not fully verified; confirm current options and allergies directly with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-07T23:21:42.000Z",
+        "publishedAt": "2026-08-28",
+        "dateStatus": "Published 2026-08-28; official venue details and current-open status rechecked 2026-09-08",
+        "signal": "Current best-new coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.homerroguetaverna.com.au/",
+        "socialSource": "https://www.instagram.com/reel/DWLXQ5qh3Oj/"
+      },
+      "id": 57,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Homer%20Rogue%20Taverna%2C%20Shop%203%2C%203%20Surf%20Road%2C%20Cronulla%20NSW%202230",
+      "updatedAt": "2026-09-07T23:21:42.000Z"
+    },
+    {
+      "name": "Elliott's",
+      "address": "79 Elliott Street, Balmain NSW 2041",
+      "suburb": "Balmain",
+      "area": "Inner West",
+      "coordinates": [
+        -33.8563558,
+        151.1724999
+      ],
+      "cuisine": "Modern Australian",
+      "trend": "Fresh August 2026 social activity and current best-new guide listing",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 55,
+        "max": 99,
+        "label": "$55-$99 pp",
+        "basis": "Current shared-dining estimate capped by the official $99 weekend bottomless lunch",
+        "sourceUrl": "https://www.atticushospitality.com.au/whats-on",
+        "lastVerifiedAt": "2026-09-07T23:21:42.000Z"
+      },
+      "summary": "A neighbourhood bistro and live-music venue focused on seasonal shared plates and flame-led cooking.",
+      "cons": "Live music creates a lively rather than quiet dining atmosphere; closed Monday and Tuesday.",
+      "menuHighlights": [
+        "Flame-cooked Murray cod",
+        "Blue swimmer crab tartlets",
+        "Woodfired steaks",
+        "Sunday roast"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Not fully verified; confirm current options and allergies directly with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-07T23:21:42.000Z",
+        "publishedAt": "2026-08-28",
+        "dateStatus": "Published 2026-08-28; official venue details and current-open status rechecked 2026-09-08",
+        "signal": "Current best-new coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://elliottsbalmain.au/",
+        "socialSource": "https://www.instagram.com/reel/Db7VfTVj2lE/"
+      },
+      "id": 58,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Elliott's%2C%2079%20Elliott%20Street%2C%20Balmain%20NSW%202041",
+      "updatedAt": "2026-09-07T23:21:42.000Z"
+    },
+    {
+      "name": "Infinity by Mark Best",
+      "address": "Level 81, Sydney Tower, 108 Market Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8704147,
+        151.2089691
+      ],
+      "cuisine": "Modern Australian",
+      "trend": "Current best-new guide listing and 2026 renewed critical buzz",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 117,
+        "max": 190,
+        "label": "$117-$190 pp",
+        "basis": "Current bookable three-course experience starts about $117; premium choices and extras cost more",
+        "sourceUrl": "https://www.viator.com/tours/Sydney/Sydney-Tower-360-Bar-and-Dining/d357-3003REST",
+        "lastVerifiedAt": "2026-09-07T23:21:42.000Z"
+      },
+      "summary": "Mark Best's revolving Sydney Tower restaurant showcases Australian produce with panoramic views.",
+      "cons": "Special-occasion pricing; tower access and timed bookings require planning.",
+      "menuHighlights": [
+        "Lion's mane dosa",
+        "Slow-braised short rib",
+        "Bass grouper",
+        "Roast lamb neck"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Not fully verified; confirm current options and allergies directly with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-07T23:21:42.000Z",
+        "publishedAt": "2026-08-28",
+        "dateStatus": "Published 2026-08-28; official venue details and current-open status rechecked 2026-09-08",
+        "signal": "Current best-new coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://infinitysydneytower.com.au/",
+        "socialSource": "https://www.instagram.com/reel/DZJ5Cx-kfe4/"
+      },
+      "id": 59,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Infinity%20by%20Mark%20Best%2C%20Level%2081%2C%20Sydney%20Tower%2C%20108%20Market%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-07T23:21:42.000Z"
+    },
+    {
+      "name": "Gran Torino",
+      "address": "24 Bay Street, Double Bay NSW 2028",
+      "suburb": "Double Bay",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.877412,
+        151.2413795
+      ],
+      "cuisine": "Italian",
+      "trend": "Fresh September 2026 review and current best-new guide listing",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 65,
+        "max": 140,
+        "label": "$65-$140 pp",
+        "basis": "Estimated food-only shared meal from current antipasti, pasta, seafood and steak format; large-format bistecca costs more",
+        "sourceUrl": "https://themargaretfamily.com/venue/gran-torino/",
+        "lastVerifiedAt": "2026-09-07T23:21:42.000Z"
+      },
+      "summary": "Neil Perry's two-level Italian ristorante and bar built around handmade pasta, seafood and premium Australian produce.",
+      "cons": "Premium steaks and large-format dishes can lift spend substantially.",
+      "menuHighlights": [
+        "Pumpkin tortelli",
+        "Blue swimmer crab tagliolini",
+        "Fritto misto",
+        "Bistecca alla Fiorentina"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Not fully verified; confirm current options and allergies directly with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-07T23:21:42.000Z",
+        "publishedAt": "2026-08-28",
+        "dateStatus": "Published 2026-08-28; official venue details and current-open status rechecked 2026-09-08",
+        "signal": "Current best-new coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://themargaretfamily.com/venue/gran-torino/",
+        "socialSource": "https://www.facebook.com/p/Gran-Torino-Double-Bay-61577975522438/"
+      },
+      "id": 60,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Gran%20Torino%2C%2024%20Bay%20Street%2C%20Double%20Bay%20NSW%202028",
+      "updatedAt": "2026-09-07T23:21:42.000Z"
+    },
+    {
+      "name": "Sakura House",
+      "address": "Basement, 82–88 Elizabeth Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.87595,
+        151.21095
+      ],
+      "cuisine": "Japanese izakaya",
+      "trend": "Current best-new guide listing and active limited-run social residency",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 25,
+        "max": 70,
+        "label": "$25-$70 pp",
+        "basis": "Current indexed $25 Wednesday promotion provides the floor; upper range is a conservative shared-plates estimate",
+        "sourceUrl": "https://www.instagram.com/sakurahousesydney/",
+        "lastVerifiedAt": "2026-09-07T23:21:42.000Z"
+      },
+      "summary": "A late-night basement izakaya with Japanese-inspired share plates, highballs and live energy.",
+      "cons": "Walk-ins only; the current Suntory residency ends 3 October.",
+      "menuHighlights": [
+        "Japanese share plates",
+        "Highballs",
+        "Sake-led drinks",
+        "Residency specials"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Not fully verified; confirm current options and allergies directly with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "Time Out Sydney",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-07T23:21:42.000Z",
+        "publishedAt": "2026-08-28",
+        "dateStatus": "Published 2026-08-28; official venue details and current-open status rechecked 2026-09-08",
+        "signal": "Current best-new coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.sakurahousesydney.com/",
+        "socialSource": "https://www.instagram.com/reel/DVj0vJAkm06/"
+      },
+      "id": 61,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sakura%20House%2C%20Basement%2C%2082%E2%80%9388%20Elizabeth%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-07T23:21:42.000Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-06T23:06:28.000Z"
+  "updatedAt": "2026-09-07T23:21:42.000Z"
 }
