@@ -3317,8 +3317,628 @@
       "id": 61,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sakura%20House%2C%20Basement%2C%2082%E2%80%9388%20Elizabeth%20Street%2C%20Sydney%20NSW%202000",
       "updatedAt": "2026-09-07T23:21:42.000Z"
+    },
+    {
+      "name": "Arthur",
+      "address": "544 Bourke Street, Surry Hills NSW 2010",
+      "suburb": "Surry Hills",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.88931,
+        151.21562
+      ],
+      "cuisine": "Modern Australian",
+      "trend": "Reopened after a major renovation and featured in a current best-new guide",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 41,
+        "max": 100,
+        "label": "$41-$100 pp",
+        "basis": "Current OpenTable dining price band; drinks and supplements excluded",
+        "sourceUrl": "https://www.opentable.com/r/arthur-surry-hills",
+        "lastVerifiedAt": "2026-09-08T23:49:40.000Z"
+      },
+      "summary": "A neighbourhood restaurant showcasing Australian produce through a newly more flexible menu.",
+      "cons": "Dinner availability is concentrated from Tuesday to Sunday; premium dishes and drinks increase spend.",
+      "menuHighlights": [
+        "Braised kangaroo tail",
+        "Australian prawns",
+        "Wattleseed custard tart",
+        "Seasonal Australian plates"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-new-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "Arthur — current Sydney dining coverage",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-new-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-20"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-08T23:49:40.000Z",
+        "publishedAt": "2026-08-20",
+        "dateStatus": "Evidence published 2026-08-20; official venue details and current-open status rechecked 2026-09-09",
+        "signal": "Recent/current dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.arthurrestaurant.com/",
+        "socialSource": "https://www.instagram.com/reel/DbE3Bi8TCdM/"
+      },
+      "id": 62,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Arthur%2C%20544%20Bourke%20Street%2C%20Surry%20Hills%20NSW%202010",
+      "updatedAt": "2026-09-08T23:49:40.000Z"
+    },
+    {
+      "name": "Pizza Studio Tamaki Sydney",
+      "address": "259 George Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8640279,
+        151.2071112
+      ],
+      "cuisine": "Tokyo-style Neapolitan pizza",
+      "trend": "Cult Tokyo pizzeria featured in a current best-new guide with continuing indexed social attention",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 35,
+        "max": 65,
+        "label": "$35-$65 pp",
+        "basis": "Food-only estimate for a shared pizza, side and dessert using the current Sydney menu",
+        "sourceUrl": "https://www.pst.pizza/dinner-menu?menu=dinner-menu",
+        "lastVerifiedAt": "2026-09-08T23:49:40.000Z"
+      },
+      "summary": "Tsubasa Tamaki's Australian restaurant makes 30-hour fermented, wood-fired Tokyo-Neapolitan pizzas.",
+      "cons": "Evening-only trading and strong opening demand can limit preferred booking times.",
+      "menuHighlights": [
+        "Tamaki pizza",
+        "Bismarck-style pizza",
+        "Seasonal appetisers",
+        "Tiramisu"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-new-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "Pizza Studio Tamaki Sydney — current Sydney dining coverage",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-new-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-20"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-08T23:49:40.000Z",
+        "publishedAt": "2026-08-20",
+        "dateStatus": "Evidence published 2026-08-20; official venue details and current-open status rechecked 2026-09-09",
+        "signal": "Recent/current dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.pst.pizza/dinner-menu?menu=dinner-menu",
+        "socialSource": "https://www.instagram.com/p/DYrPrIsmvXI/"
+      },
+      "id": 63,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pizza%20Studio%20Tamaki%20Sydney%2C%20259%20George%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-08T23:49:40.000Z"
+    },
+    {
+      "name": "Grappa The Rocks",
+      "address": "107–109 George Street, The Rocks NSW 2000",
+      "suburb": "The Rocks",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8597153,
+        151.2085849
+      ],
+      "cuisine": "Italian",
+      "trend": "New harbour outpost featured in a current best-new guide and active official social launch posts",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 55,
+        "max": 110,
+        "label": "$55-$110 pp",
+        "basis": "Estimated food-only spend for antipasto, pasta or pizza and dessert from the current official menu format",
+        "sourceUrl": "https://www.grappa.com.au/the-rocks-menu",
+        "lastVerifiedAt": "2026-09-08T23:49:40.000Z"
+      },
+      "summary": "The longstanding Leichhardt Italian institution's harbour-side sibling serves handmade pasta, pizza and grilled seafood.",
+      "cons": "Prime Rocks location and premium seafood or wagyu choices can raise the bill.",
+      "menuHighlights": [
+        "Handmade pasta",
+        "Wood-fired pizza",
+        "Rock lobster spaghetti",
+        "Wood-fired wagyu tomahawk"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-new-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "Grappa The Rocks — current Sydney dining coverage",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-new-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-20"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-08T23:49:40.000Z",
+        "publishedAt": "2026-08-20",
+        "dateStatus": "Evidence published 2026-08-20; official venue details and current-open status rechecked 2026-09-09",
+        "signal": "Recent/current dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.grappa.com.au/the-rocks-home",
+        "socialSource": "https://www.instagram.com/grappa_restaurant/"
+      },
+      "id": 64,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Grappa%20The%20Rocks%2C%20107%E2%80%93109%20George%20Street%2C%20The%20Rocks%20NSW%202000",
+      "updatedAt": "2026-09-08T23:49:40.000Z"
+    },
+    {
+      "name": "Vitelli's Upstairs",
+      "address": "Level 1, Corner Cleveland Street and Baptist Street, Redfern NSW 2016",
+      "suburb": "Redfern",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8915097,
+        151.212596
+      ],
+      "cuisine": "Italian-American",
+      "trend": "Current best-new guide selection with fresh indexed social posts",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 39,
+        "max": 75,
+        "label": "$39-$75 pp",
+        "basis": "Current $39 late-night cheeseburger signal and official $75 set menu provide defensible bounds",
+        "sourceUrl": "https://www.timeout.com/sydney/news/redferns-new-italian-spot-has-landed-and-i-cant-stop-thinking-about-the-garlic-bread-042126",
+        "lastVerifiedAt": "2026-09-08T23:49:40.000Z"
+      },
+      "summary": "A red-sauce New York-inspired restaurant serving daily-made pasta and Italian-American classics above Wunderlich Lane.",
+      "cons": "Friday and Saturday DJ nights are lively; late-night items differ from the main menu.",
+      "menuHighlights": [
+        "Garlic bread with parmesan dip",
+        "Pipe rigate alla vodka",
+        "Veal Milanese",
+        "Late-night cheeseburger"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-new-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "Vitelli's Upstairs — current Sydney dining coverage",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-new-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-20"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-08T23:49:40.000Z",
+        "publishedAt": "2026-08-20",
+        "dateStatus": "Evidence published 2026-08-20; official venue details and current-open status rechecked 2026-09-09",
+        "signal": "Recent/current dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://vitellisupstairs.com.au/",
+        "socialSource": "https://www.instagram.com/p/DVc_UYlkn8g/"
+      },
+      "id": 65,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vitelli's%20Upstairs%2C%20Level%201%2C%20Corner%20Cleveland%20Street%20and%20Baptist%20Street%2C%20Redfern%20NSW%202016",
+      "updatedAt": "2026-09-08T23:49:40.000Z"
+    },
+    {
+      "name": "AORI",
+      "address": "39 Lime Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8661263,
+        151.2008569
+      ],
+      "cuisine": "Modern Japanese",
+      "trend": "New waterfront opening in a current best-new guide with recently indexed social coverage",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 75,
+        "max": 160,
+        "label": "$75-$160 pp",
+        "basis": "Estimated food-only shared meal based on current sushi, grill and premium wagyu format; rare cuts cost more",
+        "sourceUrl": "https://aori.com.au/menu/",
+        "lastVerifiedAt": "2026-09-08T23:49:40.000Z"
+      },
+      "summary": "A large waterfront Japanese restaurant combining sushi, raw seafood and a theatrical wood-fired wagyu trolley.",
+      "cons": "Premium wagyu and rare whisky selections can make the final spend substantially higher.",
+      "menuHighlights": [
+        "Chef's sushi selection",
+        "Sushi wheel",
+        "Dry-aged wagyu",
+        "Okinawa custard pudding"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-new-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "AORI — current Sydney dining coverage",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-new-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-20"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-08T23:49:40.000Z",
+        "publishedAt": "2026-08-20",
+        "dateStatus": "Evidence published 2026-08-20; official venue details and current-open status rechecked 2026-09-09",
+        "signal": "Recent/current dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://kingstreetwharf.com.au/eat-drink/aori/",
+        "socialSource": "https://www.instagram.com/reel/DVnNnR8jwmD/"
+      },
+      "id": 66,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=AORI%2C%2039%20Lime%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-08T23:49:40.000Z"
+    },
+    {
+      "name": "Corner 75",
+      "address": "75 Frenchmans Road, Randwick NSW 2031",
+      "suburb": "Randwick",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.9075917,
+        151.2488226
+      ],
+      "cuisine": "Hungarian-Australian",
+      "trend": "Fresh September 2026 review of the reopened local institution plus indexed social activity",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 45,
+        "max": 85,
+        "label": "$45-$85 pp",
+        "basis": "Estimated food-only spend for a main, shared starter and dessert from the current restaurant format",
+        "sourceUrl": "https://www.corner75.com.au/",
+        "lastVerifiedAt": "2026-09-08T23:49:40.000Z"
+      },
+      "summary": "A revived Hungarian-Australian institution preserving its schnitzel, paprika-rich classics and nostalgic dining room.",
+      "cons": "The focused menu offers fewer choices than large modern restaurants; closed Tuesday.",
+      "menuHighlights": [
+        "Pork schnitzel",
+        "Hortobágyi palacsinta",
+        "Lángos",
+        "Esterházy cake"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://concreteplayground.com/sydney/restaurants/corner-75",
+      "latestNews": [
+        {
+          "title": "Corner 75 — current Sydney dining coverage",
+          "url": "https://concreteplayground.com/sydney/restaurants/corner-75",
+          "source": "concreteplayground.com",
+          "publishedAt": "2026-09-01"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-08T23:49:40.000Z",
+        "publishedAt": "2026-09-01",
+        "dateStatus": "Evidence published 2026-09-01; official venue details and current-open status rechecked 2026-09-09",
+        "signal": "Recent/current dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.corner75.com.au/",
+        "socialSource": "https://www.instagram.com/corner.75/"
+      },
+      "id": 67,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Corner%2075%2C%2075%20Frenchmans%20Road%2C%20Randwick%20NSW%202031",
+      "updatedAt": "2026-09-08T23:49:40.000Z"
+    },
+    {
+      "name": "Vin-Cenzo's",
+      "address": "174 Liverpool Street, Darlinghurst NSW 2010",
+      "suburb": "Darlinghurst",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8769625,
+        151.213694
+      ],
+      "cuisine": "Italian",
+      "trend": "Fresh September 2026 listing update and continuing supper-club social buzz",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 55,
+        "max": 90,
+        "label": "$55-$90 pp",
+        "basis": "Current $90 premium banquet provides the upper bound; lower bound reflects a shared à la carte meal",
+        "sourceUrl": "https://www.instagram.com/p/DN7zIv6E7Ie/",
+        "lastVerifiedAt": "2026-09-08T23:49:40.000Z"
+      },
+      "summary": "A produce-led neighbourhood Italian restaurant that becomes a late-night supper club on weekends.",
+      "cons": "The meat-, seafood- and offal-led menu may offer fewer choices for some diets; weekend service can run until 2am.",
+      "menuHighlights": [
+        "Chicken and mortadella agnolotti",
+        "Veal cotoletta",
+        "House-made pork sausage",
+        "Cannolo Siciliano"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://concreteplayground.com/sydney/restaurants/vin-cenzos",
+      "latestNews": [
+        {
+          "title": "Vin-Cenzo's — current Sydney dining coverage",
+          "url": "https://concreteplayground.com/sydney/restaurants/vin-cenzos",
+          "source": "concreteplayground.com",
+          "publishedAt": "2026-09-01"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-08T23:49:40.000Z",
+        "publishedAt": "2026-09-01",
+        "dateStatus": "Evidence published 2026-09-01; official venue details and current-open status rechecked 2026-09-09",
+        "signal": "Recent/current dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://vin-cenzos.com/",
+        "socialSource": "https://www.instagram.com/vincenzos_sydney/"
+      },
+      "id": 68,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vin-Cenzo's%2C%20174%20Liverpool%20Street%2C%20Darlinghurst%20NSW%202010",
+      "updatedAt": "2026-09-08T23:49:40.000Z"
+    },
+    {
+      "name": "Rasa House",
+      "address": "639B New South Head Road, Rose Bay NSW 2029",
+      "suburb": "Rose Bay",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.86825,
+        151.27055
+      ],
+      "cuisine": "Borderless South and Southeast Asian",
+      "trend": "Current seasonal-menu social coverage and active official waterfront venue",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 50,
+        "max": 95,
+        "label": "$50-$95 pp",
+        "basis": "Current menu snacks at $7-$18 plus shared plates; range reflects a shared food-only dinner",
+        "sourceUrl": "https://www.opentable.com/r/rasa-house-rose-bay",
+        "lastVerifiedAt": "2026-09-08T23:49:40.000Z"
+      },
+      "summary": "A waterfront wine bar serving punchy Asian-inspired share plates across Indonesian, Filipino and Southeast Asian influences.",
+      "cons": "The share menu and waterfront setting can push spend higher; confirm chilli levels when ordering.",
+      "menuHighlights": [
+        "Chicken saté",
+        "Duck adobo spring rolls",
+        "Eggplant murtabak",
+        "Spanner crab dumplings"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/rasa-house",
+      "latestNews": [
+        {
+          "title": "Rasa House — current Sydney dining coverage",
+          "url": "https://www.timeout.com/sydney/restaurants/rasa-house",
+          "source": "timeout.com",
+          "publishedAt": "2026-03-18"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-08T23:49:40.000Z",
+        "publishedAt": "2026-03-18",
+        "dateStatus": "Evidence published 2026-03-18; official venue details and current-open status rechecked 2026-09-09",
+        "signal": "Recent/current dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.rasahouse.com.au/",
+        "socialSource": "https://www.instagram.com/reel/DWLRjWbAYvb/"
+      },
+      "id": 69,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rasa%20House%2C%20639B%20New%20South%20Head%20Road%2C%20Rose%20Bay%20NSW%202029",
+      "updatedAt": "2026-09-08T23:49:40.000Z"
+    },
+    {
+      "name": "Olympic Meats",
+      "address": "12 Dudley Street, Marrickville NSW 2204",
+      "suburb": "Marrickville",
+      "area": "Inner West",
+      "coordinates": [
+        -33.91016,
+        151.14116
+      ],
+      "cuisine": "Greek barbecue",
+      "trend": "Sustained queue-driven social favourite with current indexed posts and live official hours",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 21,
+        "max": 55,
+        "label": "$21-$55 pp",
+        "basis": "Published majority-under-$21 plate pricing and current indexed $45-$55 platter prices",
+        "sourceUrl": "https://www.timeout.com/sydney/restaurants/olympic-meats",
+        "lastVerifiedAt": "2026-09-08T23:49:40.000Z"
+      },
+      "summary": "A walk-in Greek grill serving house-made gyro meats, charcoal plates and generous mixed platters.",
+      "cons": "Walk-ins only and food is available until sold out, so queues and early sell-outs are possible.",
+      "menuHighlights": [
+        "Chicken gyro",
+        "Pork gyro",
+        "Lamb",
+        "Three-meat platter"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/olympic-meats",
+      "latestNews": [
+        {
+          "title": "Olympic Meats — current Sydney dining coverage",
+          "url": "https://www.timeout.com/sydney/restaurants/olympic-meats",
+          "source": "timeout.com",
+          "publishedAt": "2025-03-11"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-08T23:49:40.000Z",
+        "publishedAt": "2025-03-11",
+        "dateStatus": "Evidence published 2025-03-11; official venue details and current-open status rechecked 2026-09-09",
+        "signal": "Recent/current dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.olympicmeats.shop/",
+        "socialSource": "https://www.instagram.com/reel/DY1DnCShsDV/"
+      },
+      "id": 70,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Olympic%20Meats%2C%2012%20Dudley%20Street%2C%20Marrickville%20NSW%202204",
+      "updatedAt": "2026-09-08T23:49:40.000Z"
+    },
+    {
+      "name": "Cibaria Manly",
+      "address": "55 North Steyne, Manly NSW 2095",
+      "suburb": "Manly",
+      "area": "Northern Beaches",
+      "coordinates": [
+        -33.7958237,
+        151.2874732
+      ],
+      "cuisine": "Italian",
+      "trend": "Continuing indexed social attention around its multi-format beachfront dining concept",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 55,
+        "max": 110,
+        "label": "$55-$110 pp",
+        "basis": "Estimated food-only trattoria spend; separate gelateria and bar purchases may be lower",
+        "sourceUrl": "https://cibariamanly.au/menus-collection",
+        "lastVerifiedAt": "2026-09-08T23:49:40.000Z"
+      },
+      "summary": "A beachfront Italian dining complex spanning trattoria, bar, caffetteria and gelateria menus.",
+      "cons": "Multiple venue formats have different hours and menus; confirm the desired section before visiting.",
+      "menuHighlights": [
+        "Italian crudo",
+        "House pasta",
+        "Wood-fired mains",
+        "Gelato"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-new-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "Cibaria Manly — current Sydney dining coverage",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-new-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-20"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-08T23:49:40.000Z",
+        "publishedAt": "2026-08-20",
+        "dateStatus": "Evidence published 2026-08-20; official venue details and current-open status rechecked 2026-09-09",
+        "signal": "Recent/current dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://cibariamanly.au/",
+        "socialSource": "https://www.instagram.com/cibariamanly/"
+      },
+      "id": 71,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cibaria%20Manly%2C%2055%20North%20Steyne%2C%20Manly%20NSW%202095",
+      "updatedAt": "2026-09-08T23:49:40.000Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-07T23:21:42.000Z"
+  "updatedAt": "2026-09-08T23:49:40.000Z"
 }
