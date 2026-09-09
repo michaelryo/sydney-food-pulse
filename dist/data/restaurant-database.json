@@ -3937,8 +3937,628 @@
       "id": 71,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cibaria%20Manly%2C%2055%20North%20Steyne%2C%20Manly%20NSW%202095",
       "updatedAt": "2026-09-08T23:49:40.000Z"
+    },
+    {
+      "name": "Eleven Barrack",
+      "address": "11 Barrack Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.86714,
+        151.20578
+      ],
+      "cuisine": "Contemporary Australian grill",
+      "trend": "Trending or newly buzzing Sydney restaurant with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 75,
+        "max": 150,
+        "label": "$75-$150 pp",
+        "basis": "Estimated food-only spend from current à la carte seafood and steak-grill menu",
+        "sourceUrl": "https://www.bentleyrestaurantgroup.com.au/eleven-barrack",
+        "lastVerifiedAt": "2026-09-09T23:50:37.000Z"
+      },
+      "summary": "A seafood-and-steak grill from Bentley Restaurant Group in a heritage CBD dining room.",
+      "cons": "Premium cuts and seafood can lift the spend substantially.",
+      "menuHighlights": [
+        "Raw seafood",
+        "Wood-fired fish",
+        "Steak",
+        "Seasonal sides"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.gourmettraveller.com.au/dining-out/restaurant-reviews/eleven-barrack-sydney-review/",
+      "latestNews": [
+        {
+          "title": "Eleven Barrack review",
+          "url": "https://www.gourmettraveller.com.au/dining-out/restaurant-reviews/eleven-barrack-sydney-review/",
+          "source": "gourmettraveller.com.au",
+          "publishedAt": "2025-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-09T23:50:37.000Z",
+        "publishedAt": "2025-08-25",
+        "dateStatus": "Evidence published 2025-08-25; official venue details and current-open status rechecked 2026-09-10",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.bentleyrestaurantgroup.com.au/eleven-barrack",
+        "socialSource": "https://www.instagram.com/reel/DW5zfu5EcLU/"
+      },
+      "id": 72,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Eleven%20Barrack%2C%2011%20Barrack%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-09T23:50:37.000Z"
+    },
+    {
+      "name": "The Malaya",
+      "address": "Level 1, Grosvenor Place, 225 George Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.86383,
+        151.20686
+      ],
+      "cuisine": "Malaysian and South-East Asian",
+      "trend": "Trending or newly buzzing Sydney restaurant with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 75,
+        "max": 110,
+        "label": "$75-$110 pp",
+        "basis": "Current $75 banquet plus an estimated à la carte food-only spend from the official menu",
+        "sourceUrl": "https://themalaya.com.au/menu/",
+        "lastVerifiedAt": "2026-09-09T23:50:37.000Z"
+      },
+      "summary": "A long-running Malaysian institution now operating from its George Street home at Grosvenor Place.",
+      "cons": "Large dining room and banquet format may suit groups better than a quick meal.",
+      "menuHighlights": [
+        "Laksa",
+        "Beef rendang",
+        "Otak otak",
+        "Szechuan eggplant"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theaustralian.com.au/life/food-drink/australias-hot-50-restaurants-for-2025/news-story/",
+      "latestNews": [
+        {
+          "title": "The Australian Hot 50 Restaurants 2025",
+          "url": "https://www.theaustralian.com.au/life/food-drink/australias-hot-50-restaurants-for-2025/news-story/",
+          "source": "theaustralian.com.au",
+          "publishedAt": "2025-05-23"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-09T23:50:37.000Z",
+        "publishedAt": "2025-05-23",
+        "dateStatus": "Evidence published 2025-05-23; official venue details and current-open status rechecked 2026-09-10",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://themalaya.com.au/",
+        "socialSource": "https://www.instagram.com/reel/DISZE0jzttu/"
+      },
+      "id": 73,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Malaya%2C%20Level%201%2C%20Grosvenor%20Place%2C%20225%20George%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-09T23:50:37.000Z"
+    },
+    {
+      "name": "Good Luck Eating House",
+      "address": "11 Bridge Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.86385,
+        151.20934
+      ],
+      "cuisine": "Modern Chinese",
+      "trend": "Trending or newly buzzing Sydney restaurant with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 25,
+        "max": 55,
+        "label": "$25-$55 pp",
+        "basis": "Current published dish prices and a food-only combination of one main plus a side",
+        "sourceUrl": "https://merivale.com/venues/good-luck-eating-house/",
+        "lastVerifiedAt": "2026-09-09T23:50:37.000Z"
+      },
+      "summary": "Dan Hong's fast, casual Chinese eating house focused on dumplings, noodles, rice and wok dishes.",
+      "cons": "The compact, high-energy format may involve waits at busy times.",
+      "menuHighlights": [
+        "Char siu pork belly",
+        "Hainanese chicken rice",
+        "Chongqing chicken",
+        "Wontons"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://eatdrinkplay.com/sydney/good-luck-eating-house/",
+      "latestNews": [
+        {
+          "title": "Good Luck Eating House opens in Sydney CBD",
+          "url": "https://eatdrinkplay.com/sydney/good-luck-eating-house/",
+          "source": "eatdrinkplay.com",
+          "publishedAt": null
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-09T23:50:37.000Z",
+        "publishedAt": null,
+        "dateStatus": "Source page exposes no reliable publication date; official venue details and current-open status rechecked 2026-09-10",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://merivale.com/venues/good-luck-eating-house/",
+        "socialSource": "https://www.instagram.com/reel/DQ7-1mjkt9z/"
+      },
+      "id": 74,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Good%20Luck%20Eating%20House%2C%2011%20Bridge%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-09T23:50:37.000Z"
+    },
+    {
+      "name": "Sahtein",
+      "address": "Argyle Stores, 18B Argyle Street, The Rocks NSW 2000",
+      "suburb": "The Rocks",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.85913,
+        151.20634
+      ],
+      "cuisine": "Lebanese",
+      "trend": "Trending or newly buzzing Sydney restaurant with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 65,
+        "max": 110,
+        "label": "$65-$110 pp",
+        "basis": "Estimated food-only spend for mezze and charcoal-grilled dishes from the current official menu",
+        "sourceUrl": "https://hunterstreethospitality.com.au/venues/sahtein/menu/",
+        "lastVerifiedAt": "2026-09-09T23:50:37.000Z"
+      },
+      "summary": "A Beirut-inspired Lebanese restaurant serving mezze, charcoal-grilled meats and traditional sweets in The Rocks.",
+      "cons": "A broad sharing menu can push the spend higher for larger groups.",
+      "menuHighlights": [
+        "Hummus and mezze",
+        "Charcoal-grilled meats",
+        "Lebanese breads",
+        "Traditional sweets"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://eatdrinkplay.com/venue/beirut-style-lebanese-dining-is-coming-to-the-rocks/",
+      "latestNews": [
+        {
+          "title": "Beirut-style Lebanese dining at The Rocks",
+          "url": "https://eatdrinkplay.com/venue/beirut-style-lebanese-dining-is-coming-to-the-rocks/",
+          "source": "eatdrinkplay.com",
+          "publishedAt": "2026-09-01"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-09T23:50:37.000Z",
+        "publishedAt": "2026-09-01",
+        "dateStatus": "Evidence published 2026-09-01; official venue details and current-open status rechecked 2026-09-10",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://hunterstreethospitality.com.au/venues/sahtein/",
+        "socialSource": "https://www.instagram.com/reel/DZ_tzZiskVf/"
+      },
+      "id": 75,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sahtein%2C%20Argyle%20Stores%2C%2018B%20Argyle%20Street%2C%20The%20Rocks%20NSW%202000",
+      "updatedAt": "2026-09-09T23:50:37.000Z"
+    },
+    {
+      "name": "Etheus",
+      "address": "Shop 4, Bondi Pavilion, Queen Elizabeth Drive, Bondi Beach NSW 2026",
+      "suburb": "Bondi Beach",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.89074,
+        151.27663
+      ],
+      "cuisine": "Greek",
+      "trend": "Trending or newly buzzing Sydney restaurant with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 65,
+        "max": 125,
+        "label": "$65-$125 pp",
+        "basis": "Estimated food-only spend from the venue's current shared-menu structure",
+        "sourceUrl": "https://promenadebondibeach.com.au/etheus/",
+        "lastVerifiedAt": "2026-09-09T23:50:37.000Z"
+      },
+      "summary": "A fire-led Greek restaurant at Bondi Pavilion, centred on shared plates and charcoal cooking.",
+      "cons": "Beachfront location and shared-menu format can make prime sittings busy.",
+      "menuHighlights": [
+        "Greek mezze",
+        "Fire-cooked seafood",
+        "Charcoal meats",
+        "Dessert"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.visitbondibeach.com/bondi-eat-and-drink/venues/promenade-bondi-beach",
+      "latestNews": [
+        {
+          "title": "Promenade Bondi Beach venue guide",
+          "url": "https://www.visitbondibeach.com/bondi-eat-and-drink/venues/promenade-bondi-beach",
+          "source": "visitbondibeach.com",
+          "publishedAt": "2026-08-10"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-09T23:50:37.000Z",
+        "publishedAt": "2026-08-10",
+        "dateStatus": "Evidence published 2026-08-10; official venue details and current-open status rechecked 2026-09-10",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://promenadebondibeach.com.au/etheus/",
+        "socialSource": "https://www.instagram.com/p/DZWzXIaFW2s/"
+      },
+      "id": 76,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Etheus%2C%20Shop%204%2C%20Bondi%20Pavilion%2C%20Queen%20Elizabeth%20Drive%2C%20Bondi%20Beach%20NSW%202026",
+      "updatedAt": "2026-09-09T23:50:37.000Z"
+    },
+    {
+      "name": "Neptune's Grotto",
+      "address": "Lower Ground Floor, 44 Bridge Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.86417,
+        151.20891
+      ],
+      "cuisine": "Italian",
+      "trend": "Trending or newly buzzing Sydney restaurant with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 99,
+        "max": 149,
+        "label": "$99-$149 pp",
+        "basis": "Current published banquet pricing, including the $149 banquet",
+        "sourceUrl": "https://neptunesgrotto.com.au/menu/",
+        "lastVerifiedAt": "2026-09-09T23:50:37.000Z"
+      },
+      "summary": "An underground Italian restaurant with handmade pasta, seafood and banquet dining beneath Clam Bar.",
+      "cons": "Underground setting and set-menu pricing may not suit diners seeking a quick casual meal.",
+      "menuHighlights": [
+        "Handmade pasta",
+        "Seafood",
+        "Italian snacks",
+        "Banquet menu"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theaustralian.com.au/life/food-drink/australias-hot-50-restaurants-for-2025/news-story/",
+      "latestNews": [
+        {
+          "title": "The Australian Hot 50 Restaurants 2025",
+          "url": "https://www.theaustralian.com.au/life/food-drink/australias-hot-50-restaurants-for-2025/news-story/",
+          "source": "theaustralian.com.au",
+          "publishedAt": "2025-05-23"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-09T23:50:37.000Z",
+        "publishedAt": "2025-05-23",
+        "dateStatus": "Evidence published 2025-05-23; official venue details and current-open status rechecked 2026-09-10",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://neptunesgrotto.com.au/",
+        "socialSource": "https://www.instagram.com/p/DToM7m8E_Bq/"
+      },
+      "id": 77,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Neptune's%20Grotto%2C%20Lower%20Ground%20Floor%2C%2044%20Bridge%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-09T23:50:37.000Z"
+    },
+    {
+      "name": "Saint Peter",
+      "address": "161 Underwood Street, Paddington NSW 2021",
+      "suburb": "Paddington",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.88491,
+        151.22666
+      ],
+      "cuisine": "Seafood",
+      "trend": "Trending or newly buzzing Sydney restaurant with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 195,
+        "max": 395,
+        "label": "$195-$395 pp",
+        "basis": "Current published three-course and tasting-menu prices",
+        "sourceUrl": "https://www.opentable.com/r/saint-peter-paddington",
+        "lastVerifiedAt": "2026-09-09T23:50:37.000Z"
+      },
+      "summary": "Josh Niland's whole-fish restaurant at The Grand National Hotel, offering choice and tasting menus.",
+      "cons": "This is a high-cost special-occasion restaurant and reservations may be competitive.",
+      "menuHighlights": [
+        "Whole-fish cookery",
+        "Three-course menu",
+        "Ten-course tasting menu",
+        "Australian seafood"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theaustralian.com.au/life/food-drink/australias-hot-50-restaurants-for-2025/news-story/",
+      "latestNews": [
+        {
+          "title": "The Australian Hot 50 Restaurants 2025",
+          "url": "https://www.theaustralian.com.au/life/food-drink/australias-hot-50-restaurants-for-2025/news-story/",
+          "source": "theaustralian.com.au",
+          "publishedAt": "2025-05-23"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-09T23:50:37.000Z",
+        "publishedAt": "2025-05-23",
+        "dateStatus": "Evidence published 2025-05-23; official venue details and current-open status rechecked 2026-09-10",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.saintpeter.com.au/",
+        "socialSource": "https://www.instagram.com/saintpeterpaddo/"
+      },
+      "id": 78,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Saint%20Peter%2C%20161%20Underwood%20Street%2C%20Paddington%20NSW%202021",
+      "updatedAt": "2026-09-09T23:50:37.000Z"
+    },
+    {
+      "name": "The Grill at The International",
+      "address": "25 Martin Place, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.86863,
+        151.20943
+      ],
+      "cuisine": "Steakhouse and contemporary Australian",
+      "trend": "Trending or newly buzzing Sydney restaurant with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 101,
+        "max": 200,
+        "label": "$101-$200 pp",
+        "basis": "Current venue price category and estimated food-only spend from official à la carte and banquet menus",
+        "sourceUrl": "https://internationalsydney.com/",
+        "lastVerifiedAt": "2026-09-09T23:50:37.000Z"
+      },
+      "summary": "A live-fire CBD grill focused on premium produce, steaks and classic fine-dining technique.",
+      "cons": "Premium steak selections can make the final spend considerably higher.",
+      "menuHighlights": [
+        "Live-fire steak",
+        "Seasonal produce",
+        "Seafood",
+        "Banquet menu"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.worldbeststeaks.com/2026-list-1-101/the-grill-at-the-international",
+      "latestNews": [
+        {
+          "title": "The Grill at The International in the 2026 World's 101 Best Steak Restaurants list",
+          "url": "https://www.worldbeststeaks.com/2026-list-1-101/the-grill-at-the-international",
+          "source": "worldbeststeaks.com",
+          "publishedAt": null
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-09T23:50:37.000Z",
+        "publishedAt": null,
+        "dateStatus": "Source page exposes no reliable publication date; official venue details and current-open status rechecked 2026-09-10",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://internationalsydney.com/",
+        "socialSource": "https://www.instagram.com/theinternationalsydney/"
+      },
+      "id": 79,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Grill%20at%20The%20International%2C%2025%20Martin%20Place%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-09T23:50:37.000Z"
+    },
+    {
+      "name": "Cicci Food & Wine",
+      "address": "475 Darling Street, Balmain NSW 2041",
+      "suburb": "Balmain",
+      "area": "Inner West",
+      "coordinates": [
+        -33.85625,
+        151.17393
+      ],
+      "cuisine": "Italian trattoria and wine bar",
+      "trend": "Trending or newly buzzing Sydney restaurant with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 45,
+        "max": 85,
+        "label": "$45-$85 pp",
+        "basis": "Estimated food-only spend for shared plates and pasta from the current official menu",
+        "sourceUrl": "https://www.ciccifoodwine.com/",
+        "lastVerifiedAt": "2026-09-09T23:50:37.000Z"
+      },
+      "summary": "A small neighbourhood Italian trattoria and wine bar with a concise seasonal menu.",
+      "cons": "Limited seating and restricted Wednesday-to-Saturday kitchen hours require planning.",
+      "menuHighlights": [
+        "Seasonal antipasti",
+        "Fresh pasta",
+        "Italian mains",
+        "Bar snacks"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/cicci-food-wine-balmain-open",
+      "latestNews": [
+        {
+          "title": "Cicci Food & Wine opens in Balmain",
+          "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/cicci-food-wine-balmain-open",
+          "source": "broadsheet.com.au",
+          "publishedAt": "2025-07-24"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-09T23:50:37.000Z",
+        "publishedAt": "2025-07-24",
+        "dateStatus": "Evidence published 2025-07-24; official venue details and current-open status rechecked 2026-09-10",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.ciccifoodwine.com/",
+        "socialSource": "https://www.instagram.com/cicci.balmain/"
+      },
+      "id": 80,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cicci%20Food%20%26%20Wine%2C%20475%20Darling%20Street%2C%20Balmain%20NSW%202041",
+      "updatedAt": "2026-09-09T23:50:37.000Z"
+    },
+    {
+      "name": "Pizza'Mare",
+      "address": "Level 1M, Crown Sydney, 1 Barangaroo Avenue, Barangaroo NSW 2000",
+      "suburb": "Barangaroo",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8625,
+        151.20108
+      ],
+      "cuisine": "Italian pizzeria",
+      "trend": "Trending or newly buzzing Sydney restaurant with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 29,
+        "max": 65,
+        "label": "$29-$65 pp",
+        "basis": "Current published pasta price and estimated pizza-plus-side food-only spend",
+        "sourceUrl": "https://www.crownsydney.com.au/indulge/pizzamare",
+        "lastVerifiedAt": "2026-09-09T23:50:37.000Z"
+      },
+      "summary": "A casual pizza and pasta offshoot inside a'Mare at Crown Sydney, serving classic and signature pies.",
+      "cons": "It operates within a larger restaurant complex, so access and hours should be checked before visiting.",
+      "menuHighlights": [
+        "Classic pizzas",
+        "Signature pizzas",
+        "Rigatoni cacio e pepe",
+        "Italian sides"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://concreteplayground.com/sydney/restaurants/pizzamare",
+      "latestNews": [
+        {
+          "title": "Pizza'Mare opens at Crown Sydney",
+          "url": "https://concreteplayground.com/sydney/restaurants/pizzamare",
+          "source": "concreteplayground.com",
+          "publishedAt": "2026-04-24"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-09T23:50:37.000Z",
+        "publishedAt": "2026-04-24",
+        "dateStatus": "Evidence published 2026-04-24; official venue details and current-open status rechecked 2026-09-10",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.crownsydney.com.au/indulge/pizzamare",
+        "socialSource": "https://www.instagram.com/reel/DZXM--0TzzZ/"
+      },
+      "id": 81,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pizza'Mare%2C%20Level%201M%2C%20Crown%20Sydney%2C%201%20Barangaroo%20Avenue%2C%20Barangaroo%20NSW%202000",
+      "updatedAt": "2026-09-09T23:50:37.000Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-08T23:49:40.000Z"
+  "updatedAt": "2026-09-09T23:50:37.000Z"
 }
