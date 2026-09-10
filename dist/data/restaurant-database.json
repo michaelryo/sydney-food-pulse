@@ -4557,8 +4557,628 @@
       "id": 81,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pizza'Mare%2C%20Level%201M%2C%20Crown%20Sydney%2C%201%20Barangaroo%20Avenue%2C%20Barangaroo%20NSW%202000",
       "updatedAt": "2026-09-09T23:50:37.000Z"
+    },
+    {
+      "name": "Bake'd",
+      "address": "Shop 1, 1 Broadway, Punchbowl NSW 2196",
+      "suburb": "Punchbowl",
+      "area": "South-West Sydney",
+      "coordinates": [
+        -33.9259,
+        151.0556
+      ],
+      "cuisine": "Pancake bakery and cafe",
+      "trend": "Trending or newly buzzing Sydney venue with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 15,
+        "max": 30,
+        "label": "$15-$30 pp",
+        "basis": "Published current delivery-menu pricing and typical one-dish spend",
+        "sourceUrl": "https://www.ubereats.com/au/store/baked-punchbowl",
+        "lastVerifiedAt": "2026-09-10T23:40:48.000Z"
+      },
+      "summary": "A queue-drawing pancake bakery serving thick pancakes in sixteen sweet and savoury variations.",
+      "cons": "Reported queues can reach an hour during peak demand.",
+      "menuHighlights": [
+        "Classic pancakes",
+        "Oreo maple pancakes",
+        "Barbie pancakes",
+        "Cafe drinks"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.dailytelegraph.com.au/newslocal/the-express/how-bashar-krayem-turned-his-mums-pancake-recipe-into-a-viral-bakery-empire/news-story/6e9017339f1662a464df3ef30ca11438",
+      "latestNews": [
+        {
+          "title": "Bake'd Punchbowl: Viral pancake bakery set for major expansion",
+          "url": "https://www.dailytelegraph.com.au/newslocal/the-express/how-bashar-krayem-turned-his-mums-pancake-recipe-into-a-viral-bakery-empire/news-story/6e9017339f1662a464df3ef30ca11438",
+          "source": "dailytelegraph.com.au",
+          "publishedAt": "2026-09-06"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-10T23:40:48.000Z",
+        "publishedAt": "2026-09-06",
+        "dateStatus": "Evidence published 2026-09-06; official venue details and current-open status rechecked 2026-09-11",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.ubereats.com/au/store/baked-punchbowl",
+        "socialSource": "https://www.instagram.com/bakedsydney/"
+      },
+      "id": 82,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bake'd%2C%20Shop%201%2C%201%20Broadway%2C%20Punchbowl%20NSW%202196",
+      "updatedAt": "2026-09-10T23:40:48.000Z"
+    },
+    {
+      "name": "Bistro Ebony",
+      "address": "Angel Place, 123 Pitt Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8657,
+        151.2088
+      ],
+      "cuisine": "French-Italian modern bistro",
+      "trend": "Trending or newly buzzing Sydney venue with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 55,
+        "max": 100,
+        "label": "$55-$100 pp",
+        "basis": "Estimated food-only spend from current official à la carte menu prices",
+        "sourceUrl": "https://www.bistroebony.com.au/menus",
+        "lastVerifiedAt": "2026-09-10T23:40:48.000Z"
+      },
+      "summary": "A new Angel Place bistro combining French technique, Italian influence and familiar classics.",
+      "cons": "Open Monday to Friday only; premium mains can raise the spend.",
+      "menuHighlights": [
+        "Wagyu tartare",
+        "Crab chitarra",
+        "Veal Milanese",
+        "Seasonal seafood"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.bistroebony.com.au/",
+      "latestNews": [
+        {
+          "title": "Bistro Ebony now open in Sydney CBD",
+          "url": "https://www.bistroebony.com.au/",
+          "source": "bistroebony.com.au",
+          "publishedAt": null
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-10T23:40:48.000Z",
+        "publishedAt": null,
+        "dateStatus": "Source page exposes no reliable publication date; official venue details and current-open status rechecked 2026-09-11",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.bistroebony.com.au/",
+        "socialSource": "https://www.instagram.com/reel/DSCQ_C5kQZ7/"
+      },
+      "id": 83,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bistro%20Ebony%2C%20Angel%20Place%2C%20123%20Pitt%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-10T23:40:48.000Z"
+    },
+    {
+      "name": "Clarence and V",
+      "address": "Shop 2, 191 Clarence Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8684,
+        151.2049
+      ],
+      "cuisine": "Modern European",
+      "trend": "Trending or newly buzzing Sydney venue with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 60,
+        "max": 100,
+        "label": "$60-$100 pp",
+        "basis": "Estimated food-only spend from its daily-changing current menu",
+        "sourceUrl": "https://clarenceandv.com.au/",
+        "lastVerifiedAt": "2026-09-10T23:40:48.000Z"
+      },
+      "summary": "An intimate European-leaning CBD restaurant with a concise menu shaped by daily produce.",
+      "cons": "The changing menu means highlighted dishes and prices may vary by visit.",
+      "menuHighlights": [
+        "Seasonal vegetables",
+        "European comfort dishes",
+        "Daily specials",
+        "Dessert"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theaustralian.com.au/weekend-australian-magazine/from-cbd-steak-to-seafood-at-the-iconic-fish-market-these-are-the-hottest-new-restaurants-in-nsw/news-story/8d10629eb09fbc97a94c721f3d90933f",
+      "latestNews": [
+        {
+          "title": "Hottest new restaurants in NSW",
+          "url": "https://www.theaustralian.com.au/weekend-australian-magazine/from-cbd-steak-to-seafood-at-the-iconic-fish-market-these-are-the-hottest-new-restaurants-in-nsw/news-story/8d10629eb09fbc97a94c721f3d90933f",
+          "source": "theaustralian.com.au",
+          "publishedAt": "2026-03-17"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-10T23:40:48.000Z",
+        "publishedAt": "2026-03-17",
+        "dateStatus": "Evidence published 2026-03-17; official venue details and current-open status rechecked 2026-09-11",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://clarenceandv.com.au/",
+        "socialSource": "https://www.instagram.com/reel/DNVWPD5z0Bv/"
+      },
+      "id": 84,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Clarence%20and%20V%2C%20Shop%202%2C%20191%20Clarence%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-10T23:40:48.000Z"
+    },
+    {
+      "name": "R by Raita Noda",
+      "address": "Ground Floor, Wunderlich Lane, 2 Baptist Street, Redfern NSW 2016",
+      "suburb": "Redfern",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.889,
+        151.2088
+      ],
+      "cuisine": "Japanese omakase",
+      "trend": "Trending or newly buzzing Sydney venue with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 280,
+        "max": 300,
+        "label": "$280-$300 pp",
+        "basis": "Published current ten-course and indexed booking-menu prices",
+        "sourceUrl": "https://rbyraitanoda.com.au/",
+        "lastVerifiedAt": "2026-09-10T23:40:48.000Z"
+      },
+      "summary": "A theatrical, seafood-led counter omakase from Raita and Momotaro Noda at Wunderlich Lane.",
+      "cons": "High fixed price, limited seats and interactive service require advance planning.",
+      "menuHighlights": [
+        "Ten-course omakase",
+        "Seafood courses",
+        "Interactive steak course",
+        "Seasonal dessert"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theaustralian.com.au/weekend-australian-magazine/from-cbd-steak-to-seafood-at-the-iconic-fish-market-these-are-the-hottest-new-restaurants-in-nsw/news-story/8d10629eb09fbc97a94c721f3d90933f",
+      "latestNews": [
+        {
+          "title": "Hottest new restaurants in NSW",
+          "url": "https://www.theaustralian.com.au/weekend-australian-magazine/from-cbd-steak-to-seafood-at-the-iconic-fish-market-these-are-the-hottest-new-restaurants-in-nsw/news-story/8d10629eb09fbc97a94c721f3d90933f",
+          "source": "theaustralian.com.au",
+          "publishedAt": "2026-03-17"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-10T23:40:48.000Z",
+        "publishedAt": "2026-03-17",
+        "dateStatus": "Evidence published 2026-03-17; official venue details and current-open status rechecked 2026-09-11",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://rbyraitanoda.com.au/",
+        "socialSource": "https://www.instagram.com/reel/DHwnsXphWts/"
+      },
+      "id": 85,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=R%20by%20Raita%20Noda%2C%20Ground%20Floor%2C%20Wunderlich%20Lane%2C%202%20Baptist%20Street%2C%20Redfern%20NSW%202016",
+      "updatedAt": "2026-09-10T23:40:48.000Z"
+    },
+    {
+      "name": "Club Rose Bay",
+      "address": "1 Vickery Avenue, Rose Bay NSW 2029",
+      "suburb": "Rose Bay",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.8746,
+        151.2634
+      ],
+      "cuisine": "Italian and modern Australian club dining",
+      "trend": "Trending or newly buzzing Sydney venue with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 20,
+        "max": 50,
+        "label": "$20-$50 pp",
+        "basis": "Published $20-$40 core dish range with allowance for sides",
+        "sourceUrl": "https://clubrosebay.com.au/drink-eat/",
+        "lastVerifiedAt": "2026-09-10T23:40:48.000Z"
+      },
+      "summary": "A restored harbourside club whose Notti's dining room serves pizza, pasta and modern club dishes.",
+      "cons": "The busy multi-use club can attract substantial queues at peak times.",
+      "menuHighlights": [
+        "Pizza",
+        "Pasta",
+        "Snapper acqua pazza",
+        "Pork Milanese"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theaustralian.com.au/weekend-australian-magazine/from-cbd-steak-to-seafood-at-the-iconic-fish-market-these-are-the-hottest-new-restaurants-in-nsw/news-story/8d10629eb09fbc97a94c721f3d90933f",
+      "latestNews": [
+        {
+          "title": "Hottest new restaurants in NSW",
+          "url": "https://www.theaustralian.com.au/weekend-australian-magazine/from-cbd-steak-to-seafood-at-the-iconic-fish-market-these-are-the-hottest-new-restaurants-in-nsw/news-story/8d10629eb09fbc97a94c721f3d90933f",
+          "source": "theaustralian.com.au",
+          "publishedAt": "2026-03-17"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-10T23:40:48.000Z",
+        "publishedAt": "2026-03-17",
+        "dateStatus": "Evidence published 2026-03-17; official venue details and current-open status rechecked 2026-09-11",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://clubrosebay.com.au/",
+        "socialSource": "https://www.instagram.com/reel/DT4XkQOEj9-/"
+      },
+      "id": 86,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Club%20Rose%20Bay%2C%201%20Vickery%20Avenue%2C%20Rose%20Bay%20NSW%202029",
+      "updatedAt": "2026-09-10T23:40:48.000Z"
+    },
+    {
+      "name": "Duke's Providore",
+      "address": "109 Cronulla Street, Cronulla NSW 2230",
+      "suburb": "Cronulla",
+      "area": "South Sydney",
+      "coordinates": [
+        -34.0555,
+        151.152
+      ],
+      "cuisine": "European wine bar and providore",
+      "trend": "Trending or newly buzzing Sydney venue with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 35,
+        "max": 100,
+        "label": "$35-$100 pp",
+        "basis": "Estimated food-only spend from the current daytime and After Hours menus",
+        "sourceUrl": "https://www.fredsprovidore.com.au/pages/menus",
+        "lastVerifiedAt": "2026-09-10T23:40:48.000Z"
+      },
+      "summary": "A daytime providore that becomes an intimate European-style restaurant and wine bar after dark.",
+      "cons": "The After Hours restaurant operates Thursday to Sunday only.",
+      "menuHighlights": [
+        "Caviar crumpets",
+        "Dry-aged bistecca",
+        "Seafood",
+        "Deli sandwiches"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.hospitalitymagazine.com.au/freds-providore-renamed-dukes-providore/",
+      "latestNews": [
+        {
+          "title": "Fred's Providore renamed Duke's Providore",
+          "url": "https://www.hospitalitymagazine.com.au/freds-providore-renamed-dukes-providore/",
+          "source": "hospitalitymagazine.com.au",
+          "publishedAt": "2026-04-28"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-10T23:40:48.000Z",
+        "publishedAt": "2026-04-28",
+        "dateStatus": "Evidence published 2026-04-28; official venue details and current-open status rechecked 2026-09-11",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.fredsprovidore.com.au/",
+        "socialSource": "https://www.instagram.com/reel/DYtekNVR13C/"
+      },
+      "id": 87,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Duke's%20Providore%2C%20109%20Cronulla%20Street%2C%20Cronulla%20NSW%202230",
+      "updatedAt": "2026-09-10T23:40:48.000Z"
+    },
+    {
+      "name": "Horizon Asian Dining",
+      "address": "Cabravale Club Resort, 1 Bartley Street, Canley Vale NSW 2166",
+      "suburb": "Canley Vale",
+      "area": "South-West Sydney",
+      "coordinates": [
+        -33.8948,
+        150.935
+      ],
+      "cuisine": "Chinese and yum cha",
+      "trend": "Trending or newly buzzing Sydney venue with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 35,
+        "max": 80,
+        "label": "$35-$80 pp",
+        "basis": "Estimated food-only spend from current à la carte, yum cha and live-seafood menus",
+        "sourceUrl": "https://cabravale.com.au/dine/horizon/",
+        "lastVerifiedAt": "2026-09-10T23:40:48.000Z"
+      },
+      "summary": "A polished Chinese dining room at Cabravale Club Resort offering yum cha, à la carte dishes and live seafood.",
+      "cons": "Live seafood and banquet choices can cost materially more than the estimate.",
+      "menuHighlights": [
+        "Yum cha",
+        "Live seafood",
+        "Chinese barbecue",
+        "Banquets"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best new restaurants and bars in Sydney 2026",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-new-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-10"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-10T23:40:48.000Z",
+        "publishedAt": "2026-09-10",
+        "dateStatus": "Evidence published 2026-09-10; official venue details and current-open status rechecked 2026-09-11",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://cabravale.com.au/dine/horizon/",
+        "socialSource": "https://www.instagram.com/horizonasiandining/"
+      },
+      "id": 88,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Horizon%20Asian%20Dining%2C%20Cabravale%20Club%20Resort%2C%201%20Bartley%20Street%2C%20Canley%20Vale%20NSW%202166",
+      "updatedAt": "2026-09-10T23:40:48.000Z"
+    },
+    {
+      "name": "Gin Lane Dining Room",
+      "address": "16A Kensington Street, Chippendale NSW 2008",
+      "suburb": "Chippendale",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8849,
+        151.2002
+      ],
+      "cuisine": "British comfort food",
+      "trend": "Trending or newly buzzing Sydney venue with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 40,
+        "max": 85,
+        "label": "$40-$85 pp",
+        "basis": "Estimated food-only spend from the current dining-room menu",
+        "sourceUrl": "https://ginlanesydney.com.au/menu",
+        "lastVerifiedAt": "2026-09-10T23:40:48.000Z"
+      },
+      "summary": "A newly expanded dining room serving British comfort food alongside Gin Lane's theatrical cocktails.",
+      "cons": "The venue remains cocktail-led, and drinks can substantially increase the bill.",
+      "menuHighlights": [
+        "British pub classics",
+        "Sticky toffee-style desserts",
+        "Bar snacks",
+        "Seasonal mains"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.hospitalitymagazine.com.au/nelly-robinson-develops-menu-for-gin-lanes-new-british-dining-room/",
+      "latestNews": [
+        {
+          "title": "Nelly Robinson develops menu for Gin Lane's new British dining room",
+          "url": "https://www.hospitalitymagazine.com.au/nelly-robinson-develops-menu-for-gin-lanes-new-british-dining-room/",
+          "source": "hospitalitymagazine.com.au",
+          "publishedAt": "2026-05-20"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-10T23:40:48.000Z",
+        "publishedAt": "2026-05-20",
+        "dateStatus": "Evidence published 2026-05-20; official venue details and current-open status rechecked 2026-09-11",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://ginlanesydney.com.au/",
+        "socialSource": "https://www.instagram.com/ginlanesydney/"
+      },
+      "id": 89,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Gin%20Lane%20Dining%20Room%2C%2016A%20Kensington%20Street%2C%20Chippendale%20NSW%202008",
+      "updatedAt": "2026-09-10T23:40:48.000Z"
+    },
+    {
+      "name": "Temu Kangen",
+      "address": "Shops 10–11, 339 Sussex Street, Sydney NSW 2000",
+      "suburb": "Haymarket",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.876,
+        151.2042
+      ],
+      "cuisine": "Indonesian",
+      "trend": "Trending or newly buzzing Sydney venue with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 15,
+        "max": 35,
+        "label": "$15-$35 pp",
+        "basis": "Published takeaway starting price and typical current one-meal spend",
+        "sourceUrl": "https://www.instagram.com/temukangensydney/",
+        "lastVerifiedAt": "2026-09-10T23:40:48.000Z"
+      },
+      "summary": "A casual Indonesian sibling to Medan Ciak serving regional street-food favourites and rice dishes.",
+      "cons": "The compact casual format can become crowded at peak lunch times.",
+      "menuHighlights": [
+        "Nasi kuning",
+        "Beef rendang",
+        "Sambal dishes",
+        "Indonesian street food"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-cheap-eats-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best cheap eats in Sydney — September 2026 update",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-cheap-eats-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-10T23:40:48.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details and current-open status rechecked 2026-09-11",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.instagram.com/temukangensydney/",
+        "socialSource": "https://www.instagram.com/reel/DOIbTpWEVnA/"
+      },
+      "id": 90,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Temu%20Kangen%2C%20Shops%2010%E2%80%9311%2C%20339%20Sussex%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-10T23:40:48.000Z"
+    },
+    {
+      "name": "Bistro 1828",
+      "address": "137 George Street, The Rocks NSW 2000",
+      "suburb": "The Rocks",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8597,
+        151.2085
+      ],
+      "cuisine": "Modern Australian pub dining",
+      "trend": "Trending or newly buzzing Sydney venue with indexed coverage and public social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 35,
+        "max": 75,
+        "label": "$35-$75 pp",
+        "basis": "Estimated food-only spend from the current bistro menu",
+        "sourceUrl": "https://www.fortuneofwar.com.au/bistro-1828",
+        "lastVerifiedAt": "2026-09-10T23:40:48.000Z"
+      },
+      "summary": "A heritage dining-room expansion beside the Fortune of War, serving polished modern pub food.",
+      "cons": "The surrounding historic pub precinct is especially busy on weekends.",
+      "menuHighlights": [
+        "Elevated pub classics",
+        "Seasonal mains",
+        "Steak",
+        "Dessert"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/bistro-1828",
+      "latestNews": [
+        {
+          "title": "Bistro 1828 review",
+          "url": "https://www.timeout.com/sydney/restaurants/bistro-1828",
+          "source": "timeout.com",
+          "publishedAt": "2026-08-14"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-10T23:40:48.000Z",
+        "publishedAt": "2026-08-14",
+        "dateStatus": "Evidence published 2026-08-14; official venue details and current-open status rechecked 2026-09-11",
+        "signal": "Dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.fortuneofwar.com.au/bistro-1828",
+        "socialSource": "https://www.instagram.com/fortuneofwarhotel/"
+      },
+      "id": 91,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bistro%201828%2C%20137%20George%20Street%2C%20The%20Rocks%20NSW%202000",
+      "updatedAt": "2026-09-10T23:40:48.000Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-09T23:50:37.000Z"
+  "updatedAt": "2026-09-10T23:40:48.000Z"
 }
