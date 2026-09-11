@@ -5177,8 +5177,628 @@
       "id": 91,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bistro%201828%2C%20137%20George%20Street%2C%20The%20Rocks%20NSW%202000",
       "updatedAt": "2026-09-10T23:40:48.000Z"
+    },
+    {
+      "name": "Bar Copains",
+      "address": "67 Albion Street, Surry Hills NSW 2010",
+      "suburb": "Surry Hills",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8839,
+        151.2086
+      ],
+      "cuisine": "Modern Australian wine bar",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 50,
+        "max": 90,
+        "label": "$50-$90 pp",
+        "basis": "Food-only estimate from current small and large plate prices",
+        "sourceUrl": "https://barcopains.com.au/menu",
+        "lastVerifiedAt": "2026-09-11T23:37:58.000Z"
+      },
+      "summary": "A lively neighbourhood wine bar where a concise seasonal food menu receives as much attention as the bottles.",
+      "cons": "Small room and walk-in demand can make peak visits difficult.",
+      "menuHighlights": [
+        "Seasonal small plates",
+        "Large sharing plates",
+        "Charcuterie",
+        "Dessert"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney — September 2026 update",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-11T23:37:58.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details and current-open status rechecked 2026-09-12",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://barcopains.com.au/",
+        "socialSource": "https://www.instagram.com/barcopains/"
+      },
+      "id": 92,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Copains%2C%2067%20Albion%20Street%2C%20Surry%20Hills%20NSW%202010",
+      "updatedAt": "2026-09-11T23:37:58.000Z"
+    },
+    {
+      "name": "Sean's",
+      "address": "270 Campbell Parade, North Bondi NSW 2026",
+      "suburb": "North Bondi",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.8906,
+        151.2762
+      ],
+      "cuisine": "Produce-driven modern Australian",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 140,
+        "max": 140,
+        "label": "$140 pp",
+        "basis": "Current official three-course menu price",
+        "sourceUrl": "https://seansbondi.com/",
+        "lastVerifiedAt": "2026-09-11T23:37:58.000Z"
+      },
+      "summary": "Sean Moran's intimate Bondi institution serves a changing three-course menu driven by seasonal farm produce.",
+      "cons": "Fixed-menu pricing and limited services make advance booking advisable.",
+      "menuHighlights": [
+        "Three-course seasonal menu",
+        "Farm vegetables",
+        "Local seafood",
+        "House dessert"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney — September 2026 update",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-11T23:37:58.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details and current-open status rechecked 2026-09-12",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://seansbondi.com/",
+        "socialSource": "https://www.instagram.com/seansbondi/"
+      },
+      "id": 93,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sean's%2C%20270%20Campbell%20Parade%2C%20North%20Bondi%20NSW%202026",
+      "updatedAt": "2026-09-11T23:37:58.000Z"
+    },
+    {
+      "name": "Fratelli Paradiso",
+      "address": "12–16 Challis Avenue, Potts Point NSW 2011",
+      "suburb": "Potts Point",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8703,
+        151.2247
+      ],
+      "cuisine": "Italian",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 41,
+        "max": 100,
+        "label": "$41-$100 pp",
+        "basis": "Current published venue price category and official menu",
+        "sourceUrl": "https://fratelliparadiso.com/menu/",
+        "lastVerifiedAt": "2026-09-11T23:37:58.000Z"
+      },
+      "summary": "A famously busy Italian dining room known for handwritten specials, pasta and convivial all-day service.",
+      "cons": "No parking and consistently strong demand can make spontaneous visits difficult.",
+      "menuHighlights": [
+        "Fresh pasta",
+        "Fiorentina steak",
+        "Italian seafood",
+        "Tiramisu"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney — September 2026 update",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-11T23:37:58.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details and current-open status rechecked 2026-09-12",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://fratelliparadiso.com/",
+        "socialSource": "https://www.instagram.com/fratelliparadiso/"
+      },
+      "id": 94,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Fratelli%20Paradiso%2C%2012%E2%80%9316%20Challis%20Avenue%2C%20Potts%20Point%20NSW%202011",
+      "updatedAt": "2026-09-11T23:37:58.000Z"
+    },
+    {
+      "name": "Olympus Dining",
+      "address": "Wunderlich Lane, 2 Baptist Street, Redfern NSW 2016",
+      "suburb": "Redfern",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.889,
+        151.2088
+      ],
+      "cuisine": "Greek",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 77,
+        "max": 120,
+        "label": "$77-$120 pp",
+        "basis": "Current published optional set-menu prices",
+        "sourceUrl": "https://olympusdining.com.au/menus/",
+        "lastVerifiedAt": "2026-09-11T23:37:58.000Z"
+      },
+      "summary": "A large, energetic modern Greek taverna at Wunderlich Lane centred on charcoal cooking and generous shared menus.",
+      "cons": "Group service charges and Sunday surcharges apply, and the room can be loud.",
+      "menuHighlights": [
+        "Village bread and dips",
+        "Raw tuna",
+        "Charcoal meats",
+        "Greek desserts"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney — September 2026 update",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-11T23:37:58.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details and current-open status rechecked 2026-09-12",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://olympusdining.com.au/",
+        "socialSource": "https://www.instagram.com/olympusdining/"
+      },
+      "id": 95,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Olympus%20Dining%2C%20Wunderlich%20Lane%2C%202%20Baptist%20Street%2C%20Redfern%20NSW%202016",
+      "updatedAt": "2026-09-11T23:37:58.000Z"
+    },
+    {
+      "name": "Palazzo Salato",
+      "address": "201–203 Clarence Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8685,
+        151.2049
+      ],
+      "cuisine": "Roman-inspired Italian",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 65,
+        "max": 115,
+        "label": "$65-$115 pp",
+        "basis": "Food-only estimate from current menu, capped by published special-menu pricing",
+        "sourceUrl": "https://www.lovetillygroup.com/palazzo-salato",
+        "lastVerifiedAt": "2026-09-11T23:37:58.000Z"
+      },
+      "summary": "A sprawling Roman-inspired trattoria from Love, Tilly Group serving hand-rolled pasta and substantial secondi.",
+      "cons": "The large, lively room can be noisy and premium shared dishes increase the spend.",
+      "menuHighlights": [
+        "Hand-rolled pasta",
+        "Roman-style snacks",
+        "Secondi",
+        "Italian desserts"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-the-cbd",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney CBD",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-the-cbd",
+          "source": "timeout.com",
+          "publishedAt": "2026-02-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-11T23:37:58.000Z",
+        "publishedAt": "2026-02-25",
+        "dateStatus": "Evidence published 2026-02-25; official venue details and current-open status rechecked 2026-09-12",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.lovetillygroup.com/palazzo-salato",
+        "socialSource": "https://www.instagram.com/palazzosalato/"
+      },
+      "id": 96,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Palazzo%20Salato%2C%20201%E2%80%93203%20Clarence%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-11T23:37:58.000Z"
+    },
+    {
+      "name": "Clam Bar",
+      "address": "44 Bridge Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.864,
+        151.2088
+      ],
+      "cuisine": "Seafood grill and steakhouse",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 109,
+        "max": 165,
+        "label": "$109-$165 pp",
+        "basis": "Published average spend and current banquet pricing",
+        "sourceUrl": "https://www.clambarsydney.com/",
+        "lastVerifiedAt": "2026-09-11T23:37:58.000Z"
+      },
+      "summary": "A New York-style seafood grill and steakhouse with a raw bar, charcoal steaks and a cult cheeseburger.",
+      "cons": "Premium seafood, caviar and large steaks can push spending well above the average.",
+      "menuHighlights": [
+        "Raw seafood bar",
+        "Cheeseburger",
+        "Charcoal steak",
+        "Crème brûlée"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-the-cbd",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney CBD",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-the-cbd",
+          "source": "timeout.com",
+          "publishedAt": "2026-02-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-11T23:37:58.000Z",
+        "publishedAt": "2026-02-25",
+        "dateStatus": "Evidence published 2026-02-25; official venue details and current-open status rechecked 2026-09-12",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.clambarsydney.com/",
+        "socialSource": "https://www.instagram.com/clambarsydney/"
+      },
+      "id": 97,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Clam%20Bar%2C%2044%20Bridge%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-11T23:37:58.000Z"
+    },
+    {
+      "name": "King Clarence",
+      "address": "171 Clarence Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8678,
+        151.205
+      ],
+      "cuisine": "Contemporary Asian",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 48,
+        "max": 95,
+        "label": "$48-$95 pp",
+        "basis": "Current lunch-set and published banquet starting prices",
+        "sourceUrl": "https://www.bentleyrestaurantgroup.com.au/kingclarence",
+        "lastVerifiedAt": "2026-09-11T23:37:58.000Z"
+      },
+      "summary": "A high-energy Bentley Group restaurant combining Korean, Chinese and Japanese flavours with fire-led cooking.",
+      "cons": "Banquets and live seafood can make dinner significantly more expensive than lunch.",
+      "menuHighlights": [
+        "Fish finger bao",
+        "Pork-free mapo tofu",
+        "Barramundi ssamjang",
+        "Live lobster"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-the-cbd",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney CBD",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-the-cbd",
+          "source": "timeout.com",
+          "publishedAt": "2026-02-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-11T23:37:58.000Z",
+        "publishedAt": "2026-02-25",
+        "dateStatus": "Evidence published 2026-02-25; official venue details and current-open status rechecked 2026-09-12",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.bentleyrestaurantgroup.com.au/kingclarence",
+        "socialSource": "https://www.instagram.com/kingclarence_sydney/"
+      },
+      "id": 98,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=King%20Clarence%2C%20171%20Clarence%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-11T23:37:58.000Z"
+    },
+    {
+      "name": "The Botanica Vaucluse",
+      "address": "2 Laguna Street, Vaucluse NSW 2030",
+      "suburb": "Vaucluse",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.8554,
+        151.2785
+      ],
+      "cuisine": "Modern Australian, gluten-free",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 70,
+        "max": 153,
+        "label": "$70-$153 pp",
+        "basis": "Estimate from current menu and published beverage-package tiers",
+        "sourceUrl": "https://www.thebotanicavaucluse.com.au/menu",
+        "lastVerifiedAt": "2026-09-11T23:37:58.000Z"
+      },
+      "summary": "A garden restaurant with a refreshed modern Australian menu that is entirely gluten-free.",
+      "cons": "Luxury setting and packaged experiences carry a premium price.",
+      "menuHighlights": [
+        "Gluten-free seasonal menu",
+        "Garden produce",
+        "Seafood",
+        "Bottomless brunch"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-botanica-vaucluse",
+      "latestNews": [
+        {
+          "title": "The Botanica Vaucluse review",
+          "url": "https://www.timeout.com/sydney/restaurants/the-botanica-vaucluse",
+          "source": "timeout.com",
+          "publishedAt": "2025-10-27"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-11T23:37:58.000Z",
+        "publishedAt": "2025-10-27",
+        "dateStatus": "Evidence published 2025-10-27; official venue details and current-open status rechecked 2026-09-12",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.thebotanicavaucluse.com.au/",
+        "socialSource": "https://www.instagram.com/thebotanicavaucluse/"
+      },
+      "id": 99,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Botanica%20Vaucluse%2C%202%20Laguna%20Street%2C%20Vaucluse%20NSW%202030",
+      "updatedAt": "2026-09-11T23:37:58.000Z"
+    },
+    {
+      "name": "Top Ryde Baker's House",
+      "address": "LG2, 109 Blaxland Road, Ryde NSW 2112",
+      "suburb": "Ryde",
+      "area": "Northern Sydney",
+      "coordinates": [
+        -33.8148,
+        151.1052
+      ],
+      "cuisine": "Vietnamese bakery and bánh mì",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 9,
+        "max": 18,
+        "label": "$9-$18 pp",
+        "basis": "Published $9 bánh mì price with allowance for a drink or extra item",
+        "sourceUrl": "https://www.instagram.com/toprydebakershouse/",
+        "lastVerifiedAt": "2026-09-11T23:37:58.000Z"
+      },
+      "summary": "A family-run bakery whose heavily filled bánh mì have generated queues and widely indexed social attention.",
+      "cons": "Queues of around 30 minutes are commonly reported at busy periods.",
+      "menuHighlights": [
+        "Classic pork bánh mì",
+        "Crispy pork bánh mì",
+        "Char siu bánh mì",
+        "Fresh bread"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.foodinbox.com.au/top-10-banh-mi-in-sydney-australia-2026",
+      "latestNews": [
+        {
+          "title": "Top 10 bánh mì in Sydney 2026",
+          "url": "https://www.foodinbox.com.au/top-10-banh-mi-in-sydney-australia-2026",
+          "source": "foodinbox.com.au",
+          "publishedAt": "2026-05-13"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-11T23:37:58.000Z",
+        "publishedAt": "2026-05-13",
+        "dateStatus": "Evidence published 2026-05-13; official venue details and current-open status rechecked 2026-09-12",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.instagram.com/toprydebakershouse/",
+        "socialSource": "https://www.instagram.com/reel/C6LUAB5SNLf/"
+      },
+      "id": 100,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Top%20Ryde%20Baker's%20House%2C%20LG2%2C%20109%20Blaxland%20Road%2C%20Ryde%20NSW%202112",
+      "updatedAt": "2026-09-11T23:37:58.000Z"
+    },
+    {
+      "name": "Pellegrino 2000",
+      "address": "80 Campbell Street, Surry Hills NSW 2010",
+      "suburb": "Surry Hills",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8818,
+        151.2096
+      ],
+      "cuisine": "Italian trattoria",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 60,
+        "max": 100,
+        "label": "$60-$100 pp",
+        "basis": "Current indexed average spend and food-only menu estimate",
+        "sourceUrl": "https://pellegrino2000.com/",
+        "lastVerifiedAt": "2026-09-11T23:37:58.000Z"
+      },
+      "summary": "A basement-and-terrace Italian trattoria whose handmade pasta and buzzy dining room remain a social favourite.",
+      "cons": "Bookings remain competitive and the small basement can feel tightly packed.",
+      "menuHighlights": [
+        "Handmade pasta",
+        "Italian snacks",
+        "Cotoletta",
+        "Tiramisu"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney — September 2026 update",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-11T23:37:58.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details and current-open status rechecked 2026-09-12",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://pellegrino2000.com/",
+        "socialSource": "https://www.instagram.com/pellegrino_2000/"
+      },
+      "id": 101,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pellegrino%202000%2C%2080%20Campbell%20Street%2C%20Surry%20Hills%20NSW%202010",
+      "updatedAt": "2026-09-11T23:37:58.000Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-10T23:40:48.000Z"
+  "updatedAt": "2026-09-11T23:37:58.000Z"
 }
