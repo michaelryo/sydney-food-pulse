@@ -5797,8 +5797,628 @@
       "id": 101,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pellegrino%202000%2C%2080%20Campbell%20Street%2C%20Surry%20Hills%20NSW%202010",
       "updatedAt": "2026-09-11T23:37:58.000Z"
+    },
+    {
+      "name": "Onyu Korean Table",
+      "address": "Shop C, 6 Mount Olympus Boulevard, Wolli Creek NSW 2205",
+      "suburb": "Wolli Creek",
+      "area": "South Sydney",
+      "coordinates": [
+        -33.929,
+        151.1544
+      ],
+      "cuisine": "Korean",
+      "trend": "Trending or sustained social favourite with current indexed coverage",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 25,
+        "max": 45,
+        "label": "$25-$45 pp",
+        "basis": "Current indexed menu prices for noodles, fried chicken and shared dishes",
+        "sourceUrl": "https://www.ubereats.com/au/store/onyu-wolli-creek",
+        "lastVerifiedAt": "2026-09-12T23:18:18.000Z"
+      },
+      "summary": "A compact Korean restaurant drawing attention for bone noodles, fried chicken and a tightly edited menu.",
+      "cons": "Several signature dishes are spicy; check heat levels before ordering.",
+      "menuHighlights": [
+        "Spicy pork bone noodles",
+        "Korean fried chicken",
+        "Tofu kimchi",
+        "Chicken soup"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.instagram.com/reel/DLYwwEWz6vd/",
+      "latestNews": [
+        {
+          "title": "Onyu Korean Table indexed dining coverage",
+          "url": "https://www.instagram.com/reel/DLYwwEWz6vd/",
+          "source": "instagram.com",
+          "publishedAt": "2026-05-13"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-12T23:18:18.000Z",
+        "publishedAt": "2026-05-13",
+        "dateStatus": "Evidence published 2026-05-13; official venue details and current-open status rechecked 2026-09-13",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.ubereats.com/au/store/onyu-wolli-creek",
+        "socialSource": "https://www.instagram.com/onyu_korean/"
+      },
+      "id": 102,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Onyu%20Korean%20Table%2C%20Shop%20C%2C%206%20Mount%20Olympus%20Boulevard%2C%20Wolli%20Creek%20NSW%202205",
+      "updatedAt": "2026-09-12T23:18:18.000Z"
+    },
+    {
+      "name": "Il Baretto Newtown",
+      "address": "365 King Street, Newtown NSW 2042",
+      "suburb": "Newtown",
+      "area": "Inner West",
+      "coordinates": [
+        -33.8993,
+        151.178
+      ],
+      "cuisine": "Italian",
+      "trend": "Trending or sustained social favourite with current indexed coverage",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 30,
+        "max": 55,
+        "label": "$30-$55 pp",
+        "basis": "Current menu pricing for pasta, lasagne, meatballs and sides",
+        "sourceUrl": "https://www.ubereats.com/au/store/il-baretto-newtown",
+        "lastVerifiedAt": "2026-09-12T23:18:18.000Z"
+      },
+      "summary": "The revived Il Baretto brings casual Italian pasta, lasagne and meatballs to King Street.",
+      "cons": "Delivery prices may differ from dine-in prices, and the compact menu offers limited choice.",
+      "menuHighlights": [
+        "Lasagna verde",
+        "Rigatoni carbonara",
+        "Meatballs in sugo",
+        "Focaccia"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.notquitenigella.com/2026/08/27/il-baretto-newtown/",
+      "latestNews": [
+        {
+          "title": "Just Opened — Il Baretto, Newtown",
+          "url": "https://www.notquitenigella.com/2026/08/27/il-baretto-newtown/",
+          "source": "notquitenigella.com",
+          "publishedAt": "2026-08-27"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-12T23:18:18.000Z",
+        "publishedAt": "2026-08-27",
+        "dateStatus": "Evidence published 2026-08-27; official venue details and current-open status rechecked 2026-09-13",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.instagram.com/ilbaretto_newtown/",
+        "socialSource": "https://www.instagram.com/ilbaretto_newtown/"
+      },
+      "id": 103,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Il%20Baretto%20Newtown%2C%20365%20King%20Street%2C%20Newtown%20NSW%202042",
+      "updatedAt": "2026-09-12T23:18:18.000Z"
+    },
+    {
+      "name": "Loulou Bistro Milsons Point",
+      "address": "61 Lavender Street, Milsons Point NSW 2061",
+      "suburb": "Milsons Point",
+      "area": "Lower North Shore",
+      "coordinates": [
+        -33.8467,
+        151.2097
+      ],
+      "cuisine": "French bistro",
+      "trend": "Trending or sustained social favourite with current indexed coverage",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 55,
+        "max": 110,
+        "label": "$55-$110 pp",
+        "basis": "Estimated food-only spend from the current official bistro menu",
+        "sourceUrl": "https://loulou.sydney/",
+        "lastVerifiedAt": "2026-09-12T23:18:18.000Z"
+      },
+      "summary": "A neighbourhood French bistro serving seafood platters, steak frites and Parisian classics beside its bakery.",
+      "cons": "Premium seafood and wine can lift the spend substantially.",
+      "menuHighlights": [
+        "Fruits de mer",
+        "Steak frites",
+        "French bar snacks",
+        "House bread"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney — September 2026 update",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-12T23:18:18.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details and current-open status rechecked 2026-09-13",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://loulou.sydney/",
+        "socialSource": "https://www.instagram.com/loulou.sydney/"
+      },
+      "id": 104,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Loulou%20Bistro%20Milsons%20Point%2C%2061%20Lavender%20Street%2C%20Milsons%20Point%20NSW%202061",
+      "updatedAt": "2026-09-12T23:18:18.000Z"
+    },
+    {
+      "name": "Sketch Manly",
+      "address": "19 Pittwater Road, Manly NSW 2095",
+      "suburb": "Manly",
+      "area": "Northern Beaches",
+      "coordinates": [
+        -33.7945,
+        151.2858
+      ],
+      "cuisine": "Modern Indian",
+      "trend": "Trending or sustained social favourite with current indexed coverage",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 40,
+        "max": 62,
+        "label": "$40-$62 pp",
+        "basis": "Current published price category and indexed set-menu price",
+        "sourceUrl": "https://www.opentable.com.au/r/sketch-manly",
+        "lastVerifiedAt": "2026-09-12T23:18:18.000Z"
+      },
+      "summary": "A colourful modern Indian restaurant pairing curries and tandoor cooking with craft beer.",
+      "cons": "Some dishes may exceed a low-spice preference; confirm heat levels with staff.",
+      "menuHighlights": [
+        "Butter chicken",
+        "Tandoor dishes",
+        "Beef brisket curry",
+        "Set menu"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://concreteplayground.com/sydney/restaurants/sketch-manly",
+      "latestNews": [
+        {
+          "title": "Sketch Manly is a Northern Beaches curry and craft beer house",
+          "url": "https://concreteplayground.com/sydney/restaurants/sketch-manly",
+          "source": "concreteplayground.com",
+          "publishedAt": "2025-12-10"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-12T23:18:18.000Z",
+        "publishedAt": "2025-12-10",
+        "dateStatus": "Evidence published 2025-12-10; official venue details and current-open status rechecked 2026-09-13",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.sketchmanly.com.au/",
+        "socialSource": "https://www.instagram.com/sketchmanly/"
+      },
+      "id": 105,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sketch%20Manly%2C%2019%20Pittwater%20Road%2C%20Manly%20NSW%202095",
+      "updatedAt": "2026-09-12T23:18:18.000Z"
+    },
+    {
+      "name": "Baba's Place",
+      "address": "20 Sloane Street, Marrickville NSW 2204",
+      "suburb": "Marrickville",
+      "area": "Inner West",
+      "coordinates": [
+        -33.914,
+        151.162
+      ],
+      "cuisine": "Contemporary suburban Mediterranean",
+      "trend": "Trending or sustained social favourite with current indexed coverage",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 78,
+        "max": 120,
+        "label": "$78-$120 pp",
+        "basis": "Published historical set price and current $120 extended-family menu",
+        "sourceUrl": "https://www.babasplace.com.au/menu",
+        "lastVerifiedAt": "2026-09-12T23:18:18.000Z"
+      },
+      "summary": "A warehouse restaurant exploring Sydney's migrant suburban food culture through bold shared plates.",
+      "cons": "Current extended-family dinner is expensive, and the warehouse setting can be noisy.",
+      "menuHighlights": [
+        "Hummus X-Trad",
+        "Charcoal chicken",
+        "Seafood noodles",
+        "Shared set menu"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney — September 2026 update",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-12T23:18:18.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details and current-open status rechecked 2026-09-13",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.babasplace.com.au/",
+        "socialSource": "https://www.instagram.com/babasplace__/"
+      },
+      "id": 106,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Baba's%20Place%2C%2020%20Sloane%20Street%2C%20Marrickville%20NSW%202204",
+      "updatedAt": "2026-09-12T23:18:18.000Z"
+    },
+    {
+      "name": "Cafe Paci",
+      "address": "131 King Street, Newtown NSW 2042",
+      "suburb": "Newtown",
+      "area": "Inner West",
+      "coordinates": [
+        -33.8996,
+        151.1781
+      ],
+      "cuisine": "Modern Australian with Finnish and Italian influences",
+      "trend": "Trending or sustained social favourite with current indexed coverage",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 60,
+        "max": 100,
+        "label": "$60-$100 pp",
+        "basis": "Estimated à la carte spend capped by the current $100 group set menu",
+        "sourceUrl": "https://www.cafepaci.com.au/food",
+        "lastVerifiedAt": "2026-09-12T23:18:18.000Z"
+      },
+      "summary": "Pasi Petänen's inventive neighbourhood restaurant mixes Finnish, Italian and Australian ideas with a strong wine list.",
+      "cons": "Popular sittings can require advance booking; groups of six or more use the set menu.",
+      "menuHighlights": [
+        "Potato dumplings",
+        "Chicken liver pastry",
+        "Adobo kingfish collar",
+        "Pain perdu"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/cafe-paci-1",
+      "latestNews": [
+        {
+          "title": "Cafe Paci Newtown review",
+          "url": "https://www.timeout.com/sydney/restaurants/cafe-paci-1",
+          "source": "timeout.com",
+          "publishedAt": "2025-10-07"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-12T23:18:18.000Z",
+        "publishedAt": "2025-10-07",
+        "dateStatus": "Evidence published 2025-10-07; official venue details and current-open status rechecked 2026-09-13",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.cafepaci.com.au/",
+        "socialSource": "https://www.instagram.com/cafepaci/"
+      },
+      "id": 107,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cafe%20Paci%2C%20131%20King%20Street%2C%20Newtown%20NSW%202042",
+      "updatedAt": "2026-09-12T23:18:18.000Z"
+    },
+    {
+      "name": "Kolkata Social",
+      "address": "528–528A King Street, Newtown NSW 2042",
+      "suburb": "Newtown",
+      "area": "Inner West",
+      "coordinates": [
+        -33.9037,
+        151.1806
+      ],
+      "cuisine": "Bengali",
+      "trend": "Trending or sustained social favourite with current indexed coverage",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 40,
+        "max": 49,
+        "label": "$40-$49 pp",
+        "basis": "Current published price category and $49 seven-dish menu",
+        "sourceUrl": "https://kolkatasocial.com.au/menus.html",
+        "lastVerifiedAt": "2026-09-12T23:18:18.000Z"
+      },
+      "summary": "A Bengali restaurant led by chef Ahana Dutt, serving seasonal curries, salads and set menus.",
+      "cons": "Closed Sunday and Monday, with a deliberately compact service schedule.",
+      "menuHighlights": [
+        "Goat kosha",
+        "Egg dalna",
+        "Plantain kofta",
+        "Bengali set menu"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-indian-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best Indian restaurants in Sydney",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-indian-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-12T23:18:18.000Z",
+        "publishedAt": "2026-08-05",
+        "dateStatus": "Evidence published 2026-08-05; official venue details and current-open status rechecked 2026-09-13",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://kolkatasocial.com.au/",
+        "socialSource": "https://www.instagram.com/kolkatasocial/"
+      },
+      "id": 108,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kolkata%20Social%2C%20528%E2%80%93528A%20King%20Street%2C%20Newtown%20NSW%202042",
+      "updatedAt": "2026-09-12T23:18:18.000Z"
+    },
+    {
+      "name": "A2B Sydney",
+      "address": "116–118 Wigram Street, Harris Park NSW 2150",
+      "suburb": "Harris Park",
+      "area": "Western Sydney",
+      "coordinates": [
+        -33.8207,
+        151.0067
+      ],
+      "cuisine": "South Indian vegetarian",
+      "trend": "Trending or sustained social favourite with current indexed coverage",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 11,
+        "max": 25,
+        "label": "$11-$25 pp",
+        "basis": "Current official menu prices for dosa, meals, curries and breads",
+        "sourceUrl": "https://www.a2bsydney.com.au/menu.html",
+        "lastVerifiedAt": "2026-09-12T23:18:18.000Z"
+      },
+      "summary": "A vegetarian South Indian restaurant known for dosa, idli, thali, sweets and broad regional menus.",
+      "cons": "The extensive menu and busy Harris Park location can make peak services hectic.",
+      "menuHighlights": [
+        "Masala dosa",
+        "South Indian thali",
+        "Idli and vada",
+        "Paneer dishes"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-indian-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best Indian restaurants in Sydney",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-indian-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-12T23:18:18.000Z",
+        "publishedAt": "2026-08-05",
+        "dateStatus": "Evidence published 2026-08-05; official venue details and current-open status rechecked 2026-09-13",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.a2bsydney.com.au/",
+        "socialSource": "https://www.facebook.com/a2bsydney/"
+      },
+      "id": 109,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=A2B%20Sydney%2C%20116%E2%80%93118%20Wigram%20Street%2C%20Harris%20Park%20NSW%202150",
+      "updatedAt": "2026-09-12T23:18:18.000Z"
+    },
+    {
+      "name": "Flyover Fritterie",
+      "address": "88 Regent Street, Redfern NSW 2016",
+      "suburb": "Redfern",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8917,
+        151.2018
+      ],
+      "cuisine": "Vegetarian Indian street food",
+      "trend": "Trending or sustained social favourite with current indexed coverage",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 20,
+        "max": 40,
+        "label": "$20-$40 pp",
+        "basis": "Current official and delivery-menu pricing for bowls, fritters and sides",
+        "sourceUrl": "https://www.flyoverfritterie.com.au/food-menu",
+        "lastVerifiedAt": "2026-09-12T23:18:18.000Z"
+      },
+      "summary": "A contemporary vegetarian Indian eatery serving fritters, chaat, curry bowls and chai.",
+      "cons": "Many dishes use chilli and bold spice; diners seeking mild food should ask for guidance.",
+      "menuHighlights": [
+        "Seasonal fritters",
+        "Dosa potato jaffle",
+        "Coconut-lime dal khichri",
+        "Cardamom chai"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-indian-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best Indian restaurants in Sydney",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-indian-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-08-05"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-12T23:18:18.000Z",
+        "publishedAt": "2026-08-05",
+        "dateStatus": "Evidence published 2026-08-05; official venue details and current-open status rechecked 2026-09-13",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.flyoverfritterie.com.au/",
+        "socialSource": "https://www.instagram.com/flyover_fritterie/"
+      },
+      "id": 110,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Flyover%20Fritterie%2C%2088%20Regent%20Street%2C%20Redfern%20NSW%202016",
+      "updatedAt": "2026-09-12T23:18:18.000Z"
+    },
+    {
+      "name": "Bella Brutta",
+      "address": "135 King Street, Newtown NSW 2042",
+      "suburb": "Newtown",
+      "area": "Inner West",
+      "coordinates": [
+        -33.8989,
+        151.1784
+      ],
+      "cuisine": "Wood-fired pizza",
+      "trend": "Trending or sustained social favourite with current indexed coverage",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 26,
+        "max": 65,
+        "label": "$26-$65 pp",
+        "basis": "Current pizza prices and published $65 banquet",
+        "sourceUrl": "https://www.bellabrutta.com.au/menu",
+        "lastVerifiedAt": "2026-09-12T23:18:18.000Z"
+      },
+      "summary": "A bustling wood-fired pizzeria known for clam, pepperoni and seasonal vegetable pizzas.",
+      "cons": "No gluten-free pizza bases are currently offered, and dinner services are busy.",
+      "menuHighlights": [
+        "Clam pizza",
+        "Pepperoni pizza",
+        "Cavolo nero pizza",
+        "Ricotta cannoli"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-newtown",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Newtown",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-newtown",
+          "source": "timeout.com",
+          "publishedAt": "2026-08-20"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-12T23:18:18.000Z",
+        "publishedAt": "2026-08-20",
+        "dateStatus": "Evidence published 2026-08-20; official venue details and current-open status rechecked 2026-09-13",
+        "signal": "Current or sustained dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.bellabrutta.com.au/",
+        "socialSource": "https://www.instagram.com/bellabrutta/"
+      },
+      "id": 111,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bella%20Brutta%2C%20135%20King%20Street%2C%20Newtown%20NSW%202042",
+      "updatedAt": "2026-09-12T23:18:18.000Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-11T23:37:58.000Z"
+  "updatedAt": "2026-09-12T23:18:18.000Z"
 }
