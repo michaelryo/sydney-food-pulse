@@ -6417,8 +6417,628 @@
       "id": 111,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bella%20Brutta%2C%20135%20King%20Street%2C%20Newtown%20NSW%202042",
       "updatedAt": "2026-09-12T23:18:18.000Z"
+    },
+    {
+      "name": "Ante",
+      "address": "146 King Street, Newtown NSW 2042",
+      "suburb": "Newtown",
+      "area": "Inner West",
+      "coordinates": [
+        -33.8979,
+        151.1788
+      ],
+      "cuisine": "Japanese-inspired bar dining",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 55,
+        "max": 95,
+        "label": "$55-$95 pp",
+        "basis": "Food-only estimate from the current sample menu for several shared plates",
+        "sourceUrl": "https://www.ante.bar/",
+        "lastVerifiedAt": "2026-09-13T23:03:53.000Z"
+      },
+      "summary": "A Newtown sake bar pairing an extensive Japanese drinks list with a frequently changing Japanese-inspired food menu.",
+      "cons": "The sample menu changes and the compact room is busiest at peak dinner times.",
+      "menuHighlights": [
+        "Kingfish wing",
+        "Fermented-shiitake tagliatelle",
+        "Seasonal seafood",
+        "Japanese-inspired snacks"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney — September 2026 update",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-13T23:03:53.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, menu pricing and current-open status rechecked 2026-09-14",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.ante.bar/",
+        "socialSource": "https://www.instagram.com/ante_syd/"
+      },
+      "id": 112,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ante%2C%20146%20King%20Street%2C%20Newtown%20NSW%202042",
+      "updatedAt": "2026-09-13T23:03:53.000Z"
+    },
+    {
+      "name": "Ester",
+      "address": "46–52 Meagher Street, Chippendale NSW 2008",
+      "suburb": "Chippendale",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8871,
+        151.2006
+      ],
+      "cuisine": "Wood-fired contemporary Australian",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 111,
+        "max": 160,
+        "label": "$111-$160 pp",
+        "basis": "Published tasting-menu starting price and current Saturday set-menu price",
+        "sourceUrl": "https://ester-restaurant.com.au/",
+        "lastVerifiedAt": "2026-09-13T23:03:53.000Z"
+      },
+      "summary": "A celebrated Chippendale dining room built around wood-fired cooking, seasonal Australian produce and a daily-changing menu.",
+      "cons": "Premium set-menu pricing applies and popular services require advance booking.",
+      "menuHighlights": [
+        "Wood-fired oysters",
+        "Roasted cauliflower",
+        "Seasonal seafood",
+        "Ester sourdough"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney — September 2026 update",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-13T23:03:53.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, menu pricing and current-open status rechecked 2026-09-14",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://ester-restaurant.com.au/",
+        "socialSource": "https://www.instagram.com/ester_au/"
+      },
+      "id": 113,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ester%2C%2046%E2%80%9352%20Meagher%20Street%2C%20Chippendale%20NSW%202008",
+      "updatedAt": "2026-09-13T23:03:53.000Z"
+    },
+    {
+      "name": "Porcine",
+      "address": "268 Oxford Street, Paddington NSW 2021",
+      "suburb": "Paddington",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.8856,
+        151.2276
+      ],
+      "cuisine": "French bistro and nose-to-tail",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 75,
+        "max": 140,
+        "label": "$75-$140 pp",
+        "basis": "Published average spend and current group set-menu prices",
+        "sourceUrl": "https://www.porcine.com.au/",
+        "lastVerifiedAt": "2026-09-13T23:03:53.000Z"
+      },
+      "summary": "A whole-animal French bistro above a Paddington bottle shop, known for classic technique and a daily-changing menu.",
+      "cons": "The menu changes daily and higher-priced group menus apply to larger parties.",
+      "menuHighlights": [
+        "Pâté en croûte",
+        "Daily whole-animal dishes",
+        "Oysters",
+        "Classic French desserts"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://thewritedrop.com.au/",
+      "latestNews": [
+        {
+          "title": "At the Bar with head chef Nik Hill",
+          "url": "https://thewritedrop.com.au/",
+          "source": "thewritedrop.com.au",
+          "publishedAt": "2026-01-07"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-13T23:03:53.000Z",
+        "publishedAt": "2026-01-07",
+        "dateStatus": "Evidence published 2026-01-07; official venue details, menu pricing and current-open status rechecked 2026-09-14",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.porcine.com.au/",
+        "socialSource": "https://www.instagram.com/porcine.sydney/"
+      },
+      "id": 114,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Porcine%2C%20268%20Oxford%20Street%2C%20Paddington%20NSW%202021",
+      "updatedAt": "2026-09-13T23:03:53.000Z"
+    },
+    {
+      "name": "Kiln",
+      "address": "Level 18, 53 Wentworth Avenue, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8808,
+        151.21
+      ],
+      "cuisine": "Produce-led contemporary Australian",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 75,
+        "max": 125,
+        "label": "$75-$125 pp",
+        "basis": "Food-only estimate from the current shared menu and four-course format",
+        "sourceUrl": "https://www.kilnsydney.com/",
+        "lastVerifiedAt": "2026-09-13T23:03:53.000Z"
+      },
+      "summary": "Ace Hotel Sydney’s rooftop restaurant, pairing skyline views with produce-led cooking and a renewed culinary direction.",
+      "cons": "Rooftop bookings are competitive, and the shared format can be less flexible for quick meals.",
+      "menuHighlights": [
+        "Wood-fired seafood",
+        "Seasonal vegetables",
+        "Shared four-course menu",
+        "Rooftop snacks"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/kiln",
+      "latestNews": [
+        {
+          "title": "Kiln winter 2026 review and chef update",
+          "url": "https://www.timeout.com/sydney/restaurants/kiln",
+          "source": "timeout.com",
+          "publishedAt": "2026-07-15"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-13T23:03:53.000Z",
+        "publishedAt": "2026-07-15",
+        "dateStatus": "Evidence published 2026-07-15; official venue details, menu pricing and current-open status rechecked 2026-09-14",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.kilnsydney.com/",
+        "socialSource": "https://www.instagram.com/kilnsydney/"
+      },
+      "id": 115,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kiln%2C%20Level%2018%2C%2053%20Wentworth%20Avenue%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-13T23:03:53.000Z"
+    },
+    {
+      "name": "Cafe Sydney",
+      "address": "Level 5, Customs House, 31 Alfred Street, Circular Quay NSW 2000",
+      "suburb": "Circular Quay",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8622,
+        151.2104
+      ],
+      "cuisine": "Modern Australian and seafood",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 75,
+        "max": 140,
+        "label": "$75-$140 pp",
+        "basis": "Food-only estimate from the current à-la-carte menu",
+        "sourceUrl": "https://cafesydney.com/",
+        "lastVerifiedAt": "2026-09-13T23:03:53.000Z"
+      },
+      "summary": "A landmark Circular Quay restaurant serving polished modern Australian food and seafood with harbour views.",
+      "cons": "Prime terrace tables are highly requested and premium seafood increases the spend.",
+      "menuHighlights": [
+        "Twice-cooked Gruyère soufflé",
+        "Mooloolaba tuna",
+        "Sydney rock oysters",
+        "Seasonal seafood"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney — September 2026 update",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-13T23:03:53.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, menu pricing and current-open status rechecked 2026-09-14",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://cafesydney.com/",
+        "socialSource": "https://www.instagram.com/cafesydney/"
+      },
+      "id": 116,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cafe%20Sydney%2C%20Level%205%2C%20Customs%20House%2C%2031%20Alfred%20Street%2C%20Circular%20Quay%20NSW%202000",
+      "updatedAt": "2026-09-13T23:03:53.000Z"
+    },
+    {
+      "name": "Firedoor",
+      "address": "23–33 Mary Street, Surry Hills NSW 2010",
+      "suburb": "Surry Hills",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.883141,
+        151.208722
+      ],
+      "cuisine": "Fire-led contemporary Australian",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 185,
+        "max": 195,
+        "label": "$185-$195 pp",
+        "basis": "Current published chef's-menu pricing, allowing for menu variation",
+        "sourceUrl": "https://firedoor.com.au/",
+        "lastVerifiedAt": "2026-09-13T23:03:53.000Z"
+      },
+      "summary": "Lennox Hastie’s acclaimed Surry Hills restaurant cooks every dish over wood fire, highlighting produce, seafood and dry-aged meat.",
+      "cons": "It is a premium fixed-menu experience and reservations can be difficult to secure.",
+      "menuHighlights": [
+        "Fire-cooked seafood",
+        "Dry-aged beef",
+        "Seasonal vegetables",
+        "Wood-fired bread"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney — September 2026 update",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-13T23:03:53.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, menu pricing and current-open status rechecked 2026-09-14",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://firedoor.com.au/",
+        "socialSource": "https://www.instagram.com/firedoorsurryhills/"
+      },
+      "id": 117,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Firedoor%2C%2023%E2%80%9333%20Mary%20Street%2C%20Surry%20Hills%20NSW%202010",
+      "updatedAt": "2026-09-13T23:03:53.000Z"
+    },
+    {
+      "name": "Bistecca",
+      "address": "3 Dalley Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8646,
+        151.2089
+      ],
+      "cuisine": "Tuscan steakhouse",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 95,
+        "max": 160,
+        "label": "$95-$160 pp",
+        "basis": "Food-only estimate from the market-priced bistecca and current supporting menu",
+        "sourceUrl": "https://www.liquidandlarder.com.au/bistecca",
+        "lastVerifiedAt": "2026-09-13T23:03:53.000Z"
+      },
+      "summary": "An underground Tuscan-style steakhouse dedicated to bistecca alla Fiorentina, with Italian sides and cocktails.",
+      "cons": "The steak is sold by weight, so final per-person cost varies, and phones are stored on entry.",
+      "menuHighlights": [
+        "Bistecca alla Fiorentina",
+        "Italian-style sides",
+        "Olive-oil cake",
+        "Negroni"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney — September 2026 update",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-13T23:03:53.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, menu pricing and current-open status rechecked 2026-09-14",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.liquidandlarder.com.au/bistecca",
+        "socialSource": "https://www.instagram.com/bistecca_sydney/"
+      },
+      "id": 118,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bistecca%2C%203%20Dalley%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-13T23:03:53.000Z"
+    },
+    {
+      "name": "Bennelong Restaurant & Bar",
+      "address": "Sydney Opera House, Bennelong Point, Sydney NSW 2000",
+      "suburb": "Circular Quay",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8568,
+        151.2153
+      ],
+      "cuisine": "Contemporary Australian fine dining",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 125,
+        "max": 235,
+        "label": "$125-$235 pp",
+        "basis": "Current published three-course and premium experience pricing",
+        "sourceUrl": "https://www.bennelong.com.au/",
+        "lastVerifiedAt": "2026-09-13T23:03:53.000Z"
+      },
+      "summary": "A flagship Sydney Opera House restaurant showcasing Australian produce through polished contemporary fine dining.",
+      "cons": "Special-occasion pricing applies, and performance-night reservations are competitive.",
+      "menuHighlights": [
+        "Australian produce",
+        "Three-course restaurant menu",
+        "À-la-carte counter dishes",
+        "Bennelong pavlova"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney — September 2026 update",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-13T23:03:53.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, menu pricing and current-open status rechecked 2026-09-14",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.bennelong.com.au/",
+        "socialSource": "https://www.instagram.com/bennelong_sydney/"
+      },
+      "id": 119,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bennelong%20Restaurant%20%26%20Bar%2C%20Sydney%20Opera%20House%2C%20Bennelong%20Point%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-13T23:03:53.000Z"
+    },
+    {
+      "name": "Spice Temple Sydney",
+      "address": "10 Bligh Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8654,
+        151.2097
+      ],
+      "cuisine": "Regional Chinese",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 65,
+        "max": 110,
+        "label": "$65-$110 pp",
+        "basis": "Food-only estimate from the current sharing menu and banquet-style ordering",
+        "sourceUrl": "https://hunterstreethospitality.com.au/venues/spice-temple-sydney/",
+        "lastVerifiedAt": "2026-09-13T23:03:53.000Z"
+      },
+      "summary": "A subterranean regional Chinese restaurant known for Sichuan heat, handmade noodles, dumplings and banquet-style sharing.",
+      "cons": "Many signatures are chilli-forward, and banquet ordering can be expensive for smaller appetites.",
+      "menuHighlights": [
+        "Hand-pulled noodles",
+        "Dumplings",
+        "Sichuan dishes",
+        "Hot pot"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://hunterstreethospitality.com.au/restaurants/spice-temple/sydney-menu/",
+      "latestNews": [
+        {
+          "title": "Sydney menu update",
+          "url": "https://hunterstreethospitality.com.au/restaurants/spice-temple/sydney-menu/",
+          "source": "hunterstreethospitality.com.au",
+          "publishedAt": "2026-07-01"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-13T23:03:53.000Z",
+        "publishedAt": "2026-07-01",
+        "dateStatus": "Evidence published 2026-07-01; official venue details, menu pricing and current-open status rechecked 2026-09-14",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://hunterstreethospitality.com.au/venues/spice-temple-sydney/",
+        "socialSource": "https://www.instagram.com/spicetemplesydney/"
+      },
+      "id": 120,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Spice%20Temple%20Sydney%2C%2010%20Bligh%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-13T23:03:53.000Z"
+    },
+    {
+      "name": "Icebergs Dining Room and Bar",
+      "address": "1 Notts Avenue, Bondi Beach NSW 2026",
+      "suburb": "Bondi Beach",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.8952,
+        151.2735
+      ],
+      "cuisine": "Modern Italian and seafood",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 130,
+        "max": 155,
+        "label": "$130-$155 pp",
+        "basis": "Current published two- and three-course dining-room menu prices",
+        "sourceUrl": "https://idrb.com/",
+        "lastVerifiedAt": "2026-09-13T23:03:53.000Z"
+      },
+      "summary": "A hatted Bondi dining room combining modern Italian cooking, seafood and panoramic ocean views.",
+      "cons": "Premium set-menu pricing applies and sought-after ocean-facing tables book quickly.",
+      "menuHighlights": [
+        "Seasonal Italian dishes",
+        "Fresh seafood",
+        "Two-course menu",
+        "Three-course menu"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney — September 2026 update",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-13T23:03:53.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, menu pricing and current-open status rechecked 2026-09-14",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://idrb.com/",
+        "socialSource": "https://www.instagram.com/icebergsdiningroomandbar/"
+      },
+      "id": 121,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Icebergs%20Dining%20Room%20and%20Bar%2C%201%20Notts%20Avenue%2C%20Bondi%20Beach%20NSW%202026",
+      "updatedAt": "2026-09-13T23:03:53.000Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-12T23:18:18.000Z"
+  "updatedAt": "2026-09-13T23:03:53.000Z"
 }
