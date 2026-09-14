@@ -7037,8 +7037,628 @@
       "id": 121,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Icebergs%20Dining%20Room%20and%20Bar%2C%201%20Notts%20Avenue%2C%20Bondi%20Beach%20NSW%202026",
       "updatedAt": "2026-09-13T23:03:53.000Z"
+    },
+    {
+      "name": "AALIA",
+      "address": "Shop 7.07–7.08, 25 Martin Place, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8686,
+        151.2093
+      ],
+      "cuisine": "Middle Eastern and North African",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 80,
+        "max": 130,
+        "label": "$80-$130 pp",
+        "basis": "Food-only estimate from current raw, meze and shared mains",
+        "sourceUrl": "https://aaliarestaurant.com/",
+        "lastVerifiedAt": "2026-09-14T23:23:11.000Z"
+      },
+      "summary": "A polished Martin Place restaurant exploring lesser-seen Middle Eastern and North African coastal cuisines.",
+      "cons": "Premium seafood and caviar can raise the spend substantially.",
+      "menuHighlights": [
+        "Beef nayyeh",
+        "Quail skewers",
+        "Chickpea masabacha",
+        "Wood-fired shared mains"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney — September 2026 update",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-14T23:23:11.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, current menu pricing and open status rechecked 2026-09-15",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://aaliarestaurant.com/",
+        "socialSource": "https://www.instagram.com/aaliarestaurant/"
+      },
+      "id": 122,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=AALIA%2C%20Shop%207.07%E2%80%937.08%2C%2025%20Martin%20Place%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-14T23:23:11.000Z"
+    },
+    {
+      "name": "Mr. Wong",
+      "address": "3 Bridge Lane, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8647,
+        151.2086
+      ],
+      "cuisine": "Cantonese",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 90,
+        "max": 140,
+        "label": "$90-$140 pp",
+        "basis": "Current banquet and food-only shared-menu estimate",
+        "sourceUrl": "https://merivale.com/venues/mrwong/",
+        "lastVerifiedAt": "2026-09-14T23:23:11.000Z"
+      },
+      "summary": "Merivale’s large Cantonese dining room is known for dim sum, roast duck and live seafood.",
+      "cons": "The room is busy and premium seafood can make the final bill significantly higher.",
+      "menuHighlights": [
+        "Dim sum",
+        "Peking duck",
+        "Mud crab",
+        "Roast meats"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney — September 2026 update",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-14T23:23:11.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, current menu pricing and open status rechecked 2026-09-15",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://merivale.com/venues/mrwong/",
+        "socialSource": "https://www.instagram.com/mrwongsydney/"
+      },
+      "id": 123,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mr.%20Wong%2C%203%20Bridge%20Lane%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-14T23:23:11.000Z"
+    },
+    {
+      "name": "Cho Cho San",
+      "address": "73 Macleay Street, Potts Point NSW 2011",
+      "suburb": "Potts Point",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8705,
+        151.2256
+      ],
+      "cuisine": "Modern Japanese izakaya",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 70,
+        "max": 99,
+        "label": "$70-$99 pp",
+        "basis": "Current banquet price and estimate for shared à-la-carte dining",
+        "sourceUrl": "https://chochosan.com.au/",
+        "lastVerifiedAt": "2026-09-14T23:23:11.000Z"
+      },
+      "summary": "A high-energy Potts Point izakaya serving modern Japanese snacks, sake and larger shared plates.",
+      "cons": "The compact dining room becomes loud, and a full feast costs more than a quick snack visit.",
+      "menuHighlights": [
+        "Miso eggplant",
+        "Sashimi",
+        "Japanese fried chicken",
+        "Seasonal ramen"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/cho-cho-sans-ramen-month-returns",
+      "latestNews": [
+        {
+          "title": "Cho Cho San ramen month returns",
+          "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/cho-cho-sans-ramen-month-returns",
+          "source": "broadsheet.com.au",
+          "publishedAt": "2026-06-10"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-14T23:23:11.000Z",
+        "publishedAt": "2026-06-10",
+        "dateStatus": "Evidence published 2026-06-10; official venue details, current menu pricing and open status rechecked 2026-09-15",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://chochosan.com.au/",
+        "socialSource": "https://www.instagram.com/chochosanrestaurant/"
+      },
+      "id": 124,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cho%20Cho%20San%2C%2073%20Macleay%20Street%2C%20Potts%20Point%20NSW%202011",
+      "updatedAt": "2026-09-14T23:23:11.000Z"
+    },
+    {
+      "name": "Pilu at Freshwater",
+      "address": "On the Beach, Moore Road, Freshwater NSW 2096",
+      "suburb": "Freshwater",
+      "area": "Northern Beaches",
+      "coordinates": [
+        -33.7765,
+        151.2894
+      ],
+      "cuisine": "Sardinian Italian",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 150,
+        "max": 190,
+        "label": "$150-$190 pp",
+        "basis": "Current Sardinian experience and published five-course experience pricing",
+        "sourceUrl": "https://pilu.com.au/",
+        "lastVerifiedAt": "2026-09-14T23:23:11.000Z"
+      },
+      "summary": "Giovanni Pilu’s beachfront restaurant presents Sardinian cooking through local produce and handmade pasta.",
+      "cons": "Premium experience pricing and weekend surcharges apply.",
+      "menuHighlights": [
+        "Sardinian experience",
+        "Hand-rolled pasta",
+        "Seasonal crudo",
+        "Chargrilled meats"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.dailytelegraph.com.au/newslocal/manly-daily/pilu-freshwater-owners-in-red-tape-stoush-over-venues-trading-hours-wedding-ceremonies/news-story/a1b1a095d12a22c066585587a897c8ba",
+      "latestNews": [
+        {
+          "title": "Pilu trading-hours and current-operation report",
+          "url": "https://www.dailytelegraph.com.au/newslocal/manly-daily/pilu-freshwater-owners-in-red-tape-stoush-over-venues-trading-hours-wedding-ceremonies/news-story/a1b1a095d12a22c066585587a897c8ba",
+          "source": "dailytelegraph.com.au",
+          "publishedAt": "2025-04-29"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-14T23:23:11.000Z",
+        "publishedAt": "2025-04-29",
+        "dateStatus": "Evidence published 2025-04-29; official venue details, current menu pricing and open status rechecked 2026-09-15",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://pilu.com.au/",
+        "socialSource": "https://www.instagram.com/piluatfreshwater/"
+      },
+      "id": 125,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pilu%20at%20Freshwater%2C%20On%20the%20Beach%2C%20Moore%20Road%2C%20Freshwater%20NSW%202096",
+      "updatedAt": "2026-09-14T23:23:11.000Z"
+    },
+    {
+      "name": "Ormeggio at The Spit",
+      "address": "D’Albora Marinas, Spit Road, Mosman NSW 2088",
+      "suburb": "Mosman",
+      "area": "Lower North Shore",
+      "coordinates": [
+        -33.8076,
+        151.2445
+      ],
+      "cuisine": "Italian seafood fine dining",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 149,
+        "max": 198,
+        "label": "$149-$198 pp",
+        "basis": "Published classics and current four-course regular menu pricing",
+        "sourceUrl": "https://srghospitality.com.au/venues/ormeggio-at-the-spit/",
+        "lastVerifiedAt": "2026-09-14T23:23:11.000Z"
+      },
+      "summary": "A waterfront Italian restaurant serving a meat-free menu centred on sustainable seafood.",
+      "cons": "Degustation pricing is premium and the marina location is less convenient without a car.",
+      "menuHighlights": [
+        "Sustainable seafood",
+        "Italian tasting menu",
+        "Aperitivo snacks",
+        "Seasonal desserts"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/ormeggio-at-the-spit",
+      "latestNews": [
+        {
+          "title": "Ormeggio unveils a new menu",
+          "url": "https://www.timeout.com/sydney/restaurants/ormeggio-at-the-spit",
+          "source": "timeout.com",
+          "publishedAt": "2026-03-27"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-14T23:23:11.000Z",
+        "publishedAt": "2026-03-27",
+        "dateStatus": "Evidence published 2026-03-27; official venue details, current menu pricing and open status rechecked 2026-09-15",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://srghospitality.com.au/venues/ormeggio-at-the-spit/",
+        "socialSource": "https://www.instagram.com/ormeggio/"
+      },
+      "id": 126,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ormeggio%20at%20The%20Spit%2C%20D%E2%80%99Albora%20Marinas%2C%20Spit%20Road%2C%20Mosman%20NSW%202088",
+      "updatedAt": "2026-09-14T23:23:11.000Z"
+    },
+    {
+      "name": "Sixpenny",
+      "address": "83 Percival Road, Stanmore NSW 2048",
+      "suburb": "Stanmore",
+      "area": "Inner West",
+      "coordinates": [
+        -33.8915,
+        151.1651
+      ],
+      "cuisine": "Modern Australian degustation",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 215,
+        "max": 370,
+        "label": "$215-$370 pp",
+        "basis": "Published tasting-menu prices and current 2026 menu format",
+        "sourceUrl": "https://www.sixpenny.com.au/",
+        "lastVerifiedAt": "2026-09-14T23:23:11.000Z"
+      },
+      "summary": "A tiny Stanmore fine diner delivering a seasonal tasting menu shaped by local growers, ferments and precise technique.",
+      "cons": "It is tasting-menu only, expensive and requires advance reservations.",
+      "menuHighlights": [
+        "Seasonal snacks",
+        "House breads",
+        "Fermented produce",
+        "Multi-course tasting menu"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney — September 2026 update",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-14T23:23:11.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, current menu pricing and open status rechecked 2026-09-15",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.sixpenny.com.au/",
+        "socialSource": "https://www.instagram.com/sixpenny_au/"
+      },
+      "id": 127,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sixpenny%2C%2083%20Percival%20Road%2C%20Stanmore%20NSW%202048",
+      "updatedAt": "2026-09-14T23:23:11.000Z"
+    },
+    {
+      "name": "Temasek Restaurant",
+      "address": "Shop 2, 100 George Street, Parramatta NSW 2150",
+      "suburb": "Parramatta",
+      "area": "Western Sydney",
+      "coordinates": [
+        -33.8155,
+        151.0058
+      ],
+      "cuisine": "Singaporean and Malaysian",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 30,
+        "max": 55,
+        "label": "$30-$55 pp",
+        "basis": "Food-only estimate from the current official menu for a main and shared starter",
+        "sourceUrl": "https://www.temasekrestaurant.com/",
+        "lastVerifiedAt": "2026-09-14T23:23:11.000Z"
+      },
+      "summary": "A long-running Parramatta favourite for Singaporean-Malay noodles, curries, chicken rice and roti.",
+      "cons": "The dining room is often busy, dinner bookings are time-limited, and bills cannot be split.",
+      "menuHighlights": [
+        "Hainan chicken rice",
+        "Laksa",
+        "Roti canai",
+        "Beef rendang"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.broadsheet.com.au/sydney/guides/western-sydney-autumn",
+      "latestNews": [
+        {
+          "title": "What to eat and drink in Western Sydney",
+          "url": "https://www.broadsheet.com.au/sydney/guides/western-sydney-autumn",
+          "source": "broadsheet.com.au",
+          "publishedAt": "2025-03-19"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-14T23:23:11.000Z",
+        "publishedAt": "2025-03-19",
+        "dateStatus": "Evidence published 2025-03-19; official venue details, current menu pricing and open status rechecked 2026-09-15",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.temasekrestaurant.com/",
+        "socialSource": "https://www.instagram.com/temasekrestaurant/"
+      },
+      "id": 128,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Temasek%20Restaurant%2C%20Shop%202%2C%20100%20George%20Street%2C%20Parramatta%20NSW%202150",
+      "updatedAt": "2026-09-14T23:23:11.000Z"
+    },
+    {
+      "name": "mimi’s",
+      "address": "Middle Level, Coogee Pavilion, 130A Beach Street, Coogee NSW 2034",
+      "suburb": "Coogee",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.921,
+        151.256
+      ],
+      "cuisine": "Coastal Mediterranean fine dining",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 120,
+        "max": 200,
+        "label": "$120-$200 pp",
+        "basis": "Food-only estimate from the current seafood-led sharing menu",
+        "sourceUrl": "https://merivale.com/venues/mimis/",
+        "lastVerifiedAt": "2026-09-14T23:23:11.000Z"
+      },
+      "summary": "Coogee Pavilion’s glamorous dining room focuses on premium Australian seafood and Mediterranean flavours.",
+      "cons": "Caviar, whole fish and premium wine can push spending well above the estimate.",
+      "menuHighlights": [
+        "Raw seafood",
+        "Whole fish",
+        "Caviar service",
+        "Mediterranean shared plates"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "Best restaurants in Sydney — September 2026 update",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-14T23:23:11.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, current menu pricing and open status rechecked 2026-09-15",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://merivale.com/venues/mimis/",
+        "socialSource": "https://www.instagram.com/mimis_sydney/"
+      },
+      "id": 129,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=mimi%E2%80%99s%2C%20Middle%20Level%2C%20Coogee%20Pavilion%2C%20130A%20Beach%20Street%2C%20Coogee%20NSW%202034",
+      "updatedAt": "2026-09-14T23:23:11.000Z"
+    },
+    {
+      "name": "10 William St",
+      "address": "10 William Street, Paddington NSW 2021",
+      "suburb": "Paddington",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.8821,
+        151.2286
+      ],
+      "cuisine": "Italian wine bar",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 55,
+        "max": 95,
+        "label": "$55-$95 pp",
+        "basis": "Food-only estimate from the seasonal shared menu",
+        "sourceUrl": "https://10williamst.com.au/",
+        "lastVerifiedAt": "2026-09-14T23:23:11.000Z"
+      },
+      "summary": "A compact Paddington wine bar with seasonal Italian cooking, fresh pasta and a cult tiramisu.",
+      "cons": "It is walk-in focused, tightly packed and waits are common at popular times.",
+      "menuHighlights": [
+        "Pretzel with whipped bottarga",
+        "Fresh pasta",
+        "Seasonal vegetables",
+        "Tiramisu by the spoon"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.news.com.au/lifestyle/food/eat/genius-sydney-restaurant-solves-common-dilemma-when-diningout/news-story/3e9eaaad112bb24b8984992c2babda3b",
+      "latestNews": [
+        {
+          "title": "Tiramisu by the spoon goes viral",
+          "url": "https://www.news.com.au/lifestyle/food/eat/genius-sydney-restaurant-solves-common-dilemma-when-diningout/news-story/3e9eaaad112bb24b8984992c2babda3b",
+          "source": "news.com.au",
+          "publishedAt": "2025-01-10"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-14T23:23:11.000Z",
+        "publishedAt": "2025-01-10",
+        "dateStatus": "Evidence published 2025-01-10; official venue details, current menu pricing and open status rechecked 2026-09-15",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://10williamst.com.au/",
+        "socialSource": "https://www.instagram.com/10williamst/"
+      },
+      "id": 130,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=10%20William%20St%2C%2010%20William%20Street%2C%20Paddington%20NSW%202021",
+      "updatedAt": "2026-09-14T23:23:11.000Z"
+    },
+    {
+      "name": "Golden Century at Crown Sydney",
+      "address": "Level 3, Crown Sydney, 1 Barangaroo Avenue, Barangaroo NSW 2000",
+      "suburb": "Barangaroo",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8652,
+        151.2012
+      ],
+      "cuisine": "Cantonese seafood and yum cha",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 60,
+        "max": 150,
+        "label": "$60-$150 pp",
+        "basis": "Food-only estimate from current yum cha and live-seafood menu; market-price seafood may exceed it",
+        "sourceUrl": "https://goldencentury.com.au/",
+        "lastVerifiedAt": "2026-09-14T23:23:11.000Z"
+      },
+      "summary": "The revived Golden Century brings its Cantonese seafood signatures and expansive yum cha selection to Crown Sydney.",
+      "cons": "Live seafood is market-priced and can make the final spend substantially higher.",
+      "menuHighlights": [
+        "XO pipis",
+        "Peking duck",
+        "Live lobster",
+        "Yum cha"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://media.destinationnsw.com.au/reservations-golden-century-crown-sydney-now-open",
+      "latestNews": [
+        {
+          "title": "Reservations open for Golden Century at Crown Sydney",
+          "url": "https://media.destinationnsw.com.au/reservations-golden-century-crown-sydney-now-open",
+          "source": "media.destinationnsw.com.au",
+          "publishedAt": "2025-01-13"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-14T23:23:11.000Z",
+        "publishedAt": "2025-01-13",
+        "dateStatus": "Evidence published 2025-01-13; official venue details, current menu pricing and open status rechecked 2026-09-15",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://goldencentury.com.au/",
+        "socialSource": "https://www.instagram.com/goldencenturyrestaurant/"
+      },
+      "id": 131,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Golden%20Century%20at%20Crown%20Sydney%2C%20Level%203%2C%20Crown%20Sydney%2C%201%20Barangaroo%20Avenue%2C%20Barangaroo%20NSW%202000",
+      "updatedAt": "2026-09-14T23:23:11.000Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T23:03:53.000Z"
+  "updatedAt": "2026-09-14T23:23:11.000Z"
 }
