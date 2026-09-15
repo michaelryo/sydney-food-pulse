@@ -7657,8 +7657,620 @@
       "id": 131,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Golden%20Century%20at%20Crown%20Sydney%2C%20Level%203%2C%20Crown%20Sydney%2C%201%20Barangaroo%20Avenue%2C%20Barangaroo%20NSW%202000",
       "updatedAt": "2026-09-14T23:23:11.000Z"
+    },
+    {
+      "name": "LuMi Dining",
+      "address": "56 Pirrama Road, Pyrmont NSW 2009",
+      "suburb": "Pyrmont",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.866797,
+        151.1973652
+      ],
+      "cuisine": "Modern Italian with Japanese influence",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 265,
+        "max": 350,
+        "label": "$265-$350 pp",
+        "basis": "Current official tasting menu ($265) and omakase menu ($350)",
+        "sourceUrl": "https://lumidining.com/menu/",
+        "lastVerifiedAt": "2026-09-15T23:48:02.000Z"
+      },
+      "summary": "A waterfront tasting-menu restaurant pairing modern Italian foundations with Japanese technique.",
+      "cons": "Tasting-menu-only pricing makes this a high-cost special-occasion restaurant.",
+      "menuHighlights": [
+        "Seasonal tasting menu",
+        "Omakase menu",
+        "Italian-Japanese courses"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.instagram.com/p/DUzTdNHCYnh/",
+      "latestNews": [
+        {
+          "title": "LuMi Dining tasting and omakase menus",
+          "url": "https://www.instagram.com/p/DUzTdNHCYnh/",
+          "source": "instagram.com",
+          "publishedAt": "2026-04-13"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-15T23:48:02.000Z",
+        "publishedAt": "2026-04-13",
+        "dateStatus": "Evidence published 2026-04-13; official venue details, current menu pricing and open status rechecked 2026-09-16",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://lumidining.com/menu/",
+        "socialSource": "https://www.instagram.com/lumidining/"
+      },
+      "id": 132,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=LuMi%20Dining%2C%2056%20Pirrama%20Road%2C%20Pyrmont%20NSW%202009",
+      "updatedAt": "2026-09-15T23:48:02.000Z"
+    },
+    {
+      "name": "Shell House Dining Room & Terrace",
+      "address": "Level 9, 37 Margaret Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8651655,
+        151.2067183
+      ],
+      "cuisine": "Modern Australian and Mediterranean",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 80,
+        "max": 160,
+        "label": "$80-$160 pp",
+        "basis": "Food-only estimate from the current official à la carte menu",
+        "sourceUrl": "https://shellhouse.com.au/dining-room-terrace/",
+        "lastVerifiedAt": "2026-09-15T23:48:02.000Z"
+      },
+      "summary": "Shell House's rooftop dining room serves produce-led Australian dishes with Mediterranean influence.",
+      "cons": "Premium seafood and larger shared plates can raise the per-person spend.",
+      "menuHighlights": [
+        "Oysters",
+        "Market fish",
+        "Mediterranean-style shared plates"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best restaurants in Sydney",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-15T23:48:02.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, current menu pricing and open status rechecked 2026-09-16",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://shellhouse.com.au/dining-room-terrace/",
+        "socialSource": "https://www.instagram.com/shellhousesydney/"
+      },
+      "id": 133,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Shell%20House%20Dining%20Room%20%26%20Terrace%2C%20Level%209%2C%2037%20Margaret%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-15T23:48:02.000Z"
+    },
+    {
+      "name": "NOUR",
+      "address": "Shop 3, 490 Crown Street, Surry Hills NSW 2010",
+      "suburb": "Surry Hills",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8867358,
+        151.2140235
+      ],
+      "cuisine": "Modern Middle Eastern and Lebanese",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 59,
+        "max": 130,
+        "label": "$59-$130 pp",
+        "basis": "Current lunch, banquet and à la carte menu options",
+        "sourceUrl": "https://www.noursydney.com/menus",
+        "lastVerifiedAt": "2026-09-15T23:48:02.000Z"
+      },
+      "summary": "A polished Surry Hills dining room reworking Lebanese flavours through a modern Australian lens.",
+      "cons": "Banquets and drinks can move the final bill above the entry lunch price.",
+      "menuHighlights": [
+        "Wood-fired mains",
+        "Mezze",
+        "Banquet menus"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best restaurants in Sydney",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-15T23:48:02.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, current menu pricing and open status rechecked 2026-09-16",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.noursydney.com/menus",
+        "socialSource": "https://www.instagram.com/nourrestaurant/"
+      },
+      "id": 134,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=NOUR%2C%20Shop%203%2C%20490%20Crown%20Street%2C%20Surry%20Hills%20NSW%202010",
+      "updatedAt": "2026-09-15T23:48:02.000Z"
+    },
+    {
+      "name": "The Apollo",
+      "address": "44 Macleay Street, Potts Point NSW 2011",
+      "suburb": "Potts Point",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.8708699,
+        151.2255085
+      ],
+      "cuisine": "Modern Greek",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 82,
+        "max": 97,
+        "label": "$82-$97 pp",
+        "basis": "Current Full Greek ($82) and Super Greek ($97) group menus",
+        "sourceUrl": "https://www.theapollo.com.au/menu",
+        "lastVerifiedAt": "2026-09-15T23:48:02.000Z"
+      },
+      "summary": "A long-running Potts Point favourite built around bold Greek share plates and a lively room.",
+      "cons": "The loud, tightly packed dining room may not suit diners seeking a quiet meal.",
+      "menuHighlights": [
+        "Taramasalata",
+        "Saganaki",
+        "Slow-cooked lamb"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.dailyaddict.com.au/the-apollo-potts-point-over-a-decade-on-its-sydneys-most-consistent-and-buzziest-greek/",
+      "latestNews": [
+        {
+          "title": "The Apollo remains one of Sydney's buzziest Greek restaurants",
+          "url": "https://www.dailyaddict.com.au/the-apollo-potts-point-over-a-decade-on-its-sydneys-most-consistent-and-buzziest-greek/",
+          "source": "dailyaddict.com.au",
+          "publishedAt": "2026-03-11"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-15T23:48:02.000Z",
+        "publishedAt": "2026-03-11",
+        "dateStatus": "Evidence published 2026-03-11; official venue details, current menu pricing and open status rechecked 2026-09-16",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.theapollo.com.au/menu",
+        "socialSource": "https://www.instagram.com/theapollosydney/"
+      },
+      "id": 135,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Apollo%2C%2044%20Macleay%20Street%2C%20Potts%20Point%20NSW%202011",
+      "updatedAt": "2026-09-15T23:48:02.000Z"
+    },
+    {
+      "name": "Lankan Filling Station",
+      "address": "58 Riley Street, East Sydney NSW 2010",
+      "suburb": "East Sydney",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8746795,
+        151.2155495
+      ],
+      "cuisine": "Sri Lankan",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 45,
+        "max": 75,
+        "label": "$45-$75 pp",
+        "basis": "Estimated food-only spend from current short eats, hoppers, curries and shared plates",
+        "sourceUrl": "https://www.lankanfillingstation.com.au/",
+        "lastVerifiedAt": "2026-09-15T23:48:02.000Z"
+      },
+      "summary": "O Tama Carey's celebrated diner focuses on hoppers, sambols and vivid Sri Lankan curries.",
+      "cons": "The compact room and strong demand can make peak bookings difficult.",
+      "menuHighlights": [
+        "Egg hoppers",
+        "Sambols",
+        "Sri Lankan curries"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best restaurants in Sydney",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-15T23:48:02.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, current menu pricing and open status rechecked 2026-09-16",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.lankanfillingstation.com.au/",
+        "socialSource": "https://www.instagram.com/lankanfillingstation/"
+      },
+      "id": 136,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lankan%20Filling%20Station%2C%2058%20Riley%20Street%2C%20East%20Sydney%20NSW%202010",
+      "updatedAt": "2026-09-15T23:48:02.000Z"
+    },
+    {
+      "name": "Poly",
+      "address": "74-76 Commonwealth Street, Surry Hills NSW 2010",
+      "suburb": "Surry Hills",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8791721,
+        151.2110252
+      ],
+      "cuisine": "Fire-led contemporary Australian",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 70,
+        "max": 130,
+        "label": "$70-$130 pp",
+        "basis": "Food-only estimate from current à la carte and shared banquet menus",
+        "sourceUrl": "https://www.polysurryhills.com.au/",
+        "lastVerifiedAt": "2026-09-15T23:48:02.000Z"
+      },
+      "summary": "The Ester team's wine bar pairs organic-leaning bottles with an inventive menu cooked over fire.",
+      "cons": "Small plates accumulate quickly, especially when paired with the extensive wine list.",
+      "menuHighlights": [
+        "Fire-cooked seafood",
+        "House bread",
+        "Seasonal shared plates"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best restaurants in Sydney",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-15T23:48:02.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, current menu pricing and open status rechecked 2026-09-16",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.polysurryhills.com.au/",
+        "socialSource": "https://www.instagram.com/poly_surryhills/"
+      },
+      "id": 137,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Poly%2C%2074-76%20Commonwealth%20Street%2C%20Surry%20Hills%20NSW%202010",
+      "updatedAt": "2026-09-15T23:48:02.000Z"
+    },
+    {
+      "name": "Alberto's Lounge",
+      "address": "17-19 Alberta Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8777986,
+        151.2105307
+      ],
+      "cuisine": "Italian",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 60,
+        "max": 120,
+        "label": "$60-$120 pp",
+        "basis": "Food-only estimate from current pasta, crostini, mains and desserts",
+        "sourceUrl": "https://swillhouse.com/venues/albertos-lounge/",
+        "lastVerifiedAt": "2026-09-15T23:48:02.000Z"
+      },
+      "summary": "A candlelit Italian enoteca known for hand-cut pasta, gelato and a high-energy late-night atmosphere.",
+      "cons": "Walk-in waits and a lively, close-set room are common at peak times.",
+      "menuHighlights": [
+        "Hand-cut pasta",
+        "Crostini",
+        "House-made gelato"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://swillhouse.com/",
+      "latestNews": [
+        {
+          "title": "Alberto's Lounge September dining and event activity",
+          "url": "https://swillhouse.com/",
+          "source": "swillhouse.com",
+          "publishedAt": "2026-09-01"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-15T23:48:02.000Z",
+        "publishedAt": "2026-09-01",
+        "dateStatus": "Evidence published 2026-09-01; official venue details, current menu pricing and open status rechecked 2026-09-16",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://swillhouse.com/venues/albertos-lounge/",
+        "socialSource": "https://www.instagram.com/albertoslounge/"
+      },
+      "id": 138,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Alberto's%20Lounge%2C%2017-19%20Alberta%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-15T23:48:02.000Z"
+    },
+    {
+      "name": "Restaurant Hubert",
+      "address": "Basement, 15 Bligh Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8651304,
+        151.2104197
+      ],
+      "cuisine": "French",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 80,
+        "max": 180,
+        "label": "$80-$180 pp",
+        "basis": "Food-only estimate from current French à la carte menu and shared mains",
+        "sourceUrl": "https://swillhouse.com/venues/restaurant-hubert/",
+        "lastVerifiedAt": "2026-09-15T23:48:02.000Z"
+      },
+      "summary": "An underground French restaurant combining classic bistro cooking, live jazz and theatrical old-world interiors.",
+      "cons": "Popular services can be noisy and premium steaks materially increase spend.",
+      "menuHighlights": [
+        "Duck parfait",
+        "Steak",
+        "Classic French desserts"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://swillhouse.com/",
+      "latestNews": [
+        {
+          "title": "Restaurant Hubert announces spring 2026 dining events",
+          "url": "https://swillhouse.com/",
+          "source": "swillhouse.com",
+          "publishedAt": "2026-09-01"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-15T23:48:02.000Z",
+        "publishedAt": "2026-09-01",
+        "dateStatus": "Evidence published 2026-09-01; official venue details, current menu pricing and open status rechecked 2026-09-16",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://swillhouse.com/venues/restaurant-hubert/",
+        "socialSource": "https://www.instagram.com/restauranthubert/"
+      },
+      "id": 139,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Hubert%2C%20Basement%2C%2015%20Bligh%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-15T23:48:02.000Z"
+    },
+    {
+      "name": "Totti's Bondi",
+      "address": "283 Bondi Road, Bondi NSW 2026",
+      "suburb": "Bondi",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.894998,
+        151.268814
+      ],
+      "cuisine": "Italian",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 45,
+        "max": 85,
+        "label": "$45-$85 pp",
+        "basis": "Food-only estimate from the current official shared antipasti, pasta and wood-fired menu",
+        "sourceUrl": "https://merivale.com/venues/tottis/menu/",
+        "lastVerifiedAt": "2026-09-15T23:48:02.000Z"
+      },
+      "summary": "The original Totti's is a social-media favourite for puffy wood-fired bread, antipasti and shareable pasta.",
+      "cons": "The courtyard is extremely popular and weekend bookings can be difficult.",
+      "menuHighlights": [
+        "Wood-fired bread",
+        "Burrata",
+        "Pasta",
+        "Neapolitan ice-cream sandwich"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.facebook.com/nbeachesliving/posts/1475266224621995/",
+      "latestNews": [
+        {
+          "title": "Totti's continues expanding after its viral Bondi success",
+          "url": "https://www.facebook.com/nbeachesliving/posts/1475266224621995/",
+          "source": "facebook.com",
+          "publishedAt": "2026-07-10"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-15T23:48:02.000Z",
+        "publishedAt": "2026-07-10",
+        "dateStatus": "Evidence published 2026-07-10; official venue details, current menu pricing and open status rechecked 2026-09-16",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://merivale.com/venues/tottis/menu/",
+        "socialSource": "https://www.instagram.com/tottis.merivale/"
+      },
+      "id": 140,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Totti's%20Bondi%2C%20283%20Bondi%20Road%2C%20Bondi%20NSW%202026",
+      "updatedAt": "2026-09-15T23:48:02.000Z"
+    },
+    {
+      "name": "Bessie's",
+      "address": "111-115 Albion Street, Surry Hills NSW 2010",
+      "suburb": "Surry Hills",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8834095,
+        151.2125193
+      ],
+      "cuisine": "Fire-led Mediterranean",
+      "trend": "Trending Sydney restaurant with current editorial coverage and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 85,
+        "max": 150,
+        "label": "$85-$150 pp",
+        "basis": "Current booking minimum and food-only estimate from share plates and mains",
+        "sourceUrl": "https://bessiesrestaurant.com/",
+        "lastVerifiedAt": "2026-09-15T23:48:02.000Z"
+      },
+      "summary": "A buzzy warehouse restaurant from the Bar Copains team, centred on Mediterranean share plates and wood fire.",
+      "cons": "Booked tables carry a minimum spend and the menu leans heavily toward meat, seafood and offal.",
+      "menuHighlights": [
+        "Wood-fired flatbread",
+        "Whipped cod roe",
+        "Fire-cooked meats",
+        "Seasonal vegetables"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.instagram.com/reel/DcSnSf6xTFF/",
+      "latestNews": [
+        {
+          "title": "Dan Hunter takeover announced at Bessie's",
+          "url": "https://www.instagram.com/reel/DcSnSf6xTFF/",
+          "source": "instagram.com",
+          "publishedAt": "2026-08-20"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-15T23:48:02.000Z",
+        "publishedAt": "2026-08-20",
+        "dateStatus": "Evidence published 2026-08-20; official venue details, current menu pricing and open status rechecked 2026-09-16",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://bessiesrestaurant.com/",
+        "socialSource": "https://www.instagram.com/bessies.restaurant/"
+      },
+      "id": 141,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bessie's%2C%20111-115%20Albion%20Street%2C%20Surry%20Hills%20NSW%202010",
+      "updatedAt": "2026-09-15T23:48:02.000Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-14T23:23:11.000Z"
+  "updatedAt": "2026-09-15T23:48:02.000Z"
 }
