@@ -8269,8 +8269,618 @@
       "id": 141,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bessie's%2C%20111-115%20Albion%20Street%2C%20Surry%20Hills%20NSW%202010",
       "updatedAt": "2026-09-15T23:48:02.000Z"
+    },
+    {
+      "name": "Margaret",
+      "address": "30-36 Bay Street, Double Bay NSW 2028",
+      "suburb": "Double Bay",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.87723,
+        151.24321
+      ],
+      "cuisine": "Modern Australian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 120,
+        "max": 250,
+        "label": "$120-$250 pp",
+        "basis": "Food-only estimate from the current official à la carte and shared-menu format",
+        "sourceUrl": "https://themargaretfamily.com/venues/margaret/",
+        "lastVerifiedAt": "2026-09-16T23:18:25.000Z"
+      },
+      "summary": "Neil Perry's produce-led flagship, currently ranked No. 2 in World's 101 Best Steak Restaurants and No. 1 in Australia for 2026.",
+      "cons": "Premium produce and steak selections can push spend well above the lower estimate.",
+      "menuHighlights": [
+        "Wood-grilled seafood",
+        "Premium Australian beef",
+        "Seasonal Australian produce"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best restaurants in Sydney",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-16T23:18:25.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, current menu pricing and open status rechecked 2026-09-17",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://themargaretfamily.com/venues/margaret/",
+        "socialSource": "https://www.instagram.com/margaretdoublebay/"
+      },
+      "id": 142,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Margaret%2C%2030-36%20Bay%20Street%2C%20Double%20Bay%20NSW%202028",
+      "updatedAt": "2026-09-16T23:18:25.000Z"
+    },
+    {
+      "name": "Cafe Margaret",
+      "address": "30-36 Bay Street, Double Bay NSW 2028",
+      "suburb": "Double Bay",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.87723,
+        151.24321
+      ],
+      "cuisine": "Modern Australian cafe",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 35,
+        "max": 75,
+        "label": "$35-$75 pp",
+        "basis": "Food-only estimate from the current official all-day cafe menu",
+        "sourceUrl": "https://themargaretfamily.com/venues/cafe-margaret/",
+        "lastVerifiedAt": "2026-09-16T23:18:25.000Z"
+      },
+      "summary": "Neil Perry's relaxed all-day sibling to Margaret, recognised in 2026 among the World's 101 Best Burger Places.",
+      "cons": "Peak brunch and lunch periods can be busy, and premium add-ons raise the bill.",
+      "menuHighlights": [
+        "Cheeseburger",
+        "Seafood",
+        "All-day cafe plates"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.broadsheet.com.au/sydney/food-and-drink/article/neil-perry-closes-next-door-cafe-margaret",
+      "latestNews": [
+        {
+          "title": "Neil Perry opens all-day Cafe Margaret in Double Bay",
+          "url": "https://www.broadsheet.com.au/sydney/food-and-drink/article/neil-perry-closes-next-door-cafe-margaret",
+          "source": "broadsheet.com.au",
+          "publishedAt": "2025-10-29"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-16T23:18:25.000Z",
+        "publishedAt": "2025-10-29",
+        "dateStatus": "Evidence published 2025-10-29; official venue details, current menu pricing and open status rechecked 2026-09-17",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://themargaretfamily.com/venues/cafe-margaret/",
+        "socialSource": "https://www.instagram.com/cafemargaretdoublebay/"
+      },
+      "id": 143,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cafe%20Margaret%2C%2030-36%20Bay%20Street%2C%20Double%20Bay%20NSW%202028",
+      "updatedAt": "2026-09-16T23:18:25.000Z"
+    },
+    {
+      "name": "Pizzeria Sotto",
+      "address": "24 Bay Street, Double Bay NSW 2028",
+      "suburb": "Double Bay",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.87704,
+        151.24355
+      ],
+      "cuisine": "Roman-style pizza",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 35,
+        "max": 65,
+        "label": "$35-$65 pp",
+        "basis": "Food-only estimate from the current official pizza, antipasti and dessert menu",
+        "sourceUrl": "https://themargaretfamily.com/venues/pizzeria-sotto/",
+        "lastVerifiedAt": "2026-09-16T23:18:25.000Z"
+      },
+      "summary": "A lively underground Roman-style pizzeria from Neil and Sam Perry, opened in 2026 beneath Gran Torino.",
+      "cons": "The compact underground room can be noisy and popular evening sittings may fill quickly.",
+      "menuHighlights": [
+        "Roman-style pizza",
+        "Rocket and parmesan salad",
+        "Tiramisu"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://concreteplayground.com/sydney/food-drink/pizzeria-sotto-double-bay",
+      "latestNews": [
+        {
+          "title": "Pizzeria Sotto opens in Double Bay",
+          "url": "https://concreteplayground.com/sydney/food-drink/pizzeria-sotto-double-bay",
+          "source": "concreteplayground.com",
+          "publishedAt": "2026-05-07"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-16T23:18:25.000Z",
+        "publishedAt": "2026-05-07",
+        "dateStatus": "Evidence published 2026-05-07; official venue details, current menu pricing and open status rechecked 2026-09-17",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://themargaretfamily.com/venues/pizzeria-sotto/",
+        "socialSource": "https://www.instagram.com/pizzeriasotto/"
+      },
+      "id": 144,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pizzeria%20Sotto%2C%2024%20Bay%20Street%2C%20Double%20Bay%20NSW%202028",
+      "updatedAt": "2026-09-16T23:18:25.000Z"
+    },
+    {
+      "name": "Aria",
+      "address": "1 Macquarie Street, Sydney NSW 2000",
+      "suburb": "Circular Quay",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8590989,
+        151.21335
+      ],
+      "cuisine": "Modern Australian fine dining",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 145,
+        "max": 295,
+        "label": "$145-$295 pp",
+        "basis": "Current official multi-course lunch, pre-theatre and tasting-menu formats",
+        "sourceUrl": "https://ariasydney.com.au/",
+        "lastVerifiedAt": "2026-09-16T23:18:25.000Z"
+      },
+      "summary": "Matt Moran's harbourside fine diner pairs Australian produce with sweeping Opera House and harbour views.",
+      "cons": "A special-occasion price point; window tables and peak services are highly sought after.",
+      "menuHighlights": [
+        "Seasonal Australian produce",
+        "Five-course tasting menu",
+        "Eight-course tasting menu"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best restaurants in Sydney",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-16T23:18:25.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, current menu pricing and open status rechecked 2026-09-17",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://ariasydney.com.au/",
+        "socialSource": "https://www.instagram.com/ariasydney/"
+      },
+      "id": 145,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Aria%2C%201%20Macquarie%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-16T23:18:25.000Z"
+    },
+    {
+      "name": "a'Mare",
+      "address": "Level 1, Crown Sydney, 1 Barangaroo Avenue, Barangaroo NSW 2000",
+      "suburb": "Barangaroo",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8626389,
+        151.2012399
+      ],
+      "cuisine": "Italian fine dining",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 110,
+        "max": 220,
+        "label": "$110-$220 pp",
+        "basis": "Food-only estimate from the current official antipasti, handmade pasta and main-course menu",
+        "sourceUrl": "https://www.crownsydney.com.au/indulge/amare",
+        "lastVerifiedAt": "2026-09-16T23:18:25.000Z"
+      },
+      "summary": "Alessandro Pavoni's grand Italian dining room at Crown Sydney, known for tableside service and handmade pasta.",
+      "cons": "Premium seafood, caviar and tableside dishes can materially increase spend.",
+      "menuHighlights": [
+        "Handmade pasta",
+        "Tableside pesto",
+        "Italian seafood and grills"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.crownsydney.com.au/indulge/amare",
+      "latestNews": [
+        {
+          "title": "a'Mare remains open at Crown Sydney with current menus and bookings",
+          "url": "https://www.crownsydney.com.au/indulge/amare",
+          "source": "crownsydney.com.au",
+          "publishedAt": null
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-16T23:18:25.000Z",
+        "publishedAt": null,
+        "dateStatus": "Undated current official venue evidence; official venue details, current menu pricing and open status rechecked 2026-09-17",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.crownsydney.com.au/indulge/amare",
+        "socialSource": "https://www.instagram.com/amare_sydney/"
+      },
+      "id": 146,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=a'Mare%2C%20Level%201%2C%20Crown%20Sydney%2C%201%20Barangaroo%20Avenue%2C%20Barangaroo%20NSW%202000",
+      "updatedAt": "2026-09-16T23:18:25.000Z"
+    },
+    {
+      "name": "Woodcut",
+      "address": "Level 1, Crown Sydney, 1 Barangaroo Avenue, Barangaroo NSW 2000",
+      "suburb": "Barangaroo",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8626389,
+        151.2012399
+      ],
+      "cuisine": "Modern Australian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 110,
+        "max": 230,
+        "label": "$110-$230 pp",
+        "basis": "Food-only estimate from the current official fire, steam and grill-led à la carte menu",
+        "sourceUrl": "https://www.crownsydney.com.au/indulge/woodcut",
+        "lastVerifiedAt": "2026-09-16T23:18:25.000Z"
+      },
+      "summary": "Ross and Sunny Lusted's theatrical Crown Sydney restaurant built around four open kitchens and elemental cooking.",
+      "cons": "Steaks and premium seafood make this a high-cost dining experience.",
+      "menuHighlights": [
+        "Wood-fired dishes",
+        "Australian seafood",
+        "Premium steaks"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.crownsydney.com.au/indulge/woodcut",
+      "latestNews": [
+        {
+          "title": "Woodcut continues trading at Crown Sydney with current menus and bookings",
+          "url": "https://www.crownsydney.com.au/indulge/woodcut",
+          "source": "crownsydney.com.au",
+          "publishedAt": null
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-16T23:18:25.000Z",
+        "publishedAt": null,
+        "dateStatus": "Undated current official venue evidence; official venue details, current menu pricing and open status rechecked 2026-09-17",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.crownsydney.com.au/indulge/woodcut",
+        "socialSource": "https://www.instagram.com/woodcutrestaurant/"
+      },
+      "id": 147,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Woodcut%2C%20Level%201%2C%20Crown%20Sydney%2C%201%20Barangaroo%20Avenue%2C%20Barangaroo%20NSW%202000",
+      "updatedAt": "2026-09-16T23:18:25.000Z"
+    },
+    {
+      "name": "Nobu Sydney",
+      "address": "Level 2, Crown Sydney, 1 Barangaroo Avenue, Barangaroo NSW 2000",
+      "suburb": "Barangaroo",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8626389,
+        151.2012399
+      ],
+      "cuisine": "Japanese-Peruvian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 100,
+        "max": 220,
+        "label": "$100-$220 pp",
+        "basis": "Food-only estimate from the current official à la carte, sushi and omakase offerings",
+        "sourceUrl": "https://www.crownsydney.com.au/indulge/nobu",
+        "lastVerifiedAt": "2026-09-16T23:18:25.000Z"
+      },
+      "summary": "The Sydney outpost of the globally recognised Japanese-Peruvian restaurant, overlooking Darling Harbour from Crown.",
+      "cons": "Signature dishes and omakase make the final bill substantial.",
+      "menuHighlights": [
+        "Black cod miso",
+        "Yellowtail jalapeño",
+        "Sushi and sashimi"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://concreteplayground.com/sydney/restaurants/nobu-sydney",
+      "latestNews": [
+        {
+          "title": "Nobu Sydney remains a globally recognised Barangaroo dining draw",
+          "url": "https://concreteplayground.com/sydney/restaurants/nobu-sydney",
+          "source": "concreteplayground.com",
+          "publishedAt": "2023-11-15"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-16T23:18:25.000Z",
+        "publishedAt": "2023-11-15",
+        "dateStatus": "Evidence published 2023-11-15; official venue details, current menu pricing and open status rechecked 2026-09-17",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.crownsydney.com.au/indulge/nobu",
+        "socialSource": "https://www.instagram.com/nobuaustralia/"
+      },
+      "id": 148,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nobu%20Sydney%2C%20Level%202%2C%20Crown%20Sydney%2C%201%20Barangaroo%20Avenue%2C%20Barangaroo%20NSW%202000",
+      "updatedAt": "2026-09-16T23:18:25.000Z"
+    },
+    {
+      "name": "Sokyo",
+      "address": "Level G, The Darling, 80 Pyrmont Street, Pyrmont NSW 2009",
+      "suburb": "Pyrmont",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.865663,
+        151.19128
+      ],
+      "cuisine": "Contemporary Japanese",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 90,
+        "max": 190,
+        "label": "$90-$190 pp",
+        "basis": "Food-only estimate from the current official sashimi, tempura, robata and tasting-menu selection",
+        "sourceUrl": "https://www.star.com.au/sydney/eat-and-drink/signature-dining/sokyo",
+        "lastVerifiedAt": "2026-09-16T23:18:25.000Z"
+      },
+      "summary": "The Star's long-running contemporary Japanese flagship combines sashimi, tempura and robata cooking.",
+      "cons": "Omakase and premium seafood options sit well above casual Japanese pricing.",
+      "menuHighlights": [
+        "Sashimi platters",
+        "Robata-grilled meats",
+        "Tuna crispy rice"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best restaurants in Sydney",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-16T23:18:25.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, current menu pricing and open status rechecked 2026-09-17",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.star.com.au/sydney/eat-and-drink/signature-dining/sokyo",
+        "socialSource": "https://www.instagram.com/sokyosydney/"
+      },
+      "id": 149,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sokyo%2C%20Level%20G%2C%20The%20Darling%2C%2080%20Pyrmont%20Street%2C%20Pyrmont%20NSW%202009",
+      "updatedAt": "2026-09-16T23:18:25.000Z"
+    },
+    {
+      "name": "Fred's",
+      "address": "380 Oxford Street, Paddington NSW 2021",
+      "suburb": "Paddington",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.8842847,
+        151.234174
+      ],
+      "cuisine": "Modern Australian farm-to-table",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 85,
+        "max": 160,
+        "label": "$85-$160 pp",
+        "basis": "Food-only estimate from the current official seasonal à la carte menu",
+        "sourceUrl": "https://merivale.com/venues/freds/",
+        "lastVerifiedAt": "2026-09-16T23:18:25.000Z"
+      },
+      "summary": "Merivale's intimate farm-to-table restaurant centres seasonal Australian produce and wood-fired cooking.",
+      "cons": "The seasonal menu changes frequently and premium proteins raise the spend.",
+      "menuHighlights": [
+        "Wood-fired raviolo",
+        "Seasonal vegetables",
+        "Australian seafood and meat"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best restaurants in Sydney",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-16T23:18:25.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, current menu pricing and open status rechecked 2026-09-17",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://merivale.com/venues/freds/",
+        "socialSource": "https://www.instagram.com/fredspaddington/"
+      },
+      "id": 150,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Fred's%2C%20380%20Oxford%20Street%2C%20Paddington%20NSW%202021",
+      "updatedAt": "2026-09-16T23:18:25.000Z"
+    },
+    {
+      "name": "Chiswick Woollahra",
+      "address": "65 Ocean Street, Woollahra NSW 2025",
+      "suburb": "Woollahra",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.886023,
+        151.239796
+      ],
+      "cuisine": "Modern Australian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 75,
+        "max": 145,
+        "label": "$75-$145 pp",
+        "basis": "Food-only estimate from the current official sharing menu and mains",
+        "sourceUrl": "https://www.chiswickwoollahra.com.au/",
+        "lastVerifiedAt": "2026-09-16T23:18:25.000Z"
+      },
+      "summary": "Matt Moran's garden-side Woollahra restaurant remains a social favourite for produce-driven share plates.",
+      "cons": "The signature shared mains suit groups better than solo diners, and weekend bookings are popular.",
+      "menuHighlights": [
+        "Chiswick garden vegetables",
+        "Slow-roasted lamb shoulder",
+        "Seasonal shared plates"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+      "latestNews": [
+        {
+          "title": "The best restaurants in Sydney",
+          "url": "https://www.timeout.com/sydney/restaurants/the-best-restaurants-in-sydney",
+          "source": "timeout.com",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-16T23:18:25.000Z",
+        "publishedAt": "2026-09-03",
+        "dateStatus": "Evidence published 2026-09-03; official venue details, current menu pricing and open status rechecked 2026-09-17",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.chiswickwoollahra.com.au/",
+        "socialSource": "https://www.instagram.com/chiswickwoollahra/"
+      },
+      "id": 151,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Chiswick%20Woollahra%2C%2065%20Ocean%20Street%2C%20Woollahra%20NSW%202025",
+      "updatedAt": "2026-09-16T23:18:25.000Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T23:48:02.000Z"
+  "updatedAt": "2026-09-16T23:18:25.000Z"
 }
