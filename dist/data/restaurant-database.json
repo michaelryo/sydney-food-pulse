@@ -8879,8 +8879,618 @@
       "id": 151,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Chiswick%20Woollahra%2C%2065%20Ocean%20Street%2C%20Woollahra%20NSW%202025",
       "updatedAt": "2026-09-16T23:18:25.000Z"
+    },
+    {
+      "name": "RAFI North Sydney",
+      "address": "99 Mount Street, North Sydney NSW 2060",
+      "suburb": "North Sydney",
+      "area": "Lower North Shore",
+      "coordinates": [
+        -33.83955,
+        151.20718
+      ],
+      "cuisine": "Modern Australian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 75,
+        "max": 140,
+        "label": "$75-$140 pp",
+        "basis": "Food-only estimate from current official snacks, shared plates and mains",
+        "sourceUrl": "https://rafisydney.com.au/",
+        "lastVerifiedAt": "2026-09-17T23:44:50.000Z"
+      },
+      "summary": "A bright North Sydney dining room and terrace centred on vegetables, seafood and charcoal cooking.",
+      "cons": "Shared plates and premium seafood can lift the bill quickly.",
+      "menuHighlights": [
+        "South Coast tuna",
+        "Charcoal-grilled seafood",
+        "Seasonal vegetable plates"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-17T23:44:50.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-18",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://rafisydney.com.au/",
+        "socialSource": "https://www.instagram.com/rafisydney/"
+      },
+      "id": 152,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=RAFI%20North%20Sydney%2C%2099%20Mount%20Street%2C%20North%20Sydney%20NSW%202060",
+      "updatedAt": "2026-09-17T23:44:50.000Z"
+    },
+    {
+      "name": "Bert's Bar & Brasserie",
+      "address": "2 Kalinya Street, Newport NSW 2106",
+      "suburb": "Newport",
+      "area": "Northern Beaches",
+      "coordinates": [
+        -33.6604484,
+        151.3089709
+      ],
+      "cuisine": "European brasserie",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 110,
+        "max": 220,
+        "label": "$110-$220 pp",
+        "basis": "Food-only estimate from the current official oyster bar, seafood, grill and brasserie menu",
+        "sourceUrl": "https://merivale.com/venues/berts/",
+        "lastVerifiedAt": "2026-09-17T23:44:50.000Z"
+      },
+      "summary": "Merivale's glamorous Newport brasserie pairs Pittwater views with oysters, seafood and a charcoal grill.",
+      "cons": "It is a destination venue with premium pricing and limited public transport convenience.",
+      "menuHighlights": [
+        "Oysters and caviar",
+        "Whole fish",
+        "Dry-aged beef"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-17T23:44:50.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-18",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://merivale.com/venues/berts/",
+        "socialSource": "https://www.instagram.com/bertsbarandbrasserie/"
+      },
+      "id": 153,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bert's%20Bar%20%26%20Brasserie%2C%202%20Kalinya%20Street%2C%20Newport%20NSW%202106",
+      "updatedAt": "2026-09-17T23:44:50.000Z"
+    },
+    {
+      "name": "The Fenwick",
+      "address": "2-8 Weston Street, Balmain East NSW 2041",
+      "suburb": "Balmain East",
+      "area": "Inner West",
+      "coordinates": [
+        -33.8573,
+        151.1957
+      ],
+      "cuisine": "Modern Australian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 55,
+        "max": 105,
+        "label": "$55-$105 pp",
+        "basis": "Food-only estimate from current official breakfast, lunch and shared dining menus",
+        "sourceUrl": "https://srghospitality.com.au/venues/the-fenwick/",
+        "lastVerifiedAt": "2026-09-17T23:44:50.000Z"
+      },
+      "summary": "A heritage waterfront restaurant and gallery with panoramic harbour views and seasonal Australian cooking.",
+      "cons": "The compact heritage setting and view-facing tables can book out.",
+      "menuHighlights": [
+        "Kingfish",
+        "Market fish",
+        "Seasonal gnocchi"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-17T23:44:50.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-18",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://srghospitality.com.au/venues/the-fenwick/",
+        "socialSource": "https://www.instagram.com/thefenwickbalmaineast/"
+      },
+      "id": 154,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Fenwick%2C%202-8%20Weston%20Street%2C%20Balmain%20East%20NSW%202041",
+      "updatedAt": "2026-09-17T23:44:50.000Z"
+    },
+    {
+      "name": "Summer Salt",
+      "address": "66 Mitchell Road, Cronulla NSW 2230",
+      "suburb": "Cronulla",
+      "area": "South Sydney",
+      "coordinates": [
+        -34.03787,
+        151.15964
+      ],
+      "cuisine": "Modern Australian seafood",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 70,
+        "max": 135,
+        "label": "$70-$135 pp",
+        "basis": "Food-only estimate from current official à la carte seafood, mains and shared plates",
+        "sourceUrl": "https://srghospitality.com.au/venues/summer-salt/",
+        "lastVerifiedAt": "2026-09-17T23:44:50.000Z"
+      },
+      "summary": "A long-running Cronulla beachfront favourite for seafood-led Australian dining with ocean views.",
+      "cons": "Premium seafood and the beachfront location make it a higher-cost local option.",
+      "menuHighlights": [
+        "Market fish",
+        "Seafood platter",
+        "Seasonal coastal mains"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-17T23:44:50.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-18",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://srghospitality.com.au/venues/summer-salt/",
+        "socialSource": "https://www.instagram.com/summersaltrestaurant/"
+      },
+      "id": 155,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Summer%20Salt%2C%2066%20Mitchell%20Road%2C%20Cronulla%20NSW%202230",
+      "updatedAt": "2026-09-17T23:44:50.000Z"
+    },
+    {
+      "name": "Noi",
+      "address": "108 Audley Street, Petersham NSW 2049",
+      "suburb": "Petersham",
+      "area": "Inner West",
+      "coordinates": [
+        -33.89487,
+        151.15472
+      ],
+      "cuisine": "Modern Italian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 75,
+        "max": 135,
+        "label": "$75-$135 pp",
+        "basis": "Food-only estimate from current official antipasti, pasta, mains and set-menu options",
+        "sourceUrl": "https://srghospitality.com.au/venues/noi/",
+        "lastVerifiedAt": "2026-09-17T23:44:50.000Z"
+      },
+      "summary": "A polished Petersham Italian restaurant known for handmade pasta, modern regional dishes and tableside moments.",
+      "cons": "The strongest experience is built around multiple courses, increasing spend and meal length.",
+      "menuHighlights": [
+        "Handmade pasta",
+        "Tableside tiramisu",
+        "Seasonal Italian mains"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-17T23:44:50.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-18",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://srghospitality.com.au/venues/noi/",
+        "socialSource": "https://www.instagram.com/noi_petersham/"
+      },
+      "id": 156,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Noi%2C%20108%20Audley%20Street%2C%20Petersham%20NSW%202049",
+      "updatedAt": "2026-09-17T23:44:50.000Z"
+    },
+    {
+      "name": "Postino Osteria",
+      "address": "2 Moonbie Street, Summer Hill NSW 2130",
+      "suburb": "Summer Hill",
+      "area": "Inner West",
+      "coordinates": [
+        -33.89061,
+        151.13902
+      ],
+      "cuisine": "Italian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 60,
+        "max": 110,
+        "label": "$60-$110 pp",
+        "basis": "Food-only estimate from the current official antipasti, pasta, secondi and dessert menu",
+        "sourceUrl": "https://www.postino.au/",
+        "lastVerifiedAt": "2026-09-17T23:44:50.000Z"
+      },
+      "summary": "A lively Summer Hill neighbourhood osteria built around nostalgic Italian dishes and generous hospitality.",
+      "cons": "The dining room can be energetic and signature pastas encourage a multi-course order.",
+      "menuHighlights": [
+        "Spaghetti and meatballs",
+        "House-made pasta",
+        "Tiramisu"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-17T23:44:50.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-18",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.postino.au/",
+        "socialSource": "https://www.instagram.com/postino.osteria/"
+      },
+      "id": 157,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Postino%20Osteria%2C%202%20Moonbie%20Street%2C%20Summer%20Hill%20NSW%202130",
+      "updatedAt": "2026-09-17T23:44:50.000Z"
+    },
+    {
+      "name": "Cirrus",
+      "address": "23 Barangaroo Avenue, Barangaroo NSW 2000",
+      "suburb": "Barangaroo",
+      "area": "Sydney CBD",
+      "coordinates": [
+        -33.86509,
+        151.20141
+      ],
+      "cuisine": "Seafood",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 110,
+        "max": 190,
+        "label": "$110-$190 pp",
+        "basis": "Food-only estimate from current official raw bar, seafood plates and mains",
+        "sourceUrl": "https://www.cirrusdining.com.au/",
+        "lastVerifiedAt": "2026-09-17T23:44:50.000Z"
+      },
+      "summary": "A waterfront Barangaroo restaurant from Bentley Group focused on sustainable seafood and contemporary Australian cooking.",
+      "cons": "Waterfront seating and premium seafood place it firmly in special-occasion territory.",
+      "menuHighlights": [
+        "Raw seafood",
+        "Whole fish",
+        "Seasonal shellfish"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-17T23:44:50.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-18",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.cirrusdining.com.au/",
+        "socialSource": "https://www.instagram.com/cirrus_dining/"
+      },
+      "id": 158,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cirrus%2C%2023%20Barangaroo%20Avenue%2C%20Barangaroo%20NSW%202000",
+      "updatedAt": "2026-09-17T23:44:50.000Z"
+    },
+    {
+      "name": "The Gidley",
+      "address": "Basement, 161 King Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "Sydney CBD",
+      "coordinates": [
+        -33.86918,
+        151.20903
+      ],
+      "cuisine": "Steakhouse",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 110,
+        "max": 210,
+        "label": "$110-$210 pp",
+        "basis": "Food-only estimate from current official starters, burgers, steaks, sides and desserts",
+        "sourceUrl": "https://thegidley.com.au/",
+        "lastVerifiedAt": "2026-09-17T23:44:50.000Z"
+      },
+      "summary": "A basement steakhouse with old-school club atmosphere, premium cuts and its much-photographed burger.",
+      "cons": "Phones are restricted in the dining room and premium steaks raise the average spend.",
+      "menuHighlights": [
+        "Gidley burger",
+        "Rib-eye steak",
+        "Classic steakhouse sides"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-17T23:44:50.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-18",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://thegidley.com.au/",
+        "socialSource": "https://www.instagram.com/thegidley/"
+      },
+      "id": 159,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Gidley%2C%20Basement%2C%20161%20King%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-17T23:44:50.000Z"
+    },
+    {
+      "name": "Rockpool Bar & Grill Sydney",
+      "address": "66 Hunter Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "Sydney CBD",
+      "coordinates": [
+        -33.86556,
+        151.21037
+      ],
+      "cuisine": "Steakhouse and Modern Australian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 120,
+        "max": 240,
+        "label": "$120-$240 pp",
+        "basis": "Food-only estimate from current official seafood, wood-fired meats, sides and desserts",
+        "sourceUrl": "https://rockpoolbarandgrill.com.au/sydney/",
+        "lastVerifiedAt": "2026-09-17T23:44:50.000Z"
+      },
+      "summary": "The grand Art Deco Sydney steakhouse remains a benchmark for dry-aged beef, seafood and polished service.",
+      "cons": "Premium cuts and an extensive wine program make a full meal expensive.",
+      "menuHighlights": [
+        "Dry-aged steak",
+        "Wood-fired seafood",
+        "Rockpool pavlova"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-17T23:44:50.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-18",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://rockpoolbarandgrill.com.au/sydney/",
+        "socialSource": "https://www.instagram.com/rockpoolbarandgrill/"
+      },
+      "id": 160,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rockpool%20Bar%20%26%20Grill%20Sydney%2C%2066%20Hunter%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-17T23:44:50.000Z"
+    },
+    {
+      "name": "Sails on Lavender Bay",
+      "address": "2 Henry Lawson Avenue, McMahons Point NSW 2060",
+      "suburb": "McMahons Point",
+      "area": "Lower North Shore",
+      "coordinates": [
+        -33.84575,
+        151.20457
+      ],
+      "cuisine": "Modern Australian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 95,
+        "max": 170,
+        "label": "$95-$170 pp",
+        "basis": "Food-only estimate from current official à la carte and multi-course menus",
+        "sourceUrl": "https://srghospitality.com.au/venues/sails/",
+        "lastVerifiedAt": "2026-09-17T23:44:50.000Z"
+      },
+      "summary": "A harbourfront McMahons Point restaurant combining postcard views with refined produce-led Australian cooking.",
+      "cons": "The view, tasting-style pacing and premium ingredients make it a special-occasion choice.",
+      "menuHighlights": [
+        "Market seafood",
+        "Australian beef",
+        "Seasonal tasting dishes"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-17T23:44:50.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-18",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://srghospitality.com.au/venues/sails/",
+        "socialSource": "https://www.instagram.com/sailslavenderbay/"
+      },
+      "id": 161,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sails%20on%20Lavender%20Bay%2C%202%20Henry%20Lawson%20Avenue%2C%20McMahons%20Point%20NSW%202060",
+      "updatedAt": "2026-09-17T23:44:50.000Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T23:18:25.000Z"
+  "updatedAt": "2026-09-17T23:44:50.000Z"
 }
