@@ -9489,8 +9489,618 @@
       "id": 161,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sails%20on%20Lavender%20Bay%2C%202%20Henry%20Lawson%20Avenue%2C%20McMahons%20Point%20NSW%202060",
       "updatedAt": "2026-09-17T23:44:50.000Z"
+    },
+    {
+      "name": "NOMAD Sydney",
+      "address": "16 Foster Street, Surry Hills NSW 2010",
+      "suburb": "Surry Hills",
+      "area": "Inner City",
+      "coordinates": [
+        -33.88048,
+        151.21055
+      ],
+      "cuisine": "Mediterranean and Middle Eastern",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 85,
+        "max": 150,
+        "label": "$85-$150 pp",
+        "basis": "Food-only estimate from the current official snacks, shared plates, wood-fired dishes and feast menus",
+        "sourceUrl": "https://nomad.sydney/",
+        "lastVerifiedAt": "2026-09-18T23:40:21.000Z"
+      },
+      "summary": "The fire-driven Surry Hills dining room remains a social and editorial favourite for produce-led Mediterranean sharing plates.",
+      "cons": "The menu is designed for sharing, and premium wood-fired dishes can raise the bill.",
+      "menuHighlights": [
+        "Wood-fired flatbread",
+        "Kingfish ceviche",
+        "Lamb shoulder"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.couriermail.com.au/lifestyle/food/qld-taste/nomad-revealed-as-replacement-for-iconic-gerards-restaurant-on-james-street/news-story/dcf599797ec667f57db2208e8f83cb10",
+      "latestNews": [
+        {
+          "title": "NOMAD announces Brisbane expansion after sustained Sydney success",
+          "url": "https://www.couriermail.com.au/lifestyle/food/qld-taste/nomad-revealed-as-replacement-for-iconic-gerards-restaurant-on-james-street/news-story/dcf599797ec667f57db2208e8f83cb10",
+          "source": "couriermail.com.au",
+          "publishedAt": "2026-08-30"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-18T23:40:21.000Z",
+        "publishedAt": "2026-08-30",
+        "dateStatus": "Evidence published 2026-08-30; official venue details, current menu pricing and open status rechecked 2026-09-19",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://nomad.sydney/",
+        "socialSource": "https://www.instagram.com/nomad.sydney/"
+      },
+      "id": 162,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=NOMAD%20Sydney%2C%2016%20Foster%20Street%2C%20Surry%20Hills%20NSW%202010",
+      "updatedAt": "2026-09-18T23:40:21.000Z"
+    },
+    {
+      "name": "Chin Chin Sydney",
+      "address": "69 Commonwealth Street, Surry Hills NSW 2010",
+      "suburb": "Surry Hills",
+      "area": "Inner City",
+      "coordinates": [
+        -33.88138,
+        151.20942
+      ],
+      "cuisine": "Southeast Asian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 65,
+        "max": 120,
+        "label": "$65-$120 pp",
+        "basis": "Food-only estimate from the current official small plates, curries, noodles and banquet menus",
+        "sourceUrl": "https://www.chinchinrestaurant.com.au/sydney/",
+        "lastVerifiedAt": "2026-09-18T23:40:21.000Z"
+      },
+      "summary": "A high-energy Surry Hills institution serving bold Thai-led Southeast Asian dishes in the Griffiths Tea building.",
+      "cons": "The room is loud and busy, and queues or fixed sitting times are common at peak periods.",
+      "menuHighlights": [
+        "Kingfish sashimi",
+        "Crispy barramundi",
+        "Wagyu beef pad seuw"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-18T23:40:21.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-19",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.chinchinrestaurant.com.au/sydney/",
+        "socialSource": "https://www.instagram.com/chinchin/"
+      },
+      "id": 163,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Chin%20Chin%20Sydney%2C%2069%20Commonwealth%20Street%2C%20Surry%20Hills%20NSW%202010",
+      "updatedAt": "2026-09-18T23:40:21.000Z"
+    },
+    {
+      "name": "Bar Louise",
+      "address": "135 Enmore Road, Enmore NSW 2042",
+      "suburb": "Enmore",
+      "area": "Inner West",
+      "coordinates": [
+        -33.89892,
+        151.17337
+      ],
+      "cuisine": "Spanish",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 55,
+        "max": 100,
+        "label": "$55-$100 pp",
+        "basis": "Food-only estimate from the current official tapas, house-cured meats and larger plates",
+        "sourceUrl": "https://www.barlouise.com.au/",
+        "lastVerifiedAt": "2026-09-18T23:40:21.000Z"
+      },
+      "summary": "The Porteño team's Enmore tapas bar pairs Spanish snacks, house-made chorizo and sherry in a lively heritage shopfront.",
+      "cons": "Small plates accumulate quickly, and the narrow dining room can feel busy.",
+      "menuHighlights": [
+        "House-made chorizo",
+        "Pulpo a la Gallega",
+        "Gildas"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-18T23:40:21.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-19",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.barlouise.com.au/",
+        "socialSource": "https://www.instagram.com/bar_louise_enmore/"
+      },
+      "id": 164,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20Louise%2C%20135%20Enmore%20Road%2C%20Enmore%20NSW%202042",
+      "updatedAt": "2026-09-18T23:40:21.000Z"
+    },
+    {
+      "name": "Continental Deli Newtown",
+      "address": "210 Australia Street, Newtown NSW 2042",
+      "suburb": "Newtown",
+      "area": "Inner West",
+      "coordinates": [
+        -33.89292,
+        151.17936
+      ],
+      "cuisine": "European deli and bistro",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 60,
+        "max": 110,
+        "label": "$60-$110 pp",
+        "basis": "Food-only estimate from the current official charcuterie, snacks, bistro plates and desserts",
+        "sourceUrl": "https://continentaldelicatessen.com.au/",
+        "lastVerifiedAt": "2026-09-18T23:40:21.000Z"
+      },
+      "summary": "A Newtown neighbourhood favourite blending European delicatessen staples, preserved goods, cocktails and bistro cooking.",
+      "cons": "Tables are compact and the strongest experience involves ordering several small dishes.",
+      "menuHighlights": [
+        "Continental charcuterie",
+        "Mar-tinny",
+        "Tinned seafood"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-18T23:40:21.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-19",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://continentaldelicatessen.com.au/",
+        "socialSource": "https://www.instagram.com/continental_delicatessen/"
+      },
+      "id": 165,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Continental%20Deli%20Newtown%2C%20210%20Australia%20Street%2C%20Newtown%20NSW%202042",
+      "updatedAt": "2026-09-18T23:40:21.000Z"
+    },
+    {
+      "name": "Pino's Vino e Cucina",
+      "address": "199 Lawrence Street, Alexandria NSW 2015",
+      "suburb": "Alexandria",
+      "area": "South Sydney",
+      "coordinates": [
+        -33.90308,
+        151.19486
+      ],
+      "cuisine": "Italian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 70,
+        "max": 125,
+        "label": "$70-$125 pp",
+        "basis": "Food-only estimate from the current official antipasti, handmade pasta, mains and desserts",
+        "sourceUrl": "https://pinosvinoecucina.com.au/",
+        "lastVerifiedAt": "2026-09-18T23:40:21.000Z"
+      },
+      "summary": "A warm Alexandria trattoria known for handmade pasta, regional Italian cooking and a deep wine list.",
+      "cons": "The intimate room books quickly, and a multi-course dinner moves beyond a casual neighbourhood spend.",
+      "menuHighlights": [
+        "Handmade pasta",
+        "Slow-cooked ragu",
+        "Seasonal Italian mains"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-18T23:40:21.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-19",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://pinosvinoecucina.com.au/",
+        "socialSource": "https://www.instagram.com/pinosvinoecucina/"
+      },
+      "id": 166,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pino's%20Vino%20e%20Cucina%2C%20199%20Lawrence%20Street%2C%20Alexandria%20NSW%202015",
+      "updatedAt": "2026-09-18T23:40:21.000Z"
+    },
+    {
+      "name": "LILYMU",
+      "address": "3 Parramatta Square, 153 Macquarie Street, Parramatta NSW 2150",
+      "suburb": "Parramatta",
+      "area": "Western Sydney",
+      "coordinates": [
+        -33.81504,
+        151.00563
+      ],
+      "cuisine": "Pan-Asian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 70,
+        "max": 125,
+        "label": "$70-$125 pp",
+        "basis": "Food-only estimate from the current official dumplings, shared plates, mains and banquet menus",
+        "sourceUrl": "https://www.lilymu.com/",
+        "lastVerifiedAt": "2026-09-18T23:40:21.000Z"
+      },
+      "summary": "A Parramatta Square destination mixing Thai, Chinese and Korean influences in a polished indoor-outdoor dining room.",
+      "cons": "Several signature dishes carry chilli, so low-spice diners should confirm suitable choices.",
+      "menuHighlights": [
+        "Prawn dumplings with tom yum",
+        "XO pippies",
+        "Wagyu with galbi emulsion"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.cntraveler.com/story/best-places-to-eat-in-2026",
+      "latestNews": [
+        {
+          "title": "The Best Places to Eat in 2026",
+          "url": "https://www.cntraveler.com/story/best-places-to-eat-in-2026",
+          "source": "cntraveler.com",
+          "publishedAt": "2025-12-18"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-18T23:40:21.000Z",
+        "publishedAt": "2025-12-18",
+        "dateStatus": "Evidence published 2025-12-18; official venue details, current menu pricing and open status rechecked 2026-09-19",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.lilymu.com/",
+        "socialSource": "https://www.instagram.com/lilymu.parramatta/"
+      },
+      "id": 167,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=LILYMU%2C%203%20Parramatta%20Square%2C%20153%20Macquarie%20Street%2C%20Parramatta%20NSW%202150",
+      "updatedAt": "2026-09-18T23:40:21.000Z"
+    },
+    {
+      "name": "Henrietta Parramatta",
+      "address": "3 Parramatta Square, 153 Macquarie Street, Parramatta NSW 2150",
+      "suburb": "Parramatta",
+      "area": "Western Sydney",
+      "coordinates": [
+        -33.81509,
+        151.00547
+      ],
+      "cuisine": "Middle Eastern charcoal chicken",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 35,
+        "max": 75,
+        "label": "$35-$75 pp",
+        "basis": "Food-only estimate from the current official charcoal chicken, mezze, wraps and shared plates",
+        "sourceUrl": "https://henriettacharcoalchicken.com/",
+        "lastVerifiedAt": "2026-09-18T23:40:21.000Z"
+      },
+      "summary": "Henrietta's Parramatta outpost turns Lebanese charcoal chicken into a polished, social all-day dining experience.",
+      "cons": "The menu centres on chicken and Middle Eastern flavours, offering less breadth for diners seeking other cuisines.",
+      "menuHighlights": [
+        "Charcoal chicken",
+        "Toumaya",
+        "Middle Eastern mezze"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.hospitalitymagazine.com.au/surry-hills-chicken-shop-henrietta-heads-west/",
+      "latestNews": [
+        {
+          "title": "Surry Hills chicken shop Henrietta heads west",
+          "url": "https://www.hospitalitymagazine.com.au/surry-hills-chicken-shop-henrietta-heads-west/",
+          "source": "hospitalitymagazine.com.au",
+          "publishedAt": "2025-08-04"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-18T23:40:21.000Z",
+        "publishedAt": "2025-08-04",
+        "dateStatus": "Evidence published 2025-08-04; official venue details, current menu pricing and open status rechecked 2026-09-19",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://henriettacharcoalchicken.com/",
+        "socialSource": "https://www.instagram.com/henriettacharcoalchicken/"
+      },
+      "id": 168,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Henrietta%20Parramatta%2C%203%20Parramatta%20Square%2C%20153%20Macquarie%20Street%2C%20Parramatta%20NSW%202150",
+      "updatedAt": "2026-09-18T23:40:21.000Z"
+    },
+    {
+      "name": "Ruse Bar & Brasserie",
+      "address": "Tenancy 4.01-4.03, 12 Darcy Street, Parramatta NSW 2150",
+      "suburb": "Parramatta",
+      "area": "Western Sydney",
+      "coordinates": [
+        -33.81578,
+        151.00573
+      ],
+      "cuisine": "Modern Australian brasserie",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 75,
+        "max": 145,
+        "label": "$75-$145 pp",
+        "basis": "Food-only estimate from the current official raw bar, open-fire mains, steaks and sides",
+        "sourceUrl": "https://www.rusebarandbrasserie.com/",
+        "lastVerifiedAt": "2026-09-18T23:40:21.000Z"
+      },
+      "summary": "A Parramatta Square brasserie built around Australian produce, seafood and steaks cooked over Josper and Basque grills.",
+      "cons": "Premium steaks and seafood make it more suited to occasions than inexpensive casual meals.",
+      "menuHighlights": [
+        "Open-fire steak",
+        "Market seafood",
+        "Roasted carrots with labneh"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.cntraveler.com/story/best-places-to-eat-in-2026",
+      "latestNews": [
+        {
+          "title": "The Best Places to Eat in 2026",
+          "url": "https://www.cntraveler.com/story/best-places-to-eat-in-2026",
+          "source": "cntraveler.com",
+          "publishedAt": "2025-12-18"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-18T23:40:21.000Z",
+        "publishedAt": "2025-12-18",
+        "dateStatus": "Evidence published 2025-12-18; official venue details, current menu pricing and open status rechecked 2026-09-19",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.rusebarandbrasserie.com/",
+        "socialSource": "https://www.instagram.com/rusebarandbrasserie/"
+      },
+      "id": 169,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ruse%20Bar%20%26%20Brasserie%2C%20Tenancy%204.01-4.03%2C%2012%20Darcy%20Street%2C%20Parramatta%20NSW%202150",
+      "updatedAt": "2026-09-18T23:40:21.000Z"
+    },
+    {
+      "name": "Oribu",
+      "address": "215 Church Street, Parramatta NSW 2150",
+      "suburb": "Parramatta",
+      "area": "Western Sydney",
+      "coordinates": [
+        -33.81398,
+        151.00358
+      ],
+      "cuisine": "Contemporary Japanese",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 95,
+        "max": 180,
+        "label": "$95-$180 pp",
+        "basis": "Food-only estimate from the current official sashimi, robata, premium wagyu and tasting menus",
+        "sourceUrl": "https://www.oribu.com.au/",
+        "lastVerifiedAt": "2026-09-18T23:40:21.000Z"
+      },
+      "summary": "Parramatta's Japanese fine-dining venue combines artisan sashimi, robata cooking and premium wagyu in a heritage setting.",
+      "cons": "The premium ingredients and fine-dining format make it one of Parramatta's costlier options.",
+      "menuHighlights": [
+        "Artisan sashimi",
+        "Robata seafood",
+        "A5 Japanese wagyu"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.cntraveler.com/story/best-places-to-eat-in-2026",
+      "latestNews": [
+        {
+          "title": "The Best Places to Eat in 2026",
+          "url": "https://www.cntraveler.com/story/best-places-to-eat-in-2026",
+          "source": "cntraveler.com",
+          "publishedAt": "2025-12-18"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-18T23:40:21.000Z",
+        "publishedAt": "2025-12-18",
+        "dateStatus": "Evidence published 2025-12-18; official venue details, current menu pricing and open status rechecked 2026-09-19",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.oribu.com.au/",
+        "socialSource": "https://www.instagram.com/oribu_parramatta/"
+      },
+      "id": 170,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Oribu%2C%20215%20Church%20Street%2C%20Parramatta%20NSW%202150",
+      "updatedAt": "2026-09-18T23:40:21.000Z"
+    },
+    {
+      "name": "Circa Espresso",
+      "address": "21 Wentworth Street, Parramatta NSW 2150",
+      "suburb": "Parramatta",
+      "area": "Western Sydney",
+      "coordinates": [
+        -33.81862,
+        151.00644
+      ],
+      "cuisine": "Middle Eastern-influenced cafe",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 25,
+        "max": 50,
+        "label": "$25-$50 pp",
+        "basis": "Food-only estimate from the current official breakfast, brunch and lunch menu",
+        "sourceUrl": "https://circaespresso.com.au/",
+        "lastVerifiedAt": "2026-09-18T23:40:21.000Z"
+      },
+      "summary": "A compact Parramatta cafe with a long-running following for specialty coffee and inventive Middle Eastern-influenced brunch.",
+      "cons": "The small space can generate waits at peak brunch times.",
+      "menuHighlights": [
+        "Ottoman eggs",
+        "Specialty coffee",
+        "Middle Eastern brunch plates"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.cntraveler.com/story/best-places-to-eat-in-2026",
+      "latestNews": [
+        {
+          "title": "The Best Places to Eat in 2026",
+          "url": "https://www.cntraveler.com/story/best-places-to-eat-in-2026",
+          "source": "cntraveler.com",
+          "publishedAt": "2025-12-18"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-18T23:40:21.000Z",
+        "publishedAt": "2025-12-18",
+        "dateStatus": "Evidence published 2025-12-18; official venue details, current menu pricing and open status rechecked 2026-09-19",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://circaespresso.com.au/",
+        "socialSource": "https://www.instagram.com/circaespresso/"
+      },
+      "id": 171,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Circa%20Espresso%2C%2021%20Wentworth%20Street%2C%20Parramatta%20NSW%202150",
+      "updatedAt": "2026-09-18T23:40:21.000Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T23:44:50.000Z"
+  "updatedAt": "2026-09-18T23:40:21.000Z"
 }
