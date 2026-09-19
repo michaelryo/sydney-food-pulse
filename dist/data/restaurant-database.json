@@ -10099,8 +10099,618 @@
       "id": 171,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Circa%20Espresso%2C%2021%20Wentworth%20Street%2C%20Parramatta%20NSW%202150",
       "updatedAt": "2026-09-18T23:40:21.000Z"
+    },
+    {
+      "name": "Quay",
+      "address": "Upper Level, Overseas Passenger Terminal, Hickson Road, The Rocks NSW 2000",
+      "suburb": "The Rocks",
+      "area": "Sydney CBD",
+      "coordinates": [
+        -33.85824,
+        151.21093
+      ],
+      "cuisine": "Contemporary Australian fine dining",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 355,
+        "max": 450,
+        "label": "$355-$450 pp",
+        "basis": "Current official tasting-menu price with an allowance for optional supplements; beverages excluded",
+        "sourceUrl": "https://www.quay.com.au/",
+        "lastVerifiedAt": "2026-09-19T23:22:49.000Z"
+      },
+      "summary": "Peter Gilmore's harbourfront flagship remains one of Sydney's defining destination restaurants for intricate Australian tasting menus.",
+      "cons": "The fixed tasting format is expensive and requires a long, reservation-led dining commitment.",
+      "menuHighlights": [
+        "Multi-course tasting menu",
+        "White coral dessert",
+        "Australian seafood"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-19T23:22:49.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-20",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.quay.com.au/",
+        "socialSource": "https://www.instagram.com/quayrestaurant/"
+      },
+      "id": 172,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Quay%2C%20Upper%20Level%2C%20Overseas%20Passenger%20Terminal%2C%20Hickson%20Road%2C%20The%20Rocks%20NSW%202000",
+      "updatedAt": "2026-09-19T23:22:49.000Z"
+    },
+    {
+      "name": "Oncore by Clare Smyth",
+      "address": "Level 26, Crown Sydney, 1 Barangaroo Avenue, Barangaroo NSW 2000",
+      "suburb": "Barangaroo",
+      "area": "Sydney CBD",
+      "coordinates": [
+        -33.86532,
+        151.20119
+      ],
+      "cuisine": "Contemporary fine dining",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 390,
+        "max": 480,
+        "label": "$390-$480 pp",
+        "basis": "Current official tasting-menu price with an allowance for optional supplements; beverages excluded",
+        "sourceUrl": "https://www.crownhotels.com.au/sydney/restaurants-bars/oncore-by-clare-smyth",
+        "lastVerifiedAt": "2026-09-19T23:22:49.000Z"
+      },
+      "summary": "Clare Smyth's elevated Crown Sydney restaurant pairs exacting tasting menus with panoramic harbour views.",
+      "cons": "It is among Sydney's most expensive dining experiences and has a formal multi-hour format.",
+      "menuHighlights": [
+        "Potato and roe",
+        "Australian seafood",
+        "Seasonal tasting menu"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-19T23:22:49.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-20",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.crownhotels.com.au/sydney/restaurants-bars/oncore-by-clare-smyth",
+        "socialSource": "https://www.instagram.com/oncorebyclaresmyth/"
+      },
+      "id": 173,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Oncore%20by%20Clare%20Smyth%2C%20Level%2026%2C%20Crown%20Sydney%2C%201%20Barangaroo%20Avenue%2C%20Barangaroo%20NSW%202000",
+      "updatedAt": "2026-09-19T23:22:49.000Z"
+    },
+    {
+      "name": "OTTO Sydney",
+      "address": "Area 8, 6 Cowper Wharf Roadway, Woolloomooloo NSW 2011",
+      "suburb": "Woolloomooloo",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.86859,
+        151.22031
+      ],
+      "cuisine": "Italian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 95,
+        "max": 175,
+        "label": "$95-$175 pp",
+        "basis": "Food-only estimate from the current official antipasti, pasta, mains and set menus",
+        "sourceUrl": "https://www.otto.net.au/sydney/",
+        "lastVerifiedAt": "2026-09-19T23:22:49.000Z"
+      },
+      "summary": "A long-running Woolloomooloo Wharf favourite for polished modern Italian cooking and waterside long lunches.",
+      "cons": "Waterfront pricing and premium seafood make it costly for a casual meal.",
+      "menuHighlights": [
+        "Handmade pasta",
+        "Moreton Bay bugs",
+        "Salted caramel chocolate tart"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-19T23:22:49.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-20",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.otto.net.au/sydney/",
+        "socialSource": "https://www.instagram.com/ottoristorante/"
+      },
+      "id": 174,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=OTTO%20Sydney%2C%20Area%208%2C%206%20Cowper%20Wharf%20Roadway%2C%20Woolloomooloo%20NSW%202011",
+      "updatedAt": "2026-09-19T23:22:49.000Z"
+    },
+    {
+      "name": "China Doll",
+      "address": "Shop 4, 6 Cowper Wharf Roadway, Woolloomooloo NSW 2011",
+      "suburb": "Woolloomooloo",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.86872,
+        151.22013
+      ],
+      "cuisine": "Modern Asian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 80,
+        "max": 145,
+        "label": "$80-$145 pp",
+        "basis": "Food-only estimate from the current official shared plates, seafood, meat dishes and banquet menus",
+        "sourceUrl": "https://chinadoll.com.au/",
+        "lastVerifiedAt": "2026-09-19T23:22:49.000Z"
+      },
+      "summary": "A lively wharfside restaurant serving shareable modern Asian dishes with broad Chinese, Japanese and Southeast Asian influences.",
+      "cons": "The large shared menu suits groups better than solo diners, and waterside tables are heavily requested.",
+      "menuHighlights": [
+        "Sashimi",
+        "Tea-smoked duck",
+        "Crispy pork belly"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-19T23:22:49.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-20",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://chinadoll.com.au/",
+        "socialSource": "https://www.instagram.com/chinadollsydney/"
+      },
+      "id": 175,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=China%20Doll%2C%20Shop%204%2C%206%20Cowper%20Wharf%20Roadway%2C%20Woolloomooloo%20NSW%202011",
+      "updatedAt": "2026-09-19T23:22:49.000Z"
+    },
+    {
+      "name": "Manta",
+      "address": "6 Cowper Wharf Roadway, Woolloomooloo NSW 2011",
+      "suburb": "Woolloomooloo",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.86886,
+        151.21993
+      ],
+      "cuisine": "Seafood and Modern Australian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 90,
+        "max": 165,
+        "label": "$90-$165 pp",
+        "basis": "Food-only estimate from the current official raw seafood, pasta, fish and grill menu",
+        "sourceUrl": "https://www.mantarestaurant.com.au/",
+        "lastVerifiedAt": "2026-09-19T23:22:49.000Z"
+      },
+      "summary": "A Woolloomooloo Wharf seafood restaurant focused on Australian catch, oysters and contemporary waterfront dining.",
+      "cons": "Premium seafood and wharfside positioning push the average spend upward.",
+      "menuHighlights": [
+        "Sydney rock oysters",
+        "Market fish",
+        "Seafood pasta"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-19T23:22:49.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-20",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.mantarestaurant.com.au/",
+        "socialSource": "https://www.instagram.com/mantawoolloomooloo/"
+      },
+      "id": 176,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Manta%2C%206%20Cowper%20Wharf%20Roadway%2C%20Woolloomooloo%20NSW%202011",
+      "updatedAt": "2026-09-19T23:22:49.000Z"
+    },
+    {
+      "name": "Glorietta",
+      "address": "100 Mount Street, North Sydney NSW 2060",
+      "suburb": "North Sydney",
+      "area": "Lower North Shore",
+      "coordinates": [
+        -33.83914,
+        151.20757
+      ],
+      "cuisine": "Italian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 65,
+        "max": 120,
+        "label": "$65-$120 pp",
+        "basis": "Food-only estimate from the current official antipasti, wood-fired pizza, pasta and mains",
+        "sourceUrl": "https://www.glorietta.com.au/",
+        "lastVerifiedAt": "2026-09-19T23:22:49.000Z"
+      },
+      "summary": "A bright North Sydney Italian restaurant popular for wood-fired pizza, pasta and after-work group dining.",
+      "cons": "The corporate-district room becomes busy and noisy during peak weekday periods.",
+      "menuHighlights": [
+        "Wood-fired pizza",
+        "House-made pasta",
+        "Tiramisu"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-19T23:22:49.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-20",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.glorietta.com.au/",
+        "socialSource": "https://www.instagram.com/gloriettanorthsydney/"
+      },
+      "id": 177,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Glorietta%2C%20100%20Mount%20Street%2C%20North%20Sydney%20NSW%202060",
+      "updatedAt": "2026-09-19T23:22:49.000Z"
+    },
+    {
+      "name": "Annata",
+      "address": "69 Willoughby Road, Crows Nest NSW 2065",
+      "suburb": "Crows Nest",
+      "area": "Lower North Shore",
+      "coordinates": [
+        -33.82663,
+        151.20131
+      ],
+      "cuisine": "Modern Australian wine bar",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 70,
+        "max": 130,
+        "label": "$70-$130 pp",
+        "basis": "Food-only estimate from the current official snacks, shared plates, mains and chef menus",
+        "sourceUrl": "https://www.annata.com.au/",
+        "lastVerifiedAt": "2026-09-19T23:22:49.000Z"
+      },
+      "summary": "A Crows Nest neighbourhood restaurant and wine bar known for seasonal share plates and thoughtful pairings.",
+      "cons": "The compact dining room has limited tables, and the menu is strongest when ordered across several courses.",
+      "menuHighlights": [
+        "Seasonal tasting plates",
+        "House-made pasta",
+        "Australian produce"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-19T23:22:49.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-20",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.annata.com.au/",
+        "socialSource": "https://www.instagram.com/annatacrowsnest/"
+      },
+      "id": 178,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Annata%2C%2069%20Willoughby%20Road%2C%20Crows%20Nest%20NSW%202065",
+      "updatedAt": "2026-09-19T23:22:49.000Z"
+    },
+    {
+      "name": "The Joey Palm Beach",
+      "address": "1193 Barrenjoey Road, Palm Beach NSW 2108",
+      "suburb": "Palm Beach",
+      "area": "Northern Beaches",
+      "coordinates": [
+        -33.59643,
+        151.32475
+      ],
+      "cuisine": "Coastal Modern Australian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 80,
+        "max": 150,
+        "label": "$80-$150 pp",
+        "basis": "Food-only estimate from the current official seafood, shared plates and mains",
+        "sourceUrl": "https://thejoey.com.au/",
+        "lastVerifiedAt": "2026-09-19T23:22:49.000Z"
+      },
+      "summary": "A polished Palm Beach waterfront destination built around coastal produce, seafood and Pittwater views.",
+      "cons": "The remote location requires extra travel and the view-led menu carries destination pricing.",
+      "menuHighlights": [
+        "Sydney rock oysters",
+        "Market fish",
+        "Coastal shared plates"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-19T23:22:49.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-20",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://thejoey.com.au/",
+        "socialSource": "https://www.instagram.com/thejoeypalmbeach/"
+      },
+      "id": 179,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Joey%20Palm%20Beach%2C%201193%20Barrenjoey%20Road%2C%20Palm%20Beach%20NSW%202108",
+      "updatedAt": "2026-09-19T23:22:49.000Z"
+    },
+    {
+      "name": "St Alma Freshwater",
+      "address": "20 Albert Street, Freshwater NSW 2096",
+      "suburb": "Freshwater",
+      "area": "Northern Beaches",
+      "coordinates": [
+        -33.77837,
+        151.28518
+      ],
+      "cuisine": "Mexican and Latin American",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 65,
+        "max": 120,
+        "label": "$65-$120 pp",
+        "basis": "Food-only estimate from the current official snacks, tacos, ceviche and shared mains",
+        "sourceUrl": "https://www.stalma.com.au/",
+        "lastVerifiedAt": "2026-09-19T23:22:49.000Z"
+      },
+      "summary": "A colourful Freshwater neighbourhood restaurant serving contemporary Mexican and Latin American share plates.",
+      "cons": "Many dishes lean on chilli and bold seasoning, so low-spice diners should confirm suitable options.",
+      "menuHighlights": [
+        "Ceviche",
+        "Tacos",
+        "Charcoal-grilled meats"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-19T23:22:49.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-20",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.stalma.com.au/",
+        "socialSource": "https://www.instagram.com/stalmafreshwater/"
+      },
+      "id": 180,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=St%20Alma%20Freshwater%2C%2020%20Albert%20Street%2C%20Freshwater%20NSW%202096",
+      "updatedAt": "2026-09-19T23:22:49.000Z"
+    },
+    {
+      "name": "MISC Parramatta",
+      "address": "Parramatta Park, Corner Pitt Street and Macquarie Street, Parramatta NSW 2150",
+      "suburb": "Parramatta",
+      "area": "Western Sydney",
+      "coordinates": [
+        -33.81493,
+        150.99936
+      ],
+      "cuisine": "Mediterranean",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 50,
+        "max": 95,
+        "label": "$50-$95 pp",
+        "basis": "Food-only estimate from the current official breakfast, lunch and Mediterranean sharing menu",
+        "sourceUrl": "https://miscparramatta.com.au/",
+        "lastVerifiedAt": "2026-09-19T23:22:49.000Z"
+      },
+      "summary": "A stylish Parramatta Park all-day venue drawing crowds for Mediterranean sharing food, brunch and leafy outdoor dining.",
+      "cons": "Weekend brunch periods are busy, and the park location is slightly removed from the station precinct.",
+      "menuHighlights": [
+        "Pillowy pita",
+        "Lamb shoulder with labneh",
+        "Grilled salmon hash"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.cntraveler.com/story/best-places-to-eat-in-2026",
+      "latestNews": [
+        {
+          "title": "The Best Places to Eat in 2026",
+          "url": "https://www.cntraveler.com/story/best-places-to-eat-in-2026",
+          "source": "cntraveler.com",
+          "publishedAt": "2025-12-18"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-19T23:22:49.000Z",
+        "publishedAt": "2025-12-18",
+        "dateStatus": "Evidence published 2025-12-18; official venue details, current menu pricing and open status rechecked 2026-09-20",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://miscparramatta.com.au/",
+        "socialSource": "https://www.instagram.com/miscparramatta/"
+      },
+      "id": 181,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=MISC%20Parramatta%2C%20Parramatta%20Park%2C%20Corner%20Pitt%20Street%20and%20Macquarie%20Street%2C%20Parramatta%20NSW%202150",
+      "updatedAt": "2026-09-19T23:22:49.000Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T23:40:21.000Z"
+  "updatedAt": "2026-09-19T23:22:49.000Z"
 }
