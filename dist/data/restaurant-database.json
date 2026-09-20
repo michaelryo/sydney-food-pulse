@@ -10709,8 +10709,618 @@
       "id": 181,
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=MISC%20Parramatta%2C%20Parramatta%20Park%2C%20Corner%20Pitt%20Street%20and%20Macquarie%20Street%2C%20Parramatta%20NSW%202150",
       "updatedAt": "2026-09-19T23:22:49.000Z"
+    },
+    {
+      "name": "Allta",
+      "address": "50 Pitt Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8633319,
+        151.2092568
+      ],
+      "cuisine": "Modern Korean degustation",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 325,
+        "max": 325,
+        "label": "$325 pp",
+        "basis": "Current 15-course set menu price reported in the August 2026 guide",
+        "sourceUrl": "https://www.alltasydney.com.au/",
+        "lastVerifiedAt": "2026-09-20T23:06:13.000Z"
+      },
+      "summary": "An intimate 12-seat counter restaurant presenting a precise 15-course modern Korean degustation.",
+      "cons": "Adults-only counter seating, with limited ability to adjust the set menu.",
+      "menuHighlights": [
+        "15-course modern Korean degustation",
+        "Seafood and meat courses",
+        "Inventive desserts"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-20T23:06:13.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-21",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.alltasydney.com.au/",
+        "socialSource": null
+      },
+      "id": 182,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Allta%2C%2050%20Pitt%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-20T23:06:13.000Z"
+    },
+    {
+      "name": "The Clareville",
+      "address": "27 Delecta Avenue, Clareville NSW 2107",
+      "suburb": "Clareville",
+      "area": "Northern Beaches",
+      "coordinates": [
+        -33.6344475,
+        151.3132741
+      ],
+      "cuisine": "Modern Australian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 99,
+        "max": 174,
+        "label": "$99-$174 pp",
+        "basis": "Officially linked $99 degustation, with optional $75 wine pairing excluded from the food-only minimum",
+        "sourceUrl": "https://www.theclareville.com.au/",
+        "lastVerifiedAt": "2026-09-20T23:06:13.000Z"
+      },
+      "summary": "An airy Northern Beaches cottage restaurant focused on seafood, local produce and native Australian ingredients.",
+      "cons": null,
+      "menuHighlights": [
+        "Roasted scallop with miso butter",
+        "Curry devil egg",
+        "Seafood-led degustation"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-20T23:06:13.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-21",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.theclareville.com.au/",
+        "socialSource": null
+      },
+      "id": 183,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Clareville%2C%2027%20Delecta%20Avenue%2C%20Clareville%20NSW%202107",
+      "updatedAt": "2026-09-20T23:06:13.000Z"
+    },
+    {
+      "name": "Young's Palace",
+      "address": "1 Kellett Street, Potts Point NSW 2011",
+      "suburb": "Potts Point",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8742222,
+        151.2238797
+      ],
+      "cuisine": "Regional Chinese",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 85,
+        "max": 98,
+        "label": "$85-$98 pp",
+        "basis": "Current banquet prices reported in the August 2026 guide",
+        "sourceUrl": "https://youngspalace.com.au/",
+        "lastVerifiedAt": "2026-09-20T23:06:13.000Z"
+      },
+      "summary": "A lively regional Chinese restaurant from Sam Young and Grace Chen, pairing nostalgic dishes with polished group dining.",
+      "cons": null,
+      "menuHighlights": [
+        "Prawn toast",
+        "Kung pao chicken",
+        "Sweet-and-sour pork"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-20T23:06:13.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-21",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://youngspalace.com.au/",
+        "socialSource": null
+      },
+      "id": 184,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Young's%20Palace%2C%201%20Kellett%20Street%2C%20Potts%20Point%20NSW%202011",
+      "updatedAt": "2026-09-20T23:06:13.000Z"
+    },
+    {
+      "name": "Yoshii's Omakase",
+      "address": "Level 2, Crown Sydney, 1 Barangaroo Avenue, Barangaroo NSW 2000",
+      "suburb": "Barangaroo",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8629962,
+        151.2012924
+      ],
+      "cuisine": "Japanese omakase",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 380,
+        "max": 380,
+        "label": "$380 pp",
+        "basis": "Current omakase menu price reported in the August 2026 guide, beverages excluded",
+        "sourceUrl": "https://www.crownhotels.com.au/sydney/restaurants-bars/yoshiis-omakase",
+        "lastVerifiedAt": "2026-09-20T23:06:13.000Z"
+      },
+      "summary": "Ryuichi Yoshii's ten-seat omakase counter at Crown Sydney, centred on precision sushi and seasonal seafood.",
+      "cons": "Only ten seats are available and bookings are released monthly.",
+      "menuHighlights": [
+        "Chef-led omakase",
+        "Seasonal nigiri",
+        "Sake pairing options"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-20T23:06:13.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-21",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.crownhotels.com.au/sydney/restaurants-bars/yoshiis-omakase",
+        "socialSource": null
+      },
+      "id": 185,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Yoshii's%20Omakase%2C%20Level%202%2C%20Crown%20Sydney%2C%201%20Barangaroo%20Avenue%2C%20Barangaroo%20NSW%202000",
+      "updatedAt": "2026-09-20T23:06:13.000Z"
+    },
+    {
+      "name": "The Palomar Sydney",
+      "address": "7 Oxford Street, Paddington NSW 2021",
+      "suburb": "Paddington",
+      "area": "Eastern Suburbs",
+      "coordinates": [
+        -33.8831718,
+        151.2204952
+      ],
+      "cuisine": "Mediterranean and Levantine",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 75,
+        "max": 140,
+        "label": "$75-$140 pp",
+        "basis": "Food-only estimate from the current official share-plate and wood-fire menu",
+        "sourceUrl": "https://25hours-hotels.com/sydney/the-olympia/restaurants-bars/the-palomar/",
+        "lastVerifiedAt": "2026-09-20T23:06:13.000Z"
+      },
+      "summary": "The Sydney outpost of the London-born Palomar serves Southern European, North African and Levantine food from a wood-fire kitchen.",
+      "cons": null,
+      "menuHighlights": [
+        "Blue mackerel with chermoula",
+        "Grilled calamari with preserved lemon",
+        "Pistachio ice-cream baklava sandwich"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-20T23:06:13.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-21",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://25hours-hotels.com/sydney/the-olympia/restaurants-bars/the-palomar/",
+        "socialSource": null
+      },
+      "id": 186,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Palomar%20Sydney%2C%207%20Oxford%20Street%2C%20Paddington%20NSW%202021",
+      "updatedAt": "2026-09-20T23:06:13.000Z"
+    },
+    {
+      "name": "Rovollo",
+      "address": "Ground Floor, 25 Martin Place, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.868683,
+        151.2092868
+      ],
+      "cuisine": "Italian",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 115,
+        "max": 160,
+        "label": "$115-$160 pp",
+        "basis": "Current $115 chef tasting menu and food-only à la carte estimate",
+        "sourceUrl": "https://rovollo.com.au/",
+        "lastVerifiedAt": "2026-09-20T23:06:13.000Z"
+      },
+      "summary": "An opulent Martin Place Italian restaurant built around handmade pasta, grilled seafood, steaks and tableside theatre.",
+      "cons": null,
+      "menuHighlights": [
+        "Tableside pici carbonara",
+        "Grilled seafood and steaks",
+        "24-layer chocolate cake"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-20T23:06:13.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-21",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://rovollo.com.au/",
+        "socialSource": null
+      },
+      "id": 187,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rovollo%2C%20Ground%20Floor%2C%2025%20Martin%20Place%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-20T23:06:13.000Z"
+    },
+    {
+      "name": "Mister Grotto",
+      "address": "212 Australia Street, Newtown NSW 2042",
+      "suburb": "Newtown",
+      "area": "Inner West",
+      "coordinates": [
+        -33.8963955,
+        151.1783962
+      ],
+      "cuisine": "Australian seafood",
+      "trend": "Trending Sydney restaurant with current official verification and publicly indexed discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 80,
+        "max": 145,
+        "label": "$80-$145 pp",
+        "basis": "Food-only estimate from the current daily-changing raw-bar, seafood and tasting menus",
+        "sourceUrl": "https://paisanoanddaughters.com.au/mister-grotto/",
+        "lastVerifiedAt": "2026-09-20T23:06:13.000Z"
+      },
+      "summary": "A Newtown seafood restaurant with a raw bar and daily-changing menu celebrating Australian fishers and producers.",
+      "cons": null,
+      "menuHighlights": [
+        "Curried bay-school prawns on toast",
+        "Southern bluefin tuna",
+        "Barbecued swordfish"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Trending Sydney restaurant",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+      "latestNews": [
+        {
+          "title": "The Best Restaurants In Sydney To Book In 2026",
+          "url": "https://www.theurbanlist.com/sydney/a-list/best-restaurants-sydney",
+          "source": "theurbanlist.com",
+          "publishedAt": "2026-08-25"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-20T23:06:13.000Z",
+        "publishedAt": "2026-08-25",
+        "dateStatus": "Evidence published 2026-08-25; official venue details, current menu pricing and open status rechecked 2026-09-21",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://paisanoanddaughters.com.au/mister-grotto/",
+        "socialSource": null
+      },
+      "id": 188,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mister%20Grotto%2C%20212%20Australia%20Street%2C%20Newtown%20NSW%202042",
+      "updatedAt": "2026-09-20T23:06:13.000Z"
+    },
+    {
+      "name": "Mensho Tokyo North Sydney",
+      "address": "Tenancy T20, 155 Miller Street, North Sydney NSW 2060",
+      "suburb": "North Sydney",
+      "area": "Lower North Shore",
+      "coordinates": [
+        -33.8372196,
+        151.2073942
+      ],
+      "cuisine": "Japanese ramen",
+      "trend": "Newly buzzing Sydney opening with current official verification and publicly indexed social discovery",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 31,
+        "max": 55,
+        "label": "$31-$55 pp",
+        "basis": "Food-only estimate using indexed current ramen pricing plus an optional side",
+        "sourceUrl": "https://www.instagram.com/menshotokyoramensydney/",
+        "lastVerifiedAt": "2026-09-20T23:06:13.000Z"
+      },
+      "summary": "The North Sydney branch of the Tokyo-born ramen group serves location-specific broths and house-made noodles.",
+      "cons": null,
+      "menuHighlights": [
+        "Signature toripaitan ramen",
+        "G.K.O ramen",
+        "House-made noodles"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "New Sydney opening",
+        "Publicly indexed social discovery"
+      ],
+      "comments": [],
+      "source": "https://www.instagram.com/reel/DaPUUtOMQGO/",
+      "latestNews": [
+        {
+          "title": "Mensho Tokyo North Sydney public opening coverage",
+          "url": "https://www.instagram.com/reel/DaPUUtOMQGO/",
+          "source": "instagram.com",
+          "publishedAt": "2026-06-30"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-20T23:06:13.000Z",
+        "publishedAt": "2026-06-30",
+        "dateStatus": "Evidence published 2026-06-30; official venue details, current menu pricing and open status rechecked 2026-09-21",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://www.instagram.com/menshotokyoramensydney/",
+        "socialSource": "https://www.instagram.com/reel/DaPUUtOMQGO/"
+      },
+      "id": 189,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mensho%20Tokyo%20North%20Sydney%2C%20Tenancy%20T20%2C%20155%20Miller%20Street%2C%20North%20Sydney%20NSW%202060",
+      "updatedAt": "2026-09-20T23:06:13.000Z"
+    },
+    {
+      "name": "Cotenna",
+      "address": "Shop 6, 271 Military Road, Cremorne NSW 2090",
+      "suburb": "Cremorne",
+      "area": "Lower North Shore",
+      "coordinates": [
+        -33.8287267,
+        151.2296932
+      ],
+      "cuisine": "Rotisserie chicken and pork",
+      "trend": "Buzzing Sydney restaurant with current official verification and recent independent review",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 18,
+        "max": 35,
+        "label": "$18-$35 pp",
+        "basis": "Current menu prices reported in Time Out's independent May 2026 review",
+        "sourceUrl": "https://cotenna.com.au/",
+        "lastVerifiedAt": "2026-09-20T23:06:13.000Z"
+      },
+      "summary": "A compact Cremorne rotisserie known for porchetta rolls, stuffed roast chicken and potatoes cooked beneath the spits.",
+      "cons": "The restaurant trades only Wednesday to Saturday evenings.",
+      "menuHighlights": [
+        "Market porchetta roll",
+        "Rotisserie chicken roll",
+        "Rotisserie cauliflower with miso tahini"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Recent Sydney review",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.timeout.com/sydney/restaurants/cotenna",
+      "latestNews": [
+        {
+          "title": "Cotenna in Cremorne serves some of Sydney's best rotisserie rolls",
+          "url": "https://www.timeout.com/sydney/restaurants/cotenna",
+          "source": "timeout.com",
+          "publishedAt": "2026-05-24"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-20T23:06:13.000Z",
+        "publishedAt": "2026-05-24",
+        "dateStatus": "Evidence published 2026-05-24; official venue details, current menu pricing and open status rechecked 2026-09-21",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://cotenna.com.au/",
+        "socialSource": "https://www.instagram.com/cotenna.sydney/"
+      },
+      "id": 190,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cotenna%2C%20Shop%206%2C%20271%20Military%20Road%2C%20Cremorne%20NSW%202090",
+      "updatedAt": "2026-09-20T23:06:13.000Z"
+    },
+    {
+      "name": "The Charles Brasserie",
+      "address": "66 King Street, Sydney NSW 2000",
+      "suburb": "Sydney CBD",
+      "area": "CBD & Inner City",
+      "coordinates": [
+        -33.8688344,
+        151.2078286
+      ],
+      "cuisine": "French brasserie",
+      "trend": "Established Sydney social favourite with current official verification",
+      "pricePerPerson": {
+        "currency": "AUD",
+        "min": 90,
+        "max": 170,
+        "label": "$90-$170 pp",
+        "basis": "Food-only estimate from the current official brasserie menu and shared signature dishes",
+        "sourceUrl": "https://thecharles.sydney/",
+        "lastVerifiedAt": "2026-09-20T23:06:13.000Z"
+      },
+      "summary": "A grand CBD brasserie pairing old-world service with pressed duck, seafood, steaks and a roaming dessert trolley.",
+      "cons": null,
+      "menuHighlights": [
+        "Whole dry-aged pressed duck",
+        "French brasserie seafood",
+        "Dessert trolley"
+      ],
+      "dietary": {
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "chickenAvailable": null,
+        "confidence": "Only directly evidenced menu details are included; confirm current options and allergies with the venue"
+      },
+      "themes": [
+        "Established Sydney favourite",
+        "Publicly indexed discovery"
+      ],
+      "comments": [],
+      "source": "https://www.broadsheet.com.au/sydney/restaurants/charles",
+      "latestNews": [
+        {
+          "title": "The Charles Grand Brasserie & Bar",
+          "url": "https://www.broadsheet.com.au/sydney/restaurants/charles",
+          "source": "broadsheet.com.au",
+          "publishedAt": "2024-08-19"
+        }
+      ],
+      "discovery": {
+        "foundAt": "2026-09-20T23:06:13.000Z",
+        "publishedAt": "2024-08-19",
+        "dateStatus": "Evidence published 2024-08-19; official venue details, current menu pricing and open status rechecked 2026-09-21",
+        "signal": "Current or sustained Sydney dining coverage plus publicly indexed social material; engagement was not independently measured",
+        "detailSource": "https://thecharles.sydney/",
+        "socialSource": "https://www.instagram.com/thecharles.sydney/"
+      },
+      "id": 191,
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Charles%20Brasserie%2C%2066%20King%20Street%2C%20Sydney%20NSW%202000",
+      "updatedAt": "2026-09-20T23:06:13.000Z"
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T23:22:49.000Z"
+  "updatedAt": "2026-09-20T23:06:13.000Z"
 }
